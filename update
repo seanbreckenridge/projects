@@ -123,7 +123,7 @@ def main():
         if repo["name"] not in projects_in_readme:
             print("""### {repo_name}
 
-[GitHub]({github}) | [GitLab]({gitlab}) | *{language}*
+[GitHub]({github}) | [GitLab]({gitlab}) | {language}
 
 {description}
 """.format(
