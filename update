@@ -1,0 +1,84 @@
+#!/usr/bin/env python3
+
+import sys
+import os
+import json
+import time
+from typing import List, Dict
+
+import requests
+
+import config
+
+os.makedirs(config.data_dir, exist_ok=True)
+response_file = os.path.join(config.data_dir, "response.json")
+
+
+def cached_response_has_expired() -> bool:
+    """
+    Returns T/F which determines whether or not
+    to download fresh data from Github API
+    """
+    if not os.path.exists(response_file):
+        print("Cache file doesn't exist...", file=sys.stderr)
+        return True
+    if time.time() - os.path.getmtime(response_file) > 60 * 24 * 24:
+        print("Cache file has expired, re-downloading...", file=sys.stderr)
+        return True
+    else:
+        print("Using cached data...")
+        return False
+
+
+# downloads new repository data if needed,
+# returns the parsed JSON data
+def get_repository_data() -> List[Dict]:
+    if not cached_response_has_expired():
+        with open(response_file, "r") as jf:
+            try:
+                return json.load(jf)
+            except json.decoder.JSONDecodeError:
+                print("Failed to load JSON from cache file...", file=sys.stderr)
+                pass
+    print(f"Downloading repository information for {config.github_username}...")
+    repo_info = []
+    page: int = 1
+    while True:
+        url = f"https://api.github.com/users/{config.github_username}/repos?page={page}"
+        print(f"Requesting {url}")
+        resp = requests.get(
+            url, headers={"Accept": "application/vnd.github.full+json"},
+        )
+        resp.raise_for_status()
+        resp_json = resp.json()
+        if resp_json:
+            repo_info.extend(resp_json)
+        else:
+            break
+        page += 1
+    with open(response_file, "w") as jf:
+        json.dump(repo_info, jf)
+    return repo_info
+
+
+def filter_repos(repo_info: List[Dict]):
+    for repo in repo_info:
+        # ignore forks if specified to
+        if repo["fork"]:
+            if not config.include_forks:
+                continue
+        if repo["name"] in config.ignore_repos:
+            continue
+        yield repo
+
+
+def main():
+    repo_info: List[Dict] = get_repository_data()
+    print("Using {} repositories...".format(len(repo_info)))
+    repo_info = list(filter_repos(repo_info))
+    print(len(repo_info))
+    # TODO: implement some system to cache descriptions, order by reverse star count
+
+
+if __name__ == "__main__":
+    main()
