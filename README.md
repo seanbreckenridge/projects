@@ -11,7 +11,7 @@ Check a keepassxc database against previously breached haveibeenpwned passwords.
 
 ### exobrain
 
-[GitHub](https://github.com/seanbreckenridge/exobrain) | [GitLab](https://gitlab.com/seanbreckenridge/exobrain) | *HTML*
+[GitHub](https://github.com/seanbreckenridge/exobrain) | [GitLab](https://gitlab.com/seanbreckenridge/exobrain) | *HTML/Bash*
 
 external brain -- uses [`pandoc`](https://pandoc.org/) to generate my blog/brain dump. See [here](https://exobrain.sean.fish/) for more info.
 
@@ -43,7 +43,7 @@ Configuration files and scripts for MacOS. I don't use Mac as much right now, bu
 
 [GitHub](https://github.com/seanbreckenridge/glue) | [GitLab](https://gitlab.com/seanbreckenridge/glue) | *Elixir*
 
-Glue all of my web applications together. This is the code for my homepage at [sean.fish](https://sean.fish/), which links off to my static/other sites hosted on the same server. The elixir application also handles caching information for my [`feed`](https://sean.fish/feed) page.
+Used to glue all of my web applications together. This is the code for my homepage at [sean.fish](https://sean.fish/), which links off to my static/other sites hosted on the same server. The elixir application also handles caching information for my [`feed`](https://sean.fish/feed) page.
 
 ### mal-id-cache
 
@@ -61,19 +61,19 @@ Scrapes data and code from a users Greasyfork account.
 
 [GitHub](https://github.com/seanbreckenridge/jikan_ex) | [GitLab](https://gitlab.com/seanbreckenridge/jikan_ex) | [Hex](https://hex.pm/packages/jikan_ex) | *Elixir*
 
-An elixir wrapper for the Jikan API.
+An elixir wrapper for the [Jikan](https://jikan.moe/) API.
 
 ### shortcuts
 
 [GitHub](https://github.com/seanbreckenridge/shortcuts) | [GitLab](https://gitlab.com/seanbreckenridge/shortcuts) | *Ruby*
 
-Converts a `toml` file into shell scripts. I use this to convert short/one-liner shell commands into shell scripts. This makes my scripts easier to share with others, not dependent on shell-specific syntax (e.g. `exported bash functions`), and makes scripts accessible to other scripts/launchers like `rofi`/`dmenu`.
+Converts a `toml` file into shell scripts. I use this to convert short/one-liner shell commands into individual files. This makes my scripts easier to share with others, not dependent on shell-specific syntax (e.g. `exported bash functions`), and makes scripts accessible to other scripts/launchers like `rofi`/`dmenu`.
 
 ### subpath-serve
 
 [GitHub](https://github.com/seanbreckenridge/subpath-serve) | [GitLab](https://gitlab.com/seanbreckenridge/subpath-serve) | *Go*
 
-Serves text files from directory by matching subpaths. I use this to serve my dotfiles [here](https://sean.fish/d/?dark). It also allows me to quickly send someone one of my scripts/configuration files from my dotfiles using [this script](https://sean.fish/d/give).
+Serves text files from a directory by matching subpaths. I use this to serve my dotfiles [here](https://sean.fish/d/?dark). It also allows me to quickly send someone one of my scripts/configuration files from my dotfiles using [this script](https://sean.fish/d/give).
 
 ### no-db-static-shorturl
 
@@ -85,18 +85,17 @@ File based single-binary URL shortener server. Has no dependencies/doesn't requi
 
 [GitHub](https://github.com/seanbreckenridge/plaintext-playlist) | [GitLab](https://gitlab.com/seanbreckenridge/plaintext-playlist) | *Bash*
 
-Interactive terminal playlist manager, storing contents in readable text files. Was my first attempt at creating a 'large' `bash` application. Seems that most people tend to use spotify/apple music nowadays, but I still like having music locally. This lets me manage playlists locally without having to use one of the bulky GUI applications.
-
+Interactive terminal playlist manager, storing contents in readable text files. Was my first attempt at creating a relatively large bash application. Seems that most people tend to use spotify/apple music nowadays, but I still like having music locally. This lets me manage playlists locally without having to use one of the bulky GUI applications.
 
 ### albums
 
 [GitHub](https://github.com/seanbreckenridge/albums) | [GitLab](https://gitlab.com/seanbreckenridge/albums) | *Python/SQL*
 
-An amalgamation of acclaimed album lists. This is my replacement for [RateYourMusic](https://rateyourmusic.com/)
+An amalgamation of acclaimed album lists. This is my replacement for [RateYourMusic](https://rateyourmusic.com/).
 
 This was started years ago, before I knew how databases worked, so my database is a [google sheet](https://sean.fish/s/albums). I then learnt SQL, so it also has code to [convert the google sheet to a `MySQL` schema](https://github.com/seanbreckenridge/albums/tree/master/SQL).
 
-Also includes an API that lets me list recently listened albums on my [media feed](https://sean.fish/feed)
+Also includes an API that lets me list recently listened albums on my [media feed](https://sean.fish/feed).
 
 ### wca_userinfo
 
@@ -108,19 +107,19 @@ A tiny web server that scrapes information for a user from `worldcubeassosiation
 
 [GitHub](https://github.com/seanbreckenridge/xkcd-favorites) | [GitLab](https://gitlab.com/seanbreckenridge/xkcd-favorites) | *HTML*
 
-A list of my favorite [xkcd](https://xkcd.com/)'s. Was initially rendered client-side with some `javascript`, but I now use a [bash script](https://github.com/seanbreckenridge/xkcd-favorites/blob/master/ssg) to convert it to a static site. Hosted [here](https://sean.fish/xkcd).
+A list of my favorite [xkcd](https://xkcd.com/)'s. Was initially rendered client-side with some JS, but I now use a [bash script](https://github.com/seanbreckenridge/xkcd-favorites/blob/master/ssg) to convert it to a static site. Hosted [here](https://sean.fish/xkcd).
 
 ### xqc-dvd
 
 [GitHub](https://github.com/seanbreckenridge/xqc-dvd) | [GitLab](https://gitlab.com/seanbreckenridge/xqc-dvd) | *Elm*
 
-A browser DVD logo animation/game. Was a project for learning Elm. Hosted [here](https://sean.fish/dvd/).
+A browser DVD logo animation/game. Was a project for learning Elm; Hosted [here](https://sean.fish/dvd/).
 
 ### animeshorts
 
 [GitHub](https://github.com/seanbreckenridge/animeshorts) | [GitLab](https://gitlab.com/seanbreckenridge/animeshorts) | *Python*
 
-Code for generating and maintaining my (static) site for anime short films/series. Generates the html with the generic [`yattag`](https://www.yattag.org/), doesn't use a full SSG framework.
+Code for generating and maintaining my (static) site for anime short films/series. Generates the html with the generic [`yattag`](https://www.yattag.org/) package, doesn't use a full SSG framework.
 
 ### bootstrap
 
@@ -156,13 +155,7 @@ Pipe to test if files exist. Got tired of doing the unreadable: `xargs -I {} sh 
 
 [GitHub](https://github.com/seanbreckenridge/foreverjs-list) | [GitLab](https://gitlab.com/seanbreckenridge/foreverjs-list) | *JavaScript*
 
-API to get information about [`forever.js`](https://github.com/foreversd/forever) processes, used to monitor processes on my server. I used to use this to ping my server every 10 minutes to make sure my processes were still running. I use [my fork of superhooks](https://github.com/seanbreckenridge/superhooks) to do that now.
-
-### fuji
-
-[GitHub](https://github.com/seanbreckenridge/fuji) | [GitLab](https://gitlab.com/seanbreckenridge/fuji) | *Python*
-
-When it was still allowed, automated the process of creating an free trial account on ForJoyTV using selenium, to watch Japanese TV.
+Express API to get information about [`forever.js`](https://github.com/foreversd/forever) processes. I used to use this to ping my server every 10 minutes to make sure my processes were still running. I use [my fork of superhooks](https://github.com/seanbreckenridge/superhooks) to do that now.
 
 ### genpasswd
 
@@ -210,7 +203,7 @@ Solutions to Project Euler, using distinct languages. I really like learning new
 
 [GitHub](https://github.com/seanbreckenridge/proxy-jikan) | [GitLab](https://gitlab.com/seanbreckenridge/proxy-jikan) | *Python*
 
-Self-signed (HTTPS) token-authenticated proxy for [Jikan](https://jikan.moe/) (and HTTP requests). Used so I quell my paranoia of being IP banned.
+Self-signed (HTTPS) token-authenticated proxy for [Jikan](https://jikan.moe/). Used so I quell my paranoia of being IP banned. Can also act as a generic proxy.
 
 ### pythonanywhere-3-months
 
@@ -222,7 +215,7 @@ Clicks the 'Run until 3 months from today' button on [pythonanywhere](https://ww
 
 [GitHub](https://github.com/seanbreckenridge/reddit-wallpaper-scraper) | [GitLab](https://gitlab.com/seanbreckenridge/reddit-wallpaper-scraper) | *Python*
 
-Scrapes the top posts from wallpaper subreddits. I'm not huge into collecting wallpapers, but I wanted to have a couple hundred in my rotation. This scraped ~7500 images in about 15 hours.
+Scrapes the top posts from wallpaper subreddits. I'm not huge into collecting wallpapers, but I wanted to have a couple hundred in my rotation. This scraped and classified ~7500 images in about 15 hours.
 
 ### selenium-shutterfly-scraper
 
@@ -259,6 +252,12 @@ Scripts used for installing/managing/restarting/monitoring processes on my serve
 [GitHub](https://github.com/seanbreckenridge/wait-for-internet) | [GitLab](https://gitlab.com/seanbreckenridge/wait-for-internet) | *Rust*
 
 Command line utility that waits till you have an internet connection. I use this multiple times daily since the I have multiple routers at my house depending on whether or not I'm connecting to my NAS/am upstairs or downstairs. Often like `wait-for-internet && <some command that requires an external connection>`.
+
+### fuji
+
+[GitHub](https://github.com/seanbreckenridge/fuji) | [GitLab](https://gitlab.com/seanbreckenridge/fuji) | *Python*
+
+When it was still allowed, automated the process of creating an free trial account on ForJoyTV using selenium, to watch Japanese TV.
 
 ### cookiecutter-template
 
