@@ -1,7 +1,21 @@
 #!/usr/bin/env python3
 
+"""
+Makes a request to the Github API and compares
+the list of repos from the API to the ones
+listed in the README.md
+
+This is used like:
+
+./update 2>/dev/null >> README.md
+
+to append descriptions for any new projects
+to this README
+"""
+
 import sys
 import os
+import re
 import json
 import time
 from typing import List, Dict
@@ -26,7 +40,7 @@ def cached_response_has_expired() -> bool:
         print("Cache file has expired, re-downloading...", file=sys.stderr)
         return True
     else:
-        print("Using cached data...")
+        print("Using cached data...", file=sys.stderr)
         return False
 
 
@@ -39,13 +53,16 @@ def get_repository_data() -> List[Dict]:
                 return json.load(jf)
             except json.decoder.JSONDecodeError:
                 print("Failed to load JSON from cache file...", file=sys.stderr)
-                pass
-    print(f"Downloading repository information for {config.github_username}...")
+    print(
+        f"Downloading repository information for {config.github_username}...",
+        file=sys.stderr,
+    )
+    # loop through the paginated responses to get all repos
     repo_info = []
     page: int = 1
     while True:
         url = f"https://api.github.com/users/{config.github_username}/repos?page={page}"
-        print(f"Requesting {url}")
+        print(f"Requesting {url}", file=sys.stderr)
         resp = requests.get(
             url, headers={"Accept": "application/vnd.github.full+json"},
         )
@@ -67,18 +84,55 @@ def filter_repos(repo_info: List[Dict]):
         if repo["fork"]:
             if not config.include_forks:
                 continue
-        if repo["name"] in config.ignore_repos:
+        if repo["name"].lower() in config.ignore_repos:
             continue
         yield repo
 
 
-def main():
-    repo_info: List[Dict] = get_repository_data()
-    print("Using {} repositories...".format(len(repo_info)))
-    repo_info = list(filter_repos(repo_info))
-    print(len(repo_info))
-    # TODO: implement some system to cache descriptions, order by reverse star count
+def get_projects_in_readme() -> List[str]:
+    readme_path: str = os.path.join(config.this_dir, "README.md")
+    with open(readme_path, "r") as readme_f:
+        readme_contents: str = readme_f.read()
+    # make sure the line we're looking at is a heading,
+    # e.g.:
+    # ### project-name
+    readme_lines: List[str] = list(filter(lambda l: re.match("\s*###\s*", l), [l.strip() for l in readme_contents.splitlines() if l.strip()]))
+    return list(map(lambda l: re.match("###\s*([^\s]+)\s*", l).group(1), readme_lines))
 
+def main():
+    # read ./README.md file and filter out
+    # headings (which include the names of repos)
+    projects_in_readme: List[str] = get_projects_in_readme()
+
+    # request repository information
+    repo_info: List[Dict] = get_repository_data()
+    print(
+        "Found {} repositories for {}...".format(
+            len(repo_info), config.github_username
+        ),
+        file=sys.stderr,
+    )
+
+    # filter and sort
+    repo_info = list(filter_repos(repo_info))
+    repo_info.sort(key=lambda r: r["stargazers_count"], reverse=True)
+
+    # if not in README, print out information that
+    # could be turned into a description
+    for repo in repo_info:
+        if repo["name"] not in projects_in_readme:
+            print("""### {repo_name}
+
+[GitHub]({github}) | [GitLab]({gitlab}) | *{language}*
+
+{description}
+""".format(
+    repo_name=repo["name"],
+    github=repo["html_url"],
+    gitlab=repo["html_url"].replace("github", "gitlab", 1),
+    language=repo["language"],
+    description=repo["description"]
+))
 
 if __name__ == "__main__":
     main()

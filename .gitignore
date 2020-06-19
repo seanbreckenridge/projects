@@ -1,7 +1,7 @@
 *.pdf
 /data
 tags*
-
+*.html
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
