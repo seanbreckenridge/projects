@@ -96,8 +96,16 @@ def get_projects_in_readme() -> List[str]:
     # make sure the line we're looking at is a heading,
     # e.g.:
     # ### project-name
-    readme_lines: List[str] = list(filter(lambda l: re.match("\s*###\s*", l), [l.strip() for l in readme_contents.splitlines() if l.strip()]))
-    return list(map(lambda l: re.match("###\s*([^\s]+)\s*", l).group(1), readme_lines))
+    readme_lines: List[str] = list(
+        filter(
+            lambda ln: re.match(r"\s*###\s*", ln),
+            [ln.strip() for ln in readme_contents.splitlines() if ln.strip()],
+        )
+    )
+    return list(
+        map(lambda ln: re.match(r"###\s*([^\s]+)\s*", ln).group(1), readme_lines)
+    )
+
 
 def main():
     # read ./README.md file and filter out
@@ -121,18 +129,21 @@ def main():
     # could be turned into a description
     for repo in repo_info:
         if repo["name"] not in projects_in_readme:
-            print("""### {repo_name}
+            print(
+                """### {repo_name}
 
 [GitHub]({github}) | [GitLab]({gitlab}) | {language}
 
 {description}
 """.format(
-    repo_name=repo["name"],
-    github=repo["html_url"],
-    gitlab=repo["html_url"].replace("github", "gitlab", 1),
-    language=repo["language"],
-    description=repo["description"]
-))
+                    repo_name=repo["name"],
+                    github=repo["html_url"],
+                    gitlab=repo["html_url"].replace("github", "gitlab", 1),
+                    language=repo["language"],
+                    description=repo["description"],
+                )
+            )
+
 
 if __name__ == "__main__":
     main()
