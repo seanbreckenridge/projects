@@ -166,6 +166,12 @@ Pipe to test if files exist. Got tired of doing the unreadable: `xargs -I {} sh 
 
 Express API to get information about [`forever.js`](https://github.com/foreversd/forever) processes. I used to use this to ping my server every 10 minutes to make sure my processes were still running. I use [my fork of superhooks](https://github.com/seanbreckenridge/superhooks) to do that now.
 
+### superhooks
+
+[GitHub](https://github.com/seanbreckenridge/superhooks) | [GitLab](https://gitlab.com/seanbreckenridge/superhooks) | Python
+
+Posts supervisor event data as an embed to a discord. This sends me notifications whenever some process on my server crashes/restarts.
+
 ### genpasswd
 
 [GitHub](https://github.com/seanbreckenridge/genpasswd) | [GitLab](https://gitlab.com/seanbreckenridge/genpasswd) | C++
@@ -279,3 +285,4 @@ cookiecutter template for new python projects, using `pipenv`, `pytest`, and `tr
 [GitHub](https://github.com/seanbreckenridge/vimbuffer) | [GitLab](https://gitlab.com/seanbreckenridge/vimbuffer) | [PyPi](https://pypi.org/project/vimbuffer/) | Python
 
 Lets me edit files and strings in temporary vim (or some other console editor) buffers. I've mostly replaced this with my heavy use of a customized [ranger](https://github.com/ranger/ranger)
+

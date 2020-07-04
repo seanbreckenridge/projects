@@ -17,7 +17,18 @@ ignore_repos = set(
         "commands-discordpy-starter",
         "jikanpy_ext",
         "greasyfork",
+        "breach-parse",
+        "forever-webui",
+        "jikan",
+        "jikan-rest",
+        "jikanpy",
+        "k_grok",
+        "lets-get-arrested",
+        "rotten_tomatoes_cli",
+        "rotten_tomatoes_client",
+        "sl",
+        "sw",
     ]
 )
-include_forks = False
+include_forks = True
 data_dir = os.path.join(this_dir, "data")
