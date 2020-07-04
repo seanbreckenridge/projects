@@ -54,6 +54,12 @@ An cache of MAL IDs updated whenever something is added to the database. See [he
 
 Scrapes data and code from a users [Greasyfork](https://greasyfork.org/en) account.
 
+### vps
+
+[GitHub](https://github.com/seanbreckenridge/vps) | [GitLab](https://gitlab.com/seanbreckenridge/vps) | Shell
+
+Scripts used for installing/managing/restarting/monitoring processes on my server (and my server). Wraps [supervisor](https://github.com/Supervisor/supervisor) to handle process crashing.
+
 ### jikan_ex
 
 [GitHub](https://github.com/seanbreckenridge/jikan_ex) | [GitLab](https://gitlab.com/seanbreckenridge/jikan_ex) | [Hex](https://hex.pm/packages/jikan_ex) | Elixir
@@ -249,12 +255,6 @@ Sends me reminders in discord when deadlines for my todos are approaching. Syncs
 [GitHub](https://github.com/seanbreckenridge/twitchlive) | [GitLab](https://gitlab.com/seanbreckenridge/twitchlive) | Go
 
 A CLI tool to list which Twitch channels you follow are currently live.
-
-### vps
-
-[GitHub](https://github.com/seanbreckenridge/vps) | [GitLab](https://gitlab.com/seanbreckenridge/vps) | Shell
-
-Scripts used for installing/managing/restarting/monitoring processes on my server (and my server). Wraps [supervisor](https://github.com/Supervisor/supervisor) to handle process crashing.
 
 ### wait-for-internet
 
