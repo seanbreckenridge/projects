@@ -36,7 +36,7 @@ def cached_response_has_expired() -> bool:
     if not os.path.exists(response_file):
         print("Cache file doesn't exist...", file=sys.stderr)
         return True
-    if time.time() - os.path.getmtime(response_file) > 60 * 60 * 24:
+    if time.time() - os.path.getmtime(response_file) > 60 * 60 * 6:
         print("Cache file has expired, re-downloading...", file=sys.stderr)
         return True
     else:
