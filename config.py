@@ -28,6 +28,7 @@ ignore_repos = set(
         "rotten_tomatoes_client",
         "sl",
         "sw",
+        "seanbreckenridge",
     ]
 )
 include_forks = True
