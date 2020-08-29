@@ -28,6 +28,7 @@ ignore_repos = set(
         "rotten_tomatoes_client",
         "sl",
         "sw",
+        "promnesia",
         "seanbreckenridge",
     ]
 )
