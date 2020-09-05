@@ -30,6 +30,7 @@ ignore_repos = set(
         "sw",
         "promnesia",
         "seanbreckenridge",
+        "HPI-1",
     ]
 )
 include_forks = True
