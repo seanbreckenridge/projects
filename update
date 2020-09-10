@@ -79,12 +79,13 @@ def get_repository_data() -> List[Dict]:
 
 
 def filter_repos(repo_info: List[Dict]):
+    ignore_repos = set(map(str.lower, config.ignore_repos))
     for repo in repo_info:
         # ignore forks if specified to
         if repo["fork"]:
             if not config.include_forks:
                 continue
-        if repo["name"].lower() in config.ignore_repos:
+        if repo["name"].lower() in ignore_repos:
             continue
         yield repo
 
