@@ -31,6 +31,7 @@ ignore_repos = set(
         "promnesia",
         "seanbreckenridge",
         "HPI-1",
+        "pygithub_requests_error",
     ]
 )
 include_forks = True
