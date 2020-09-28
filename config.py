@@ -1,8 +1,9 @@
 # Configuration file for listing projects.
 
 import os
+from pathlib import Path
 
-this_dir = os.path.abspath(os.path.dirname(__file__))
+this_dir: Path = Path(os.path.dirname(__file__)).absolute()
 
 github_username = "seanbreckenridge"
 ignore_repos = set(
@@ -35,4 +36,4 @@ ignore_repos = set(
     ]
 )
 include_forks = True
-data_dir = os.path.join(this_dir, "data")
+datafile: Path = this_dir / "data.json"

@@ -1,5 +1,5 @@
 *.pdf
-/data
+data*
 tags*
 *.html
 
