@@ -32,6 +32,7 @@ ignore_repos = set(
         "promnesia",
         "seanbreckenridge",
         "HPI-1",
+        "youtube_subtitles_downloader",
         "pygithub_requests_error",
     ]
 )
