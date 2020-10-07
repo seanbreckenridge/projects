@@ -34,6 +34,7 @@ ignore_repos = set(
         "HPI-1",
         "youtube_subtitles_downloader",
         "pygithub_requests_error",
+        "gnu-rust-utils",
     ]
 )
 include_forks = True
