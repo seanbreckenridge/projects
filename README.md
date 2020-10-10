@@ -419,7 +419,7 @@ When it was still allowed, automated the process of creating an free trial accou
 
 [GitHub](https://github.com/seanbreckenridge/cookiecutter-template) | [GitLab](https://gitlab.com/seanbreckenridge/cookiecutter-template) | Python
 
-cookiecutter template for new python projects, using `pipenv`, `pytest`, and `travis`
+cookiecutter template for new python projects, using `pipenv`, `pytest`, and `mypy`
 
 ### cookiecutter-lib
 
