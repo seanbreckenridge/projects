@@ -194,7 +194,6 @@ An cache of MAL IDs updated whenever something is added to the database. See [he
 
 Exports League of Legends Match History metadata using the RiotGames API. I don't play league of legends that often anymore, this is to export my entire match history so I can do some analysis as part of [`HPI`](https://github.com/seanbreckenridge/HPI).
 
-
 ### calcurse-load
 
 [GitHub](https://github.com/seanbreckenridge/calcurse-load) | [GitLab](https://gitlab.com/seanbreckenridge/calcurse-load) | Python
@@ -299,7 +298,7 @@ A CLI for `pyTwistyScrambler`, to generate random states for twisty puzzles.
 
 [GitHub](https://github.com/seanbreckenridge/docker-jikan) | [GitLab](https://gitlab.com/seanbreckenridge/docker-jikan) | Dockerfile
 
-  Personal [Jikan](https://jikan.moe/) setup; so I don't have to compile PHP 7.3 on new servers.
+Personal [Jikan](https://jikan.moe/) setup; so I don't have to compile PHP 7.3 on new servers.
 
 ### dotfiles-index
 
@@ -462,4 +461,3 @@ An offline CLI tool to search your GitHub Stars. Forked from [here](https://gith
 [GitHub](https://github.com/seanbreckenridge/sonic_pi_music) | Ruby
 
 some music created using sonic pi
-
