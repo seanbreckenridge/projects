@@ -80,7 +80,7 @@ A list of my favorite [xkcd](https://xkcd.com/)'s. Was initially rendered client
 
 ### rifleman
 
-[GitHub](https://github.com/seanbreckenridge/rifleman) | [GitLab](https://gitlab.com/seanbreckenridge/rifleman) | Python
+[GitHub](https://github.com/seanbreckenridge/rifleman) | [GitLab](https://gitlab.com/seanbreckenridge/rifleman) | [PyPi](https://pypi.org/project/rifleman/) | Python
 
 An extendible dispatcher to lint/format code, based on [rifle](https://github.com/ranger/ranger). This lets you run one command over lots of files/directories which could be in different languages - it classifies them by inspecting the mime type, extension, name or shebang, and then runs a command on those files
 
