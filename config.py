@@ -35,7 +35,6 @@ ignore_repos = set(
         "youtube_subtitles_downloader",
         "pygithub_requests_error",
         "gnu-rust-utils",
-        "Discord-GoogleSheets-bot",
     ]
 )
 include_forks = True
