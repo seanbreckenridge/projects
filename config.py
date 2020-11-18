@@ -36,6 +36,7 @@ ignore_repos = set(
         "pygithub_requests_error",
         "gnu-rust-utils",
         "jikan-rest-docker",
+        "okayweather",
     ]
 )
 include_forks = True
