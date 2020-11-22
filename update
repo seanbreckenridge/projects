@@ -2,27 +2,31 @@
 
 """
 Makes a request to the Github API and compares
-the list of repos from the API to the ones
-listed in the README.md
-
-This is used like:
-
-./update 2>/dev/null >> README.md
-
-to append descriptions for any new projects
-to this README
+the list of repos from the API to cached information
 """
 
 import sys
-import re
 import json
 import time
-from typing import List, Dict
+from typing import List, Dict, Set, Any, Tuple
 from pathlib import Path
 
-import requests
+Json = Any
+RepoDB = Dict[str, Json]
 
-import config
+try:
+    import toml
+    import requests
+    import click
+    import vimbuffer
+except ImportError as e:
+    print(str(e), file=sys.stderr)
+    raise SystemExit(1)
+
+this_dir: Path = Path(__file__).absolute().parent
+cachefile: Path = this_dir / "cache.json"
+datafile: Path = this_dir / "data.toml"
+github_username: str = "seanbreckenridge"
 
 
 def cached_response_has_expired() -> bool:
@@ -30,10 +34,10 @@ def cached_response_has_expired() -> bool:
     Returns T/F which determines whether or not
     to download fresh data from Github API
     """
-    if not config.datafile.exists():
+    if not cachefile.exists():
         print("Cache file doesn't exist...", file=sys.stderr)
         return True
-    if time.time() - config.datafile.stat().st_mtime > 60 * 60 * 6:
+    if time.time() - cachefile.stat().st_mtime > 60 * 60 * 6:
         print("Cache file has expired, re-downloading...", file=sys.stderr)
         return True
     else:
@@ -43,21 +47,21 @@ def cached_response_has_expired() -> bool:
 
 # downloads new repository data if needed,
 # returns the parsed JSON data
-def get_repository_data() -> List[Dict]:
+def get_repository_data() -> List[Json]:
     if not cached_response_has_expired():
         try:
-            return json.loads(config.datafile.read_text())
+            return json.loads(cachefile.read_text())
         except json.decoder.JSONDecodeError:
             print("Failed to load JSON from cache file...", file=sys.stderr)
     print(
-        f"Downloading repository information for {config.github_username}...",
+        f"Downloading repository information for {github_username}...",
         file=sys.stderr,
     )
     # loop through the paginated responses to get all repos
     repo_info = []
     page: int = 1
     while True:
-        url = f"https://api.github.com/users/{config.github_username}/repos?page={page}"
+        url = f"https://api.github.com/users/{github_username}/repos?page={page}"
         print(f"Requesting {url}", file=sys.stderr)
         resp = requests.get(
             url,
@@ -70,76 +74,73 @@ def get_repository_data() -> List[Dict]:
         else:
             break
         page += 1
-    with config.datafile.open("w") as jf:
+    with cachefile.open("w") as jf:
         json.dump(repo_info, jf)
     return repo_info
 
 
-def filter_repos(repo_info: List[Dict]):
-    ignore_repos = set(map(str.lower, config.ignore_repos))
+# return all data from the data.toml file
+def load_data() -> Tuple[Set[str], RepoDB]:
+    repos: Dict[str, Json] = {}
+    ignored: Set[str] = set()
+    if not datafile.exists():
+        return ignored, repos
+    with datafile.open("r") as df:
+        data = toml.load(df)
+    for key, val in data.items():
+        if key == "ignored":
+            ignored = val
+        else:
+            repos[key] = val
+    return ignored, repos
+
+
+# prompt me to add any new items
+def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> RepoDB:
+    prompted: int = 0
     for repo in repo_info:
-        # ignore forks if specified to
-        if repo["fork"]:
-            if not config.include_forks:
-                continue
-        if repo["name"].lower() in ignore_repos:
-            continue
-        yield repo
-
-
-def get_projects_in_readme() -> List[str]:
-    readme: Path = config.this_dir / "README.md"
-    readme_contents: str = readme.read_text()
-    # make sure the line we're looking at is a heading,
-    # e.g.:
-    # ### project-name
-    readme_lines: List[str] = list(
-        filter(
-            lambda ln: re.match(r"\s*###\s*", ln),
-            [ln.strip() for ln in readme_contents.splitlines() if ln.strip()],
-        )
-    )
-    return list(
-        map(lambda ln: re.match(r"###\s*([^\s]+)\s*", ln).group(1), readme_lines)
-    )
+        rname: str = repo["full_name"]
+        if not repo["private"] and rname not in ignored:
+            if rname in repo_data:
+                repo_data[rname]["updated_at"] = repo["updated_at"]
+                repo_data[rname]["stars"] = repo["stargazers_count"]
+            else:
+                if not click.confirm("Ignore '{}'?".format(rname)):
+                    repo_desc: str = vimbuffer.buffer(
+                        string=repo["description"]
+                    ).strip()
+                    new_repo_data = {
+                        "name": repo["name"],
+                        "full_name": repo["full_name"],
+                        "html_url": repo["html_url"],
+                        "description": repo_desc,
+                        "updated_at": repo["updated_at"],
+                        "stars": repo["stargazers_count"],
+                        "language": repo["language"],
+                        "has_gitlab": True,
+                    }
+                    if click.confirm("Remove GitLab?"):
+                        new_repo_data["has_gitlab"] = False
+                    if click.confirm("Add URL?"):
+                        new_repo_data["url"] = click.prompt("URL ")
+                    repo_data[rname] = new_repo_data
+                    prompted += 1
+                else:
+                    ignored.add(rname)
+        # exit once we've done 5, can re-run to continue adding
+        # so I can take breaks
+        if prompted >= 5:
+            break
+    repo_data["ignored"] = list(ignored)
+    return repo_data
 
 
 def main():
-    # read ./README.md file and filter out
-    # headings (which include the names of repos)
-    projects_in_readme: List[str] = get_projects_in_readme()
-
-    # request repository information
     repo_info: List[Dict] = get_repository_data()
-    print(
-        "Found {} repositories for {}...".format(
-            len(repo_info), config.github_username
-        ),
-        file=sys.stderr,
-    )
-
-    # filter and sort
-    repo_info = list(filter_repos(repo_info))
-    repo_info.sort(key=lambda r: r["stargazers_count"], reverse=True)
-
-    # if not in README, print out information that
-    # could be turned into a description
-    for repo in repo_info:
-        if repo["name"] not in projects_in_readme:
-            print(
-                """### {repo_name}
-
-[GitHub]({github}) | [GitLab]({gitlab}) | {language}
-
-{description}
-""".format(
-                    repo_name=repo["name"],
-                    github=repo["html_url"],
-                    gitlab=repo["html_url"].replace("github", "gitlab", 1),
-                    language=repo["language"],
-                    description=repo["description"],
-                )
-            )
+    ignored, repo_data = load_data()
+    repo_data = prompt_new(repo_info, repo_data, ignored)
+    with datafile.open("w") as tf:
+        toml.dump(repo_data, tf)
 
 
 if __name__ == "__main__":

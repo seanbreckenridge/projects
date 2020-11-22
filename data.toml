@@ -1,0 +1,12 @@
+ignored = [ "seanbreckenridge/advent-of-code-2019",]
+
+["seanbreckenridge/albums"]
+name = "albums"
+full_name = "seanbreckenridge/albums"
+html_url = "https://github.com/seanbreckenridge/albums"
+description = "A collection of CSV/SQL files containing popular/acclaimed albums, used to make a inordinate list of albums to listen to. This has all the albums I've listened to for the past few years. It started as a way to listen to every album that had won a Grammy award. This is what I use instead of [RateYourMusic](https://rateyourmusic.com/)"
+updated_at = "2020-11-19T07:44:28Z"
+stars = 2
+language = "Python"
+has_gitlab = true
+url = "https://sean.fish/s/albums"
