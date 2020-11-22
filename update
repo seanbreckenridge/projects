@@ -89,11 +89,21 @@ def load_data() -> Tuple[Set[str], RepoDB]:
         data = toml.load(df)
     for key, val in data.items():
         if key == "ignored":
-            ignored = val
+            ignored = set(val)
         else:
             repos[key] = val
     return ignored, repos
 
+# priority:
+# 1: put at bottom
+# 2: order by star
+# 3: at the top
+#
+# score:
+# acts as a buffer for stars
+# if I want something to appear slightly higher up
+# when calculating order on priority 2, it compares
+# score + stars
 
 # prompt me to add any new items
 def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> RepoDB:
@@ -105,6 +115,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                 repo_data[rname]["updated_at"] = repo["updated_at"]
                 repo_data[rname]["stars"] = repo["stargazers_count"]
             else:
+                prompted += 1
                 if not click.confirm("Ignore '{}'?".format(rname)):
                     repo_desc: str = vimbuffer.buffer(
                         string=repo["description"]
@@ -118,15 +129,17 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                         "stars": repo["stargazers_count"],
                         "language": repo["language"],
                         "has_gitlab": True,
+                        "priority": 2,
+                        "score": 0,
                     }
                     if click.confirm("Remove GitLab?"):
                         new_repo_data["has_gitlab"] = False
                     if click.confirm("Add URL?"):
                         new_repo_data["url"] = click.prompt("URL ")
                     repo_data[rname] = new_repo_data
-                    prompted += 1
                 else:
                     ignored.add(rname)
+
         # exit once we've done 5, can re-run to continue adding
         # so I can take breaks
         if prompted >= 5:
