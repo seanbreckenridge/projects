@@ -144,7 +144,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
         # so I can take breaks
         if prompted >= 5:
             break
-    repo_data["ignored"] = list(ignored)
+    repo_data["ignored"] = sorted(list(ignored))
     return repo_data
 
 
