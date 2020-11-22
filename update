@@ -94,6 +94,7 @@ def load_data() -> Tuple[Set[str], RepoDB]:
             repos[key] = val
     return ignored, repos
 
+
 # priority:
 # 1: put at bottom
 # 2: order by star
