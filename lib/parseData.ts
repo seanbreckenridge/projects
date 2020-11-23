@@ -21,8 +21,8 @@ export interface Repository {
 }
 
 const PRIO_MULTIPLIER = 1000000000;
-const STAR_MULTIPLIER = 10;
-const DAYS_MULTIPLIER = 0.01;
+const STAR_MULTIPLIER = 100;
+const DAYS_MULTIPLIER = 0.001;
 
 // Computes a numerical score for this repo, to be scored by
 // Order based on:
@@ -37,7 +37,7 @@ function calculateScore(repo: Repository): number {
   const updated_days_ago = updated_seconds_ago / 86400;
   return (
     PRIO_MULTIPLIER * repo.priority +
-    STAR_MULTIPLIER * (repo.stars + repo.score) +
+    STAR_MULTIPLIER * (repo.stars + repo.score) -
     DAYS_MULTIPLIER * updated_days_ago
   );
 }
