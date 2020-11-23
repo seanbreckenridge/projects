@@ -116,6 +116,11 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                 repo_data[rname]["updated_at"] = repo["updated_at"]
                 repo_data[rname]["stars"] = repo["stargazers_count"]
             else:
+                # TODO: add flag/env variable here
+                # if running in the background to update star/updated at
+                # metadata, don't prompt me
+                if False:
+                    continue
                 prompted += 1
                 if not click.confirm("Ignore '{}'?".format(rname)):
                     repo_desc: str = vimbuffer.buffer(
