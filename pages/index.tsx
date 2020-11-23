@@ -1,7 +1,8 @@
 import Head from "next/head";
+
 import styles from "../styles/Home.module.css";
 
-import { Repository, readData } from "../lib/parseData";
+import { Repository, loadRepos } from "../lib/parseData";
 
 interface IndexProps {
   repos: Repository[];
@@ -20,9 +21,28 @@ export default function Home({ repos }: IndexProps) {
           {repos.map((repo: Repository) => {
             const remoteURL = "https://github.com/" + repo.full_name;
             return (
-              <a key={remoteURL} href={remoteURL} className={styles.card}>
-                {repo.name}
-              </a>
+              <div key={remoteURL} className={styles.card}>
+                <div className={styles.cardTitle}>
+                  <a href={remoteURL}>
+                    <h3>{repo.name}</h3>
+                  </a>
+                  <span>{repo.language}</span>
+                </div>
+                <div
+                  className={styles.cardDescription}
+                  dangerouslySetInnerHTML={{ __html: repo.description }}
+                ></div>
+                <hr />
+                <div className={styles.cardFooter}>
+                  <a href={remoteURL}>GitHub</a>
+                  {repo.has_gitlab ? (
+                    <a href={remoteURL.replace("github", "gitlab")}>GitLab</a>
+                  ) : (
+                    <></>
+                  )}
+                  {repo.url != null ? <a href={repo.url}>Website</a> : <></>}
+                </div>
+              </div>
             );
           })}
         </div>
@@ -34,7 +54,7 @@ export default function Home({ repos }: IndexProps) {
 export async function getStaticProps() {
   return {
     props: {
-      repos: readData(),
+      repos: await loadRepos(),
     },
   };
 }
