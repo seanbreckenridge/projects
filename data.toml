@@ -653,7 +653,7 @@ description = "project for describing my other projects. Helps me maintain this 
 updated_at = "2020-11-18T16:44:46Z"
 stars = 1
 language = "Python"
-has_gitlab = true
+has_gitlab = false
 priority = 2
 score = 0
 
