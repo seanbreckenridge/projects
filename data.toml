@@ -1,0 +1,943 @@
+ignored = [
+  "seanbreckenridge/CS-Assignments",
+  "seanbreckenridge/HPI-1",
+  "seanbreckenridge/RSA",
+  "seanbreckenridge/advent-of-code-2019",
+  "seanbreckenridge/breach-parse",
+  "seanbreckenridge/commands-discordpy-starter",
+  "seanbreckenridge/dotfiles-index",
+  "seanbreckenridge/forever-webui",
+  "seanbreckenridge/forum_parser",
+  "seanbreckenridge/fuji",
+  "seanbreckenridge/gnu-rust-utils",
+  "seanbreckenridge/jikan",
+  "seanbreckenridge/jikan-rest",
+  "seanbreckenridge/jikan-rest-docker",
+  "seanbreckenridge/jikanpy",
+  "seanbreckenridge/jikanpy_ext",
+  "seanbreckenridge/k_grok",
+  "seanbreckenridge/lets-get-arrested",
+  "seanbreckenridge/mac-dotfiles",
+  "seanbreckenridge/mal-unapproved",
+  "seanbreckenridge/oh-my-stars",
+  "seanbreckenridge/okayweather",
+  "seanbreckenridge/promnesia",
+  "seanbreckenridge/proxy-jikan",
+  "seanbreckenridge/pygithub_requests_error",
+  "seanbreckenridge/rotten_tomatoes_cli",
+  "seanbreckenridge/rotten_tomatoes_client",
+  "seanbreckenridge/seanbreckenridge",
+  "seanbreckenridge/selenium-shutterfly-scraper",
+  "seanbreckenridge/sl",
+  "seanbreckenridge/st",
+  "seanbreckenridge/sw",
+  "seanbreckenridge/youtube_subtitles_downloader",
+]
+
+["seanbreckenridge/albums"]
+name = "albums"
+full_name = "seanbreckenridge/albums"
+html_url = "https://github.com/seanbreckenridge/albums"
+description = "A collection of CSV/SQL files containing popular/acclaimed albums, used to make a inordinate list of albums to listen to. This maintains a google sheet which I use instead of [RateYourMusic](https://rateyourmusic.com) ![](/albums.png)"
+updated_at = "2020-11-23T19:28:23Z"
+stars = 2
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://sean.fish/s/albums"
+
+["seanbreckenridge/animeshorts"]
+name = "animeshorts"
+full_name = "seanbreckenridge/animeshorts"
+html_url = "https://github.com/seanbreckenridge/animeshorts"
+description = "static site for my favorite anime short films/series"
+updated_at = "2020-10-10T03:55:35Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+score = 0
+priority = 2
+url = "https://sean.fish/animeshorts/"
+
+["seanbreckenridge/autotui"]
+name = "autotui"
+full_name = "seanbreckenridge/autotui"
+html_url = "https://github.com/seanbreckenridge/autotui"
+description = "interactively prompt, validate, and persist python objects to disk (JSON) and back using type hints ![](/autotui.gif)"
+updated_at = "2020-10-31T08:10:52Z"
+stars = 3
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/autotui/"
+
+["seanbreckenridge/aw-watcher-window"]
+name = "aw-watcher-window"
+full_name = "seanbreckenridge/aw-watcher-window"
+html_url = "https://github.com/seanbreckenridge/aw-watcher-window"
+description = "Cross-platform window watcher (forked from ActivityWatch to log to a file instead)"
+updated_at = "2020-10-24T05:11:36Z"
+stars = 0
+language = "Python"
+has_gitlab = false
+score = 0
+priority = 2
+
+["seanbreckenridge/bgproc"]
+name = "bgproc"
+full_name = "seanbreckenridge/bgproc"
+html_url = "https://github.com/seanbreckenridge/bgproc"
+description = "bash loop to run tasks in the background. used as an anacron alternative. Uses [evry](https://github.com/seanbreckenridge/evry) to schedule tasks"
+updated_at = "2020-11-23T02:59:28Z"
+stars = 3
+language = "Shell"
+has_gitlab = true
+score = 0
+priority = 2
+
+["seanbreckenridge/blizzard_gdpr_parser"]
+name = "blizzard_gdpr_parser"
+full_name = "seanbreckenridge/blizzard_gdpr_parser"
+html_url = "https://github.com/seanbreckenridge/blizzard_gdpr_parser"
+description = "Parses date-related information from my blizzard GDPR export"
+updated_at = "2020-10-10T03:58:45Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/bootstrap"]
+name = "bootstrap"
+full_name = "seanbreckenridge/bootstrap"
+html_url = "https://github.com/seanbreckenridge/bootstrap"
+description = "A script to setup a new bash VPS/servers with defaults I like. This is the first things I do whenever I setup a new server, so I have all my `vi` bindings and aliases"
+updated_at = "2020-10-10T03:56:39Z"
+stars = 0
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/calcurse-load"]
+name = "calcurse-load"
+full_name = "seanbreckenridge/calcurse-load"
+html_url = "https://github.com/seanbreckenridge/calcurse-load"
+description = "Personal hooks/scripts for [calcurse](https://github.com/lfos/calcurse). Sources events for calcurse from Google Calendar and todo.txt"
+updated_at = "2020-10-25T10:21:41Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/calories-fzf"]
+name = "calories-fzf"
+full_name = "seanbreckenridge/calories-fzf"
+html_url = "https://github.com/seanbreckenridge/calories-fzf"
+description = "A fzf interface to [calories](https://github.com/zupzup/calories), to add something you've eaten in the past again ![](/calfzf.gif)"
+updated_at = "2020-10-27T06:51:07Z"
+stars = 0
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/cookiecutter-lib"]
+name = "cookiecutter-lib"
+full_name = "seanbreckenridge/cookiecutter-lib"
+html_url = "https://github.com/seanbreckenridge/cookiecutter-lib"
+description = "Cookiecutter template for a basic python library. Is meant for packages I don’t intend to push to pypi, includes seutptools to install some python code I want to have globally installed, and basic installation method to install from my github"
+updated_at = "2020-10-10T03:53:20Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/cookiecutter-template"]
+name = "cookiecutter-template"
+full_name = "seanbreckenridge/cookiecutter-template"
+html_url = "https://github.com/seanbreckenridge/cookiecutter-template"
+description = "cookiecutter template for new python projects, using `click` to handle CLI arguments, with `pytest` and `mypy` for testing"
+updated_at = "2020-10-26T06:35:19Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/cube-scramble-cli"]
+name = "cube-scramble-cli"
+full_name = "seanbreckenridge/cube-scramble-cli"
+html_url = "https://github.com/seanbreckenridge/cube-scramble-cli"
+description = "A CLI for [`pyTwistyScrambler`](https://github.com/euphwes/pyTwistyScrambler), to generate random states for twisty puzzles ![](/cube_scramble_cli.gif)"
+updated_at = "2020-10-11T03:18:38Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/cube-scramble-cli/"
+
+["seanbreckenridge/darker_errors"]
+name = "darker_errors"
+full_name = "seanbreckenridge/darker_errors"
+html_url = "https://github.com/seanbreckenridge/darker_errors"
+description = "A dark-themed HTTP error page generator. Implements a basic template language, to allow interpolation based on HTTP status codes. Is so that I'm not blinded by the default nginx error pages ![](/darker_errors.png)"
+updated_at = "2020-11-01T16:00:34Z"
+stars = 0
+language = "Go"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/dashboard"]
+name = "dashboard"
+full_name = "seanbreckenridge/dashboard"
+html_url = "https://github.com/seanbreckenridge/dashboard"
+description = "analysis/visualizations done using data from my [HPI](https://github.com/seanbreckenridge/HPI) ![](/dashboard.png)"
+updated_at = "2020-11-01T09:59:54Z"
+stars = 1
+language = "Jupyter Notebook"
+has_gitlab = false
+priority = 2
+score = 0
+
+["seanbreckenridge/discord-countdown-bot"]
+name = "discord-countdown-bot"
+full_name = "seanbreckenridge/discord-countdown-bot"
+html_url = "https://github.com/seanbreckenridge/discord-countdown-bot"
+description = "Discord bot to use for countdowns. Used as a [syncplay](https://syncplay.pl) alternative ![](/countdown.png)"
+updated_at = "2020-10-10T03:55:02Z"
+stars = 6
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/discord_data"]
+name = "discord_data"
+full_name = "seanbreckenridge/discord_data"
+html_url = "https://github.com/seanbreckenridge/discord_data"
+description = "Library to parse messages/activity from the discord data export"
+updated_at = "2020-10-27T09:58:02Z"
+stars = 3
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/docker-jikan"]
+name = "docker-jikan"
+full_name = "seanbreckenridge/docker-jikan"
+html_url = "https://github.com/seanbreckenridge/docker-jikan"
+description = "Personal [Jikan](https://jikan.moe/) setup, so I don't have to compile PHP7.3 on new servers"
+updated_at = "2020-11-08T12:54:59Z"
+stars = 0
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/dotfiles"]
+name = "dotfiles"
+full_name = "seanbreckenridge/dotfiles"
+html_url = "https://github.com/seanbreckenridge/dotfiles"
+description = "cross-platform (arch/macos) dotfiles and scripts, using [yadm](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
+updated_at = "2020-11-23T02:53:10Z"
+stars = 3
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://sean.fish/d/?dark"
+
+["seanbreckenridge/evry"]
+name = "evry"
+full_name = "seanbreckenridge/evry"
+html_url = "https://github.com/seanbreckenridge/evry"
+description = "A shell-script-centric task scheduler; uses exit codes to determine control flow"
+updated_at = "2020-10-10T03:58:32Z"
+stars = 1
+language = "Rust"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://crates.io/crates/evry"
+
+["seanbreckenridge/exists"]
+name = "exists"
+full_name = "seanbreckenridge/exists"
+html_url = "https://github.com/seanbreckenridge/exists"
+description = "Pipe to test if files exist. Got tired of doing the unreadable: `xargs -I {} sh -c \"[ -e \\\"{}\\\" ] && echo \\\"{}\\\"\"` when doing shell one-liners, so this simplifies that"
+updated_at = "2020-10-10T03:57:25Z"
+stars = 1
+language = "C"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/exobrain"]
+name = "exobrain"
+full_name = "seanbreckenridge/exobrain"
+html_url = "https://github.com/seanbreckenridge/exobrain"
+description = "external brain - uses [pandoc](https://pandoc.org/) to generate my blog/brain dump. See [here](https://exobrain.sean.fish/meta/) for more info ![](/exobrain.png)"
+updated_at = "2020-11-20T19:22:12Z"
+stars = 8
+language = "Shell/Golang"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://exobrain.sean.fish/"
+
+["seanbreckenridge/ffexport"]
+name = "ffexport"
+full_name = "seanbreckenridge/ffexport"
+html_url = "https://github.com/seanbreckenridge/ffexport"
+description = "export and interface with firefox history and site metadata. I use this to periodically back up my history, so I never lose any of it"
+updated_at = "2020-11-19T09:16:27Z"
+stars = 4
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/ffexport/"
+
+["seanbreckenridge/foreverjs-list"]
+name = "foreverjs-list"
+full_name = "seanbreckenridge/foreverjs-list"
+html_url = "https://github.com/seanbreckenridge/foreverjs-list"
+description = "Express API to get information about [forever.js](https://github.com/foreversd/forever) processes. In the past, I used this to ping my server periodically to see if any of my servers/processes had crashed/restarted"
+updated_at = "2020-10-10T04:00:09Z"
+stars = 1
+language = "JavaScript"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/full_todotxt"]
+name = "full_todotxt"
+full_name = "seanbreckenridge/full_todotxt"
+html_url = "https://github.com/seanbreckenridge/full_todotxt"
+description = "a todotxt interactive interface that forces you to specify certain attributes. Used with [todotxt_deadline_notify](https://github.com/seanbreckenridge/todotxt_deadline_notify) to send me reminders ![](/full_todotxt.gif)"
+updated_at = "2020-10-10T03:53:59Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/genpasswd"]
+name = "genpasswd"
+full_name = "seanbreckenridge/genpasswd"
+html_url = "https://github.com/seanbreckenridge/genpasswd"
+description = "Yet another Password Generator. Theres lots of these out there, but writing my own means the flags match exactly what I want"
+updated_at = "2020-10-17T04:31:54Z"
+stars = 0
+language = "C++"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/glue"]
+name = "glue"
+full_name = "seanbreckenridge/glue"
+html_url = "https://github.com/seanbreckenridge/glue"
+description = "My personal website ![](/glue.png)"
+updated_at = "2020-11-21T17:18:39Z"
+stars = 0
+language = "Elixir/TypeScript"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://sean.fish/"
+
+["seanbreckenridge/greasyfork"]
+name = "greasyfork"
+full_name = "seanbreckenridge/greasyfork"
+html_url = "https://github.com/seanbreckenridge/greasyfork"
+description = "An archive of my scripts from greasyfork.org"
+updated_at = "2020-11-12T08:21:03Z"
+stars = 0
+language = "JavaScript"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/greasyfork_archive"]
+name = "greasyfork_archive"
+full_name = "seanbreckenridge/greasyfork_archive"
+html_url = "https://github.com/seanbreckenridge/greasyfork_archive"
+description = "Scrape data from a users Greasyfork account"
+updated_at = "2020-10-11T04:50:42Z"
+stars = 1
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/greasyfork_archive/"
+
+["seanbreckenridge/greasyfork_repo_generator"]
+name = "greasyfork_repo_generator"
+full_name = "seanbreckenridge/greasyfork_repo_generator"
+html_url = "https://github.com/seanbreckenridge/greasyfork_repo_generator"
+description = "Archives a users Greasyfork account and creates a Github repo. See [here](http://github.com/seanbreckenridge/greasyfork) for example output"
+updated_at = "2020-10-10T04:03:24Z"
+stars = 0
+language = "Elixir"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/havecmd"]
+name = "havecmd"
+full_name = "seanbreckenridge/havecmd"
+html_url = "https://github.com/seanbreckenridge/havecmd"
+description = "A template for bash scripts, to provide a nicer interface to check for the presence of external commands on the users `$PATH`"
+updated_at = "2020-11-12T10:13:37Z"
+stars = 1
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/HPI"]
+name = "HPI"
+full_name = "seanbreckenridge/HPI"
+html_url = "https://github.com/seanbreckenridge/HPI"
+description = "Human Programming Interface. way to unify, access and interact with all my personal data. It hides the [gory details](https://beepb00p.xyz/sad-infra.html#exports_are_hard) of trying to scrape/parse, locate data, error handling and caching. See [here](https://github.com/seanbreckenridge/HPI#currently-in-use-modules) for currently in use modules"
+updated_at = "2020-11-23T02:52:52Z"
+stars = 6
+language = "Python"
+has_gitlab = false
+priority = 2
+score = 0
+
+["seanbreckenridge/ipgeocache"]
+name = "ipgeocache"
+full_name = "seanbreckenridge/ipgeocache"
+html_url = "https://github.com/seanbreckenridge/ipgeocache"
+description = "A small filesystem cache layer for IP geolocation info"
+updated_at = "2020-10-31T23:27:29Z"
+stars = 2
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/ipgeocache/"
+
+["seanbreckenridge/jikan_ex"]
+name = "jikan_ex"
+full_name = "seanbreckenridge/jikan_ex"
+html_url = "https://github.com/seanbreckenridge/jikan_ex"
+description = "An elixir wrapper for the [Jikan](https://jikan.moe/) API"
+updated_at = "2020-11-17T21:26:23Z"
+stars = 4
+language = "Elixir"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://hex.pm/packages/jikan_ex"
+
+["seanbreckenridge/keepassxc-pwned"]
+name = "keepassxc-pwned"
+full_name = "seanbreckenridge/keepassxc-pwned"
+html_url = "https://github.com/seanbreckenridge/keepassxc-pwned"
+description = "`Archived`: Check a [keepassxc](https://keepassxc.org/) database against previously breached [haveibeenpwned](https://haveibeenpwned.com/) passwords"
+updated_at = "2020-10-10T04:02:41Z"
+stars = 15
+language = "Python"
+has_gitlab = true
+priority = 1
+score = 0
+url = "https://pypi.org/project/keepassxc-pwned/"
+
+["seanbreckenridge/keyvol"]
+name = "keyvol"
+full_name = "seanbreckenridge/keyvol"
+html_url = "https://github.com/seanbreckenridge/keyvol"
+description = "An interactive terminal interface for pamixer/pactl to control system volume ![](/keyvol.gif)"
+updated_at = "2020-10-10T04:03:17Z"
+stars = 0
+language = "Go"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/largechar"]
+name = "largechar"
+full_name = "seanbreckenridge/largechar"
+html_url = "https://github.com/seanbreckenridge/largechar"
+description = "Displays large characters on your screen. Was a replacement for [this Alfred feature](https://www.alfredapp.com/help/features/large-type/), and an excuse to try some electron programming ![](/largechar.gif)"
+updated_at = "2020-10-24T09:47:27Z"
+stars = 1
+language = "JavaScript"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/lolexport"]
+name = "lolexport"
+full_name = "seanbreckenridge/lolexport"
+html_url = "https://github.com/seanbreckenridge/lolexport"
+description = "Exports League of Legends Match History metadata using the RiotGames API. I don’t play league of legends that often anymore, this is to export my entire match history so I can do some analysis as part of [HPI](https://github.com/seanbreckenridge/HPI)"
+updated_at = "2020-10-21T20:33:12Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/mal-id-cache"]
+name = "mal-id-cache"
+full_name = "seanbreckenridge/mal-id-cache"
+html_url = "https://github.com/seanbreckenridge/mal-id-cache"
+description = "An cache of MAL IDs updated whenever something is added to the database"
+updated_at = "2020-11-23T22:31:50Z"
+stars = 13
+language = "JSON"
+has_gitlab = false
+priority = 2
+score = 0
+
+["seanbreckenridge/mal-notify-bot"]
+name = "mal-notify-bot"
+full_name = "seanbreckenridge/mal-notify-bot"
+html_url = "https://github.com/seanbreckenridge/mal-notify-bot"
+description = "discord bot that checks the MAL \"Just Added\" page, reporting newly approved entries ![](/mal_notify_bot.png)"
+updated_at = "2020-11-21T03:27:42Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/MALUserVsAverage"]
+name = "MALUserVsAverage"
+full_name = "seanbreckenridge/MALUserVsAverage"
+html_url = "https://github.com/seanbreckenridge/MALUserVsAverage"
+description = "generate a graph that shows correlation between the user and average score on MyAnimeList ![](/mal_user_vs_average.png)"
+updated_at = "2020-10-10T03:55:56Z"
+stars = 0
+language = "Python"
+has_gitlab = false
+priority = 1
+score = 0
+
+["seanbreckenridge/mint"]
+name = "mint"
+full_name = "seanbreckenridge/mint"
+html_url = "https://github.com/seanbreckenridge/mint"
+description = "Wrapper script/code to interact with [mintable](https://github.com/kevinschaich/mintable/); to keep track of my bank accounts and transactions"
+updated_at = "2020-11-23T22:59:48Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/mnu_gsheets"]
+name = "mnu_gsheets"
+full_name = "seanbreckenridge/mnu_gsheets"
+html_url = "https://github.com/seanbreckenridge/mnu_gsheets"
+description = "Indexes existing [*Minna no Uta*](https://en.wikipedia.org/wiki/Minna_no_Uta) entries every few days, adding new ones that don't exist to the [spreadsheet](https://sean.fish/s/mnu) ![](/mnu_gsheets.png)"
+updated_at = "2020-11-19T05:17:43Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/mpv-sockets"]
+name = "mpv-sockets"
+full_name = "seanbreckenridge/mpv-sockets"
+html_url = "https://github.com/seanbreckenridge/mpv-sockets"
+description = "A collection of shell scripts to allow easier interaction with mpv sockets. also includes a [daemon](https://github.com/seanbreckenridge/mpv-sockets/blob/master/DAEMON.md) to track my mpv history/events"
+updated_at = "2020-11-23T05:00:55Z"
+stars = 1
+language = "Shell/Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/mpvf"]
+name = "mpvf"
+full_name = "seanbreckenridge/mpvf"
+html_url = "https://github.com/seanbreckenridge/mpvf"
+description = "Interface to select [`youtube-dl`](https://github.com/ytdl-org/youtube-dl/) format for streaming stuff with [`mpv`](https://mpv.io/) ![](/mpvf.gif)"
+updated_at = "2020-11-07T04:12:10Z"
+stars = 3
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/no-db-static-shorturl"]
+name = "no-db-static-shorturl"
+full_name = "seanbreckenridge/no-db-static-shorturl"
+html_url = "https://github.com/seanbreckenridge/no-db-static-shorturl"
+description = "file based single-binary URL shortener server. Has no dependencies; doesn’t require you to setup a database"
+updated_at = "2020-11-03T21:20:59Z"
+stars = 0
+language = "Go"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/plaintext-playlist"]
+name = "plaintext-playlist"
+full_name = "seanbreckenridge/plaintext-playlist"
+html_url = "https://github.com/seanbreckenridge/plaintext-playlist"
+description = "An interactive terminal playlist manager; stores playlists as text files. Seems that most people tend to use spotify/apple music nowadays, but I still like having music locally. This lets me manage playlists locally without having to use one of the bulky GUI applications ![](/plainplay.png)"
+updated_at = "2020-10-17T07:07:57Z"
+stars = 2
+language = "Bash"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/plus1"]
+name = "plus1"
+full_name = "seanbreckenridge/plus1"
+html_url = "https://github.com/seanbreckenridge/plus1"
+description = "A symmetric substitution cipher used to obfuscate code that I'd rather not be indexed"
+updated_at = "2020-10-10T03:56:59Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/pmark"]
+name = "pmark"
+full_name = "seanbreckenridge/pmark"
+html_url = "https://github.com/seanbreckenridge/pmark"
+description = "A hacky, markdown pre-processor. Uses code blocks to generate markdown, from within the markdown itself"
+updated_at = "2020-10-20T19:21:20Z"
+stars = 0
+language = "Perl"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/poly-project-euler"]
+name = "poly-project-euler"
+full_name = "seanbreckenridge/poly-project-euler"
+html_url = "https://github.com/seanbreckenridge/poly-project-euler"
+description = "Solutions to Project Euler, using distinct languages"
+updated_at = "2020-11-19T06:59:26Z"
+stars = 0
+language = "???"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/projects"]
+name = "projects"
+full_name = "seanbreckenridge/projects"
+html_url = "https://github.com/seanbreckenridge/projects"
+description = "project for describing my other projects. Helps me maintain this website!"
+updated_at = "2020-11-18T16:44:46Z"
+stars = 1
+language = "Python"
+has_gitlab = false
+priority = 2
+score = 0
+
+["seanbreckenridge/pushshift_comment_export"]
+name = "pushshift_comment_export"
+full_name = "seanbreckenridge/pushshift_comment_export"
+html_url = "https://github.com/seanbreckenridge/pushshift_comment_export"
+description = "Exports all accessible reddit comments for an account using pushshift"
+updated_at = "2020-10-21T09:59:36Z"
+stars = 2
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/pushshift-comment-export/"
+
+["seanbreckenridge/pythonanywhere-3-months"]
+name = "pythonanywhere-3-months"
+full_name = "seanbreckenridge/pythonanywhere-3-months"
+html_url = "https://github.com/seanbreckenridge/pythonanywhere-3-months"
+description = "clicks the 'Run until 3 months from today' button on [pythonanywhere](https://www.pythonanywhere.com), so your website doesn't deactivate automatically"
+updated_at = "2020-10-10T03:57:06Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/random_shmup"]
+name = "random_shmup"
+full_name = "seanbreckenridge/random_shmup"
+html_url = "https://github.com/seanbreckenridge/random_shmup"
+description = "An old pygame shoot 'em up space game ![](/space.gif)"
+updated_at = "2020-10-10T03:58:16Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 1
+score = 0
+
+["seanbreckenridge/raspi-backup"]
+name = "raspi-backup"
+full_name = "seanbreckenridge/raspi-backup"
+html_url = "https://github.com/seanbreckenridge/raspi-backup"
+description = "script to periodically back up my machine to my raspberry pi. Is pretty minimal, just uses headless raspbian with an external 4TB that gets mounted on boot"
+updated_at = "2020-11-23T19:20:59Z"
+stars = 2
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/reddit-wallpaper-scraper"]
+name = "reddit-wallpaper-scraper"
+full_name = "seanbreckenridge/reddit-wallpaper-scraper"
+html_url = "https://github.com/seanbreckenridge/reddit-wallpaper-scraper"
+description = "scrapes/downloads the top posts from  wallpaper subreddits. I’m not huge into collecting wallpapers, but I wanted to have a couple hundred in my rotation. This scraped and classified ~7500 images in about 15 hours"
+updated_at = "2020-09-05T22:45:00Z"
+stars = 1
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/rifleman"]
+name = "rifleman"
+full_name = "seanbreckenridge/rifleman"
+html_url = "https://github.com/seanbreckenridge/rifleman"
+description = "An extendible dispatcher to lint/format code, based on rifle. This lets you run one command over lots of files/directories which could be in different languages - it classifies them by inspecting the mime type, extension, name or shebang, and then runs a formatter on those files"
+updated_at = "2020-11-02T04:05:45Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/rifleman/"
+
+["seanbreckenridge/shortcuts"]
+name = "shortcuts"
+full_name = "seanbreckenridge/shortcuts"
+html_url = "https://github.com/seanbreckenridge/shortcuts"
+description = "Converts a `toml` file into shell scripts. I use this to convert short/one-liner shell commands into individual files. This makes my scripts easier to share with others, not dependent on shell-specific syntax (e.g. `exported bash functions`), and makes scripts accessible to other scripts/launchers like `rofi`/`dmenu`"
+updated_at = "2020-10-17T03:27:17Z"
+stars = 1
+language = "Ruby"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/sonic_pi_music"]
+name = "sonic_pi_music"
+full_name = "seanbreckenridge/sonic_pi_music"
+html_url = "https://github.com/seanbreckenridge/sonic_pi_music"
+description = "some music created using [sonic pi](https://sonic-pi.net/)"
+updated_at = "2020-10-10T03:54:41Z"
+stars = 0
+language = "Ruby"
+has_gitlab = true
+priority = 1
+score = 0
+
+["seanbreckenridge/spkglist"]
+name = "spkglist"
+full_name = "seanbreckenridge/spkglist"
+html_url = "https://github.com/seanbreckenridge/spkglist"
+description = "A simple package list parser. Used to clean up comments/newlines/spaces from a list of packages when installing packages in shell scripts"
+updated_at = "2020-10-20T19:18:45Z"
+stars = 0
+language = "Go"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/steamscraper"]
+name = "steamscraper"
+full_name = "seanbreckenridge/steamscraper"
+html_url = "https://github.com/seanbreckenridge/steamscraper"
+description = "Scrapes personal game/achievement data from steams website"
+updated_at = "2020-10-10T03:59:53Z"
+stars = 2
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/subpath-serve"]
+name = "subpath-serve"
+full_name = "seanbreckenridge/subpath-serve"
+html_url = "https://github.com/seanbreckenridge/subpath-serve"
+description = "serves text files from directory by matching subpaths. I use this to serve my dotfiles [here](https://sean.fish/d/?dark). It also allows me to quickly send someone one of my scripts/configuration files from my dotfiles using [this script](https://sean.fish/d/give)"
+updated_at = "2020-10-10T03:57:33Z"
+stars = 0
+language = "Go"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://sean.fish/d/?dark"
+
+["seanbreckenridge/superhooks"]
+name = "superhooks"
+full_name = "seanbreckenridge/superhooks"
+html_url = "https://github.com/seanbreckenridge/superhooks"
+description = "Posts supervisor event data as an embed to a discord server. This sends me notifications whenever some process on my server crashes/restarts ![](/superhooks.png)"
+updated_at = "2020-08-26T03:28:10Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/tinspire"]
+name = "tinspire"
+full_name = "seanbreckenridge/tinspire"
+html_url = "https://github.com/seanbreckenridge/tinspire"
+description = "programs I wrote on my ti-nspire cx back in the day"
+updated_at = "2020-10-10T04:01:14Z"
+stars = 0
+language = "TI-Basic"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/todotxt_deadline_notify"]
+name = "todotxt_deadline_notify"
+full_name = "seanbreckenridge/todotxt_deadline_notify"
+html_url = "https://github.com/seanbreckenridge/todotxt_deadline_notify"
+description = "sends me reminders when deadlines for my todos are approaching. Syncs from my list of local todos (a text file, following the [todo.txt](http://todotxt.org/) standard) up to my server"
+updated_at = "2020-10-10T03:59:37Z"
+stars = 0
+language = "Elixir"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/tts"]
+name = "tts"
+full_name = "seanbreckenridge/tts"
+html_url = "https://github.com/seanbreckenridge/tts"
+description = "CLI tool to convert text to speech using the StreamLabs API"
+updated_at = "2020-10-30T02:52:23Z"
+stars = 1
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/ttt"]
+name = "ttt"
+full_name = "seanbreckenridge/ttt"
+html_url = "https://github.com/seanbreckenridge/ttt"
+description = "Logs metadata for shell scripts/invocations; an extension to my shell history"
+updated_at = "2020-10-29T04:59:33Z"
+stars = 2
+language = "Go"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/twitchlive"]
+name = "twitchlive"
+full_name = "seanbreckenridge/twitchlive"
+html_url = "https://github.com/seanbreckenridge/twitchlive"
+description = "A CLI tool to list which twitch channels you follow are currently live"
+updated_at = "2020-10-26T08:50:14Z"
+stars = 1
+language = "Go"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/url_metadata"]
+name = "url_metadata"
+full_name = "seanbreckenridge/url_metadata"
+html_url = "https://github.com/seanbreckenridge/url_metadata"
+description = "A cache which saves URL metadata and summarizes content. Acts as an abstraction layer for fetching youtube subtitles, a summary of the HTML, opengraph information, links to images/videos"
+updated_at = "2020-11-12T03:29:13Z"
+stars = 2
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/url-metadata/"
+
+["seanbreckenridge/vimbuffer"]
+name = "vimbuffer"
+full_name = "seanbreckenridge/vimbuffer"
+html_url = "https://github.com/seanbreckenridge/vimbuffer"
+description = "Edit files and strings in temporary vim (or some other console editor) buffers."
+updated_at = "2020-11-08T07:20:03Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/vimbuffer/"
+
+["seanbreckenridge/vps"]
+name = "vps"
+full_name = "seanbreckenridge/vps"
+html_url = "https://github.com/seanbreckenridge/vps"
+description = "Scripts used for installing/managing/restarting/monitoring processes on my server. Wraps [supervisor](https://github.com/Supervisor/supervisor) to handle process crashes. Has other misc scripts ([mediaproxy](https://github.com/seanbreckenridge/vps/blob/master/mediaproxy)/[remsync](https://github.com/seanbreckenridge/vps/blob/master/remsync)) that provide FTP/Proxy like functionality"
+updated_at = "2020-11-17T13:12:26Z"
+stars = 0
+language = "Shell"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/wait-for-internet"]
+name = "wait-for-internet"
+full_name = "seanbreckenridge/wait-for-internet"
+html_url = "https://github.com/seanbreckenridge/wait-for-internet"
+description = "Command line utility that waits till you have an internet connection. I use this often when changing networks/waiting to connect to my hotspot, and at the top of shell scripts that run in the background, so they don't fail due to network failure"
+updated_at = "2020-11-01T16:09:58Z"
+stars = 1
+language = "Rust"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/wca_userinfo"]
+name = "wca_userinfo"
+full_name = "seanbreckenridge/wca_userinfo"
+html_url = "https://github.com/seanbreckenridge/wca_userinfo"
+description = "tiny webserver that scrapes information for a user from [worldcubeassociation.org](https://www.worldcubeassociation.org/)"
+updated_at = "2020-11-24T00:35:55Z"
+stars = 0
+language = "Rust"
+has_gitlab = true
+priority = 2
+score = 0
+
+["seanbreckenridge/xkcd-favorites"]
+name = "xkcd-favorites"
+full_name = "seanbreckenridge/xkcd-favorites"
+html_url = "https://github.com/seanbreckenridge/xkcd-favorites"
+description = "A list of my favorite xkcd's. Converts a list of my favorite IDs to a static website using a [`bash script`](https://github.com/seanbreckenridge/xkcd-favorites/blob/master/ssg) ![](/xkcd.png)"
+updated_at = "2020-10-24T02:56:24Z"
+stars = 0
+language = "HTML"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://sean.fish/xkcd/"
+
+["seanbreckenridge/xqc-dvd"]
+name = "xqc-dvd"
+full_name = "seanbreckenridge/xqc-dvd"
+html_url = "https://github.com/seanbreckenridge/xqc-dvd"
+description = "a browser dvd logo animation/game ![](/xqc_dvd.gif)"
+updated_at = "2020-11-09T09:42:58Z"
+stars = 0
+language = "Elm"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://sean.fish/dvd/"

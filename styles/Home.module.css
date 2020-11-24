@@ -1,0 +1,203 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 2rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.header h1 {
+  font-size: 3rem;
+  margin-bottom: 0rem;
+  text-decoration: underline;
+}
+
+.header .homeLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eaeaea;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 0.25rem 0.5rem;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.header .homeLink img {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  width: auto;
+  height: 16px;
+}
+
+.header .homeLink:hover {
+  border-color: grey;
+}
+
+.darkenIcon:hover {
+  -moz-filter: invert(0.3);
+  -ms-filter: invert(0.3);
+  -o-filter: invert(0.3);
+  filter: invert(0.3);
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 80%;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover {
+  border-color: grey;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.card hr {
+  width: 80%;
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.cardTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cardDescription {
+  margin-bottom: 1rem;
+}
+
+.cardDescription a {
+  text-decoration: underline;
+}
+
+.cardDescription a:hover {
+  color: grey;
+}
+
+.cardDescription a:active {
+  color: darkgrey;
+}
+
+.cardTitle span {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.cardDescription img {
+  display: table;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width: 400px;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+}
+
+.cardFooter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.cardFooter a {
+  margin-right: 1rem;
+}
+
+@media (max-width: 850px) {
+  .card {
+    flex-basis: 100%;
+  }
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
