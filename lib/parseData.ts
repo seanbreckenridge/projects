@@ -15,6 +15,7 @@ export interface Repository {
   language: string;
   has_gitlab: boolean;
   url?: string;
+  img?: string;
   stars: number;
   score: number;
   priority: number;

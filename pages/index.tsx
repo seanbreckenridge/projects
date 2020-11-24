@@ -67,10 +67,10 @@ const RepoCard = memo(({ repo }: IRepo) => {
         </a>
         <span>{repo.language}</span>
       </div>
-      <div
-        className={styles.cardDescription}
-        dangerouslySetInnerHTML={{ __html: repo.description }}
-      ></div>
+      <div className={styles.cardDescription}>
+        <div dangerouslySetInnerHTML={{ __html: repo.description }}></div>
+        {repo.img != null ? <img src={repo.img!} /> : <></>}
+      </div>
       <hr />
       <div className={styles.cardFooter}>
         <a href={remoteURL}>GitHub</a>

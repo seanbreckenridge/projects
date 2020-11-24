@@ -47,7 +47,7 @@ ignored = [
 name = "albums"
 full_name = "seanbreckenridge/albums"
 html_url = "https://github.com/seanbreckenridge/albums"
-description = "A collection of CSV/SQL files containing popular/acclaimed albums, used to make a inordinate list of albums to listen to. This maintains a google sheet which I use instead of [RateYourMusic](https://rateyourmusic.com) ![](/albums.png)"
+description = "A collection of CSV/SQL files containing popular/acclaimed albums, used to make a inordinate list of albums to listen to. This maintains a google sheet which I use instead of [RateYourMusic](https://rateyourmusic.com)"
 updated_at = "2020-11-23T19:28:23Z"
 stars = 2
 language = "Python"
@@ -55,12 +55,13 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://sean.fish/s/albums"
+img = "/albums.png"
 
 ["seanbreckenridge/animeshorts"]
 name = "animeshorts"
 full_name = "seanbreckenridge/animeshorts"
 html_url = "https://github.com/seanbreckenridge/animeshorts"
-description = "static site for my favorite anime short films/series ![](/animeshorts.png)"
+description = "static site for my favorite anime short films/series"
 updated_at = "2020-10-10T03:55:35Z"
 stars = 0
 language = "Python"
@@ -68,12 +69,13 @@ has_gitlab = true
 score = 0
 priority = 2
 url = "https://sean.fish/animeshorts/"
+img = "/animeshorts.png"
 
 ["seanbreckenridge/autotui"]
 name = "autotui"
 full_name = "seanbreckenridge/autotui"
 html_url = "https://github.com/seanbreckenridge/autotui"
-description = "interactively prompt, validate, and persist python objects to disk (JSON) and back using type hints ![](/autotui.gif)"
+description = "interactively prompt, validate, and persist python objects to disk (JSON) and back using type hints"
 updated_at = "2020-10-31T08:10:52Z"
 stars = 3
 language = "Python"
@@ -81,6 +83,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/autotui/"
+img = "/autotui.gif"
 
 ["seanbreckenridge/aw-watcher-window"]
 name = "aw-watcher-window"
@@ -98,13 +101,14 @@ priority = 2
 name = "bgproc"
 full_name = "seanbreckenridge/bgproc"
 html_url = "https://github.com/seanbreckenridge/bgproc"
-description = "bash loop to run tasks in the background. used as an anacron alternative. Uses [evry](https://github.com/seanbreckenridge/evry) to schedule tasks ![](/bgproc.png)"
+description = "bash loop to run tasks in the background. used as an anacron alternative. Uses [evry](https://github.com/seanbreckenridge/evry) to schedule tasks"
 updated_at = "2020-11-23T02:59:28Z"
 stars = 3
 language = "Shell"
 has_gitlab = true
 score = 0
 priority = 2
+img = "/bgproc.png"
 
 ["seanbreckenridge/blizzard_gdpr_parser"]
 name = "blizzard_gdpr_parser"
@@ -146,19 +150,20 @@ score = 0
 name = "calories-fzf"
 full_name = "seanbreckenridge/calories-fzf"
 html_url = "https://github.com/seanbreckenridge/calories-fzf"
-description = "A fzf interface to [calories](https://github.com/zupzup/calories), to add something you've eaten in the past again ![](/calfzf.gif)"
+description = "A fzf interface to [calories](https://github.com/zupzup/calories), to add something you've eaten in the past again"
 updated_at = "2020-10-27T06:51:07Z"
 stars = 0
 language = "Shell"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/calfzf.gif"
 
 ["seanbreckenridge/cube-scramble-cli"]
 name = "cube-scramble-cli"
 full_name = "seanbreckenridge/cube-scramble-cli"
 html_url = "https://github.com/seanbreckenridge/cube-scramble-cli"
-description = "A CLI for [`pyTwistyScrambler`](https://github.com/euphwes/pyTwistyScrambler), to generate random states for twisty puzzles ![](/cube_scramble_cli.gif)"
+description = "A CLI for [`pyTwistyScrambler`](https://github.com/euphwes/pyTwistyScrambler), to generate random states for twisty puzzles"
 updated_at = "2020-10-11T03:18:38Z"
 stars = 0
 language = "Python"
@@ -166,60 +171,65 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/cube-scramble-cli/"
+img = "/cube_scramble_cli.gif"
 
 ["seanbreckenridge/darker_errors"]
 name = "darker_errors"
 full_name = "seanbreckenridge/darker_errors"
 html_url = "https://github.com/seanbreckenridge/darker_errors"
-description = "A dark-themed HTTP error page generator. Implements a basic template language, to allow interpolation based on HTTP status codes. Is so that I'm not blinded by the default nginx error pages ![](/darker_errors.png)"
+description = "A dark-themed HTTP error page generator. Implements a basic template language, to allow interpolation based on HTTP status codes. Is so that I'm not blinded by the default nginx error pages"
 updated_at = "2020-11-01T16:00:34Z"
 stars = 0
 language = "Go"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/darker_errors.png"
 
 ["seanbreckenridge/dashboard"]
 name = "dashboard"
 full_name = "seanbreckenridge/dashboard"
 html_url = "https://github.com/seanbreckenridge/dashboard"
-description = "analysis/visualizations done using data from my [HPI](https://github.com/seanbreckenridge/HPI) ![](/dashboard.png)"
+description = "analysis/visualizations done using data from my [HPI](https://github.com/seanbreckenridge/HPI)"
 updated_at = "2020-11-01T09:59:54Z"
 stars = 1
 language = "Jupyter Notebook"
 has_gitlab = false
 priority = 2
 score = 0
+img = "/dashboard.png"
 
 ["seanbreckenridge/discord-countdown-bot"]
 name = "discord-countdown-bot"
 full_name = "seanbreckenridge/discord-countdown-bot"
 html_url = "https://github.com/seanbreckenridge/discord-countdown-bot"
-description = "Discord bot to use for countdowns. Used as a [syncplay](https://syncplay.pl) alternative ![](/countdown.png)"
+description = "Discord bot to use for countdowns. Used as a [syncplay](https://syncplay.pl) alternative"
 updated_at = "2020-10-10T03:55:02Z"
 stars = 6
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/countdown.png"
 
 ["seanbreckenridge/discord_data"]
 name = "discord_data"
 full_name = "seanbreckenridge/discord_data"
 html_url = "https://github.com/seanbreckenridge/discord_data"
-description = "Library to parse messages/activity from the discord data export ![](/discord_data.png)"
+description = "Library to parse messages/activity from the discord data export"
 updated_at = "2020-10-27T09:58:02Z"
 stars = 3
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/discord_data.png"
 
 ["seanbreckenridge/dotfiles"]
 name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
-description = "cross-platform (arch/macos) dotfiles and scripts, using [yadm](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything ![](/dotfiles.png)"
+description = "cross-platform (arch/macos) dotfiles and scripts, using [yadm](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
 updated_at = "2020-11-23T02:53:10Z"
 stars = 3
 language = "Shell"
@@ -227,6 +237,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://sean.fish/d/?dark"
+img = "/dotfiles.png"
 
 ["seanbreckenridge/evry"]
 name = "evry"
@@ -257,7 +268,7 @@ score = 0
 name = "exobrain"
 full_name = "seanbreckenridge/exobrain"
 html_url = "https://github.com/seanbreckenridge/exobrain"
-description = "Something like public wiki to store notes, ideas and thoughts. See [here](https://exobrain.sean.fish/meta/) for more info ![](/exobrain.png)"
+description = "Something like public wiki to store notes, ideas and thoughts. See [here](https://exobrain.sean.fish/meta/) for more info"
 updated_at = "2020-11-24T01:54:23Z"
 stars = 8
 language = "Shell/Golang"
@@ -265,12 +276,13 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://exobrain.sean.fish/"
+img = "/exobrain.png"
 
 ["seanbreckenridge/ffexport"]
 name = "ffexport"
 full_name = "seanbreckenridge/ffexport"
 html_url = "https://github.com/seanbreckenridge/ffexport"
-description = "export and interface with firefox history and site metadata. I use this to periodically back up my history, so I never lose any of it ![](/ffexport.png)"
+description = "export and interface with firefox history and site metadata. I use this to periodically back up my history, so I never lose any of it"
 updated_at = "2020-11-19T09:16:27Z"
 stars = 4
 language = "Python"
@@ -278,6 +290,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/ffexport/"
+img = "/ffexport.png"
 
 ["seanbreckenridge/foreverjs-list"]
 name = "foreverjs-list"
@@ -295,13 +308,14 @@ score = 0
 name = "full_todotxt"
 full_name = "seanbreckenridge/full_todotxt"
 html_url = "https://github.com/seanbreckenridge/full_todotxt"
-description = "a todotxt interactive interface that forces you to specify certain attributes. Used with [todotxt_deadline_notify](https://github.com/seanbreckenridge/todotxt_deadline_notify) to send me reminders ![](/full_todotxt.gif)"
+description = "a todotxt interactive interface that forces you to specify certain attributes. Used with [todotxt_deadline_notify](https://github.com/seanbreckenridge/todotxt_deadline_notify) to send me reminders"
 updated_at = "2020-10-10T03:53:59Z"
 stars = 0
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/ffexport.png"
 
 ["seanbreckenridge/genpasswd"]
 name = "genpasswd"
@@ -319,7 +333,7 @@ score = 0
 name = "glue"
 full_name = "seanbreckenridge/glue"
 html_url = "https://github.com/seanbreckenridge/glue"
-description = "My personal website ![](/glue.png)"
+description = "My personal website"
 updated_at = "2020-11-24T01:58:42Z"
 stars = 0
 language = "Elixir/TypeScript"
@@ -327,6 +341,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://sean.fish/"
+img = "/glue.png"
 
 ["seanbreckenridge/greasyfork"]
 name = "greasyfork"
@@ -381,13 +396,14 @@ score = 0
 name = "HPI"
 full_name = "seanbreckenridge/HPI"
 html_url = "https://github.com/seanbreckenridge/HPI"
-description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a Python package. See [here](https://github.com/seanbreckenridge/HPI#currently-in-use-modules) for currently in use modules ![](/hpi.png)"
+description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a Python package. See [here](https://github.com/seanbreckenridge/HPI#currently-in-use-modules) for currently in use modules"
 updated_at = "2020-11-23T02:52:52Z"
 stars = 6
 language = "Python"
 has_gitlab = false
 priority = 2
 score = 0
+img = "/hpi.png"
 
 ["seanbreckenridge/ipgeocache"]
 name = "ipgeocache"
@@ -406,7 +422,7 @@ url = "https://pypi.org/project/ipgeocache/"
 name = "jikan_ex"
 full_name = "seanbreckenridge/jikan_ex"
 html_url = "https://github.com/seanbreckenridge/jikan_ex"
-description = "An elixir wrapper for the [Jikan](https://jikan.moe/) API ![](/jikan_ex.png)"
+description = "An elixir wrapper for the [Jikan](https://jikan.moe/) API"
 updated_at = "2020-11-17T21:26:23Z"
 stars = 4
 language = "Elixir"
@@ -414,30 +430,33 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://hex.pm/packages/jikan_ex"
+img = "/jikan_ex.png"
 
 ["seanbreckenridge/keyvol"]
 name = "keyvol"
 full_name = "seanbreckenridge/keyvol"
 html_url = "https://github.com/seanbreckenridge/keyvol"
-description = "An interactive terminal interface for pamixer/pactl to control system volume ![](/keyvol.gif)"
+description = "An interactive terminal interface for pamixer/pactl to control system volume"
 updated_at = "2020-10-10T04:03:17Z"
 stars = 0
 language = "Go"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/keyvol.gif"
 
 ["seanbreckenridge/largechar"]
 name = "largechar"
 full_name = "seanbreckenridge/largechar"
 html_url = "https://github.com/seanbreckenridge/largechar"
-description = "Displays large characters on your screen. Was a replacement for [this Alfred feature](https://www.alfredapp.com/help/features/large-type/), and an excuse to try some electron programming ![](/largechar.gif)"
+description = "Displays large characters on your screen. Was a replacement for [this Alfred feature](https://www.alfredapp.com/help/features/large-type/), and an excuse to try some electron programming"
 updated_at = "2020-10-24T09:47:27Z"
 stars = 1
 language = "JavaScript"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/largechar.gif"
 
 ["seanbreckenridge/lolexport"]
 name = "lolexport"
@@ -455,25 +474,27 @@ score = 0
 name = "mal-notify-bot"
 full_name = "seanbreckenridge/mal-notify-bot"
 html_url = "https://github.com/seanbreckenridge/mal-notify-bot"
-description = "discord bot that checks the MAL \"Just Added\" page, reporting newly approved entries ![](/mal_notify_bot.png)"
+description = "discord bot that checks the MAL \"Just Added\" page, reporting newly approved entries"
 updated_at = "2020-11-21T03:27:42Z"
 stars = 0
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/mal_notify_bot.png"
 
 ["seanbreckenridge/MALUserVsAverage"]
 name = "MALUserVsAverage"
 full_name = "seanbreckenridge/MALUserVsAverage"
 html_url = "https://github.com/seanbreckenridge/MALUserVsAverage"
-description = "generate a graph that shows correlation between the user and average score on MyAnimeList ![](/mal_user_vs_average.png)"
+description = "generate a graph that shows correlation between the user and average score on MyAnimeList"
 updated_at = "2020-10-10T03:55:56Z"
 stars = 0
 language = "Python"
 has_gitlab = false
 priority = 2
 score = 0
+img = "/mal_user_vs_average.png"
 
 ["seanbreckenridge/mint"]
 name = "mint"
@@ -491,13 +512,14 @@ score = 0
 name = "mnu_gsheets"
 full_name = "seanbreckenridge/mnu_gsheets"
 html_url = "https://github.com/seanbreckenridge/mnu_gsheets"
-description = "Indexes existing [*Minna no Uta*](https://en.wikipedia.org/wiki/Minna_no_Uta) entries every few days, adding new ones that don't exist to the [spreadsheet](https://sean.fish/s/mnu) ![](/mnu_gsheets.png)"
+description = "Indexes existing [*Minna no Uta*](https://en.wikipedia.org/wiki/Minna_no_Uta) entries every few days, adding new ones that don't exist to the [spreadsheet](https://sean.fish/s/mnu)"
 updated_at = "2020-11-19T05:17:43Z"
 stars = 0
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/mnu_gsheets.png"
 
 ["seanbreckenridge/mpv-sockets"]
 name = "mpv-sockets"
@@ -515,13 +537,14 @@ score = 0
 name = "mpvf"
 full_name = "seanbreckenridge/mpvf"
 html_url = "https://github.com/seanbreckenridge/mpvf"
-description = "Interface to select [`youtube-dl`](https://github.com/ytdl-org/youtube-dl/) format for streaming stuff with [`mpv`](https://mpv.io/) ![](/mpvf.gif)"
+description = "Interface to select [`youtube-dl`](https://github.com/ytdl-org/youtube-dl/) format for streaming stuff with [`mpv`](https://mpv.io/)"
 updated_at = "2020-11-07T04:12:10Z"
 stars = 3
 language = "Shell"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/mpvf.gif"
 
 ["seanbreckenridge/no-db-static-shorturl"]
 name = "no-db-static-shorturl"
@@ -539,13 +562,14 @@ score = 0
 name = "plaintext-playlist"
 full_name = "seanbreckenridge/plaintext-playlist"
 html_url = "https://github.com/seanbreckenridge/plaintext-playlist"
-description = "An interactive terminal playlist manager; stores playlists as text files. Seems that most people tend to use spotify/apple music nowadays, but I still like having music locally. This lets me manage playlists locally without having to use one of the bulky GUI applications ![](/plainplay.png)"
+description = "An interactive terminal playlist manager; stores playlists as text files. Seems that most people tend to use spotify/apple music nowadays, but I still like having music locally. This lets me manage playlists locally without having to use one of the bulky GUI applications"
 updated_at = "2020-10-17T07:07:57Z"
 stars = 2
 language = "Bash"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/plainplay.png"
 
 ["seanbreckenridge/pmark"]
 name = "pmark"
@@ -600,13 +624,14 @@ score = 0
 name = "raspi-backup"
 full_name = "seanbreckenridge/raspi-backup"
 html_url = "https://github.com/seanbreckenridge/raspi-backup"
-description = "script to periodically back up my machine to my raspberry pi. Is pretty minimal, just uses headless raspbian with an external 4TB that gets mounted on boot ![](/raspi_backup.png)"
+description = "script to periodically back up my machine to my raspberry pi. Is pretty minimal, just uses headless raspbian with an external 4TB that gets mounted on boot"
 updated_at = "2020-11-23T19:20:59Z"
 stars = 2
 language = "Shell"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/raspi_backup.png"
 
 ["seanbreckenridge/reddit-wallpaper-scraper"]
 name = "reddit-wallpaper-scraper"
@@ -686,13 +711,14 @@ url = "https://sean.fish/d/?dark"
 name = "superhooks"
 full_name = "seanbreckenridge/superhooks"
 html_url = "https://github.com/seanbreckenridge/superhooks"
-description = "Posts supervisor event data as an embed to a discord server. This sends me notifications whenever some process on my server crashes/restarts ![](/superhooks.png)"
+description = "Posts supervisor event data as an embed to a discord server. This sends me notifications whenever some process on my server crashes/restarts"
 updated_at = "2020-08-26T03:28:10Z"
 stars = 0
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/superhooks.png"
 
 ["seanbreckenridge/todotxt_deadline_notify"]
 name = "todotxt_deadline_notify"
@@ -808,7 +834,7 @@ score = 0
 name = "xkcd-favorites"
 full_name = "seanbreckenridge/xkcd-favorites"
 html_url = "https://github.com/seanbreckenridge/xkcd-favorites"
-description = "A list of my favorite xkcd's. Converts a list of my favorite IDs to a static website using a [`bash script`](https://github.com/seanbreckenridge/xkcd-favorites/blob/master/ssg) ![](/xkcd.png)"
+description = "A list of my favorite xkcd's. Converts a list of my favorite IDs to a static website using a [`bash script`](https://github.com/seanbreckenridge/xkcd-favorites/blob/master/ssg)"
 updated_at = "2020-10-24T02:56:24Z"
 stars = 0
 language = "HTML"
@@ -816,12 +842,13 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://sean.fish/xkcd/"
+img = "/xkcd.png"
 
 ["seanbreckenridge/xqc-dvd"]
 name = "xqc-dvd"
 full_name = "seanbreckenridge/xqc-dvd"
 html_url = "https://github.com/seanbreckenridge/xqc-dvd"
-description = "a browser dvd logo animation/game ![](/xqc_dvd.gif)"
+description = "a browser dvd logo animation/game"
 updated_at = "2020-11-09T09:42:58Z"
 stars = 0
 language = "Elm"
@@ -829,15 +856,17 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://sean.fish/dvd/"
+img = "/xqc_dvd.gif"
 
 ["seanbreckenridge/space"]
 name = "space"
 full_name = "seanbreckenridge/space"
 html_url = "https://github.com/seanbreckenridge/space"
-description = "Pygame shoot 'em up space game ![](/space.gif)"
-updated_at = "2020-11-24T07:35:06Z"
+description = "Pygame shoot 'em up space game"
+updated_at = "2020-11-24T07:40:37Z"
 stars = 0
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/space.gif"
