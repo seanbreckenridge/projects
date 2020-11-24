@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 
+import { memo } from "react";
 import { IconBrandLinkedin, IconBrandGithub } from "@tabler/icons";
 import { Repository, loadRepos } from "../lib/parseData";
 
@@ -44,37 +45,65 @@ export default function Home({ repos }: IndexProps) {
         </div>
         <div className={styles.grid}>
           {repos.map((repo: Repository) => {
-            const remoteURL = "https://github.com/" + repo.full_name;
-            return (
-              <div key={remoteURL} className={styles.card}>
-                <div className={styles.cardTitle}>
-                  <a href={remoteURL}>
-                    <h3>{repo.name}</h3>
-                  </a>
-                  <span>{repo.language}</span>
-                </div>
-                <div
-                  className={styles.cardDescription}
-                  dangerouslySetInnerHTML={{ __html: repo.description }}
-                ></div>
-                <hr />
-                <div className={styles.cardFooter}>
-                  <a href={remoteURL}>GitHub</a>
-                  {repo.has_gitlab ? (
-                    <a href={remoteURL.replace("github", "gitlab")}>GitLab</a>
-                  ) : (
-                    <></>
-                  )}
-                  {repo.url != null ? <a href={repo.url}>Website</a> : <></>}
-                </div>
-              </div>
-            );
+            return <RepoCard key={repo.full_name} repo={repo} />;
           })}
         </div>
       </main>
     </div>
   );
 }
+
+interface IRepo {
+  repo: Repository;
+}
+
+const RepoCard = memo(({ repo }: IRepo) => {
+  const remoteURL = "https://github.com/" + repo.full_name;
+  return (
+    <div className={styles.card}>
+      <div className={styles.cardTitle}>
+        <a href={remoteURL}>
+          <h3>{repo.name}</h3>
+        </a>
+        <span>{repo.language}</span>
+      </div>
+      <div
+        className={styles.cardDescription}
+        dangerouslySetInnerHTML={{ __html: repo.description }}
+      ></div>
+      <hr />
+      <div className={styles.cardFooter}>
+        <a href={remoteURL}>GitHub</a>
+        {repo.has_gitlab ? (
+          <a href={remoteURL.replace("github", "gitlab")}>GitLab</a>
+        ) : (
+          <></>
+        )}
+        <Website url={repo.url} />
+      </div>
+    </div>
+  );
+});
+
+interface IWebsite {
+  url: string;
+}
+
+const Website = memo(({ url }: IWebsite) => {
+  if (url != null) {
+    let linkText: string = "Website";
+    if (url.indexOf("pypi.org") !== -1) {
+      linkText = "PyPi";
+    } else if (url.indexOf("crates.io") !== -1) {
+      linkText = "Crates.io";
+    } else if (url.indexOf("hex.pm") !== -1) {
+      linkText = "Hex";
+    }
+    return <a href={url}>{linkText}</a>;
+  } else {
+    return <></>;
+  }
+});
 
 export async function getStaticProps() {
   return {
