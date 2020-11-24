@@ -23,6 +23,7 @@ ignored = [
   "seanbreckenridge/mal-unapproved",
   "seanbreckenridge/oh-my-stars",
   "seanbreckenridge/okayweather",
+  "seanbreckenridge/projects",
   "seanbreckenridge/promnesia",
   "seanbreckenridge/proxy-jikan",
   "seanbreckenridge/pygithub_requests_error",
@@ -610,19 +611,6 @@ updated_at = "2020-11-19T06:59:26Z"
 stars = 0
 language = "???"
 has_gitlab = true
-priority = 2
-score = 0
-
-["seanbreckenridge/projects"]
-name = "projects"
-full_name = "seanbreckenridge/projects"
-html_url = "https://github.com/seanbreckenridge/projects"
-description = "project for describing my other projects. Helps me maintain this website!"
-updated_at = "2020-11-24T04:22:51Z"
-stars = 1
-url = "https://projects.sean.fish"
-language = "Python"
-has_gitlab = false
 priority = 2
 score = 0
 
