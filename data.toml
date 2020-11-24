@@ -524,7 +524,7 @@ updated_at = "2020-10-10T03:55:56Z"
 stars = 0
 language = "Python"
 has_gitlab = false
-priority = 1
+priority = 2
 score = 0
 
 ["seanbreckenridge/mint"]
@@ -681,7 +681,7 @@ updated_at = "2020-10-10T03:58:16Z"
 stars = 0
 language = "Python"
 has_gitlab = true
-priority = 1
+priority = 2
 score = 0
 
 ["seanbreckenridge/raspi-backup"]
