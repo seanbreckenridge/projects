@@ -71,7 +71,7 @@ export async function loadRepos(): Promise<Repository[]> {
   // parse TOML
   const repoData = toml.parse(fs.readFileSync(dataFile).toString());
 
-  // ignored 'ignored' key
+  // ignore the 'ignored' key
   Object.keys(repoData).forEach((repoName) => {
     if (repoName !== "ignored") {
       repos.push(repoData[repoName]);
