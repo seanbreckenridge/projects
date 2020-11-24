@@ -7,6 +7,7 @@ ignored = [
   "seanbreckenridge/commands-discordpy-starter",
   "seanbreckenridge/cookiecutter-lib",
   "seanbreckenridge/cookiecutter-template",
+  "seanbreckenridge/docker-jikan",
   "seanbreckenridge/dotfiles-index",
   "seanbreckenridge/forever-webui",
   "seanbreckenridge/forum_parser",
@@ -18,11 +19,14 @@ ignored = [
   "seanbreckenridge/jikanpy",
   "seanbreckenridge/jikanpy_ext",
   "seanbreckenridge/k_grok",
+  "seanbreckenridge/keepassxc-pwned",
   "seanbreckenridge/lets-get-arrested",
   "seanbreckenridge/mac-dotfiles",
+  "seanbreckenridge/mal-id-cache",
   "seanbreckenridge/mal-unapproved",
   "seanbreckenridge/oh-my-stars",
   "seanbreckenridge/okayweather",
+  "seanbreckenridge/plus1",
   "seanbreckenridge/projects",
   "seanbreckenridge/promnesia",
   "seanbreckenridge/proxy-jikan",
@@ -32,8 +36,10 @@ ignored = [
   "seanbreckenridge/seanbreckenridge",
   "seanbreckenridge/selenium-shutterfly-scraper",
   "seanbreckenridge/sl",
+  "seanbreckenridge/sonic_pi_music",
   "seanbreckenridge/st",
   "seanbreckenridge/sw",
+  "seanbreckenridge/tinspire",
   "seanbreckenridge/youtube_subtitles_downloader",
 ]
 
@@ -54,7 +60,7 @@ url = "https://sean.fish/s/albums"
 name = "animeshorts"
 full_name = "seanbreckenridge/animeshorts"
 html_url = "https://github.com/seanbreckenridge/animeshorts"
-description = "static site for my favorite anime short films/series"
+description = "static site for my favorite anime short films/series ![](/animeshorts.png)"
 updated_at = "2020-10-10T03:55:35Z"
 stars = 0
 language = "Python"
@@ -92,7 +98,7 @@ priority = 2
 name = "bgproc"
 full_name = "seanbreckenridge/bgproc"
 html_url = "https://github.com/seanbreckenridge/bgproc"
-description = "bash loop to run tasks in the background. used as an anacron alternative. Uses [evry](https://github.com/seanbreckenridge/evry) to schedule tasks"
+description = "bash loop to run tasks in the background. used as an anacron alternative. Uses [evry](https://github.com/seanbreckenridge/evry) to schedule tasks ![](/bgproc.png)"
 updated_at = "2020-11-23T02:59:28Z"
 stars = 3
 language = "Shell"
@@ -201,22 +207,10 @@ score = 0
 name = "discord_data"
 full_name = "seanbreckenridge/discord_data"
 html_url = "https://github.com/seanbreckenridge/discord_data"
-description = "Library to parse messages/activity from the discord data export"
+description = "Library to parse messages/activity from the discord data export ![](/discord_data.png)"
 updated_at = "2020-10-27T09:58:02Z"
 stars = 3
 language = "Python"
-has_gitlab = true
-priority = 2
-score = 0
-
-["seanbreckenridge/docker-jikan"]
-name = "docker-jikan"
-full_name = "seanbreckenridge/docker-jikan"
-html_url = "https://github.com/seanbreckenridge/docker-jikan"
-description = "Personal [Jikan](https://jikan.moe/) setup, so I don't have to compile PHP7.3 on new servers"
-updated_at = "2020-11-08T12:54:59Z"
-stars = 0
-language = "Docker"
 has_gitlab = true
 priority = 2
 score = 0
@@ -225,7 +219,7 @@ score = 0
 name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
-description = "cross-platform (arch/macos) dotfiles and scripts, using [yadm](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
+description = "cross-platform (arch/macos) dotfiles and scripts, using [yadm](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything ![](/dotfiles.png)"
 updated_at = "2020-11-23T02:53:10Z"
 stars = 3
 language = "Shell"
@@ -276,7 +270,7 @@ url = "https://exobrain.sean.fish/"
 name = "ffexport"
 full_name = "seanbreckenridge/ffexport"
 html_url = "https://github.com/seanbreckenridge/ffexport"
-description = "export and interface with firefox history and site metadata. I use this to periodically back up my history, so I never lose any of it"
+description = "export and interface with firefox history and site metadata. I use this to periodically back up my history, so I never lose any of it ![](/ffexport.png)"
 updated_at = "2020-11-19T09:16:27Z"
 stars = 4
 language = "Python"
@@ -387,7 +381,7 @@ score = 0
 name = "HPI"
 full_name = "seanbreckenridge/HPI"
 html_url = "https://github.com/seanbreckenridge/HPI"
-description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data. It hides the [gory details](https://beepb00p.xyz/sad-infra.html#exports_are_hard) of trying to scrape/parse, locate data, error handling and caching. See [here](https://github.com/seanbreckenridge/HPI#currently-in-use-modules) for currently in use modules"
+description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a Python package. See [here](https://github.com/seanbreckenridge/HPI#currently-in-use-modules) for currently in use modules ![](/hpi.png)"
 updated_at = "2020-11-23T02:52:52Z"
 stars = 6
 language = "Python"
@@ -412,7 +406,7 @@ url = "https://pypi.org/project/ipgeocache/"
 name = "jikan_ex"
 full_name = "seanbreckenridge/jikan_ex"
 html_url = "https://github.com/seanbreckenridge/jikan_ex"
-description = "An elixir wrapper for the [Jikan](https://jikan.moe/) API"
+description = "An elixir wrapper for the [Jikan](https://jikan.moe/) API ![](/jikan_ex.png)"
 updated_at = "2020-11-17T21:26:23Z"
 stars = 4
 language = "Elixir"
@@ -420,19 +414,6 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://hex.pm/packages/jikan_ex"
-
-["seanbreckenridge/keepassxc-pwned"]
-name = "keepassxc-pwned"
-full_name = "seanbreckenridge/keepassxc-pwned"
-html_url = "https://github.com/seanbreckenridge/keepassxc-pwned"
-description = "`Archived`: Check a [keepassxc](https://keepassxc.org/) database against previously breached [haveibeenpwned](https://haveibeenpwned.com/) passwords"
-updated_at = "2020-10-10T04:02:41Z"
-stars = 15
-language = "Python"
-has_gitlab = true
-priority = 1
-score = 0
-url = "https://pypi.org/project/keepassxc-pwned/"
 
 ["seanbreckenridge/keyvol"]
 name = "keyvol"
@@ -468,18 +449,6 @@ stars = 0
 language = "Python"
 has_gitlab = true
 priority = 2
-score = 0
-
-["seanbreckenridge/mal-id-cache"]
-name = "mal-id-cache"
-full_name = "seanbreckenridge/mal-id-cache"
-html_url = "https://github.com/seanbreckenridge/mal-id-cache"
-description = "An cache of MAL IDs updated whenever something is added to the database"
-updated_at = "2020-11-24T02:46:59Z"
-stars = 13
-language = "JSON"
-has_gitlab = false
-priority = 1
 score = 0
 
 ["seanbreckenridge/mal-notify-bot"]
@@ -578,18 +547,6 @@ has_gitlab = true
 priority = 2
 score = 0
 
-["seanbreckenridge/plus1"]
-name = "plus1"
-full_name = "seanbreckenridge/plus1"
-html_url = "https://github.com/seanbreckenridge/plus1"
-description = "A symmetric substitution cipher used to obfuscate code that I'd rather not be indexed"
-updated_at = "2020-10-10T03:56:59Z"
-stars = 0
-language = "Python"
-has_gitlab = true
-priority = 2
-score = 0
-
 ["seanbreckenridge/pmark"]
 name = "pmark"
 full_name = "seanbreckenridge/pmark"
@@ -643,7 +600,7 @@ score = 0
 name = "raspi-backup"
 full_name = "seanbreckenridge/raspi-backup"
 html_url = "https://github.com/seanbreckenridge/raspi-backup"
-description = "script to periodically back up my machine to my raspberry pi. Is pretty minimal, just uses headless raspbian with an external 4TB that gets mounted on boot"
+description = "script to periodically back up my machine to my raspberry pi. Is pretty minimal, just uses headless raspbian with an external 4TB that gets mounted on boot ![](/raspi_backup.png)"
 updated_at = "2020-11-23T19:20:59Z"
 stars = 2
 language = "Shell"
@@ -686,18 +643,6 @@ stars = 1
 language = "Ruby"
 has_gitlab = true
 priority = 2
-score = 0
-
-["seanbreckenridge/sonic_pi_music"]
-name = "sonic_pi_music"
-full_name = "seanbreckenridge/sonic_pi_music"
-html_url = "https://github.com/seanbreckenridge/sonic_pi_music"
-description = "some music created using [sonic pi](https://sonic-pi.net/)"
-updated_at = "2020-10-10T03:54:41Z"
-stars = 0
-language = "Ruby"
-has_gitlab = true
-priority = 1
 score = 0
 
 ["seanbreckenridge/spkglist"]
@@ -745,18 +690,6 @@ description = "Posts supervisor event data as an embed to a discord server. This
 updated_at = "2020-08-26T03:28:10Z"
 stars = 0
 language = "Python"
-has_gitlab = true
-priority = 2
-score = 0
-
-["seanbreckenridge/tinspire"]
-name = "tinspire"
-full_name = "seanbreckenridge/tinspire"
-html_url = "https://github.com/seanbreckenridge/tinspire"
-description = "programs I wrote on my ti-nspire cx back in the day"
-updated_at = "2020-10-10T04:01:14Z"
-stars = 0
-language = "TI-Basic"
 has_gitlab = true
 priority = 2
 score = 0
