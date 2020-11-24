@@ -16,7 +16,6 @@ export default function Home({ repos }: IndexProps) {
     <div className={styles.container}>
       <Head>
         <title>Sean Breckenridge | Projects</title>
-        <link rel="icon" href="https://sean.fish/favicon.ico" />
       </Head>
       <main className={styles.main}>
         <div className={styles.header}>
@@ -31,7 +30,7 @@ export default function Home({ repos }: IndexProps) {
               />
             </a>
             <a href="https://sean.fish" className={styles.homeLink}>
-              <img src="https://sean.fish/favicon.ico" />
+              <img src="/favicon.ico" />
               <span>WEBSITE</span>
             </a>
             <a href="https://github.com/seanbreckenridge/">
