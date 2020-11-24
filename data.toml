@@ -5,6 +5,8 @@ ignored = [
   "seanbreckenridge/advent-of-code-2019",
   "seanbreckenridge/breach-parse",
   "seanbreckenridge/commands-discordpy-starter",
+  "seanbreckenridge/cookiecutter-lib",
+  "seanbreckenridge/cookiecutter-template",
   "seanbreckenridge/dotfiles-index",
   "seanbreckenridge/forever-webui",
   "seanbreckenridge/forum_parser",
@@ -141,30 +143,6 @@ description = "A fzf interface to [calories](https://github.com/zupzup/calories)
 updated_at = "2020-10-27T06:51:07Z"
 stars = 0
 language = "Shell"
-has_gitlab = true
-priority = 2
-score = 0
-
-["seanbreckenridge/cookiecutter-lib"]
-name = "cookiecutter-lib"
-full_name = "seanbreckenridge/cookiecutter-lib"
-html_url = "https://github.com/seanbreckenridge/cookiecutter-lib"
-description = "Cookiecutter template for a basic python library. Is meant for packages I don’t intend to push to pypi, includes seutptools to install some python code I want to have globally installed, and basic installation method to install from my github"
-updated_at = "2020-10-10T03:53:20Z"
-stars = 0
-language = "Python"
-has_gitlab = true
-priority = 2
-score = 0
-
-["seanbreckenridge/cookiecutter-template"]
-name = "cookiecutter-template"
-full_name = "seanbreckenridge/cookiecutter-template"
-html_url = "https://github.com/seanbreckenridge/cookiecutter-template"
-description = "cookiecutter template for new python projects, using `click` to handle CLI arguments, with `pytest` and `mypy` for testing"
-updated_at = "2020-10-26T06:35:19Z"
-stars = 0
-language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
@@ -500,7 +478,7 @@ updated_at = "2020-11-24T02:46:59Z"
 stars = 13
 language = "JSON"
 has_gitlab = false
-priority = 2
+priority = 1
 score = 0
 
 ["seanbreckenridge/mal-notify-bot"]
