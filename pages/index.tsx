@@ -46,7 +46,7 @@ export default function Home({ repos }: IndexProps) {
 }
 
 const Header = memo(() => {
-  const iconSize = 29;
+  const iconSize = 40;
   return (
     <div className={styles.header}>
       <h1>Projects</h1>
@@ -59,7 +59,7 @@ const Header = memo(() => {
           <IconBrandLinkedin height={iconSize} width={iconSize} />
         </a>
         <a href="https://sean.fish" className={styles.homeLink}>
-          <img src="/favicon.ico" />
+          <img height={25} width="auto" src="/favicon.ico" />
           <span>WEBSITE</span>
         </a>
         <a

@@ -67,6 +67,11 @@
   text-decoration: underline;
 }
 
+.header h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 .header .homeLink {
   display: flex;
   justify-content: center;
@@ -74,15 +79,14 @@
   border: 1px solid #eaeaea;
   border-radius: 5px;
   margin: 1rem;
+  font-size: 1.5rem;
   padding: 0.25rem 0.5rem;
   transition: color 0.15s ease, border-color 0.15s ease;
 }
 
 .header .homeLink img {
   padding-left: 0.25rem;
-  padding-right: 0.25rem;
-  width: auto;
-  height: 16px;
+  padding-right: 0.5rem;
 }
 
 .header .homeLink:hover {
@@ -92,6 +96,7 @@
 .header .homeLink span {
   text-rendering: auto; /* chrome compliance for small-caps font */
   font-variant: small-caps;
+  font-weight: 500;
   position: relative;
   top: -2px;
 }
