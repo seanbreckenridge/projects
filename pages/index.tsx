@@ -20,7 +20,7 @@ export default function Home({ repos }: IndexProps) {
       </Head>
       <main className={styles.main}>
         <div className={styles.header}>
-          <h2>Projects</h2>
+          <h1>Projects</h1>
           <h3>Sean Breckenridge</h3>
           <div className={styles.icons}>
             <a href="https://www.linkedin.com/in/sean-breckenridge/">

@@ -60,9 +60,10 @@
   flex-flow: column;
 }
 
-.header h2 {
-  font-size: 2rem;
+.header h1 {
+  font-size: 3rem;
   margin-bottom: 0rem;
+  text-decoration: underline;
 }
 
 .header .homeLink {
