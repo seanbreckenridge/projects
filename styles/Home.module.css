@@ -144,9 +144,9 @@
 }
 
 .card hr {
-  width: 75%;
+  width: 100%;
   color: #3c3c3c;
-  margin-left: 0;
+  margin-left: auto;
   margin-right: auto;
 }
 
