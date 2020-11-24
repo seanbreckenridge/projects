@@ -17,3 +17,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.fullCenter {
+  min-height: 100vh;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fullCenter p {
+  font-size: 200%;
+}
