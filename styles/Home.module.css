@@ -88,6 +88,13 @@
   border-color: grey;
 }
 
+.header .homeLink span {
+  text-rendering: auto; /* chrome compliance for small-caps font */
+  font-variant: small-caps;
+  position: relative;
+  top: -2px;
+}
+
 .darkenIcon:hover {
   -moz-filter: invert(0.3);
   -ms-filter: invert(0.3);

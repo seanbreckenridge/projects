@@ -32,7 +32,7 @@ export default function Home({ repos }: IndexProps) {
             </a>
             <a href="https://sean.fish" className={styles.homeLink}>
               <img src="https://sean.fish/favicon.ico" />
-              <span>Website</span>
+              <span>WEBSITE</span>
             </a>
             <a href="https://github.com/seanbreckenridge/">
               <IconBrandGithub
