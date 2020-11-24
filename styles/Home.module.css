@@ -96,11 +96,30 @@
   top: -2px;
 }
 
-.darkenIcon:hover {
+.darkenIcon span:hover {
   -moz-filter: invert(0.3);
   -ms-filter: invert(0.3);
   -o-filter: invert(0.3);
   filter: invert(0.3);
+}
+
+.darkenIcon svg:hover {
+  -moz-filter: invert(0.3);
+  -ms-filter: invert(0.3);
+  -o-filter: invert(0.3);
+  filter: invert(0.3);
+}
+
+.monochromeIconInActive {
+  transition: 0.15s;
+}
+
+.monochromeIconActive {
+  -moz-filter: saturate(0);
+  -ms-filter: saturate(0);
+  -o-filter: saturate(0);
+  filter: saturate(0);
+  transition: 0.15s;
 }
 
 .grid {

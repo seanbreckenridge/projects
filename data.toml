@@ -54,7 +54,7 @@ language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
-url = "https://sean.fish/s/albums"
+url = "https://docs.google.com/spreadsheets/d/12htSAMg67czl8cpkj1mX0TuAFvqL_PJLI4hv1arG5-M/edit#gid=1451660661"
 img = "/albums.png"
 
 ["seanbreckenridge/animeshorts"]
@@ -519,6 +519,7 @@ language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+url = "https://docs.google.com/spreadsheets/d/1N4D3C0bSXVcVh0ggt_mpKMy_OrAdkKGkMjwkMekjpOM/edit?usp=sharing"
 img = "/mnu_gsheets.png"
 
 ["seanbreckenridge/mpv-sockets"]
