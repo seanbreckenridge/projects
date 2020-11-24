@@ -62,6 +62,7 @@ async function renderRepo(repo: Repository): Promise<Repository> {
     .use(html)
     .process(removeTrailing(repo.description, "."));
   repo.description = processedDesc.toString();
+  repo.name = repo.name.replaceAll("_", "-");
   return repo;
 }
 

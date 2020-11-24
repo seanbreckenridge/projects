@@ -1,5 +1,6 @@
 toml
-rifleman
 requests
 click
 vimbuffer
+rifleman
+black

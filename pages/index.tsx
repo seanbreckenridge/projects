@@ -2,21 +2,47 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 
+import { IconBrandLinkedin, IconBrandGithub } from "@tabler/icons";
 import { Repository, loadRepos } from "../lib/parseData";
 
 interface IndexProps {
   repos: Repository[];
 }
 
+const taIconSize = 29;
+
 export default function Home({ repos }: IndexProps) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>sean | Programming Projects</title>
+        <title>Sean Breckenridge | Projects</title>
         <link rel="icon" href="https://sean.fish/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
+        <div className={styles.header}>
+          <h2>Projects</h2>
+          <h3>Sean Breckenridge</h3>
+          <div className={styles.icons}>
+            <a href="https://www.linkedin.com/in/sean-breckenridge/">
+              <IconBrandLinkedin
+                className={styles.darkenIcon}
+                height={taIconSize}
+                width={taIconSize}
+              />
+            </a>
+            <a href="https://sean.fish" className={styles.homeLink}>
+              <img src="https://sean.fish/favicon.ico" />
+              <span>Website</span>
+            </a>
+            <a href="https://github.com/seanbreckenridge/">
+              <IconBrandGithub
+                className={styles.darkenIcon}
+                height={taIconSize}
+                width={taIconSize}
+              />
+            </a>
+          </div>
+        </div>
         <div className={styles.grid}>
           {repos.map((repo: Repository) => {
             const remoteURL = "https://github.com/" + repo.full_name;

@@ -141,6 +141,11 @@
   resolved "https://registry.yarnpkg.com/@next/react-refresh-utils/-/react-refresh-utils-10.0.2.tgz#a9a3daa55385749cd62fb57d4423ca27ae5f4e81"
   integrity sha512-ILc5/BipD7+GBLmtfnQDMG71KLx0fEpVI5kJw8jN9SoeygMrb4auZhCl7gA6QP3oynocYouJ8piLj1Ol80ZvVw==
 
+"@tabler/icons@^1.36.0":
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.36.0.tgz#ea3a6a1c2ce4c46b38d51aa61bb8d84dd4a63435"
+  integrity sha512-QluS/XC0tllyUeGmMV6gU3ObSSG6ecwo0nJtu81410DrTBc4RIV8zP4qhv+lbPUAT94MbQq9sey40hqGR/IBCA==
+
 "@types/json-schema@^7.0.5", "@types/json-schema@^7.0.6":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.6.tgz#f4c7ec43e81b319a9815115031709f26987891f0"
