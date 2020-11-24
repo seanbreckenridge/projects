@@ -188,6 +188,8 @@
   max-height: 250px;
   width: auto;
   height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cardFooter {
