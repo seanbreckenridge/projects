@@ -1,5 +1,6 @@
 .container {
   min-height: 100vh;
+  width: 100%;
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -143,7 +144,8 @@
 }
 
 .card hr {
-  width: 80%;
+  width: 75%;
+  color: #3c3c3c;
   margin-left: 0;
   margin-right: auto;
 }
@@ -197,6 +199,19 @@
 
 .cardFooter a {
   margin-right: 1rem;
+  border-bottom: 1px solid #eaeaea;
+  padding: 2px 0px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.cardFooter a:hover {
+  color: grey;
+  border-color: grey;
+}
+
+.cardFooter a:active {
+  color: darkgrey;
+  border-color: darkgrey;
 }
 
 @media (max-width: 850px) {
