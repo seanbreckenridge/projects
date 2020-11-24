@@ -3,6 +3,7 @@ ignored = [
   "seanbreckenridge/HPI-1",
   "seanbreckenridge/RSA",
   "seanbreckenridge/advent-of-code-2019",
+  "seanbreckenridge/blizzard_gdpr_parser",
   "seanbreckenridge/breach-parse",
   "seanbreckenridge/commands-discordpy-starter",
   "seanbreckenridge/cookiecutter-lib",
@@ -42,6 +43,20 @@ ignored = [
   "seanbreckenridge/tinspire",
   "seanbreckenridge/youtube_subtitles_downloader",
 ]
+
+["Hiyori-API/checker_mal"]
+name = "checker_mal"
+full_name = "Hiyori-API/checker_mal"
+html_url = "https://github.com/Hiyori-API/checker_mal"
+description = "maintains a cache of database IDs for [MAL](https://myanimelist.net)"
+stars = 2
+language = "Elixir"
+has_gitlab = false
+priority = 2
+score = 0
+updated_at = "2020-11-21T02:40:56Z"
+url = "https://sean.fish/mal_unapproved"
+img = "/mal_unapproved.png"
 
 ["seanbreckenridge/albums"]
 name = "albums"
@@ -109,18 +124,6 @@ has_gitlab = true
 score = 0
 priority = 2
 img = "/bgproc.png"
-
-["seanbreckenridge/blizzard_gdpr_parser"]
-name = "blizzard_gdpr_parser"
-full_name = "seanbreckenridge/blizzard_gdpr_parser"
-html_url = "https://github.com/seanbreckenridge/blizzard_gdpr_parser"
-description = "Parses date-related information from my blizzard GDPR export"
-updated_at = "2020-10-10T03:58:45Z"
-stars = 0
-language = "Python"
-has_gitlab = true
-priority = 2
-score = 0
 
 ["seanbreckenridge/bootstrap"]
 name = "bootstrap"

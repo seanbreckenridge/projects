@@ -47,7 +47,7 @@ def cached_response_has_expired() -> bool:
 
 # downloads new repository data if needed,
 # returns the parsed JSON data
-def get_repository_data() -> List[Json]:
+def get_repository_data(unowned_r: List[str]) -> List[Json]:
     if not cached_response_has_expired():
         try:
             return json.loads(cachefile.read_text())
@@ -74,6 +74,15 @@ def get_repository_data() -> List[Json]:
         else:
             break
         page += 1
+    for other_repo in unowned_r:
+        url = f"https://api.github.com/repos/{other_repo}"
+        print(f"Requesting {url}", file=sys.stderr)
+        resp = requests.get(
+            url,
+            headers={"Accept": "application/vnd.github.full+json"},
+        )
+        resp.raise_for_status()
+        repo_info.append(resp.json())
     with cachefile.open("w") as jf:
         json.dump(repo_info, jf)
     return repo_info
@@ -93,6 +102,17 @@ def load_data() -> Tuple[Set[str], RepoDB]:
         else:
             repos[key] = val
     return ignored, repos
+
+
+# if any of the items in repos in the loaded data aren't owned by me
+# return a the full_name of those so they can be requested individually
+# this part is manually entered into the toml file
+def unowned(repo_data: RepoDB) -> List[str]:
+    unowned_repos: List[str] = []
+    for repo in repo_data:
+        if not repo.startswith(github_username):
+            unowned_repos.append(repo)
+    return unowned_repos
 
 
 # priority:
@@ -155,8 +175,9 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
 
 
 def main():
-    repo_info: List[Dict] = get_repository_data()
     ignored, repo_data = load_data()
+    unowned_repos: List[str] = unowned(repo_data)
+    repo_info: List[Dict] = get_repository_data(unowned_repos)
     repo_data = prompt_new(repo_info, repo_data, ignored)
     with datafile.open("w") as tf:
         toml.dump(repo_data, tf)
