@@ -3,8 +3,17 @@ import path from "path";
 import toml from "toml";
 import remark from "remark";
 import html from "remark-html";
+var {promisify} = require('util');
+var sizeOf = promisify(require('image-size'));
 
 const dataFile = path.join(process.cwd(), "data.toml");
+const publicDir = path.join(process.cwd(), "public");
+
+export interface Dimensions {
+  width: number;
+  height: number;
+  type: string;
+}
 
 export interface Repository {
   name: string;
@@ -16,6 +25,7 @@ export interface Repository {
   has_gitlab: boolean;
   url?: string;
   img?: string;
+  dimensions?: Dimensions;
   stars: number;
   score: number;
   priority: number;
@@ -64,6 +74,9 @@ async function renderRepo(repo: Repository): Promise<Repository> {
     .process(removeTrailing(repo.description, "."));
   repo.description = processedDesc.toString();
   repo.name = repo.name.replaceAll("_", "-");
+  if (repo.img != null) {
+    repo.dimensions = await sizeOf(path.join(publicDir, repo.img!));
+  }
   return repo;
 }
 
