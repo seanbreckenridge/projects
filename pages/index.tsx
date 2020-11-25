@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 
-import { memo, useState } from "react";
+import {memo, useState} from "react";
 import {
   IconBrandLinkedin,
   IconBrandGithub,
@@ -13,7 +13,7 @@ import {
   IconShip,
   IconHexagon,
 } from "@tabler/icons";
-import { Repository, loadRepos } from "../lib/parseData";
+import {Repository, loadRepos} from "../lib/parseData";
 
 interface IndexProps {
   repos: Repository[];
@@ -27,11 +27,12 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({ repos }: IndexProps) {
+export default function Home({repos}: IndexProps) {
   return (
     <div className={styles.container}>
       <Head>
         <title>Sean Breckenridge | Projects</title>
+        <meta name="description" content="A list of Sean Breckenridge's Projects" />
       </Head>
       <Header />
       <main className={styles.main}>
@@ -50,21 +51,23 @@ const Header = memo(() => {
   return (
     <div className={styles.header}>
       <h1>Projects</h1>
-      <h3>Sean Breckenridge</h3>
+      <h2>Sean Breckenridge</h2>
       <div className={styles.icons}>
         <a
           href="https://www.linkedin.com/in/sean-breckenridge/"
           className={styles.darkenIcon}
+          aria-label="LinkedIn"
         >
           <IconBrandLinkedin height={iconSize} width={iconSize} />
         </a>
         <a href="https://sean.fish" className={styles.homeLink}>
-          <img height={25} width="auto" src="/favicon.ico" />
+          <img height={25} alt="" width="auto" src="/favicon.ico" />
           <span>WEBSITE</span>
         </a>
         <a
           href="https://github.com/seanbreckenridge/"
           className={styles.darkenIcon}
+          aria-label="Github"
         >
           <IconBrandGithub height={iconSize} width={iconSize} />
         </a>
@@ -77,7 +80,7 @@ interface IRepo {
   repo: Repository;
 }
 
-const RepoCard = memo(({ repo }: IRepo) => {
+const RepoCard = memo(({repo}: IRepo) => {
   const remoteURL = "https://github.com/" + repo.full_name;
   return (
     <div className={styles.card}>
@@ -88,8 +91,8 @@ const RepoCard = memo(({ repo }: IRepo) => {
         <span>{repo.language}</span>
       </div>
       <div className={styles.cardDescription}>
-        <div dangerouslySetInnerHTML={{ __html: repo.description }}></div>
-        {repo.img != null ? <img src={repo.img!} /> : <></>}
+        <div dangerouslySetInnerHTML={{__html: repo.description}}></div>
+        {repo.img != null ? <img src={repo.img!} alt={`${repo.name}`} /> : <></>}
       </div>
       <hr />
       <div className={styles.cardFooter}>
@@ -104,8 +107,8 @@ const RepoCard = memo(({ repo }: IRepo) => {
             <IconBrandGitlab />
           </DarkIconFooter>
         ) : (
-          <></>
-        )}
+            <></>
+          )}
         <Website url={repo.url} />
       </div>
     </div>
@@ -123,7 +126,7 @@ interface IDarkIconFooter {
 const noOp = () => {};
 
 const DarkIconFooter = memo(
-  ({ children, href, linkText, enable, disable }: IDarkIconFooter) => {
+  ({children, href, linkText, enable, disable}: IDarkIconFooter) => {
     const enableAnim = enable ?? noOp;
     const disaleAnim = disable ?? noOp;
     return (
@@ -133,6 +136,7 @@ const DarkIconFooter = memo(
         onMouseLeave={(_e) => disaleAnim()}
         onTouchStart={(_e) => enableAnim()}
         onTouchEnd={(_e) => disaleAnim()}
+        aria-label={linkText}
       >
         <div className={styles.darkenIcon}>
           {children}
@@ -155,7 +159,7 @@ interface IWebsite {
   url?: string;
 }
 
-const Website = ({ url }: IWebsite) => {
+const Website = ({url}: IWebsite) => {
   if (url != null) {
     if (url.indexOf("sean.fish") !== -1) {
       return <MonoFavicon url={url!} />;
@@ -202,7 +206,7 @@ interface IMonoFavicon {
 
 // keep track of onHover events so that the favicon can be
 // colored/uncolored
-const MonoFavicon = ({ size, url }: IMonoFavicon) => {
+const MonoFavicon = ({size, url}: IMonoFavicon) => {
   const mSize = size ?? 20;
   const [monochrome, setMonochrome] = useState<boolean>(true);
 
@@ -221,6 +225,7 @@ const MonoFavicon = ({ size, url }: IMonoFavicon) => {
               : styles.monochromeIconInActive
           }
           src="/favicon.ico"
+          alt=""
           height={mSize}
           width={mSize}
         />
