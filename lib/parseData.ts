@@ -73,7 +73,7 @@ async function renderRepo(repo: Repository): Promise<Repository> {
     .use(html)
     .process(removeTrailing(repo.description, "."));
   repo.description = processedDesc.toString();
-  repo.name = repo.name.replaceAll("_", "-");
+  repo.name = repo.name.replace(/_/g, "-");
   if (repo.img != null) {
     repo.dimensions = await sizeOf(path.join(publicDir, repo.img!));
   }
