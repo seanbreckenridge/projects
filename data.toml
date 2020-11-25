@@ -784,6 +784,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/url-metadata/"
+img = "/url_metadata.png"
 
 ["seanbreckenridge/vimbuffer"]
 name = "vimbuffer"
