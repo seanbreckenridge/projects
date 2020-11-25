@@ -14,6 +14,7 @@ ignored = [
   "seanbreckenridge/forum_parser",
   "seanbreckenridge/fuji",
   "seanbreckenridge/gnu-rust-utils",
+  "seanbreckenridge/greasyfork_repo_generator",
   "seanbreckenridge/jikan",
   "seanbreckenridge/jikan-rest",
   "seanbreckenridge/jikan-rest-docker",
@@ -41,6 +42,7 @@ ignored = [
   "seanbreckenridge/st",
   "seanbreckenridge/sw",
   "seanbreckenridge/tinspire",
+  "seanbreckenridge/todotxt_deadline_notify",
   "seanbreckenridge/youtube_subtitles_downloader",
 ]
 
@@ -104,7 +106,7 @@ img = "/autotui.gif"
 name = "aw-watcher-window"
 full_name = "seanbreckenridge/aw-watcher-window"
 html_url = "https://github.com/seanbreckenridge/aw-watcher-window"
-description = "Cross-platform window watcher (forked from ActivityWatch to log to a file instead)"
+description = "Cross-platform window watcher (forked from ActivityWatch to log to a file instead). Daemon which periodically saves the window I'm currently using"
 updated_at = "2020-10-24T05:11:36Z"
 stars = 0
 language = "Python"
@@ -116,7 +118,7 @@ priority = 2
 name = "bgproc"
 full_name = "seanbreckenridge/bgproc"
 html_url = "https://github.com/seanbreckenridge/bgproc"
-description = "bash loop to run tasks in the background. used as an anacron alternative. Uses [evry](https://github.com/seanbreckenridge/evry) to schedule tasks"
+description = "`bash` loop to run tasks in the background. used as an `anacron` alternative. Uses [`evry`](https://github.com/seanbreckenridge/evry) to schedule tasks"
 updated_at = "2020-11-23T02:59:28Z"
 stars = 3
 language = "Shell"
@@ -129,7 +131,7 @@ img = "/bgproc.png"
 name = "bootstrap"
 full_name = "seanbreckenridge/bootstrap"
 html_url = "https://github.com/seanbreckenridge/bootstrap"
-description = "A script to setup a new bash VPS/servers with defaults I like. This is the first things I do whenever I setup a new server, so I have all my `vi` bindings and aliases"
+description = "A script to setup a new `bash` VPS/servers with defaults I like. This is the first things I do whenever I setup a new server, so I have all my `vi` bindings and aliases"
 updated_at = "2020-10-10T03:56:39Z"
 stars = 0
 language = "Shell"
@@ -141,7 +143,7 @@ score = 0
 name = "calcurse-load"
 full_name = "seanbreckenridge/calcurse-load"
 html_url = "https://github.com/seanbreckenridge/calcurse-load"
-description = "Personal hooks/scripts for [calcurse](https://github.com/lfos/calcurse). Sources events for calcurse from Google Calendar and todo.txt"
+description = "Personal hooks/scripts for [`calcurse`](https://github.com/lfos/calcurse). Sources events for calcurse from Google Calendar and [todo.txt](http://todotxt.org/)"
 updated_at = "2020-10-25T10:21:41Z"
 stars = 0
 language = "Python"
@@ -153,7 +155,7 @@ score = 0
 name = "calories-fzf"
 full_name = "seanbreckenridge/calories-fzf"
 html_url = "https://github.com/seanbreckenridge/calories-fzf"
-description = "A fzf interface to [calories](https://github.com/zupzup/calories), to add something you've eaten in the past again"
+description = "A `fzf` interface to [`calories`](https://github.com/zupzup/calories), to add something you've eaten in the past again"
 updated_at = "2020-10-27T06:51:07Z"
 stars = 0
 language = "Shell"
@@ -206,7 +208,7 @@ img = "/dashboard.png"
 name = "discord-countdown-bot"
 full_name = "seanbreckenridge/discord-countdown-bot"
 html_url = "https://github.com/seanbreckenridge/discord-countdown-bot"
-description = "Discord bot to use for countdowns. Used as a [syncplay](https://syncplay.pl) alternative"
+description = "Discord bot to use for countdowns. Used as a [`syncplay`](https://syncplay.pl) alternative"
 updated_at = "2020-10-10T03:55:02Z"
 stars = 6
 language = "Python"
@@ -232,7 +234,7 @@ img = "/discord_data.png"
 name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
-description = "cross-platform (arch/macos) dotfiles and scripts, using [yadm](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
+description = "cross-platform (arch/macos) dotfiles and scripts, using [`yadm`](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
 updated_at = "2020-11-23T02:53:10Z"
 stars = 3
 language = "Shell"
@@ -299,7 +301,7 @@ img = "/ffexport.png"
 name = "foreverjs-list"
 full_name = "seanbreckenridge/foreverjs-list"
 html_url = "https://github.com/seanbreckenridge/foreverjs-list"
-description = "Express API to get information about [forever.js](https://github.com/foreversd/forever) processes. In the past, I used this to ping my server periodically to see if any of my servers/processes had crashed/restarted"
+description = "Express API to get information about [`forever.js`](https://github.com/foreversd/forever) processes. In the past, I used this to ping my server periodically to see if any of my servers/processes had crashed/restarted"
 updated_at = "2020-10-10T04:00:09Z"
 stars = 1
 language = "JavaScript"
@@ -307,24 +309,11 @@ has_gitlab = true
 priority = 2
 score = 0
 
-["seanbreckenridge/full_todotxt"]
-name = "full_todotxt"
-full_name = "seanbreckenridge/full_todotxt"
-html_url = "https://github.com/seanbreckenridge/full_todotxt"
-description = "a todotxt interactive interface that forces you to specify certain attributes. Used with [todotxt_deadline_notify](https://github.com/seanbreckenridge/todotxt_deadline_notify) to send me reminders"
-updated_at = "2020-10-10T03:53:59Z"
-stars = 0
-language = "Python"
-has_gitlab = true
-priority = 2
-score = 0
-img = "/ffexport.png"
-
 ["seanbreckenridge/genpasswd"]
 name = "genpasswd"
 full_name = "seanbreckenridge/genpasswd"
 html_url = "https://github.com/seanbreckenridge/genpasswd"
-description = "Yet another Password Generator. Theres lots of these out there, but writing my own means the flags match exactly what I want"
+description = "A password generator. Theres lots of these out there, but writing my own means the flags match exactly what I want"
 updated_at = "2020-10-17T04:31:54Z"
 stars = 0
 language = "C++"
@@ -362,7 +351,7 @@ score = 0
 name = "greasyfork_archive"
 full_name = "seanbreckenridge/greasyfork_archive"
 html_url = "https://github.com/seanbreckenridge/greasyfork_archive"
-description = "Scrape data from a users Greasyfork account"
+description = "Scrape data and archive scripts from a users Greasyfork account"
 updated_at = "2020-10-11T04:50:42Z"
 stars = 1
 language = "Python"
@@ -371,35 +360,24 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/greasyfork_archive/"
 
-["seanbreckenridge/greasyfork_repo_generator"]
-name = "greasyfork_repo_generator"
-full_name = "seanbreckenridge/greasyfork_repo_generator"
-html_url = "https://github.com/seanbreckenridge/greasyfork_repo_generator"
-description = "Archives a users Greasyfork account and creates a Github repo. [Example Output](http://github.com/seanbreckenridge/greasyfork)"
-updated_at = "2020-10-10T04:03:24Z"
-stars = 0
-language = "Elixir"
-has_gitlab = true
-priority = 2
-score = 0
-
 ["seanbreckenridge/havecmd"]
 name = "havecmd"
 full_name = "seanbreckenridge/havecmd"
 html_url = "https://github.com/seanbreckenridge/havecmd"
-description = "A template for bash scripts, to provide a nicer interface to check for the presence of external commands on the users `$PATH`"
+description = "A template for `bash` scripts, to provide a nicer interface to check for the presence of external commands on the users `$PATH`"
 updated_at = "2020-11-12T10:13:37Z"
 stars = 1
 language = "Shell"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/havecmd.png"
 
 ["seanbreckenridge/HPI"]
 name = "HPI"
 full_name = "seanbreckenridge/HPI"
 html_url = "https://github.com/seanbreckenridge/HPI"
-description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a Python package. [Currently in-use modules](https://github.com/seanbreckenridge/HPI#currently-in-use-modules"
+description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a `python` package. [Currently in-use modules](https://github.com/seanbreckenridge/HPI#currently-in-use-modules"
 updated_at = "2020-11-23T02:52:52Z"
 stars = 6
 language = "Python"
@@ -420,6 +398,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/ipgeocache/"
+img = "/ipgeocache.png"
 
 ["seanbreckenridge/jikan_ex"]
 name = "jikan_ex"
@@ -439,7 +418,7 @@ img = "/jikan_ex.png"
 name = "keyvol"
 full_name = "seanbreckenridge/keyvol"
 html_url = "https://github.com/seanbreckenridge/keyvol"
-description = "An interactive terminal interface for pamixer/pactl to control system volume"
+description = "An interactive terminal interface for `pamixer`/`pactl` to control system volume"
 updated_at = "2020-10-10T04:03:17Z"
 stars = 0
 language = "Go"
@@ -490,7 +469,7 @@ img = "/mal_notify_bot.png"
 name = "MALUserVsAverage"
 full_name = "seanbreckenridge/MALUserVsAverage"
 html_url = "https://github.com/seanbreckenridge/MALUserVsAverage"
-description = "generate a graph that shows correlation between the user and average score on MyAnimeList"
+description = "generate a graph that shows correlation between a users and average score on MyAnimeList"
 updated_at = "2020-10-10T03:55:56Z"
 stars = 0
 language = "Python"
@@ -503,7 +482,7 @@ img = "/mal_user_vs_average.png"
 name = "mint"
 full_name = "seanbreckenridge/mint"
 html_url = "https://github.com/seanbreckenridge/mint"
-description = "Wrapper script/code to interact with [mintable](https://github.com/kevinschaich/mintable/); to keep track of my bank accounts and transactions"
+description = "Wrapper script/code to interact with [`mintable`](https://github.com/kevinschaich/mintable/); to keep track of my bank accounts and transactions"
 updated_at = "2020-11-23T22:59:48Z"
 stars = 0
 language = "Python"
@@ -529,13 +508,14 @@ img = "/mnu_gsheets.png"
 name = "mpv-sockets"
 full_name = "seanbreckenridge/mpv-sockets"
 html_url = "https://github.com/seanbreckenridge/mpv-sockets"
-description = "A collection of shell scripts to allow easier interaction with mpv sockets. also includes a [daemon](https://github.com/seanbreckenridge/mpv-sockets/blob/master/DAEMON.md) to track my mpv history/events"
+description = "A collection of shell scripts to allow easier interaction with [`mpv`](https://mpv.io/) sockets. also includes a [daemon](https://github.com/seanbreckenridge/mpv-sockets/blob/master/DAEMON.md) to track my `mpv` history/events"
 updated_at = "2020-11-23T05:00:55Z"
 stars = 1
 language = "Shell/Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/mpv_sockets.png"
 
 ["seanbreckenridge/mpvf"]
 name = "mpvf"
@@ -591,7 +571,7 @@ score = 0
 name = "poly-project-euler"
 full_name = "seanbreckenridge/poly-project-euler"
 html_url = "https://github.com/seanbreckenridge/poly-project-euler"
-description = "Solutions to Project Euler, using distinct languages"
+description = "Solutions to [Project Euler](https://projecteuler.net/), using distinct languages"
 updated_at = "2020-11-19T06:59:26Z"
 stars = 0
 language = "???"
@@ -603,7 +583,7 @@ score = 0
 name = "pushshift_comment_export"
 full_name = "seanbreckenridge/pushshift_comment_export"
 html_url = "https://github.com/seanbreckenridge/pushshift_comment_export"
-description = "Exports all accessible reddit comments for an account using pushshift"
+description = "Exports all accessible reddit comments for an account using [pushshift](https://pushshift.io/)"
 updated_at = "2020-10-21T09:59:36Z"
 stars = 2
 language = "Python"
@@ -611,6 +591,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/pushshift-comment-export/"
+img = "/ps_comments.png"
 
 ["seanbreckenridge/pythonanywhere-3-months"]
 name = "pythonanywhere-3-months"
@@ -666,13 +647,14 @@ url = "https://pypi.org/project/rifleman/"
 name = "shortcuts"
 full_name = "seanbreckenridge/shortcuts"
 html_url = "https://github.com/seanbreckenridge/shortcuts"
-description = "Converts a `toml` file into shell scripts. I use this to convert short/one-liner shell commands into individual files. This makes my scripts easier to share with others, not dependent on shell-specific syntax (e.g. `exported bash functions`), and makes scripts accessible to other scripts/launchers like `rofi`/`dmenu`"
+description = "Converts a TOML file into individual shell scripts. Used to create lots of one-liner shell scripts"
 updated_at = "2020-10-17T03:27:17Z"
 stars = 1
 language = "Ruby"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/shortcuts.png"
 
 ["seanbreckenridge/spkglist"]
 name = "spkglist"
@@ -697,12 +679,13 @@ language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/steam.png"
 
 ["seanbreckenridge/subpath-serve"]
 name = "subpath-serve"
 full_name = "seanbreckenridge/subpath-serve"
 html_url = "https://github.com/seanbreckenridge/subpath-serve"
-description = "serves text files from directory by matching subpaths. See [index here](https://sean.fish/d/?dark). It also allows me to quickly send someone one of my scripts/configuration files from my dotfiles using [this script](https://sean.fish/d/give)"
+description = "serves text files from directory by matching subpaths. I use this to host my dotfiles; see [index](https://sean.fish/d/?dark). It allows me to quickly send someone one of my scripts/configuration files from my dotfiles using [this script](https://sean.fish/d/give)"
 updated_at = "2020-10-10T03:57:33Z"
 stars = 0
 language = "Go"
@@ -723,18 +706,6 @@ has_gitlab = true
 priority = 2
 score = 0
 img = "/superhooks.png"
-
-["seanbreckenridge/todotxt_deadline_notify"]
-name = "todotxt_deadline_notify"
-full_name = "seanbreckenridge/todotxt_deadline_notify"
-html_url = "https://github.com/seanbreckenridge/todotxt_deadline_notify"
-description = "sends me reminders when deadlines for my todos are approaching. Syncs from my list of local todos (a text file, following the [todo.txt](http://todotxt.org/) standard) up to my server"
-updated_at = "2020-10-10T03:59:37Z"
-stars = 0
-language = "Elixir"
-has_gitlab = true
-priority = 2
-score = 0
 
 ["seanbreckenridge/tts"]
 name = "tts"
@@ -759,6 +730,7 @@ language = "Go"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/ttt.png"
 
 ["seanbreckenridge/twitchlive"]
 name = "twitchlive"
@@ -771,6 +743,7 @@ language = "Go"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/twitchlive.png"
 
 ["seanbreckenridge/url_metadata"]
 name = "url_metadata"
@@ -790,7 +763,7 @@ img = "/url_metadata.png"
 name = "vimbuffer"
 full_name = "seanbreckenridge/vimbuffer"
 html_url = "https://github.com/seanbreckenridge/vimbuffer"
-description = "Edit files and strings in temporary vim (or some other console editor) buffers"
+description = "Edit files and strings in temporary `vim` (or some other console editor) buffers"
 updated_at = "2020-11-08T07:20:03Z"
 stars = 0
 language = "Python"
@@ -803,7 +776,7 @@ url = "https://pypi.org/project/vimbuffer/"
 name = "vps"
 full_name = "seanbreckenridge/vps"
 html_url = "https://github.com/seanbreckenridge/vps"
-description = "Scripts used for installing/managing/restarting/monitoring processes on my server. Wraps [supervisor](https://github.com/Supervisor/supervisor) to handle process crashes. Has other misc scripts ([mediaproxy](https://github.com/seanbreckenridge/vps/blob/master/mediaproxy)/[remsync](https://github.com/seanbreckenridge/vps/blob/master/remsync)) that provide FTP/Proxy like functionality"
+description = "Scripts used for installing/managing/restarting/monitoring processes on my server. Wraps [`supervisor`](https://github.com/Supervisor/supervisor) to handle process crashes. Has other misc scripts ([`mediaproxy`](https://github.com/seanbreckenridge/vps/blob/master/mediaproxy)/[`remsync`](https://github.com/seanbreckenridge/vps/blob/master/remsync)) that provide FTP/proxy like functionality"
 updated_at = "2020-11-17T13:12:26Z"
 stars = 0
 language = "Shell"
@@ -853,7 +826,7 @@ img = "/xkcd.png"
 name = "xqc-dvd"
 full_name = "seanbreckenridge/xqc-dvd"
 html_url = "https://github.com/seanbreckenridge/xqc-dvd"
-description = "a browser dvd logo animation/game"
+description = "a browser DVD logo animation/game"
 updated_at = "2020-11-09T09:42:58Z"
 stars = 0
 language = "Elm"
@@ -867,7 +840,7 @@ img = "/xqc_dvd.gif"
 name = "space"
 full_name = "seanbreckenridge/space"
 html_url = "https://github.com/seanbreckenridge/space"
-description = "Pygame shoot 'em up space game"
+description = "`pygame` shoot 'em up space game"
 updated_at = "2020-11-24T07:40:37Z"
 stars = 0
 language = "Python"
@@ -875,3 +848,17 @@ has_gitlab = true
 priority = 2
 score = 0
 img = "/space.gif"
+
+["seanbreckenridge/full_todotxt"]
+name = "full_todotxt"
+full_name = "seanbreckenridge/full_todotxt"
+html_url = "https://github.com/seanbreckenridge/full_todotxt"
+description = "a [`todotxt`](http://todotxt.org/) interactive interface that forces you to specify certain attributes. I use this with [`todotxt_deadline_notify`](https://github.com/seanbreckenridge/todotxt_deadline_notify) to send me reminders about todos"
+updated_at = "2020-10-10T03:53:59Z"
+stars = 0
+language = "Python"
+has_gitlab = true
+priority = 2
+score = 0
+url = "https://pypi.org/project/full-todotxt/"
+img = "/full_todotxt.gif"

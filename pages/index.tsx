@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 
-import {memo, useState} from "react";
+import { memo, useState } from "react";
 import {
   IconBrandLinkedin,
   IconBrandGithub,
@@ -13,7 +13,7 @@ import {
   IconShip,
   IconHexagon,
 } from "@tabler/icons";
-import {Repository, loadRepos} from "../lib/parseData";
+import { Repository, loadRepos } from "../lib/parseData";
 
 interface IndexProps {
   repos: Repository[];
@@ -27,12 +27,15 @@ export async function getStaticProps() {
   };
 }
 
-export default function Home({repos}: IndexProps) {
+export default function Home({ repos }: IndexProps) {
   return (
     <div className={styles.container}>
       <Head>
         <title>Sean Breckenridge | Projects</title>
-        <meta name="description" content="A list of Sean Breckenridge's Projects" />
+        <meta
+          name="description"
+          content="A list of Sean Breckenridge's Projects"
+        />
       </Head>
       <Header />
       <main className={styles.main}>
@@ -80,7 +83,7 @@ interface IRepo {
   repo: Repository;
 }
 
-const RepoCard = memo(({repo}: IRepo) => {
+const RepoCard = memo(({ repo }: IRepo) => {
   const remoteURL = "https://github.com/" + repo.full_name;
   return (
     <div className={styles.card}>
@@ -91,8 +94,14 @@ const RepoCard = memo(({repo}: IRepo) => {
         <span>{repo.language}</span>
       </div>
       <div className={styles.cardDescription}>
-        <div dangerouslySetInnerHTML={{__html: repo.description}}></div>
-        {repo.img != null ? <img src={repo.img!} alt={`${repo.name}`} /> : <></>}
+        <div dangerouslySetInnerHTML={{ __html: repo.description }}></div>
+        {repo.img != null ? (
+          <a href={repo.img!} target="_blank">
+            <img src={repo.img!} alt={`${repo.name}`} />
+          </a>
+        ) : (
+          <></>
+        )}
       </div>
       <hr />
       <div className={styles.cardFooter}>
@@ -107,8 +116,8 @@ const RepoCard = memo(({repo}: IRepo) => {
             <IconBrandGitlab />
           </DarkIconFooter>
         ) : (
-            <></>
-          )}
+          <></>
+        )}
         <Website url={repo.url} />
       </div>
     </div>
@@ -126,7 +135,7 @@ interface IDarkIconFooter {
 const noOp = () => {};
 
 const DarkIconFooter = memo(
-  ({children, href, linkText, enable, disable}: IDarkIconFooter) => {
+  ({ children, href, linkText, enable, disable }: IDarkIconFooter) => {
     const enableAnim = enable ?? noOp;
     const disaleAnim = disable ?? noOp;
     return (
@@ -159,7 +168,7 @@ interface IWebsite {
   url?: string;
 }
 
-const Website = ({url}: IWebsite) => {
+const Website = ({ url }: IWebsite) => {
   if (url != null) {
     if (url.indexOf("sean.fish") !== -1) {
       return <MonoFavicon url={url!} />;
@@ -206,7 +215,7 @@ interface IMonoFavicon {
 
 // keep track of onHover events so that the favicon can be
 // colored/uncolored
-const MonoFavicon = ({size, url}: IMonoFavicon) => {
+const MonoFavicon = ({ size, url }: IMonoFavicon) => {
   const mSize = size ?? 20;
   const [monochrome, setMonochrome] = useState<boolean>(true);
 
