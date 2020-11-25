@@ -1,11 +1,7 @@
-import React from "react"
+import React from "react";
 import styles from "../styles/Home.module.css";
 
-import {
-  IconBrandLinkedin,
-  IconBrandGithub,
-} from "@tabler/icons";
-
+import { IconBrandLinkedin, IconBrandGithub } from "@tabler/icons";
 
 const Header = React.memo(() => {
   const iconSize = 40;

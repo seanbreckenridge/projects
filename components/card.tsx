@@ -1,22 +1,18 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 
-import {Repository} from "../lib/parseData";
+import { Repository } from "../lib/parseData";
 
-import {
-  IconBrandGithub,
-  IconBrandGitlab,
-} from "@tabler/icons";
+import { IconBrandGithub, IconBrandGitlab } from "@tabler/icons";
 
-import FooterIcon, {Website} from "./icons";
+import FooterIcon, { Website } from "./icons";
 import LazyImage from "./lazy_image";
-
 
 interface IRepo {
   repo: Repository;
 }
 
-const RepoCard = React.memo(({repo}: IRepo) => {
+const RepoCard = React.memo(({ repo }: IRepo) => {
   const remoteURL = "https://github.com/" + repo.full_name;
   return (
     <div className={styles.card}>
@@ -27,8 +23,12 @@ const RepoCard = React.memo(({repo}: IRepo) => {
         <span>{repo.language}</span>
       </div>
       <div className={styles.cardDescription}>
-        <div dangerouslySetInnerHTML={{__html: repo.description}}></div>
-        <LazyImage src={repo.img} dimensions={repo.dimensions} name={repo.name}/>
+        <div dangerouslySetInnerHTML={{ __html: repo.description }}></div>
+        <LazyImage
+          src={repo.img}
+          dimensions={repo.dimensions}
+          name={repo.name}
+        />
       </div>
       <hr />
       <div className={styles.cardFooter}>
@@ -43,8 +43,8 @@ const RepoCard = React.memo(({repo}: IRepo) => {
             <IconBrandGitlab />
           </FooterIcon>
         ) : (
-            <></>
-          )}
+          <></>
+        )}
         <Website url={repo.url} />
       </div>
     </div>
@@ -55,16 +55,14 @@ interface IRepoGrid {
   repos: Repository[];
 }
 
-const RepoGrid = React.memo(({repos}: IRepoGrid) => {
+const RepoGrid = React.memo(({ repos }: IRepoGrid) => {
   return (
     <>
-      {
-        repos.map((repo: Repository) => {
-          return <RepoCard key={repo.full_name} repo={repo} />;
-        })
-      }
+      {repos.map((repo: Repository) => {
+        return <RepoCard key={repo.full_name} repo={repo} />;
+      })}
     </>
-  )
+  );
 });
 
 export default RepoGrid;

@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
 
-import {Repository, loadRepos} from "../lib/parseData";
+import { Repository, loadRepos } from "../lib/parseData";
 
 import Header from "../components/header";
 import RepoGrid from "../components/card";
@@ -19,7 +19,7 @@ interface IHome {
   repos: Repository[];
 }
 
-export default function Home({repos}: IHome) {
+export default function Home({ repos }: IHome) {
   return (
     <div className={styles.container}>
       <Head>
@@ -32,10 +32,9 @@ export default function Home({repos}: IHome) {
       <Header />
       <main className={styles.main}>
         <div className={styles.grid}>
-          <RepoGrid repos={repos}/>
+          <RepoGrid repos={repos} />
         </div>
       </main>
     </div>
   );
 }
-
