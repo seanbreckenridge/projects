@@ -79,7 +79,7 @@ name = "animeshorts"
 full_name = "seanbreckenridge/animeshorts"
 html_url = "https://github.com/seanbreckenridge/animeshorts"
 description = "static site for my favorite anime short films/series"
-updated_at = "2020-10-10T03:55:35Z"
+updated_at = "2020-11-25T02:16:30Z"
 stars = 0
 language = "Python"
 has_gitlab = true
@@ -106,13 +106,14 @@ img = "/autotui.gif"
 name = "aw-watcher-window"
 full_name = "seanbreckenridge/aw-watcher-window"
 html_url = "https://github.com/seanbreckenridge/aw-watcher-window"
-description = "Cross-platform window watcher (forked from ActivityWatch to log to a file instead). Daemon which periodically saves the window I'm currently using"
+description = "Cross-platform window watcher (forked from [ActivityWatch](https://activitywatch.net) to log to a file instead). Daemon which periodically saves the window I'm currently using"
 updated_at = "2020-10-24T05:11:36Z"
 stars = 0
 language = "Python"
 has_gitlab = false
 score = 0
 priority = 2
+img = "/window_watcher.png"
 
 ["seanbreckenridge/bgproc"]
 name = "bgproc"
@@ -138,18 +139,20 @@ language = "Shell"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/bootstrap.png"
 
 ["seanbreckenridge/calcurse-load"]
 name = "calcurse-load"
 full_name = "seanbreckenridge/calcurse-load"
 html_url = "https://github.com/seanbreckenridge/calcurse-load"
-description = "Personal hooks/scripts for [`calcurse`](https://github.com/lfos/calcurse). Sources events for calcurse from Google Calendar and [todo.txt](http://todotxt.org/)"
+description = "Hooks for [`calcurse`](https://github.com/lfos/calcurse) (calendar in my terminal), to pull events from Google Calendar and [todo.txt](http://todotxt.org/)"
 updated_at = "2020-10-25T10:21:41Z"
 stars = 0
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/calcurse.png"
 
 ["seanbreckenridge/calories-fzf"]
 name = "calories-fzf"
@@ -235,7 +238,7 @@ name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
 description = "cross-platform (arch/macos) dotfiles and scripts, using [`yadm`](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
-updated_at = "2020-11-23T02:53:10Z"
+updated_at = "2020-11-25T03:43:50Z"
 stars = 3
 language = "Shell"
 has_gitlab = true
@@ -256,6 +259,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://crates.io/crates/evry"
+img = "/evry.png"
 
 ["seanbreckenridge/exists"]
 name = "exists"
@@ -268,13 +272,14 @@ language = "C"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/exists.png"
 
 ["seanbreckenridge/exobrain"]
 name = "exobrain"
 full_name = "seanbreckenridge/exobrain"
 html_url = "https://github.com/seanbreckenridge/exobrain"
 description = "Something like public wiki to store notes, ideas and thoughts. See [build process](https://exobrain.sean.fish/meta/) for more info"
-updated_at = "2020-11-24T01:54:23Z"
+updated_at = "2020-11-25T03:49:41Z"
 stars = 8
 language = "Shell/Golang"
 has_gitlab = true
@@ -288,7 +293,7 @@ name = "ffexport"
 full_name = "seanbreckenridge/ffexport"
 html_url = "https://github.com/seanbreckenridge/ffexport"
 description = "export and interface with Firefox history and site metadata. I use this to periodically back up my history, so I never lose any of it"
-updated_at = "2020-11-19T09:16:27Z"
+updated_at = "2020-11-25T03:50:28Z"
 stars = 4
 language = "Python"
 has_gitlab = true
@@ -308,6 +313,7 @@ language = "JavaScript"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/foreverjs_list.png"
 
 ["seanbreckenridge/genpasswd"]
 name = "genpasswd"
@@ -320,13 +326,14 @@ language = "C++"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/genpasswd.png"
 
 ["seanbreckenridge/glue"]
 name = "glue"
 full_name = "seanbreckenridge/glue"
 html_url = "https://github.com/seanbreckenridge/glue"
 description = "My personal website"
-updated_at = "2020-11-24T01:58:42Z"
+updated_at = "2020-11-25T05:00:28Z"
 stars = 0
 language = "Elixir/TypeScript"
 has_gitlab = true
@@ -346,6 +353,7 @@ language = "JavaScript"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/greasyfork.png"
 
 ["seanbreckenridge/greasyfork_archive"]
 name = "greasyfork_archive"
@@ -359,6 +367,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/greasyfork_archive/"
+img = "/gf_archive.png"
 
 ["seanbreckenridge/havecmd"]
 name = "havecmd"
@@ -377,8 +386,8 @@ img = "/havecmd.png"
 name = "HPI"
 full_name = "seanbreckenridge/HPI"
 html_url = "https://github.com/seanbreckenridge/HPI"
-description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a `python` package. [Currently in-use modules](https://github.com/seanbreckenridge/HPI#currently-in-use-modules"
-updated_at = "2020-11-23T02:52:52Z"
+description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a `python` package. [Currently in-use modules](https://github.com/seanbreckenridge/HPI#currently-in-use-modules)"
+updated_at = "2020-11-25T05:04:10Z"
 stars = 6
 language = "Python"
 has_gitlab = false
@@ -451,6 +460,7 @@ language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/lolexport.png"
 
 ["seanbreckenridge/mal-notify-bot"]
 name = "mal-notify-bot"
@@ -482,13 +492,14 @@ img = "/mal_user_vs_average.png"
 name = "mint"
 full_name = "seanbreckenridge/mint"
 html_url = "https://github.com/seanbreckenridge/mint"
-description = "Wrapper script/code to interact with [`mintable`](https://github.com/kevinschaich/mintable/); to keep track of my bank accounts and transactions"
+description = "Wrapper script/code to interact with [`mintable`](https://github.com/kevinschaich/mintable/); to anaylze and graph my bank accounts and transactions using `git`"
 updated_at = "2020-11-23T22:59:48Z"
 stars = 0
 language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/mint.png"
 
 ["seanbreckenridge/mnu_gsheets"]
 name = "mnu_gsheets"
@@ -541,6 +552,7 @@ language = "Go"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/shorturl.png"
 
 ["seanbreckenridge/plaintext-playlist"]
 name = "plaintext-playlist"
@@ -566,6 +578,7 @@ language = "Perl"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/pmark.png"
 
 ["seanbreckenridge/poly-project-euler"]
 name = "poly-project-euler"
@@ -578,6 +591,7 @@ language = "???"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/euler.png"
 
 ["seanbreckenridge/pushshift_comment_export"]
 name = "pushshift_comment_export"
@@ -604,6 +618,7 @@ language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/pythonanywhere.png"
 
 ["seanbreckenridge/raspi-backup"]
 name = "raspi-backup"
@@ -629,6 +644,7 @@ language = "Python"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/wallpaper.png"
 
 ["seanbreckenridge/rifleman"]
 name = "rifleman"
@@ -642,6 +658,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/rifleman/"
+img = "/rifleman.png"
 
 ["seanbreckenridge/shortcuts"]
 name = "shortcuts"
@@ -667,6 +684,7 @@ language = "Go"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/spkglist.png"
 
 ["seanbreckenridge/steamscraper"]
 name = "steamscraper"
@@ -693,6 +711,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://sean.fish/d/?dark"
+img = "/subpath.png"
 
 ["seanbreckenridge/superhooks"]
 name = "superhooks"
@@ -711,13 +730,14 @@ img = "/superhooks.png"
 name = "tts"
 full_name = "seanbreckenridge/tts"
 html_url = "https://github.com/seanbreckenridge/tts"
-description = "CLI tool to convert text to speech using the StreamLabs API"
+description = "CLI tool to convert text to speech using the StreamLabs API. [Example Audio](https://sean.fish/p/does_this_work.ogg)"
 updated_at = "2020-10-30T02:52:23Z"
 stars = 1
 language = "Shell"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/tts.png"
 
 ["seanbreckenridge/ttt"]
 name = "ttt"
@@ -771,6 +791,7 @@ has_gitlab = true
 priority = 2
 score = 0
 url = "https://pypi.org/project/vimbuffer/"
+img = "/vimbuffer.png"
 
 ["seanbreckenridge/vps"]
 name = "vps"
@@ -783,18 +804,20 @@ language = "Shell"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/vps.png"
 
 ["seanbreckenridge/wait-for-internet"]
 name = "wait-for-internet"
 full_name = "seanbreckenridge/wait-for-internet"
 html_url = "https://github.com/seanbreckenridge/wait-for-internet"
-description = "Command line utility that waits till you have an internet connection. I use this often when changing networks/waiting to connect to my hotspot, and at the top of shell scripts that run in the background, so they don't fail due to network failure"
+description = "Utility to wait till you have an internet connection. I use this often when changing networks/waiting to connect to my hotspot, and at the top of shell scripts that run in the background, so they don't fail due to network failure"
 updated_at = "2020-11-01T16:09:58Z"
 stars = 1
 language = "Rust"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/wfi.png"
 
 ["seanbreckenridge/wca_userinfo"]
 name = "wca_userinfo"
@@ -807,6 +830,7 @@ language = "Rust"
 has_gitlab = true
 priority = 2
 score = 0
+img = "/wca_userinfo.png"
 
 ["seanbreckenridge/xkcd-favorites"]
 name = "xkcd-favorites"
