@@ -6,4 +6,4 @@
 
 The metadata from the github API helps me determine project ordering.
 
-This is built every couple hours in the background, it builds as pushes to the `gh-pages` branch, which is served with [`netlify`](https://www.netlify.com/)
+Deployed with `Vercel`. Is mostly a static site, but deploying it as a server to take advantage of the next.js client-side image compression/optimization, since there are so many images on this page.
