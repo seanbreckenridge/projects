@@ -66,7 +66,7 @@ function removeTrailing(str: string, char: string): string {
   return str;
 }
 
-const imgPrefix = (process.env.ENV === 'production') ? "/projects": "";
+const imgPrefix = process.env.ENV === "production" ? "/projects" : "";
 
 // renders the markdown description to HTML
 // remove any trailing
