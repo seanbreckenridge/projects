@@ -156,6 +156,8 @@
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
+  max-height: 400px;
+  max-width: 400px;
 }
 
 .icons {
@@ -245,11 +247,27 @@
 }
 
 @media (max-width: 850px) {
+  .main {
+    justify-content: center;
+  }
   .card {
-    flex-basis: 100%;
+    flex-basis: unset;
   }
   .grid {
-    width: 100%;
+    max-width: 90%;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cardTitle {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .cardTitle h3 {
+    margin-bottom: 0px;
+  }
+  .cardFooter {
     flex-direction: column;
   }
 }

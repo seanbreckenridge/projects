@@ -10,17 +10,17 @@ interface ILazyImage {
   dimensions?: Dimensions;
 }
 
-const maxWidth = 400;
-const maxHeight = 400;
+// const maxWidth = 400;
+// const maxHeight = 400;
 
 const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
-  const ratio = Math.min(
-    maxWidth / dimensions.width,
-    maxHeight / dimensions.height
-  );
+  // const ratio = Math.min(
+  //   maxWidth / dimensions.width,
+  //   maxHeight / dimensions.height
+  // );
 
-  const useWidth = dimensions.width * ratio;
-  const useHeight = dimensions.height * ratio;
+  // const useWidth = dimensions.width * ratio;
+  // const useHeight = dimensions.height * ratio;
 
   return (
     <>
@@ -29,9 +29,9 @@ const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
           <a href={src} target="_blank">
             <Image
               src={src}
-              alt={`${name}`}
-              width={useWidth}
-              height={useHeight}
+              alt={name}
+              width={dimensions.width}
+              height={dimensions.height}
               loading="lazy"
             />
           </a>
