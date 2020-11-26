@@ -1,0 +1,15 @@
+#!/bin/bash -e
+# to run on my server, using code that interacts
+# with the supervisor here
+# https://github.com/seanbreckenridge/bootstrap
+# to update and restart the server once a day
+
+THIS_DIR="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
+cd "$THIS_DIR"
+
+while true; do
+	date
+	PROJECTS_BG_UPDATE=1 ./update
+	super --ctl restart projects
+	sleep 1d
+done
