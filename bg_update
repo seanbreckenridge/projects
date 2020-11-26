@@ -1,7 +1,7 @@
 #!/bin/bash -e
 # to run on my server, using code that interacts
 # with the supervisor here
-# https://github.com/seanbreckenridge/bootstrap
+# https://github.com/seanbreckenridge/vps
 # to update and restart the server once a day
 
 THIS_DIR="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
