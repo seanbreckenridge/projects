@@ -1,5 +1,4 @@
-import React from "react";
-import Image from "next/image";
+import React from "react"; import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 import { Dimensions } from "../lib/parseData";
@@ -21,12 +20,11 @@ const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
 
   // const useWidth = dimensions.width * ratio;
   // const useHeight = dimensions.height * ratio;
-
+  
   return (
     <>
       {src != null ? (
         <div className={styles.lazyImageContainer}>
-          <a href={src} target="_blank">
             <Image
               src={src}
               alt={name}
@@ -34,7 +32,6 @@ const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
               height={dimensions.height}
               loading="lazy"
             />
-          </a>
         </div>
       ) : (
         <></>

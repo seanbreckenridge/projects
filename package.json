@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "export": "next build && next export"
+    "prod": "ENV=production next build && ENV=production next start"
   },
   "dependencies": {
     "@tabler/icons": "^1.36.0",

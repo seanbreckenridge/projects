@@ -6,4 +6,20 @@
 
 The metadata from the github API helps me determine project ordering.
 
-Deployed with `Vercel`. Is mostly a static site, but deploying it as a server to take advantage of the next.js client-side image compression/optimization, since there are so many images on this page.
+This is served on a different base path (`/projects`) in production. Seems that `next.js` still doesn't have the config option in `next.config.js` perfect, so it requires some rerouting on the nginx side:
+
+```nginx
+location /projects/ {
+  proxy_pass http://127.0.0.1:3000/projects;
+}
+
+location /projects/_next/ {
+  # required since the above doesnt end with '/'
+  proxy_pass http://127.0.0.1:3000/projects/_next/;
+}
+
+# for some reason image optimization requests still use base path of the webserver
+location /_next/ {
+  proxy_pass http://127.0.0.1:3000/projects/_next/;
+}
+```

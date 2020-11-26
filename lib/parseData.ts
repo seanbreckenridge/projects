@@ -66,6 +66,8 @@ function removeTrailing(str: string, char: string): string {
   return str;
 }
 
+const imgPrefix = (process.env.ENV === 'production') ? "/projects": "";
+
 // renders the markdown description to HTML
 // remove any trailing
 async function renderRepo(repo: Repository): Promise<Repository> {
@@ -76,6 +78,10 @@ async function renderRepo(repo: Repository): Promise<Repository> {
   repo.name = repo.name.replace(/_/g, "-");
   if (repo.img != null) {
     repo.dimensions = await sizeOf(path.join(publicDir, repo.img!));
+    // prefix with /projects, if bulding in production
+    // these are treated as absolute/any URLs by the next.js Image component
+    // it doesnt route these
+    repo.img = imgPrefix + repo.img;
   }
   return repo;
 }
