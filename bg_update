@@ -9,6 +9,7 @@ cd "$THIS_DIR"
 
 while true; do
 	date
+	date >&2
 	PROJECTS_BG_UPDATE=1 ./update
 	yarn prod-build
 	super --ctl restart projects
