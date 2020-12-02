@@ -13,5 +13,5 @@ while true; do
 	PROJECTS_BG_UPDATE=1 ./update
 	yarn prod-build
 	super --ctl restart projects
-	sleep 1d
+	sleep 12h
 done
