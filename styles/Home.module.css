@@ -158,6 +158,7 @@
   padding: 1rem;
   max-height: 400px;
   max-width: 400px;
+  min-height: 200px;
 }
 
 .icons {
