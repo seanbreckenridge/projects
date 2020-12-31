@@ -7,9 +7,15 @@
 THIS_DIR="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$THIS_DIR"
 
+logtime() {
+	local dt
+	dt="$(date)"
+	echo "${dt}"
+	echo "${dt}" >&2
+}
+
 while true; do
-	date
-	date >&2
+	logtime
 	PROJECTS_BG_UPDATE=1 ./update
 	yarn prod-build
 	super --ctl restart projects
