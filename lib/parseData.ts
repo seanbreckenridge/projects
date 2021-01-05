@@ -22,7 +22,6 @@ export interface Repository {
   description: string;
   updated_at: string;
   language: string;
-  has_gitlab: boolean;
   url?: string;
   img?: string;
   dimensions?: Dimensions;

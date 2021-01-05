@@ -154,12 +154,9 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                         "updated_at": repo["updated_at"],
                         "stars": repo["stargazers_count"],
                         "language": repo["language"],
-                        "has_gitlab": True,
                         "priority": 2,
                         "score": 0,
                     }
-                    if click.confirm("Remove GitLab?"):
-                        new_repo_data["has_gitlab"] = False
                     if click.confirm("Add URL?"):
                         new_repo_data["url"] = click.prompt("URL ")
                     repo_data[rname] = new_repo_data

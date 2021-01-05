@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 import { Repository } from "../lib/parseData";
 
-import { IconBrandGithub, IconBrandGitlab } from "@tabler/icons";
+import { IconBrandGithub } from "@tabler/icons";
 
 import FooterIcon, { Website } from "./icons";
 import LazyImage from "./lazy_image";
@@ -35,16 +35,6 @@ const RepoCard = React.memo(({ repo }: IRepo) => {
         <FooterIcon href={remoteURL} linkText="Github">
           <IconBrandGithub />
         </FooterIcon>
-        {repo.has_gitlab ? (
-          <FooterIcon
-            href={remoteURL.replace("github", "gitlab")}
-            linkText="Gitlab"
-          >
-            <IconBrandGitlab />
-          </FooterIcon>
-        ) : (
-          <></>
-        )}
         <Website url={repo.url} />
       </div>
     </div>
