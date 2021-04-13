@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+cd "$(dirname "${BASH_SOURCE[0]}")" || exit
+
+commit() {
+	if [[ -n "$1" ]]; then
+		git commit -m "$*"
+		return $?
+	else
+		git commit # prompt for editor
+		return $?
+	fi
+}
+
+./update &&
+	git add . &&
+	commit "$@" &&
+	git push &&
+	ssh vultr
