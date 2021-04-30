@@ -307,7 +307,7 @@ updated_at = "2021-04-30T08:29:53Z"
 stars = 19
 language = "Python"
 priority = 2
-score = 0
+score = 50
 img = "/hpi.png"
 
 ["seanbreckenridge/ipgeocache"]
