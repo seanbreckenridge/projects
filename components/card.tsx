@@ -24,11 +24,17 @@ const RepoCard = React.memo(({ repo }: IRepo) => {
       </div>
       <div className={styles.cardDescription}>
         <div dangerouslySetInnerHTML={{ __html: repo.description }}></div>
-        <LazyImage
-          src={repo.img}
-          dimensions={repo.dimensions}
-          name={repo.name}
-        />
+        {repo.full_name === "seanbreckenridge/projects" ? (
+          <div className={styles.lazyImageContainer}>
+            <iframe src="https://sean.fish/projects" />
+          </div>
+        ) : (
+          <LazyImage
+            src={repo.img}
+            dimensions={repo.dimensions}
+            name={repo.name}
+          />
+        )}
       </div>
       <hr />
       <div className={styles.cardFooter}>
