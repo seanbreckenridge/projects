@@ -9,7 +9,7 @@
     "prod-server": "ENV=production next start"
   },
   "dependencies": {
-    "@tabler/icons": "^1.36.0",
+    "@tabler/icons": "1.36.0",
     "image-size": "^0.9.3",
     "next": "10.0.2",
     "react": "17.0.1",
