@@ -875,7 +875,7 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://pypi.org/project/mpv-history-daemon/"
-image = "/hist.png"
+img = "/hist.png"
 
 ["seanbreckenridge/ttally"]
 name = "ttally"
