@@ -44,8 +44,8 @@ name = "autotui"
 full_name = "seanbreckenridge/autotui"
 html_url = "https://github.com/seanbreckenridge/autotui"
 description = "interactively prompt, validate, and persist python objects to disk (`JSON`) and back using type hints"
-updated_at = "2021-05-05T02:41:49Z"
-stars = 5
+updated_at = "2021-05-06T04:42:38Z"
+stars = 6
 language = "Python"
 priority = 2
 score = 0
@@ -178,7 +178,7 @@ name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
 description = "cross-platform (arch/macos/android) dotfiles and scripts, using [`yadm`](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
-updated_at = "2021-05-04T08:54:54Z"
+updated_at = "2021-05-06T05:54:24Z"
 stars = 5
 language = "Shell"
 priority = 2
@@ -463,7 +463,7 @@ name = "plaintext-playlist"
 full_name = "seanbreckenridge/plaintext-playlist"
 html_url = "https://github.com/seanbreckenridge/plaintext-playlist"
 description = "An interactive terminal playlist manager; stores playlists as text files. Seems that most people tend to use spotify/apple music nowadays, but I still like having music locally. This lets me manage playlists locally without having to use one of the bulky GUI applications"
-updated_at = "2021-04-23T23:01:01Z"
+updated_at = "2021-05-06T04:34:30Z"
 stars = 3
 language = "Bash"
 priority = 2
@@ -475,7 +475,7 @@ name = "pmark"
 full_name = "seanbreckenridge/pmark"
 html_url = "https://github.com/seanbreckenridge/pmark"
 description = "A hacky, markdown pre-processor. Uses code blocks to generate markdown, from within the markdown itself"
-updated_at = "2021-04-24T22:45:05Z"
+updated_at = "2021-05-05T21:20:57Z"
 stars = 2
 language = "Perl"
 priority = 2
@@ -671,8 +671,8 @@ name = "vimbuffer"
 full_name = "seanbreckenridge/vimbuffer"
 html_url = "https://github.com/seanbreckenridge/vimbuffer"
 description = "Edit files and strings in temporary `vim` (or some other console editor) buffers"
-updated_at = "2021-04-24T22:44:39Z"
-stars = 1
+updated_at = "2021-05-06T00:31:16Z"
+stars = 2
 language = "Python"
 priority = 2
 score = 0
@@ -875,25 +875,26 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://pypi.org/project/mpv-history-daemon/"
+image = "/hist.png"
 
 ["seanbreckenridge/ttally"]
 name = "ttally"
 full_name = "seanbreckenridge/ttally"
 html_url = "https://github.com/seanbreckenridge/ttally"
 description = "Interactive module using [`autotui`](https://github.com/seanbreckenridge/autotui) to save things I do often. Generates a bunch of aliases from ADTs, letting me save/query recently logged events"
-updated_at = "2021-05-03T00:22:07Z"
+updated_at = "2021-05-06T04:29:55Z"
 stars = 1
 language = "Python"
 priority = 2
 score = 0
-img = "/autotui.gif"
+img = "/ttally.png"
 
 ["seanbreckenridge/mal-id-cache"]
 name = "mal-id-cache"
 full_name = "seanbreckenridge/mal-id-cache"
 html_url = "https://github.com/seanbreckenridge/mal-id-cache"
 description = "An cache of [MAL](https://myanimelist.net/) (MyAnimeList) Database IDs updated whenever something is added to the database"
-updated_at = "2021-05-04T21:13:12Z"
+updated_at = "2021-05-06T04:34:02Z"
 stars = 19
 language = "Python"
 priority = 2
@@ -910,6 +911,7 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://pypi.org/project/traktexport/"
+img = "/traktexport.png"
 
 ["seanbreckenridge/reorder_editable"]
 name = "reorder_editable"
@@ -933,6 +935,7 @@ stars = 2
 language = "Python"
 priority = 2
 score = 0
+img = "/promnesia.png"
 
 ["seanbreckenridge/browserexport"]
 name = "browserexport"
@@ -945,7 +948,7 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://pypi.org/project/browserexport/"
-img = "/ffexport.png"
+img = "/browserexport.png"
 
 ["seanbreckenridge/overrustle_parser"]
 name = "overrustle_parser"
@@ -957,13 +960,14 @@ stars = 2
 language = "Python"
 priority = 2
 score = 0
+img = "/overrustle.png"
 
 ["seanbreckenridge/projects"]
 name = "projects"
 full_name = "seanbreckenridge/projects"
 html_url = "https://github.com/seanbreckenridge/projects"
 description = "project for describing my other projects -- the website you're currently looking at!"
-updated_at = "2021-04-30T22:36:50Z"
+updated_at = "2021-05-05T17:50:16Z"
 stars = 2
 language = "TypeScript"
 priority = 2
