@@ -849,7 +849,7 @@ stars = 0
 language = "Python"
 priority = 2
 score = 0
-url = "httpss://pypi.org/project/chess_export"
+url = "https://pypi.org/project/chess_export"
 
 ["seanbreckenridge/mpv-history-daemon"]
 name = "mpv-history-daemon"
