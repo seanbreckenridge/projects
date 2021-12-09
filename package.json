@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "start": "next start",
     "prod-build": "ENV=production next build",
     "prod-server": "ENV=production next start"
   },
