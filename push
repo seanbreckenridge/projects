@@ -7,7 +7,7 @@ commit() {
 		git commit -m "$*"
 		return $?
 	else
-		git commit # prompt for editor
+		git commit -m "periodic update"
 		return $?
 	fi
 }
