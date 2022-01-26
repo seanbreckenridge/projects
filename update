@@ -21,16 +21,16 @@ try:
     import click
     import vimbuffer
 except ImportError as e:
-    print(str(e), file=sys.stderr)
+    print(str(e) + ". Install it with 'pip'", file=sys.stderr)
     raise SystemExit(1)
 
 this_dir: Path = Path(__file__).absolute().parent
-cachefile: Path = this_dir / "cache.json"
-datafile: Path = this_dir / "data.toml"
-github_username: str = "seanbreckenridge"
+default_cachefile: Path = this_dir / "cache.json"
+default_datafile: Path = this_dir / "data.toml"
+default_github_username: str = "seanbreckenridge"
 
 
-def cached_response_has_expired() -> bool:
+def cached_response_has_expired(*, cachefile: Path) -> bool:
     """
     Returns T/F which determines whether or not
     to download fresh data from Github API
@@ -48,10 +48,14 @@ def cached_response_has_expired() -> bool:
 
 # downloads new repository data if needed,
 # returns the parsed JSON data
-def get_repository_data(unowned_r: List[str]) -> List[Json]:
-    if not cached_response_has_expired():
+def get_repository_data(
+    *, cachefile: Path, github_username: str, unowned: List[str]
+) -> List[Json]:
+    if not cached_response_has_expired(cachefile=cachefile):
         try:
-            return json.loads(cachefile.read_text())
+            data = json.loads(cachefile.read_text())
+            assert isinstance(data, list)
+            return data
         except json.decoder.JSONDecodeError:
             print("Failed to load JSON from cache file...", file=sys.stderr)
     print(
@@ -75,7 +79,7 @@ def get_repository_data(unowned_r: List[str]) -> List[Json]:
         else:
             break
         page += 1
-    for other_repo in unowned_r:
+    for other_repo in unowned:
         url = f"https://api.github.com/repos/{other_repo}"
         print(f"Requesting {url}", file=sys.stderr)
         resp = requests.get(
@@ -90,7 +94,7 @@ def get_repository_data(unowned_r: List[str]) -> List[Json]:
 
 
 # return all data from the data.toml file
-def load_data() -> Tuple[Set[str], RepoDB]:
+def load_data(*, datafile: Path) -> Tuple[Set[str], RepoDB]:
     repos: Dict[str, Json] = {}
     ignored: Set[str] = set()
     if not datafile.exists():
@@ -108,7 +112,7 @@ def load_data() -> Tuple[Set[str], RepoDB]:
 # if any of the items in repos in the loaded data aren't owned by me
 # return a the full_name of those so they can be requested individually
 # this part is manually entered into the toml file
-def unowned(repo_data: RepoDB) -> List[str]:
+def unowned(*, github_username: str, repo_data: RepoDB) -> List[str]:
     unowned_repos: List[str] = []
     for repo in repo_data:
         if not repo.startswith(github_username):
@@ -142,7 +146,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                 if "PROJECTS_BG_UPDATE" in os.environ:
                     continue
                 prompted += 1
-                if not click.confirm("Ignore '{}'?".format(rname)):
+                if not click.confirm(f"Ignore '{rname}'?"):
                     repo_desc: str = vimbuffer.buffer(
                         string=repo["description"]
                     ).strip()
@@ -171,12 +175,39 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
     return repo_data
 
 
-def main():
-    ignored, repo_data = load_data()
-    unowned_repos: List[str] = unowned(repo_data)
-    repo_info: List[Dict] = get_repository_data(unowned_repos)
+@click.command(help=__doc__)
+@click.option(
+    "--cachefile",
+    "use_cachefile",
+    default=default_cachefile,
+    type=click.Path(path_type=Path),
+    help="JSON cachefile to use",
+)
+@click.option(
+    "--datafile",
+    "use_datafile",
+    default=default_datafile,
+    type=click.Path(path_type=Path),
+    help="TOML datafile to use",
+)
+@click.option(
+    "--github-username",
+    "use_github_username",
+    default=default_github_username,
+    help="github username to use",
+)
+def main(use_cachefile: Path, use_datafile: Path, use_github_username: str) -> None:
+    ignored, repo_data = load_data(datafile=use_datafile)
+    unowned_repos: List[str] = unowned(
+        github_username=use_github_username, repo_data=repo_data
+    )
+    repo_info: List[Dict] = get_repository_data(
+        cachefile=use_cachefile,
+        github_username=use_github_username,
+        unowned=unowned_repos,
+    )
     repo_data = prompt_new(repo_info, repo_data, ignored)
-    with datafile.open("w") as tf:
+    with use_datafile.open("w") as tf:
         toml.dump(repo_data, tf)
 
 
