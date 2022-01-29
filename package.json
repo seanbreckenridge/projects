@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "prod-build": "ENV=production next build",
     "prod-server": "ENV=production next start"
   },
@@ -23,6 +24,8 @@
   "devDependencies": {
     "@types/node": "^17.0.13",
     "@types/react": "^17.0.38",
+    "eslint": "8.8.0",
+    "eslint-config-next": "12.0.9",
     "typescript": "^4.5.5"
   }
 }

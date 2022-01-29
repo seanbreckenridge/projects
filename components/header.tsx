@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "../styles/Home.module.css";
 
-import { IconBrandLinkedin, IconBrandGithub } from "@tabler/icons";
+import Image from "next/image";
+
+import {IconBrandLinkedin, IconBrandGithub} from "@tabler/icons";
 
 const Header = React.memo(() => {
   const iconSize = 40;
@@ -18,7 +20,9 @@ const Header = React.memo(() => {
           <IconBrandLinkedin height={iconSize} width={iconSize} />
         </a>
         <a href="https://sean.fish" className={styles.homeLink}>
-          <img height={25} alt="" width="auto" src="/favicon.ico" />
+          <div className={styles.homeLinkIcon}>
+            <Image height={25} width={25} alt="icon" src="/favicon.ico" />
+          </div>
           <span>WEBSITE</span>
         </a>
         <a
@@ -28,9 +32,11 @@ const Header = React.memo(() => {
         >
           <IconBrandGithub height={iconSize} width={iconSize} />
         </a>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 });
+
+Header.displayName = "Header";
 
 export default Header;

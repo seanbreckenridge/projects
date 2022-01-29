@@ -776,7 +776,6 @@ stars = 8
 language = "Python"
 priority = 2
 score = 0
-url = "https://github.com/karlicoss/HPI"
 img = "/hpi_api.png"
 
 ["seanbreckenridge/bash_like"]

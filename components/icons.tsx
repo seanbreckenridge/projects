@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import styles from "../styles/Home.module.css";
 
+import Image from "next/image";
 import {
   IconBrandPython,
   IconTable,
@@ -18,7 +19,7 @@ interface IFooterIcon {
 }
 
 const FooterIcon = React.memo(
-  ({ children, href, linkText, enable, disable }: IFooterIcon) => {
+  ({children, href, linkText, enable, disable}: IFooterIcon) => {
     const noOp = () => {};
     const enableAnim = enable ?? noOp;
     const disaleAnim = disable ?? noOp;
@@ -48,11 +49,13 @@ const FooterIcon = React.memo(
   }
 );
 
+FooterIcon.displayName = "Footer Icon"
+
 interface IWebsite {
   url?: string;
 }
 
-export const Website = ({ url }: IWebsite) => {
+export const Website = React.memo(({url}: IWebsite) => {
   if (url != null) {
     if (url.indexOf("sean.fish") !== -1) {
       return <MonoFavicon url={url!} />;
@@ -90,18 +93,19 @@ export const Website = ({ url }: IWebsite) => {
   } else {
     return <></>;
   }
-};
+});
+
+Website.displayName = "Website"
 
 interface IMonoFavicon {
-  size?: number;
   url: string;
 }
 
 // keep track of onHover events so that the favicon can be
 // colored/uncolored
-const MonoFavicon = ({ size, url }: IMonoFavicon) => {
-  const mSize = size ?? 20;
+const MonoFavicon = React.memo(({url}: IMonoFavicon) => {
   const [monochrome, setMonochrome] = useState<boolean>(true);
+  const size = 20;
 
   return (
     <FooterIcon
@@ -111,7 +115,7 @@ const MonoFavicon = ({ size, url }: IMonoFavicon) => {
       disable={() => setMonochrome(true)}
     >
       <span>
-        <img
+        <Image
           className={
             monochrome
               ? styles.monochromeIconActive
@@ -119,12 +123,14 @@ const MonoFavicon = ({ size, url }: IMonoFavicon) => {
           }
           src="/favicon.ico"
           alt=""
-          height={mSize}
-          width={mSize}
+          height={size}
+          width={size}
         />
       </span>
     </FooterIcon>
   );
-};
+});
+
+MonoFavicon.displayName = "Monochrome Favicon";
 
 export default FooterIcon;

@@ -41,4 +41,6 @@ const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
   );
 });
 
+LazyImage.displayName = "Lazy Image";
+
 export default LazyImage;
