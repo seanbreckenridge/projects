@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import toml from "toml";
-import remark from "remark";
+import { remark } from "remark";
 import html from "remark-html";
 var { promisify } = require("util");
 var sizeOf = promisify(require("image-size"));
