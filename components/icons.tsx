@@ -121,7 +121,7 @@ const MonoFavicon = React.memo(({url}: IMonoFavicon) => {
               ? styles.monochromeIconActive
               : styles.monochromeIconInActive
           }
-          src="/favicon.ico"
+          src="https://sean.fish/favicon.ico"
           alt=""
           height={size}
           width={size}

@@ -21,7 +21,7 @@ const Header = React.memo(() => {
         </a>
         <a href="https://sean.fish" className={styles.homeLink}>
           <div className={styles.homeLinkIcon}>
-            <Image height={25} width={25} alt="icon" src="/favicon.ico" />
+            <Image height={25} width={25} alt="icon" src="https://sean.fish/favicon.ico" />
           </div>
           <span>WEBSITE</span>
         </a>
