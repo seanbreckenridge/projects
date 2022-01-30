@@ -1,4 +1,4 @@
-ignored = [ "seanbreckenridge/CS-Assignments", "seanbreckenridge/HPI-fork", "seanbreckenridge/RSA", "seanbreckenridge/advent-of-code-2019", "seanbreckenridge/arctee", "seanbreckenridge/blizzard_gdpr_parser", "seanbreckenridge/breach-parse", "seanbreckenridge/commands-discordpy-starter", "seanbreckenridge/cookiecutter-lib", "seanbreckenridge/cookiecutter-template", "seanbreckenridge/docker-jikan", "seanbreckenridge/dotfiles-index", "seanbreckenridge/forever-webui", "seanbreckenridge/fuji", "seanbreckenridge/ghexport", "seanbreckenridge/gnu-rust-utils", "seanbreckenridge/greasyfork_repo_generator", "seanbreckenridge/jikan", "seanbreckenridge/jikan-rest", "seanbreckenridge/jikan-rest-docker", "seanbreckenridge/jikanpy", "seanbreckenridge/jikanpy_ext", "seanbreckenridge/k_grok", "seanbreckenridge/keepassxc-pwned", "seanbreckenridge/lets-get-arrested", "seanbreckenridge/mac-dotfiles", "seanbreckenridge/mal-unapproved", "seanbreckenridge/mutt-wizard", "seanbreckenridge/oh-my-stars", "seanbreckenridge/okayweather", "seanbreckenridge/plus1", "seanbreckenridge/promnesia-fork", "seanbreckenridge/proxy-jikan", "seanbreckenridge/pygithub_requests_error", "seanbreckenridge/rexport", "seanbreckenridge/rotten_tomatoes_cli", "seanbreckenridge/rotten_tomatoes_client", "seanbreckenridge/seanbreckenridge", "seanbreckenridge/selenium-shutterfly-scraper", "seanbreckenridge/sl", "seanbreckenridge/sonic_pi_music", "seanbreckenridge/st", "seanbreckenridge/sw", "seanbreckenridge/tinspire", "seanbreckenridge/todotxt_deadline_notify", "seanbreckenridge/website", "seanbreckenridge/youtube_subtitles_downloader",]
+ignored = [ "seanbreckenridge/CS-Assignments", "seanbreckenridge/HPI-fork", "seanbreckenridge/RSA", "seanbreckenridge/advent-of-code-2019", "seanbreckenridge/arctee", "seanbreckenridge/blizzard_gdpr_parser", "seanbreckenridge/breach-parse", "seanbreckenridge/commands-discordpy-starter", "seanbreckenridge/cookiecutter-lib", "seanbreckenridge/cookiecutter-template", "seanbreckenridge/docker-jikan", "seanbreckenridge/dotfiles-index", "seanbreckenridge/forever-webui", "seanbreckenridge/fuji", "seanbreckenridge/ghexport", "seanbreckenridge/gnu-rust-utils", "seanbreckenridge/greasyfork_repo_generator", "seanbreckenridge/jikan", "seanbreckenridge/jikan-rest", "seanbreckenridge/jikan-rest-docker", "seanbreckenridge/jikanpy", "seanbreckenridge/jikanpy_ext", "seanbreckenridge/k_grok", "seanbreckenridge/keepassxc-pwned", "seanbreckenridge/lets-get-arrested", "seanbreckenridge/mac-dotfiles", "seanbreckenridge/mal-unapproved", "seanbreckenridge/mutt-wizard", "seanbreckenridge/oh-my-stars", "seanbreckenridge/okayweather", "seanbreckenridge/plus1", "seanbreckenridge/promnesia-fork", "seanbreckenridge/proxy-jikan", "seanbreckenridge/pygithub_requests_error", "seanbreckenridge/rexport", "seanbreckenridge/rotten_tomatoes_cli", "seanbreckenridge/rotten_tomatoes_client", "seanbreckenridge/sample-namespace-packages", "seanbreckenridge/seanbreckenridge", "seanbreckenridge/selenium-shutterfly-scraper", "seanbreckenridge/sl", "seanbreckenridge/sonic_pi_music", "seanbreckenridge/st", "seanbreckenridge/sw", "seanbreckenridge/tinspire", "seanbreckenridge/todotxt_deadline_notify", "seanbreckenridge/website", "seanbreckenridge/youtube_subtitles_downloader",]
 
 ["Hiyori-API/checker_mal"]
 name = "checker_mal"
@@ -304,8 +304,8 @@ name = "HPI"
 full_name = "seanbreckenridge/HPI"
 html_url = "https://github.com/seanbreckenridge/HPI"
 description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a `python` package. [Currently in-use modules](https://github.com/seanbreckenridge/HPI#my-modules)"
-updated_at = "2022-01-09T04:55:29Z"
-stars = 30
+updated_at = "2022-01-30T07:39:06Z"
+stars = 31
 language = "Python"
 priority = 2
 score = 50
@@ -979,8 +979,8 @@ name = "grouvee_export"
 full_name = "seanbreckenridge/grouvee_export"
 html_url = "https://github.com/seanbreckenridge/grouvee_export"
 description = "a (partial) [grouvee](https://www.grouvee.com/) (a video game database website) data exporter"
-updated_at = "2021-10-18T07:39:41Z"
-stars = 0
+updated_at = "2022-01-30T05:04:10Z"
+stars = 1
 language = "Python"
 priority = 2
 score = 0
@@ -1042,3 +1042,15 @@ stars = 10
 language = "Python"
 priority = 2
 score = 0
+
+["seanbreckenridge/sqlite_backup"]
+name = "sqlite_backup"
+full_name = "seanbreckenridge/sqlite_backup"
+html_url = "https://github.com/seanbreckenridge/sqlite_backup"
+description = "a tool to snapshot sqlite databases you don't own"
+updated_at = "2022-01-30T21:55:16Z"
+stars = 2
+language = "Python"
+priority = 2
+score = 0
+url = "https://pypi.org/project/sqlite-backup/"
