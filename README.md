@@ -6,7 +6,7 @@ Live at [sean.fish/projects](https://sean.fish/projects)
 
 The metadata from the github API helps me determine project ordering.
 
-This is served on a different base path (`/projects`) in production. Seems that `next.js` still doesn't have the config option in `next.config.js` perfect, so it requires some rerouting on the nginx side:
+This is served on a different base path (`/projects`) in production, with `yarn prod-build && yarn prod-server`, with `nginx` like:
 
 ```nginx
 location /projects/ {
@@ -14,12 +14,8 @@ location /projects/ {
 }
 
 location /projects/_next/ {
-  # required since the above doesnt end with '/'
-  proxy_pass http://127.0.0.1:3000/projects/_next/;
-}
-
-# for some reason image optimization requests still use base path of the webserver
-location /_next/ {
+  # required since the above proxy pass doesnt end with '/'
   proxy_pass http://127.0.0.1:3000/projects/_next/;
 }
 ```
+
