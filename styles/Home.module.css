@@ -134,12 +134,13 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 80%;
+  max-width: 90%;
   margin-top: 3rem;
 }
 
 .card {
   margin: 1rem;
+  max-width: 500px;
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
