@@ -13,4 +13,8 @@ if (basePath) {
 module.exports = {
   basePath: basePath,
   images: imgConf,
+  i18n: {
+    locales: ["en"],
+    defaultLocale: "en",
+  },
 };

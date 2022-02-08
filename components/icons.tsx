@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import styles from "../styles/Home.module.css";
 
 import Image from "next/image";
@@ -19,7 +19,7 @@ interface IFooterIcon {
 }
 
 const FooterIcon = React.memo(
-  ({children, href, linkText, enable, disable}: IFooterIcon) => {
+  ({ children, href, linkText, enable, disable }: IFooterIcon) => {
     const noOp = () => {};
     const enableAnim = enable ?? noOp;
     const disaleAnim = disable ?? noOp;
@@ -49,13 +49,13 @@ const FooterIcon = React.memo(
   }
 );
 
-FooterIcon.displayName = "Footer Icon"
+FooterIcon.displayName = "Footer Icon";
 
 interface IWebsite {
   url?: string;
 }
 
-export const Website = React.memo(({url}: IWebsite) => {
+export const Website = React.memo(({ url }: IWebsite) => {
   if (url != null) {
     if (url.indexOf("sean.fish") !== -1) {
       return <MonoFavicon url={url!} />;
@@ -95,7 +95,7 @@ export const Website = React.memo(({url}: IWebsite) => {
   }
 });
 
-Website.displayName = "Website"
+Website.displayName = "Website";
 
 interface IMonoFavicon {
   url: string;
@@ -103,7 +103,7 @@ interface IMonoFavicon {
 
 // keep track of onHover events so that the favicon can be
 // colored/uncolored
-const MonoFavicon = React.memo(({url}: IMonoFavicon) => {
+const MonoFavicon = React.memo(({ url }: IMonoFavicon) => {
   const [monochrome, setMonochrome] = useState<boolean>(true);
   const size = 20;
 

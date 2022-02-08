@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 import Image from "next/image";
 
-import {IconBrandLinkedin, IconBrandGithub} from "@tabler/icons";
+import { IconBrandLinkedin, IconBrandGithub } from "@tabler/icons";
 
 const Header = React.memo(() => {
   const iconSize = 40;
@@ -21,7 +21,12 @@ const Header = React.memo(() => {
         </a>
         <a href="https://sean.fish" className={styles.homeLink}>
           <div className={styles.homeLinkIcon}>
-            <Image height={25} width={25} alt="icon" src="https://sean.fish/favicon.ico" />
+            <Image
+              height={25}
+              width={25}
+              alt="icon"
+              src="https://sean.fish/favicon.ico"
+            />
           </div>
           <span>WEBSITE</span>
         </a>
@@ -32,8 +37,8 @@ const Header = React.memo(() => {
         >
           <IconBrandGithub height={iconSize} width={iconSize} />
         </a>
-      </div >
-    </div >
+      </div>
+    </div>
   );
 });
 

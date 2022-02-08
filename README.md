@@ -18,4 +18,3 @@ location /projects/_next/ {
   proxy_pass http://127.0.0.1:3000/projects/_next/;
 }
 ```
-

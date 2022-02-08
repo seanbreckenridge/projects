@@ -47,7 +47,7 @@ const RepoCard = React.memo(({ repo }: IRepo) => {
   );
 });
 
-RepoCard.displayName = "Repository Card"
+RepoCard.displayName = "Repository Card";
 
 interface IRepoGrid {
   repos: Repository[];
@@ -63,6 +63,6 @@ const RepoGrid = React.memo(({ repos }: IRepoGrid) => {
   );
 });
 
-RepoGrid.displayName = "Repository Grid"
+RepoGrid.displayName = "Repository Grid";
 
 export default RepoGrid;
