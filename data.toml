@@ -832,7 +832,7 @@ name = "bookmark.txt"
 full_name = "seanbreckenridge/bookmark.txt"
 html_url = "https://github.com/seanbreckenridge/bookmark.txt"
 description = "A thin wrapper around todo.txt to keep track of my bookmarks"
-updated_at = "2021-04-24T22:44:31Z"
+updated_at = "2022-02-09T17:11:54Z"
 stars = 2
 language = "Shell"
 priority = 2
@@ -1037,8 +1037,8 @@ name = "google_takeout_parser"
 full_name = "seanbreckenridge/google_takeout_parser"
 html_url = "https://github.com/seanbreckenridge/google_takeout_parser"
 description = "Parses data out of your [Google Takeout](https://takeout.google.com/) (History, Activity, Youtube, Locations, etc...)"
-updated_at = "2022-01-12T20:45:39Z"
-stars = 10
+updated_at = "2022-02-10T23:21:22Z"
+stars = 11
 language = "Python"
 priority = 2
 score = 0
@@ -1067,3 +1067,25 @@ priority = 2
 score = 0
 url = "https://sean.fish/feed/"
 img = "/my_feed.png"
+
+["seanbreckenridge/HPI-personal"]
+name = "HPI-personal"
+full_name = "seanbreckenridge/HPI-personal"
+html_url = "https://github.com/seanbreckenridge/HPI-personal"
+description = "Personal [HPI](https://github.com/seanbreckenridge/HPI) modules"
+updated_at = "2022-02-11T00:55:45Z"
+stars = 0
+language = "Shell"
+priority = 2
+score = 0
+
+["seanbreckenridge/HPI-template"]
+name = "HPI-template"
+full_name = "seanbreckenridge/HPI-template"
+html_url = "https://github.com/seanbreckenridge/HPI-template"
+description = "A cookiecutter template for creating a [HPI](https://github.com/karlicoss/HPI) repository"
+updated_at = "2022-02-11T00:48:09Z"
+stars = 0
+language = "Python"
+priority = 2
+score = 0
