@@ -1075,7 +1075,7 @@ html_url = "https://github.com/seanbreckenridge/HPI-personal"
 description = "Personal [HPI](https://github.com/seanbreckenridge/HPI) modules"
 updated_at = "2022-02-11T00:55:45Z"
 stars = 0
-language = "Shell"
+language = "Python/Shell"
 priority = 2
 score = 0
 
