@@ -7,6 +7,10 @@
 THIS_DIR="$(realpath "$(dirname "${BASH_SOURCE[0]}")")"
 cd "$THIS_DIR"
 
+git stash
+git stash drop
+git pull
+
 logtime() {
 	local dt
 	dt="$(date)"
