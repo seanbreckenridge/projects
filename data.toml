@@ -81,7 +81,7 @@ name = "bootstrap"
 full_name = "seanbreckenridge/bootstrap"
 html_url = "https://github.com/seanbreckenridge/bootstrap"
 description = "A script to setup a new `bash` VPS/servers with defaults I like. This is the first things I do whenever I setup a new server, so I have all my `vi` bindings and aliases"
-updated_at = "2021-05-22T07:13:01Z"
+updated_at = "2022-02-18T22:28:58Z"
 stars = 0
 language = "Shell"
 priority = 2
@@ -1037,8 +1037,8 @@ name = "google_takeout_parser"
 full_name = "seanbreckenridge/google_takeout_parser"
 html_url = "https://github.com/seanbreckenridge/google_takeout_parser"
 description = "Parses data out of your [Google Takeout](https://takeout.google.com/) (History, Activity, Youtube, Locations, etc...)"
-updated_at = "2022-02-15T12:35:13Z"
-stars = 14
+updated_at = "2022-02-19T07:39:40Z"
+stars = 15
 language = "Python"
 priority = 2
 score = 0
@@ -1089,6 +1089,7 @@ stars = 2
 language = "Python"
 priority = 2
 score = 0
+img = "/editable.png"
 
 ["seanbreckenridge/back-arrow-script"]
 name = "back-arrow-script"

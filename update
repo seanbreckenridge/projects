@@ -163,6 +163,8 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                     }
                     if click.confirm("Add URL?"):
                         new_repo_data["url"] = click.prompt("URL ")
+                    if click.confirm("Add Image?"):
+                        new_repo_data["img"] = click.prompt("Image ")
                     repo_data[rname] = new_repo_data
                 else:
                     ignored.add(rname)
@@ -182,6 +184,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
     default=default_cachefile,
     type=click.Path(path_type=Path),
     help="JSON cachefile to use",
+    show_default=True,
 )
 @click.option(
     "--datafile",
@@ -189,6 +192,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
     default=default_datafile,
     type=click.Path(path_type=Path),
     help="TOML datafile to use",
+    show_default=True,
 )
 @click.option(
     "--github-username",
