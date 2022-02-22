@@ -38,7 +38,10 @@ export default function Home({ repos }: IHome) {
         <div className={styles.grid}>
           <RepoGrid repos={repos} />
         </div>
-        <Script src="https://sean.fish/p/back-arrow-bundle.js" strategy="beforeInteractive"></Script>
+        <Script
+          src="https://sean.fish/p/back-arrow-bundle.js"
+          strategy="beforeInteractive"
+        ></Script>
       </main>
     </div>
   );
