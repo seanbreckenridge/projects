@@ -179,6 +179,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
 
 @click.command(help=__doc__)
 @click.option(
+    "-c",
     "--cachefile",
     "use_cachefile",
     default=default_cachefile,
@@ -187,6 +188,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
     show_default=True,
 )
 @click.option(
+    "-d",
     "--datafile",
     "use_datafile",
     default=default_datafile,
@@ -195,6 +197,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
     show_default=True,
 )
 @click.option(
+    "-g",
     "--github-username",
     "use_github_username",
     default=default_github_username,

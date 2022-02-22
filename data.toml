@@ -5,11 +5,11 @@ name = "checker_mal"
 full_name = "Hiyori-API/checker_mal"
 html_url = "https://github.com/Hiyori-API/checker_mal"
 description = "maintains a cache of database IDs for [_MAL_](https://myanimelist.net)"
-stars = 8
+stars = 9
 language = "Elixir"
 priority = 2
 score = 0
-updated_at = "2022-01-19T19:49:25Z"
+updated_at = "2022-02-20T11:07:49Z"
 url = "https://sean.fish/mal_unapproved"
 img = "/mal_unapproved.png"
 
@@ -1042,6 +1042,7 @@ stars = 15
 language = "Python"
 priority = 2
 score = 0
+img = "/takeout.png"
 
 ["seanbreckenridge/sqlite_backup"]
 name = "sqlite_backup"
