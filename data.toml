@@ -885,7 +885,7 @@ description = "An cache of [MAL](https://myanimelist.net/) (MyAnimeList) Databas
 updated_at = "2022-02-12T02:54:44Z"
 stars = 26
 language = "Python"
-priority = 2
+priority = 1
 score = 0
 
 ["seanbreckenridge/traktexport"]
