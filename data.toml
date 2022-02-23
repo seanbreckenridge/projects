@@ -850,6 +850,7 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://pypi.org/project/chess_export"
+img = "/chess.png"
 
 ["seanbreckenridge/mpv-history-daemon"]
 name = "mpv-history-daemon"
@@ -1031,14 +1032,15 @@ stars = 1
 language = "Python"
 priority = 2
 score = 0
+img = "/old_forums.png"
 
 ["seanbreckenridge/google_takeout_parser"]
 name = "google_takeout_parser"
 full_name = "seanbreckenridge/google_takeout_parser"
 html_url = "https://github.com/seanbreckenridge/google_takeout_parser"
 description = "Parses data out of your [Google Takeout](https://takeout.google.com/) (History, Activity, Youtube, Locations, etc...)"
-updated_at = "2022-02-19T07:39:40Z"
-stars = 15
+updated_at = "2022-02-22T05:59:31Z"
+stars = 16
 language = "Python"
 priority = 2
 score = 0
@@ -1055,6 +1057,7 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://pypi.org/project/sqlite-backup/"
+img = "/sqlite.png"
 
 ["seanbreckenridge/my_feed"]
 name = "my_feed"
@@ -1079,6 +1082,7 @@ stars = 0
 language = "Python/Shell"
 priority = 2
 score = 0
+img = "/hpi_personal.png"
 
 ["seanbreckenridge/HPI-template"]
 name = "HPI-template"
