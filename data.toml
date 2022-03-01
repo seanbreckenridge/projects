@@ -342,7 +342,7 @@ name = "keyvol"
 full_name = "seanbreckenridge/keyvol"
 html_url = "https://github.com/seanbreckenridge/keyvol"
 description = "An interactive terminal interface for `pamixer`/`pactl` to control system volume"
-updated_at = "2021-09-15T18:28:54Z"
+updated_at = "2022-03-01T01:17:52Z"
 stars = 1
 language = "Go"
 priority = 2
@@ -1107,3 +1107,15 @@ language = "TypeScript"
 priority = 2
 score = 0
 img = "/back-arrow-script.png"
+
+["seanbreckenridge/fzfcache"]
+name = "fzfcache"
+full_name = "seanbreckenridge/fzfcache"
+html_url = "https://github.com/seanbreckenridge/fzfcache"
+description = "A small cache for unique lines of text, used to speedup the load time of expensive [fzf](https://github.com/junegunn/fzf) invocations"
+updated_at = "2022-03-01T08:23:25Z"
+stars = 0
+language = "Go"
+priority = 2
+score = 0
+img = "/fzfcache.gif"
