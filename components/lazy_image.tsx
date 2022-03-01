@@ -26,7 +26,7 @@ const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
     <>
       {src != null ? (
         <div className={styles.lazyImageContainer}>
-          <a href={src} target="_blank" rel="noreferrer">
+          <a href={src.endsWith("gif") ? null : src} target="_blank" rel="noreferrer">
             <Image
               src={src}
               alt={name}
