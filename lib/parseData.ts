@@ -4,7 +4,7 @@ import toml from "toml";
 import { remark } from "remark";
 import html from "remark-html";
 import { promisify } from "util";
-var sizeOf = promisify(require("image-size"));
+const sizeOf = promisify(require("image-size"));
 
 const dataFile = path.join(process.cwd(), "data.toml");
 const publicDir = path.join(process.cwd(), "public");
