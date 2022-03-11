@@ -1131,3 +1131,15 @@ language = "Python"
 priority = 2
 score = 0
 img = "/piazza.png"
+
+["seanbreckenridge/plaintext_playlist_py"]
+name = "plaintext_playlist_py"
+full_name = "seanbreckenridge/plaintext_playlist_py"
+html_url = "https://github.com/seanbreckenridge/plaintext_playlist_py"
+description = "library to parse [plaintext playlist](https://github.com/seanbreckenridge/plaintext-playlist) files, and other misc personal ID3 scripts"
+updated_at = "2022-03-11T07:31:22Z"
+stars = 0
+language = "Python"
+priority = 2
+score = 0
+img = "/id3stuff.png"
