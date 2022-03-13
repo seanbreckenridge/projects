@@ -1137,9 +1137,21 @@ name = "plaintext_playlist_py"
 full_name = "seanbreckenridge/plaintext_playlist_py"
 html_url = "https://github.com/seanbreckenridge/plaintext_playlist_py"
 description = "library to parse [plaintext playlist](https://github.com/seanbreckenridge/plaintext-playlist) files, and other misc personal ID3 scripts"
-updated_at = "2022-03-11T07:31:22Z"
+updated_at = "2022-03-11T08:29:58Z"
 stars = 0
 language = "Python"
 priority = 2
 score = 0
 img = "/id3stuff.png"
+
+["seanbreckenridge/yadm-git.vim"]
+name = "yadm-git.vim"
+full_name = "seanbreckenridge/yadm-git.vim"
+html_url = "https://github.com/seanbreckenridge/yadm-git.vim"
+description = "Integrates [`yadm`](https://github.com/TheLocehiliosan/yadm) with [`vim-fugitive`](https://github.com/tpope/vim-fugitive) and [`vim-gitgutter`](https://github.com/airblade/vim-gitgutter), so you can manage your dotfiles without leaving `vim`"
+updated_at = "2022-03-13T04:25:27Z"
+stars = 0
+language = "Vim script"
+priority = 2
+score = 0
+img = "/yadm_git.png"
