@@ -1,4 +1,4 @@
-ignored = [ "seanbreckenridge/CS-Assignments", "seanbreckenridge/HPI-fork", "seanbreckenridge/RSA", "seanbreckenridge/advent-of-code-2019", "seanbreckenridge/albums_old", "seanbreckenridge/arctee", "seanbreckenridge/blizzard_gdpr_parser", "seanbreckenridge/breach-parse", "seanbreckenridge/cachew", "seanbreckenridge/commands-discordpy-starter", "seanbreckenridge/cookiecutter-lib", "seanbreckenridge/cookiecutter-template", "seanbreckenridge/docker-jikan", "seanbreckenridge/dotfiles-index", "seanbreckenridge/forever-webui", "seanbreckenridge/fuji", "seanbreckenridge/ghexport", "seanbreckenridge/gnu-rust-utils", "seanbreckenridge/greasyfork_repo_generator", "seanbreckenridge/jikan", "seanbreckenridge/jikan-rest", "seanbreckenridge/jikan-rest-docker", "seanbreckenridge/jikanpy", "seanbreckenridge/jikanpy_ext", "seanbreckenridge/k_grok", "seanbreckenridge/keepassxc-pwned", "seanbreckenridge/lets-get-arrested", "seanbreckenridge/mac-dotfiles", "seanbreckenridge/mal-unapproved", "seanbreckenridge/mutt-wizard", "seanbreckenridge/oh-my-stars", "seanbreckenridge/okayweather", "seanbreckenridge/plus1", "seanbreckenridge/promnesia-fork", "seanbreckenridge/proxy-jikan", "seanbreckenridge/pygithub_requests_error", "seanbreckenridge/pytest-reraise", "seanbreckenridge/pytodotxt", "seanbreckenridge/rexport", "seanbreckenridge/rich-click", "seanbreckenridge/rotten_tomatoes_cli", "seanbreckenridge/rotten_tomatoes_client", "seanbreckenridge/sample-namespace-packages", "seanbreckenridge/seanbreckenridge", "seanbreckenridge/selenium-shutterfly-scraper", "seanbreckenridge/sl", "seanbreckenridge/sonic_pi_music", "seanbreckenridge/st", "seanbreckenridge/sw", "seanbreckenridge/tinspire", "seanbreckenridge/todotxt_deadline_notify", "seanbreckenridge/website", "seanbreckenridge/youtube_subtitles_downloader",]
+ignored = [ "seanbreckenridge/CS-Assignments", "seanbreckenridge/HPI-fork", "seanbreckenridge/RSA", "seanbreckenridge/advent-of-code-2019", "seanbreckenridge/albums_old", "seanbreckenridge/arctee", "seanbreckenridge/blizzard_gdpr_parser", "seanbreckenridge/breach-parse", "seanbreckenridge/cachew", "seanbreckenridge/commands-discordpy-starter", "seanbreckenridge/cookiecutter-lib", "seanbreckenridge/cookiecutter-template", "seanbreckenridge/docker-jikan", "seanbreckenridge/dotfiles-index", "seanbreckenridge/forever-webui", "seanbreckenridge/fuji", "seanbreckenridge/ghexport", "seanbreckenridge/gnu-rust-utils", "seanbreckenridge/greasyfork_repo_generator", "seanbreckenridge/jikan", "seanbreckenridge/jikan-rest", "seanbreckenridge/jikan-rest-docker", "seanbreckenridge/jikanpy", "seanbreckenridge/jikanpy_ext", "seanbreckenridge/k_grok", "seanbreckenridge/keepassxc-pwned", "seanbreckenridge/lets-get-arrested", "seanbreckenridge/mac-dotfiles", "seanbreckenridge/mal-unapproved", "seanbreckenridge/mutt-wizard", "seanbreckenridge/oh-my-stars", "seanbreckenridge/okayweather", "seanbreckenridge/plus1", "seanbreckenridge/promnesia-fork", "seanbreckenridge/proxy-jikan", "seanbreckenridge/pyfzf", "seanbreckenridge/pygithub_requests_error", "seanbreckenridge/pytest-reraise", "seanbreckenridge/pytodotxt", "seanbreckenridge/rexport", "seanbreckenridge/rich-click", "seanbreckenridge/rotten_tomatoes_cli", "seanbreckenridge/rotten_tomatoes_client", "seanbreckenridge/sample-namespace-packages", "seanbreckenridge/seanbreckenridge", "seanbreckenridge/selenium-shutterfly-scraper", "seanbreckenridge/sl", "seanbreckenridge/sonic_pi_music", "seanbreckenridge/st", "seanbreckenridge/sw", "seanbreckenridge/tinspire", "seanbreckenridge/todotxt_deadline_notify", "seanbreckenridge/website", "seanbreckenridge/youtube_subtitles_downloader",]
 
 ["Hiyori-API/checker_mal"]
 name = "checker_mal"
@@ -179,8 +179,8 @@ name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
 description = "cross-platform (arch/macos/android) dotfiles and scripts, using [`yadm`](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
-updated_at = "2022-02-15T17:45:56Z"
-stars = 15
+updated_at = "2022-03-14T22:52:52Z"
+stars = 17
 language = "Shell"
 priority = 2
 score = 0
@@ -304,8 +304,8 @@ name = "HPI"
 full_name = "seanbreckenridge/HPI"
 html_url = "https://github.com/seanbreckenridge/HPI"
 description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a `python` package. [Currently in-use modules](https://github.com/seanbreckenridge/HPI#my-modules)"
-updated_at = "2022-01-30T07:39:06Z"
-stars = 31
+updated_at = "2022-03-15T03:27:34Z"
+stars = 32
 language = "Python"
 priority = 2
 score = 50
@@ -931,8 +931,8 @@ name = "browserexport"
 full_name = "seanbreckenridge/browserexport"
 html_url = "https://github.com/seanbreckenridge/browserexport"
 description = "backup and parse browser history databases. I use this to backup my brower histories so that I never lose any of it"
-updated_at = "2022-03-05T08:43:10Z"
-stars = 39
+updated_at = "2022-03-15T03:30:29Z"
+stars = 40
 language = "Python"
 priority = 2
 score = 0
@@ -1155,3 +1155,14 @@ language = "Vim script"
 priority = 2
 score = 0
 img = "/yadm_git.png"
+
+["seanbreckenridge/mal_approved"]
+name = "mal_approved"
+full_name = "seanbreckenridge/mal_approved"
+html_url = "https://github.com/seanbreckenridge/mal_approved"
+description = "[WIP] Lists when entries were approved on MAL, with links to watch some of them!"
+updated_at = "2022-03-16T03:24:03Z"
+stars = 0
+language = "Python"
+priority = 2
+score = 0
