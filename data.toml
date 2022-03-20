@@ -1172,9 +1172,22 @@ name = "oh-my-stars"
 full_name = "seanbreckenridge/oh-my-stars"
 html_url = "https://github.com/seanbreckenridge/oh-my-stars"
 description = "An offline CLI tool to search your GitHub Stars - A fork to add some features I wanted"
-updated_at = "2022-01-21T00:54:32Z"
-stars = 6
+updated_at = "2022-03-19T20:57:35Z"
+stars = 7
 language = "Python"
 priority = 2
 score = 0
 img = "/oh-my-stars.png"
+
+["seanbreckenridge/git_doc_history"]
+name = "git_doc_history"
+full_name = "seanbreckenridge/git_doc_history"
+html_url = "https://github.com/seanbreckenridge/git_doc_history"
+description = "copy/track file history in git, with python bindings to traverse and extract files/lines at some date"
+updated_at = "2022-03-20T07:49:15Z"
+stars = 0
+language = "Python"
+priority = 2
+score = 0
+url = "https://pypi.org/project/git-doc-history/"
+img = "/git_doc_history.png"
