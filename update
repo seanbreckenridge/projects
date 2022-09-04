@@ -109,17 +109,6 @@ def load_data(*, datafile: Path) -> Tuple[Set[str], RepoDB]:
     return ignored, repos
 
 
-# if any of the items in repos in the loaded data aren't owned by me
-# return a the full_name of those so they can be requested individually
-# this part is manually entered into the toml file
-def unowned(*, github_username: str, repo_data: RepoDB) -> List[str]:
-    unowned_repos: List[str] = []
-    for repo in repo_data:
-        if not repo.startswith(github_username):
-            unowned_repos.append(repo)
-    return unowned_repos
-
-
 # priority:
 # 1: put at bottom
 # 2: order by star
@@ -205,13 +194,10 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
 )
 def main(use_cachefile: Path, use_datafile: Path, use_github_username: str) -> None:
     ignored, repo_data = load_data(datafile=use_datafile)
-    unowned_repos: List[str] = unowned(
-        github_username=use_github_username, repo_data=repo_data
-    )
     repo_info: List[Dict] = get_repository_data(
         cachefile=use_cachefile,
         github_username=use_github_username,
-        unowned=unowned_repos,
+        unowned=[r for r in repo_data if not r.startswith(use_github_username)],
     )
     repo_data = prompt_new(repo_info, repo_data, ignored)
     with use_datafile.open("w") as tf:
