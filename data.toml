@@ -9,7 +9,7 @@ stars = 10
 language = "Elixir"
 priority = 2
 score = 0
-updated_at = "2022-08-01T15:23:00Z"
+updated_at = "2022-09-30T05:10:57Z"
 url = "https://sean.fish/mal_unapproved"
 img = "/mal_unapproved.png"
 
@@ -179,8 +179,8 @@ name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
 description = "cross-platform (arch/macos/android) dotfiles and scripts, using [`yadm`](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
-updated_at = "2022-09-14T12:06:10Z"
-stars = 26
+updated_at = "2022-10-04T23:29:35Z"
+stars = 27
 language = "Shell"
 priority = 2
 score = 0
@@ -1253,3 +1253,16 @@ stars = 0
 language = "Python"
 priority = 2
 score = 0
+
+["seanbreckenridge/mapscii-at"]
+name = "mapscii-at"
+full_name = "seanbreckenridge/mapscii-at"
+html_url = "https://github.com/seanbreckenridge/mapscii-at"
+description = "a small CLI to pass starting options to mapscii"
+updated_at = "2022-10-05T11:36:47Z"
+stars = 0
+language = "JavaScript"
+priority = 2
+score = 0
+url = "https://github.com/seanbreckenridge/mapscii-at"
+img = "/mapscii.png"
