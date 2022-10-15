@@ -1277,5 +1277,5 @@ stars = 0
 language = "Python"
 priority = 2
 score = 0
-url = "https://github.com/seanbreckenridge/scramble-history"
+url = "https://pypi.org/project/scramble-history/"
 img = "/cstimer.png"
