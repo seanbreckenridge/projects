@@ -1279,3 +1279,15 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/scramble-history/"
 img = "/cstimer.png"
+
+["seanbreckenridge/cstimer-save-server"]
+name = "cstimer-save-server"
+full_name = "seanbreckenridge/cstimer-save-server"
+html_url = "https://github.com/seanbreckenridge/cstimer-save-server"
+description = "a userscript/local server which saves my data from <https://cstimer.net> whenever I open cstimer in my browser"
+updated_at = "2022-10-16T17:36:11Z"
+stars = 0
+language = "Go"
+priority = 2
+score = 0
+img = "/cstimer-save-server.png"
