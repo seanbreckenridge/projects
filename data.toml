@@ -1271,7 +1271,7 @@ img = "/mapscii.png"
 name = "scramble-history"
 full_name = "seanbreckenridge/scramble-history"
 html_url = "https://github.com/seanbreckenridge/scramble-history"
-description = "parses scramble history from [cstimer.net](https://cstimer.net/) and other sources"
+description = "parses scramble history from [cstimer.net](https://cstimer.net/), [cubers.io](https://www.cubers.io/), [twistytimer](https://play.google.com/store/apps/details?id=com.aricneto.twistytimer&hl=en_US&gl=US) and the [WCA TSV export](https://www.worldcubeassociation.org/results/misc/export.html)"
 updated_at = "2022-10-15T07:11:13Z"
 stars = 0
 language = "Python"
