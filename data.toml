@@ -1278,7 +1278,7 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://pypi.org/project/scramble-history/"
-img = "/cstimer.png"
+img = "/ao12.png"
 
 ["seanbreckenridge/cstimer-save-server"]
 name = "cstimer-save-server"
