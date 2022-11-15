@@ -1271,7 +1271,7 @@ img = "/mapscii.png"
 name = "scramble-history"
 full_name = "seanbreckenridge/scramble-history"
 html_url = "https://github.com/seanbreckenridge/scramble-history"
-description = "parses your rubiks cube scramble history from [cstimer.net](https://cstimer.net/), [cubers.io](https://www.cubers.io/), [twistytimer](https://play.google.com/store/apps/details?id=com.aricneto.twistytimer&hl=en_US&gl=US), and merges them together giving you uniform averages/data "
+description = "parses your rubiks cube solve history from [cstimer.net](https://cstimer.net/), [cubers.io](https://www.cubers.io/), [twistytimer](https://play.google.com/store/apps/details?id=com.aricneto.twistytimer&hl=en_US&gl=US), and merges them together giving you uniform averages/data "
 updated_at = "2022-11-14T05:20:44Z"
 stars = 0
 language = "Python"
