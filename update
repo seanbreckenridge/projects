@@ -9,7 +9,7 @@ import os
 import sys
 import json
 import time
-from typing import List, Dict, Set, Any, Tuple
+from typing import List, Dict, Set, Any, Tuple, NamedTuple
 from pathlib import Path
 
 Json = Any
@@ -109,6 +109,21 @@ def load_data(*, datafile: Path) -> Tuple[Set[str], RepoDB]:
     return ignored, repos
 
 
+TOPICS: Set[str] = set()
+
+
+def _prompt_tags(name: str) -> List[str]:
+    from prompt_toolkit import prompt
+    from prompt_toolkit.completion import WordCompleter
+
+    tags = []
+    comp = WordCompleter(list(TOPICS))
+    resp = prompt(f"{name}; add tag: ", completer=comp).strip()
+    if resp:
+        tags.extend([r.strip() for r in resp.split()])
+    return tags
+
+
 # priority:
 # 1: put at bottom
 # 2: order by star
@@ -122,6 +137,18 @@ def load_data(*, datafile: Path) -> Tuple[Set[str], RepoDB]:
 
 # prompt me to add any new items
 def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> RepoDB:
+    for info in repo_info:
+        for topic in info.get("topics", []):
+            if topic:
+                TOPICS.add(topic)
+        if info["language"]:
+            TOPICS.add(info["language"])
+
+    for rinfo in repo_data.values():
+        for tag in rinfo.get("tags", []):
+            if tag:
+                TOPICS.add(tag)
+
     prompted: int = 0
     for repo in repo_info:
         rname: str = repo["full_name"]
@@ -157,9 +184,10 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                     repo_data[rname] = new_repo_data
                 else:
                     ignored.add(rname)
+            if rname in repo_data and "tags" not in repo_data[rname]:
+                repo_data[rname]["tags"] = _prompt_tags(name=repo["full_name"])
+                prompted += 1
 
-        # exit once we've done 5, can re-run to continue adding
-        # so I can take breaks
         if prompted >= 5:
             break
     repo_data["ignored"] = sorted(list(ignored))

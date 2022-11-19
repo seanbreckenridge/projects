@@ -4,3 +4,4 @@ click
 vimbuffer
 rifleman
 black
+prompt_toolkit
