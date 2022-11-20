@@ -945,6 +945,7 @@ stars = 8
 language = "Python"
 priority = 2
 score = 0
+url = "https://pypi.org/project/ttally/"
 img = "/autotui.gif"
 tags = [ "fzf", "python", "tui", "hpi", "food",]
 
