@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Card.module.css";
 
 import { Repository } from "../lib/parseData";
 
@@ -11,6 +11,13 @@ import LazyImage from "./lazy_image";
 interface IRepo {
   repo: Repository;
 }
+
+const Tags = React.memo(({ tags }: { tags: string[] }) => {
+  const desc = tags.join(", ");
+  return <div className={styles.cardTags}>{desc}</div>;
+});
+
+Tags.displayName = "Tags";
 
 const RepoCard = React.memo(({ repo }: IRepo) => {
   const remoteURL = "https://github.com/" + repo.full_name;
@@ -36,6 +43,7 @@ const RepoCard = React.memo(({ repo }: IRepo) => {
           />
         )}
       </div>
+      <Tags tags={repo.tags} />
       <hr />
       <div className={styles.cardFooter}>
         <FooterIcon href={remoteURL} linkText="Github">

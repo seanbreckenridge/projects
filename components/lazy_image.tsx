@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/Card.module.css";
 
 import { Dimensions } from "../lib/parseData";
 
