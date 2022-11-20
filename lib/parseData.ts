@@ -28,6 +28,7 @@ export interface Repository {
   stars: number;
   score: number;
   priority: number;
+  tags: string[];
 }
 
 const PRIO_MULTIPLIER = 1000000000;

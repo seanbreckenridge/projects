@@ -9,7 +9,8 @@ import os
 import sys
 import json
 import time
-from typing import List, Dict, Set, Any, Tuple, NamedTuple
+from itertools import chain
+from typing import List, Dict, Set, Any, Tuple
 from pathlib import Path
 
 Json = Any
@@ -28,6 +29,7 @@ this_dir: Path = Path(__file__).absolute().parent
 default_cachefile: Path = this_dir / "cache.json"
 default_datafile: Path = this_dir / "data.toml"
 default_github_username: str = "seanbreckenridge"
+languages_file: Path = this_dir / "languages.json"
 
 
 def cached_response_has_expired(*, cachefile: Path) -> bool:
@@ -194,6 +196,16 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
     return repo_data
 
 
+def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, bool]:
+    for tag in tags:
+        if tag not in tag_data:
+            click.echo(f"Is {tag} a language? [y/n] ", nl=False)
+            ch = click.getchar()
+            tag_data[tag] = ch == "y"
+            print()
+    return tag_data
+
+
 @click.command(help=__doc__)
 @click.option(
     "-c",
@@ -214,13 +226,23 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
     show_default=True,
 )
 @click.option(
+    "-L",
+    "--lang-file",
+    default=languages_file,
+    type=click.Path(path_type=Path),
+    help="store classified tags for langauges",
+    show_default=True,
+)
+@click.option(
     "-g",
     "--github-username",
     "use_github_username",
     default=default_github_username,
     help="github username to use",
 )
-def main(use_cachefile: Path, use_datafile: Path, use_github_username: str) -> None:
+def main(
+    use_cachefile: Path, use_datafile: Path, lang_file: Path, use_github_username: str
+) -> None:
     ignored, repo_data = load_data(datafile=use_datafile)
     repo_info: List[Dict] = get_repository_data(
         cachefile=use_cachefile,
@@ -230,6 +252,16 @@ def main(use_cachefile: Path, use_datafile: Path, use_github_username: str) -> N
     repo_data = prompt_new(repo_info, repo_data, ignored)
     with use_datafile.open("w") as tf:
         toml.dump(repo_data, tf)
+    tag_data = {}
+    if lang_file.exists():
+        tag_data = json.loads(lang_file.read_text())
+    tag_data = classify_tags(
+        tag_data,
+        tags=set(
+            chain(*[r["tags"] for r in repo_data.values() if isinstance(r, dict)])
+        ),
+    )
+    lang_file.write_text(json.dumps(tag_data, indent=4, sort_keys=True))
 
 
 if __name__ == "__main__":

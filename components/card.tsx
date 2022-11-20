@@ -51,17 +51,22 @@ RepoCard.displayName = "Repository Card";
 
 interface IRepoGrid {
   repos: Repository[];
+  filterTags: string[];
 }
 
-const RepoGrid = React.memo(({ repos }: IRepoGrid) => {
+const RepoGrid = ({ repos, filterTags }: IRepoGrid) => {
+  const shownRepos = repos.filter((repo: Repository) => {
+    if (filterTags.length === 0) return true;
+    return repo.tags.some((tag: string) => filterTags.includes(tag))
+  });
   return (
     <>
-      {repos.map((repo: Repository) => {
+      {shownRepos.map((repo: Repository) => {
         return <RepoCard key={repo.full_name} repo={repo} />;
       })}
     </>
   );
-});
+};
 
 RepoGrid.displayName = "Repository Grid";
 

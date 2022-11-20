@@ -1,0 +1,34 @@
+.container {
+  margin-top: 2rem;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filterButton {
+  border: grey 1px;
+  margin: 0.25em;
+  border: 1px solid #eaeaea;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.filterButton:hover {
+  filter: invert(30%);
+  color: white;
+  cursor: pointer;
+}
+
+.filterTagName {
+  padding-right: 0.4rem;
+  padding: 0.25rem 0.5rem;
+}
+
+.filterCount {
+  padding: 0.25rem 0.5rem;
+  padding-left: 0.4rem;
+  border-left: 1px solid #eee;
+}
