@@ -613,7 +613,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/shortcuts.png"
-tags = [ "cli-tool", "python", "bash",]
+tags = [ "cli-tool", "python", "bash", "dotfiles",]
 
 ["seanbreckenridge/spkglist"]
 name = "spkglist"
@@ -692,7 +692,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/ttt.png"
-tags = [ "bash", "golang", "hpi",]
+tags = [ "bash", "golang", "hpi", "dotfiles",]
 
 ["seanbreckenridge/twitchlive"]
 name = "twitchlive"
