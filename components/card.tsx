@@ -57,7 +57,7 @@ interface IRepoGrid {
 const RepoGrid = ({ repos, filterTags }: IRepoGrid) => {
   const shownRepos = repos.filter((repo: Repository) => {
     if (filterTags.length === 0) return true;
-    return repo.tags.some((tag: string) => filterTags.includes(tag))
+    return repo.tags.some((tag: string) => filterTags.includes(tag));
   });
   return (
     <>
