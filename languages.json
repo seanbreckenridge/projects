@@ -37,6 +37,7 @@
     "haskell": true,
     "hpi": false,
     "image": false,
+    "installer": false,
     "java": true,
     "javascript": true,
     "jikan": false,
