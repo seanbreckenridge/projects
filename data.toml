@@ -193,8 +193,8 @@ name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
 description = "cross-platform (arch/macos/android) dotfiles and scripts, using [`yadm`](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
-updated_at = "2022-11-29T13:57:22Z"
-stars = 31
+updated_at = "2022-12-02T17:17:18Z"
+stars = 32
 language = "Shell"
 priority = 2
 score = 0
@@ -1397,12 +1397,12 @@ priority = 2
 score = 0
 tags = [ "cli-tool", "python", "git", "dotfiles",]
 
-["seanbreckenridge/seanb-core"]
-name = "seanb-core"
-full_name = "seanbreckenridge/seanb-core"
-html_url = "https://github.com/seanbreckenridge/seanb-core"
+["seanbreckenridge/core"]
+name = "core"
+full_name = "seanbreckenridge/core"
+html_url = "https://github.com/seanbreckenridge/core"
 description = "an installer for scripts extracted from my [dotfiles](https://github.com/seanbreckenridge/dotfiles)"
-updated_at = "2022-12-02T05:11:49Z"
+updated_at = "2022-12-03T03:02:03Z"
 stars = 0
 language = "Shell"
 priority = 2
