@@ -470,12 +470,12 @@ score = 0
 img = "/mpvf.gif"
 tags = [ "mpv", "bash",]
 
-["seanbreckenridge/no-db-static-shorturl"]
-name = "no-db-static-shorturl"
-full_name = "seanbreckenridge/no-db-static-shorturl"
-html_url = "https://github.com/seanbreckenridge/no-db-static-shorturl"
+["seanbreckenridge/no-db-shorturl"]
+name = "no-db-shorturl"
+full_name = "seanbreckenridge/no-db-shorturl"
+html_url = "https://github.com/seanbreckenridge/no-db-shorturl"
 description = "file based single-binary URL shortener server. Has no dependencies; doesn’t require you to setup a database"
-updated_at = "2021-09-15T18:30:12Z"
+updated_at = "2022-12-09T18:29:20Z"
 stars = 0
 language = "Go"
 priority = 2
@@ -541,8 +541,8 @@ name = "pythonanywhere-3-months"
 full_name = "seanbreckenridge/pythonanywhere-3-months"
 html_url = "https://github.com/seanbreckenridge/pythonanywhere-3-months"
 description = "clicks the 'Run until 3 months from today' button on [pythonanywhere](https://www.pythonanywhere.com), so your website doesn't deactivate automatically"
-updated_at = "2022-06-25T07:46:17Z"
-stars = 1
+updated_at = "2022-12-09T10:37:33Z"
+stars = 2
 language = "Python"
 priority = 2
 score = 0
@@ -1402,7 +1402,7 @@ name = "core"
 full_name = "seanbreckenridge/core"
 html_url = "https://github.com/seanbreckenridge/core"
 description = "an installer for core scripts extracted from my [dotfiles](https://github.com/seanbreckenridge/dotfiles)"
-updated_at = "2022-12-03T03:02:03Z"
+updated_at = "2022-12-05T07:49:40Z"
 stars = 0
 language = "Shell"
 priority = 2
