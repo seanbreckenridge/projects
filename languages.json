@@ -9,6 +9,7 @@
     "c++": true,
     "caching": false,
     "cli-tool": false,
+    "clipboard": false,
     "clojure": true,
     "coffeescript": true,
     "commonlisp": true,
