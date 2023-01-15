@@ -1432,5 +1432,5 @@ stars = 1
 language = "Go"
 priority = 2
 score = 0
-tags = [ "clipboard", "server", "web", "golang",]
+tags = [ "clipboard", "server", "web", "golang", "react", "typescript",]
 image = "/server_clipboard.png"
