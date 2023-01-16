@@ -1242,12 +1242,12 @@ score = 0
 img = "/yadm_git.png"
 tags = [ "vim", "git",]
 
-["seanbreckenridge/malsentinel"]
-name = "malsentinel"
-full_name = "seanbreckenridge/malsentinel"
-html_url = "https://github.com/seanbreckenridge/malsentinel"
+["seanbreckenridge/dbsentinel"]
+name = "dbsentinel"
+full_name = "seanbreckenridge/dbsentinel"
+html_url = "https://github.com/seanbreckenridge/dbsentinel"
 description = "[WIP] Lists when entries were approved on MAL, with links to watch some of them!"
-updated_at = "2022-03-21T07:56:52Z"
+updated_at = "2023-01-15T11:35:26Z"
 stars = 0
 language = "Python"
 priority = 2
