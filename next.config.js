@@ -4,6 +4,7 @@ const imgConf = {
     "localhost",
     "sean-fish-imageproxy.s3.us-west-1.amazonaws.com",
   ],
+  loader: "custom",
 };
 
 module.exports = {

@@ -125,6 +125,7 @@ const MonoFavicon = React.memo(({ url }: IMonoFavicon) => {
           alt=""
           height={size}
           width={size}
+          loader={({ src }) => src}
         />
       </span>
     </FooterIcon>

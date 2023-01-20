@@ -14,7 +14,6 @@ const maxWidth = 400;
 const maxHeight = 400;
 
 const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
-  console.log(dimensions);
   const useWidth = dimensions?.width > maxWidth ? maxWidth : dimensions?.width
   const height = useWidth * (dimensions?.height / dimensions?.width)
   return (
@@ -28,7 +27,7 @@ const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
             height: height,
           }}
         >
-          <Image src={src} alt={name} fill={true} loading="lazy" />
+          <Image src={src} alt={name} fill={true} loading="lazy" loader={({ src }) => src} />
         </div>
       ) : (
         <></>
