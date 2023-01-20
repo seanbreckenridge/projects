@@ -48,9 +48,6 @@ export default function Home({ repos, tags }: IHome) {
           name="description"
           content="A list of Sean Breckenridge's Projects"
         />
-        <meta property="ba:title" content="back home" />
-        <meta property="ba:url" content="https://sean.fish" />
-        <meta property="ba:color" content="rgb(156, 181, 180)" />
       </Head>
       <Header />
       <FilterSelect tags={tags} filters={filters} setFilters={setFilters} />
@@ -58,10 +55,6 @@ export default function Home({ repos, tags }: IHome) {
         <div className={styles.grid}>
           <RepoGrid repos={repos} filterTags={filters} />
         </div>
-        <Script
-          src="https://sean.fish/p/back-arrow-bundle.js"
-          strategy="beforeInteractive"
-        ></Script>
       </main>
     </div>
   );
