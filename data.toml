@@ -1355,7 +1355,6 @@ stars = 2
 language = "JavaScript"
 priority = 2
 score = 0
-url = "https://github.com/seanbreckenridge/mapscii-at"
 img = "/mapscii.png"
 tags = [ "javascript", "cli-tool",]
 
