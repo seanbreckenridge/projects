@@ -12,6 +12,10 @@ commit() {
 	fi
 }
 
+sync_images() {
+	s4cmd dsync ./public s3://sean-fish-imageproxy/project-images
+}
+
 ./update &&
 	git add . &&
 	commit "$@" &&

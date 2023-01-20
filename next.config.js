@@ -1,17 +1,12 @@
-// deploy under /projects in production
-
-const basePath = process.env.ENV === "production" ? "/projects" : undefined;
-
-let imgConf = {
-  domains: ["sean.fish", "localhost"],
+const imgConf = {
+  domains: [
+    "sean.fish",
+    "localhost",
+    "sean-fish-imageproxy.s3.us-west-1.amazonaws.com",
+  ],
 };
 
-if (basePath) {
-  imgConf.path = `${basePath}/_next/image`;
-}
-
 module.exports = {
-  basePath: basePath,
   images: imgConf,
   i18n: {
     locales: ["en"],
