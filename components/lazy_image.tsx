@@ -10,29 +10,25 @@ interface ILazyImage {
   dimensions?: Dimensions;
 }
 
-// const maxWidth = 400;
-// const maxHeight = 400;
+const maxWidth = 400;
+const maxHeight = 400;
 
 const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
-  // const ratio = Math.min(
-  //   maxWidth / dimensions.width,
-  //   maxHeight / dimensions.height
-  // );
-
-  // const useWidth = dimensions.width * ratio;
-  // const useHeight = dimensions.height * ratio;
-
+  console.log(dimensions);
+  const useWidth = dimensions?.width > maxWidth ? maxWidth : dimensions?.width
+  const height = useWidth * (dimensions?.height / dimensions?.width)
   return (
+
     <>
       {src != null ? (
-        <div className={styles.lazyImageContainer}>
-          <Image
-            src={src}
-            alt={name}
-            width={dimensions.width}
-            height={dimensions.height}
-            loading="lazy"
-          />
+        <div
+          className={styles.lazyImageContainer}
+          style={{
+            width: dimensions?.width > maxWidth ? maxWidth : dimensions?.width,
+            height: height,
+          }}
+        >
+          <Image src={src} alt={name} fill={true} loading="lazy" />
         </div>
       ) : (
         <></>
