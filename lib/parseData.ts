@@ -75,7 +75,7 @@ async function renderRepo(repo: Repository): Promise<Repository> {
   repo.description = processedDesc.toString();
   if (repo.img != null) {
     repo.dimensions = await sizeOf(path.join(publicDir, repo.img!));
-    repo.img = `${process.env.IMG_PREFIX}{repo.img}`;
+    repo.img = `${process.env.IMG_PREFIX}${repo.img}`;
   }
   return repo;
 }
