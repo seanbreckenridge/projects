@@ -26,6 +26,7 @@ const Header = React.memo(() => {
               width={25}
               alt="icon"
               src="https://sean.fish/favicon.ico"
+              loader={({ src }) => src}
             />
           </div>
           <span>WEBSITE</span>

@@ -17,7 +17,9 @@ sync_images() {
 }
 
 ./update &&
+	yarn lint &&
+	yarn build &&
+	sync_images &&
 	git add . &&
 	commit "$@" &&
-	git push &&
-	ssh vultr
+	git push
