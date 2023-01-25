@@ -27,7 +27,7 @@ const LazyImage = React.memo(({ src, name, dimensions }: ILazyImage) => {
             height: height,
           }}
         >
-          <Image src={src} alt={name} fill={true} loading="lazy" loader={({ src }) => src} />
+          <Image src={src} alt={name} fill={true} loader={({ src }) => src} />
         </div>
       ) : (
         <></>
