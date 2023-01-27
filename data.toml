@@ -193,8 +193,8 @@ name = "dotfiles"
 full_name = "seanbreckenridge/dotfiles"
 html_url = "https://github.com/seanbreckenridge/dotfiles"
 description = "cross-platform (arch/macos/android) dotfiles and scripts, using [`yadm`](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
-updated_at = "2023-01-19T02:46:44Z"
-stars = 33
+updated_at = "2023-01-25T05:50:57Z"
+stars = 34
 language = "Shell"
 priority = 2
 score = 0
@@ -501,8 +501,8 @@ name = "pmark"
 full_name = "seanbreckenridge/pmark"
 html_url = "https://github.com/seanbreckenridge/pmark"
 description = "A hacky, markdown pre-processor. Uses code blocks to generate markdown, from within the markdown itself"
-updated_at = "2022-11-15T21:04:46Z"
-stars = 2
+updated_at = "2023-01-25T11:00:23Z"
+stars = 3
 language = "Perl"
 priority = 2
 score = 0
@@ -613,7 +613,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/spkglist.png"
-tags = [ "golang", "bash", "dotfiles",]
+tags = [ "golang", "bash", "dotfiles", "installer",]
 
 ["seanbreckenridge/steamscraper"]
 name = "steamscraper"
@@ -719,7 +719,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/vps.png"
-tags = [ "server", "bash",]
+tags = [ "server", "bash", "installer",]
 
 ["seanbreckenridge/wait-for-internet"]
 name = "wait-for-internet"
@@ -1395,7 +1395,7 @@ stars = 2
 language = "Python"
 priority = 2
 score = 0
-tags = [ "cli-tool", "python", "git", "dotfiles",]
+tags = [ "cli-tool", "python", "git", "dotfiles", "installer",]
 
 ["seanbreckenridge/core"]
 name = "core"
