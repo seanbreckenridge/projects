@@ -137,6 +137,7 @@ def _prompt_tags(name: str) -> List[str]:
 # when calculating order on priority 2, it compares
 # score + stars
 
+
 # prompt me to add any new items
 def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> RepoDB:
     for info in repo_info:
