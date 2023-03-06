@@ -56,6 +56,7 @@
     "octave": true,
     "perl": true,
     "php": true,
+    "playlist": false,
     "prolog": true,
     "python": true,
     "racket": true,
