@@ -17,3 +17,5 @@ location /projects/_next/ {
   proxy_pass http://127.0.0.1:3000/projects/_next/;
 }
 ```
+
+`./push` syncs the images to S3, the HTTP prefix for the (public) images on that bucket is set in `.env`. The `PREFIX` environment variable is set in `package.json` for the `prod-build` and `next.config.js` files.
