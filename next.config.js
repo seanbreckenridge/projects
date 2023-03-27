@@ -1,3 +1,5 @@
+const basePath = process.env.PREFIX ?? undefined
+
 const imgConf = {
   domains: [
     "sean.fish",
@@ -8,7 +10,12 @@ const imgConf = {
   unoptimized: true,
 };
 
+if (basePath) {
+  imgConf.path = `${basePath}/_next/image`
+}
+
 module.exports = {
+  basePath: basePath,
   images: imgConf,
   i18n: {
     locales: ["en"],

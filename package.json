@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prod-build": "ENV=production next build",
-    "prod-server": "ENV=production next start"
+    "prod-build": "PREFIX='/projects' next build",
+    "prod-server": "PREFIX='/projects' next start"
   },
   "dependencies": {
     "@tabler/icons": "1.68.0",
