@@ -20,6 +20,23 @@ deploy() {
 	ssh vultr 'cd ~/code/projects && PATH="${HOME}/vps:$PATH" ONCE=1 bash -x ./bg_update'
 }
 
+while getopts ':hds' opt; do
+	case "$opt" in
+	d)
+		deploy
+		exit 0
+		;;
+	s)
+		sync_images
+		exit 0
+		;;
+	*)
+		echo "Usage: ./push [-ds] [commit message]"
+		exit 1
+		;;
+	esac
+done
+
 ./update &&
 	yarn lint &&
 	yarn build &&
