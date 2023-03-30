@@ -16,10 +16,15 @@ sync_images() {
 	s4cmd dsync ./public s3://sean-fish-imageproxy/project-images
 }
 
+deploy() {
+	ssh vultr 'cd ~/code/projects && PATH="${HOME}/vps:$PATH" ONCE=1 bash -x ./bg_update'
+}
+
 ./update &&
 	yarn lint &&
 	yarn build &&
 	sync_images &&
 	git add . &&
 	commit "$@" &&
-	git push
+	git push &&
+	deploy
