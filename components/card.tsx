@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 import styles from "../styles/Card.module.css";
 
 import { Repository } from "../lib/parseData";
@@ -62,11 +62,26 @@ interface IRepoGrid {
   filterTags: string[];
 }
 
+function matchesAllFilters(repo: Repository, filterTags: string[]) {
+  for (const tag of filterTags) {
+    if (!repo.tags.includes(tag)) return false;
+  }
+  return true;
+}
+
 const RepoGrid = ({ repos, filterTags }: IRepoGrid) => {
-  const shownRepos = repos.filter((repo: Repository) => {
-    if (filterTags.length === 0) return true;
-    return repo.tags.some((tag: string) => filterTags.includes(tag));
-  });
+  const shownRepos = useMemo(() => {
+    return repos.filter((repo: Repository) =>
+      matchesAllFilters(repo, filterTags)
+    );
+  }, [repos, filterTags]);
+  if (shownRepos.length === 0) {
+    return (
+      <div>
+        No repositories match all the selected filters. Try removing some.
+      </div>
+    );
+  }
   return (
     <>
       {shownRepos.map((repo: Repository) => {
