@@ -1469,6 +1469,7 @@ stars = 0
 language = "Python"
 priority = 2
 score = 0
+img = "/filmswap.png"
 tags = [ "media", "discord", "discord",]
 
 ["seanbreckenridge/saugabooru_episode_mad"]
@@ -1492,6 +1493,7 @@ updated_at = "2023-08-07T20:39:21Z"
 stars = 0
 language = "Python"
 priority = 2
+img = "/offline.png"
 score = 0
 tags = [ "music", "python", "media",]
 
@@ -1505,6 +1507,7 @@ stars = 0
 language = "Go"
 priority = 2
 score = 0
+img = "/is-integer.png"
 tags = [ "cli-tool", "golang",]
 
 ["seanbreckenridge/time-in"]
@@ -1518,5 +1521,5 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://pypi.org/project/time-in/"
-img = "tz.png"
+img = "/tz.png"
 tags = [ "cli-tool", "python",]
