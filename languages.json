@@ -8,6 +8,7 @@
     "c": true,
     "c++": true,
     "caching": false,
+    "cli": false,
     "cli-tool": false,
     "clipboard": false,
     "clojure": true,
