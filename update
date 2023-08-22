@@ -231,7 +231,7 @@ def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, boo
     "--lang-file",
     default=languages_file,
     type=click.Path(path_type=Path),
-    help="store classified tags for langauges",
+    help="store classified tags for languages",
     show_default=True,
 )
 @click.option(
