@@ -16,10 +16,6 @@ sync_images() {
 	s4cmd dsync ./public s3://sean-fish-imageproxy/project-images
 }
 
-deploy() {
-	ssh vultr 'cd ~/code/projects && PATH="${HOME}/vps:$PATH" ONCE=1 bash -x ./bg_update'
-}
-
 while getopts ':hds' opt; do
 	case "$opt" in
 	d)
@@ -44,4 +40,4 @@ done
 	git add . &&
 	commit "$@" &&
 	git push &&
-	deploy
+	deploy projects
