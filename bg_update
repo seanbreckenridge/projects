@@ -34,5 +34,5 @@ iteration() {
 
 while true; do
 	iteration
-	sleep 12h
+	sleep 7d
 done
