@@ -66,7 +66,7 @@ function removeTrailing(str: string, char: string): string {
   return str;
 }
 
-const imgPrefix = process.env.IMG_PREFIX ?? ""
+const imgPrefix = process.env.IMG_PREFIX ?? "";
 
 // renders the markdown description to HTML
 // remove any trailing
@@ -78,7 +78,7 @@ async function renderRepo(repo: Repository): Promise<Repository> {
   if (repo.img != null) {
     repo.dimensions = await sizeOf(path.join(publicDir, repo.img!));
     if (imgPrefix) {
-      repo.img = `${imgPrefix}${repo.img}`
+      repo.img = `${imgPrefix}${repo.img}`;
     }
   }
   return repo;

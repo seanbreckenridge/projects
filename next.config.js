@@ -1,4 +1,4 @@
-const basePath = process.env.PREFIX ?? undefined
+const basePath = process.env.PREFIX ?? undefined;
 
 const imgConf = {
   domains: [
@@ -11,7 +11,7 @@ const imgConf = {
 };
 
 if (basePath) {
-  imgConf.path = `${basePath}/_next/image`
+  imgConf.path = `${basePath}/_next/image`;
 }
 
 module.exports = {
