@@ -1,4 +1,4 @@
-ignored = [ "seanbreckenridge/CS-Assignments", "seanbreckenridge/HPI-fork", "seanbreckenridge/RSA", "seanbreckenridge/advent-of-code-2019", "seanbreckenridge/advent-of-code-2020", "seanbreckenridge/albums_old", "seanbreckenridge/aoc", "seanbreckenridge/arctee", "seanbreckenridge/beets-filetote", "seanbreckenridge/bleanser-fork", "seanbreckenridge/blizzard_gdpr_parser", "seanbreckenridge/breach-parse", "seanbreckenridge/cachew", "seanbreckenridge/commands-discordpy-starter", "seanbreckenridge/cookiecutter-lib", "seanbreckenridge/cookiecutter-template", "seanbreckenridge/cstimer", "seanbreckenridge/dbsentinel-next", "seanbreckenridge/docker-jikan", "seanbreckenridge/dotfiles-index", "seanbreckenridge/forever-webui", "seanbreckenridge/fuji", "seanbreckenridge/ghexport", "seanbreckenridge/gnu-rust-utils", "seanbreckenridge/greasyfork_repo_generator", "seanbreckenridge/jikan", "seanbreckenridge/jikan-rest", "seanbreckenridge/jikan-rest-docker", "seanbreckenridge/jikanpy", "seanbreckenridge/jikanpy_ext", "seanbreckenridge/k_grok", "seanbreckenridge/keepassxc-pwned", "seanbreckenridge/lets-get-arrested", "seanbreckenridge/mac-dotfiles", "seanbreckenridge/mai", "seanbreckenridge/mal-unapproved", "seanbreckenridge/mint", "seanbreckenridge/mutt-wizard", "seanbreckenridge/okayweather", "seanbreckenridge/plus1", "seanbreckenridge/pretty-history", "seanbreckenridge/promnesia-fork", "seanbreckenridge/proxy-jikan", "seanbreckenridge/pygithub_requests_error", "seanbreckenridge/pytest-reraise", "seanbreckenridge/pytodotxt", "seanbreckenridge/rexport", "seanbreckenridge/rich-click", "seanbreckenridge/rotten_tomatoes_cli", "seanbreckenridge/rotten_tomatoes_client", "seanbreckenridge/sample-namespace-packages", "seanbreckenridge/seanbreckenridge", "seanbreckenridge/selenium-shutterfly-scraper", "seanbreckenridge/sl", "seanbreckenridge/sonic_pi_music", "seanbreckenridge/st", "seanbreckenridge/sun-in-the-corner-of-the-page", "seanbreckenridge/sw", "seanbreckenridge/tinspire", "seanbreckenridge/todotxt_deadline_notify", "seanbreckenridge/website", "seanbreckenridge/youtube_subtitles_downloader",]
+ignored = [ "seanbreckenridge/CS-Assignments", "seanbreckenridge/HPI-fork", "seanbreckenridge/RSA", "seanbreckenridge/advent-of-code-2019", "seanbreckenridge/advent-of-code-2020", "seanbreckenridge/albums_old", "seanbreckenridge/aoc", "seanbreckenridge/arctee", "seanbreckenridge/bash_like", "seanbreckenridge/beets-filetote", "seanbreckenridge/bleanser-fork", "seanbreckenridge/blizzard_gdpr_parser", "seanbreckenridge/breach-parse", "seanbreckenridge/cachew", "seanbreckenridge/commands-discordpy-starter", "seanbreckenridge/cookiecutter-lib", "seanbreckenridge/cookiecutter-template", "seanbreckenridge/cstimer", "seanbreckenridge/dbsentinel-next", "seanbreckenridge/docker-jikan", "seanbreckenridge/dotfiles-index", "seanbreckenridge/forever-webui", "seanbreckenridge/foreverjs-list", "seanbreckenridge/fuji", "seanbreckenridge/ghexport", "seanbreckenridge/gnu-rust-utils", "seanbreckenridge/greasyfork_repo_generator", "seanbreckenridge/jikan", "seanbreckenridge/jikan-rest", "seanbreckenridge/jikan-rest-docker", "seanbreckenridge/jikanpy", "seanbreckenridge/jikanpy_ext", "seanbreckenridge/k_grok", "seanbreckenridge/keepassxc-pwned", "seanbreckenridge/lets-get-arrested", "seanbreckenridge/mac-dotfiles", "seanbreckenridge/mai", "seanbreckenridge/mal-unapproved", "seanbreckenridge/mint", "seanbreckenridge/montage-timeline", "seanbreckenridge/mutt-wizard", "seanbreckenridge/okayweather", "seanbreckenridge/old_forums", "seanbreckenridge/plus1", "seanbreckenridge/pretty-history", "seanbreckenridge/promnesia-fork", "seanbreckenridge/proxy-jikan", "seanbreckenridge/pygithub_requests_error", "seanbreckenridge/pytest-reraise", "seanbreckenridge/pytodotxt", "seanbreckenridge/raspi-backup", "seanbreckenridge/reddit-wallpaper-scraper", "seanbreckenridge/rexport", "seanbreckenridge/rich-click", "seanbreckenridge/rotten_tomatoes_cli", "seanbreckenridge/rotten_tomatoes_client", "seanbreckenridge/s3-image-server", "seanbreckenridge/sample-namespace-packages", "seanbreckenridge/seanbreckenridge", "seanbreckenridge/selenium-shutterfly-scraper", "seanbreckenridge/sl", "seanbreckenridge/sonic_pi_music", "seanbreckenridge/sqlite_concurrent_writes", "seanbreckenridge/st", "seanbreckenridge/sun-in-the-corner-of-the-page", "seanbreckenridge/superhooks", "seanbreckenridge/sw", "seanbreckenridge/tinspire", "seanbreckenridge/todotxt_deadline_notify", "seanbreckenridge/tts", "seanbreckenridge/vimbuffer", "seanbreckenridge/website", "seanbreckenridge/youtube_subtitles_downloader",]
 
 ["Hiyori-API/checker_mal"]
 name = "checker_mal"
@@ -242,19 +242,6 @@ score = 0
 url = "https://exobrain.sean.fish/"
 img = "/exobrain.png"
 tags = [ "wiki", "golang", "bash",]
-
-["seanbreckenridge/foreverjs-list"]
-name = "foreverjs-list"
-full_name = "seanbreckenridge/foreverjs-list"
-html_url = "https://github.com/seanbreckenridge/foreverjs-list"
-description = "Express API to get information about [`forever.js`](https://github.com/foreversd/forever) processes. In the past, I used this to ping my server periodically to see if any of my servers/processes had crashed/restarted"
-updated_at = "2023-08-29T02:26:48Z"
-stars = 1
-language = "JavaScript"
-priority = 2
-score = 0
-img = "/foreverjs_list.png"
-tags = [ "javascript", "web",]
 
 ["seanbreckenridge/genpasswd"]
 name = "genpasswd"
@@ -549,32 +536,6 @@ score = 0
 img = "/pythonanywhere.png"
 tags = [ "webscraping", "web", "python",]
 
-["seanbreckenridge/raspi-backup"]
-name = "raspi-backup"
-full_name = "seanbreckenridge/raspi-backup"
-html_url = "https://github.com/seanbreckenridge/raspi-backup"
-description = "script to periodically back up my machine to my raspberry pi. Is pretty minimal, just uses headless raspbian with an external 4TB that gets mounted on boot"
-updated_at = "2023-08-29T02:23:02Z"
-stars = 3
-language = "Shell"
-priority = 2
-score = 0
-img = "/raspi_backup.png"
-tags = [ "bash",]
-
-["seanbreckenridge/reddit-wallpaper-scraper"]
-name = "reddit-wallpaper-scraper"
-full_name = "seanbreckenridge/reddit-wallpaper-scraper"
-html_url = "https://github.com/seanbreckenridge/reddit-wallpaper-scraper"
-description = "scrapes/downloads the top posts from  wallpaper subreddits. I’m not huge into collecting wallpapers, but I wanted to have a couple hundred in my rotation. This scraped and classified ~7500 images in about 15 hours"
-updated_at = "2023-08-29T02:23:32Z"
-stars = 4
-language = "Python"
-priority = 2
-score = 0
-img = "/wallpaper.png"
-tags = [ "reddit", "python", "webscraping", "image",]
-
 ["seanbreckenridge/rifleman"]
 name = "rifleman"
 full_name = "seanbreckenridge/rifleman"
@@ -642,32 +603,6 @@ url = "https://sean.fish/d/?dark"
 img = "/subpath.png"
 tags = [ "web", "golang", "server",]
 
-["seanbreckenridge/superhooks"]
-name = "superhooks"
-full_name = "seanbreckenridge/superhooks"
-html_url = "https://github.com/seanbreckenridge/superhooks"
-description = "Posts supervisor event data as an embed to a discord server. This sends me notifications whenever some process on my server crashes/restarts"
-updated_at = "2021-03-13T00:34:57Z"
-stars = 0
-language = "Python"
-priority = 2
-score = 0
-img = "/superhooks.png"
-tags = [ "server", "python",]
-
-["seanbreckenridge/tts"]
-name = "tts"
-full_name = "seanbreckenridge/tts"
-html_url = "https://github.com/seanbreckenridge/tts"
-description = "CLI tool to convert text to speech using the StreamLabs API. [Example Audio](https://sean.fish/p/does_this_work.ogg)"
-updated_at = "2023-06-09T13:26:56Z"
-stars = 2
-language = "Shell"
-priority = 2
-score = 0
-img = "/tts.png"
-tags = [ "cli-tool", "bash",]
-
 ["seanbreckenridge/ttt"]
 name = "ttt"
 full_name = "seanbreckenridge/ttt"
@@ -693,20 +628,6 @@ priority = 2
 score = 0
 img = "/twitchlive.png"
 tags = [ "twitch", "golang", "cli-tool", "api",]
-
-["seanbreckenridge/vimbuffer"]
-name = "vimbuffer"
-full_name = "seanbreckenridge/vimbuffer"
-html_url = "https://github.com/seanbreckenridge/vimbuffer"
-description = "Edit files and strings in temporary `vim` (or some other console editor) buffers"
-updated_at = "2023-08-29T02:20:23Z"
-stars = 2
-language = "Python"
-priority = 2
-score = 0
-url = "https://pypi.org/project/vimbuffer/"
-img = "/vimbuffer.png"
-tags = [ "vim", "python",]
 
 ["seanbreckenridge/vps"]
 name = "vps"
@@ -815,20 +736,6 @@ priority = 2
 score = 0
 img = "/hpi_api.png"
 tags = [ "hpi", "python",]
-
-["seanbreckenridge/bash_like"]
-name = "bash_like"
-full_name = "seanbreckenridge/bash_like"
-html_url = "https://github.com/seanbreckenridge/bash_like"
-description = "A small utility library to handle arguments and read/write text to files using bash-like syntax"
-updated_at = "2023-08-25T21:49:55Z"
-stars = 2
-language = "Python"
-priority = 2
-score = 0
-url = "https://pypi.org/project/bash-like/"
-img = "/bash_like.png"
-tags = [ "library", "python",]
 
 ["seanbreckenridge/newest"]
 name = "newest"
@@ -1082,26 +989,13 @@ url = "https://pypi.org/project/listenbrainz-export/"
 img = "/listen.png"
 tags = [ "hpi", "python", "music", "media", "api",]
 
-["seanbreckenridge/old_forums"]
-name = "old_forums"
-full_name = "seanbreckenridge/old_forums"
-html_url = "https://github.com/seanbreckenridge/old_forums"
-description = "Parses posts/achievements from random forums I used in the past"
-updated_at = "2021-10-19T19:19:27Z"
-stars = 1
-language = "Python"
-priority = 2
-score = 0
-img = "/old_forums.png"
-tags = [ "webscraping", "python", "hpi",]
-
 ["seanbreckenridge/google_takeout_parser"]
 name = "google_takeout_parser"
 full_name = "seanbreckenridge/google_takeout_parser"
 html_url = "https://github.com/seanbreckenridge/google_takeout_parser"
 description = "Parses data out of your [Google Takeout](https://takeout.google.com/) (History, Activity, Youtube, Locations, etc...)"
-updated_at = "2023-08-27T15:01:13Z"
-stars = 46
+updated_at = "2023-08-29T09:07:06Z"
+stars = 47
 language = "Python"
 priority = 2
 url = "https://pypi.org/project/google-takeout-parser/"
@@ -1266,31 +1160,6 @@ score = 0
 url = "https://pypi.org/project/git-doc-history/"
 img = "/git_doc_history.png"
 tags = [ "python", "bash", "hpi", "git",]
-
-["seanbreckenridge/s3-image-server"]
-name = "s3-image-server"
-full_name = "seanbreckenridge/s3-image-server"
-html_url = "https://github.com/seanbreckenridge/s3-image-server"
-description = "webserver to upload and retrieve/resize images using a S3 bucket"
-updated_at = "2023-01-17T13:31:53Z"
-stars = 2
-language = "Python"
-priority = 2
-score = 0
-tags = [ "image", "python", "web",]
-
-["seanbreckenridge/montage-timeline"]
-name = "montage-timeline"
-full_name = "seanbreckenridge/montage-timeline"
-html_url = "https://github.com/seanbreckenridge/montage-timeline"
-description = "A wrapper for imagemagick montage to create a topster-like chart from multiple images"
-updated_at = "2022-04-08T13:29:39Z"
-stars = 0
-language = "Shell"
-priority = 2
-score = 0
-img = "/montage.png"
-tags = [ "bash", "image", "cli-tool",]
 
 ["seanbreckenridge/pyfzf"]
 name = "pyfzf"
