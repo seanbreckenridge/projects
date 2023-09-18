@@ -63,6 +63,7 @@
     "racket": true,
     "react": false,
     "reddit": false,
+    "repl": false,
     "rubiks-cube": false,
     "ruby": true,
     "rust": true,
