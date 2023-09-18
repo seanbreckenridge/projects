@@ -78,7 +78,8 @@ async function renderRepo(repo: Repository): Promise<Repository> {
   if (repo.img != null) {
     repo.dimensions = await sizeOf(path.join(publicDir, repo.img!));
     if (imgPrefix) {
-      repo.img = `${imgPrefix}${repo.img}`;
+      const withSlash = repo.img.startsWith("/") ? repo.img : `/${repo.img}`;
+      repo.img = `${imgPrefix}${withSlash}`;
     }
   }
   return repo;
