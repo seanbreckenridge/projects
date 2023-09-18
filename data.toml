@@ -947,6 +947,7 @@ language = "Python"
 priority = 2
 score = 0
 tags = [ "python", "game", "hpi", "webscraping", "media",]
+img = "/grouvee.png"
 
 ["seanbreckenridge/frinkconv"]
 name = "frinkconv"
@@ -1133,6 +1134,7 @@ language = "Python"
 priority = 2
 score = 0
 tags = [ "webscraping", "python", "git", "anime",]
+img = "/dbsentinel.png"
 
 ["seanbreckenridge/oh-my-stars"]
 name = "oh-my-stars"
@@ -1199,6 +1201,7 @@ language = "Python"
 priority = 2
 score = 0
 tags = [ "hpi", "python",]
+img = "/bleanser.png"
 
 ["seanbreckenridge/mapscii-at"]
 name = "mapscii-at"
@@ -1251,6 +1254,7 @@ language = "Python"
 priority = 2
 score = 0
 tags = [ "cli-tool", "python", "git", "dotfiles", "installer",]
+img = "/clone_repos.png"
 
 ["seanbreckenridge/core"]
 name = "core"
@@ -1263,6 +1267,7 @@ language = "Shell"
 priority = 2
 score = 0
 tags = [ "dotfiles", "bash", "python", "installer", "fzf", "git", "cli-tool",]
+img = "/core.png"
 
 ["seanbreckenridge/active_window"]
 name = "active_window"
@@ -1339,6 +1344,7 @@ language = "Python"
 priority = 2
 score = 0
 tags = [ "anime",]
+img = "/sakuga.png"
 
 ["seanbreckenridge/offline_listens"]
 name = "offline_listens"
@@ -1378,6 +1384,7 @@ language = "Python"
 priority = 2
 score = 0
 tags = [ "media",]
+img = "/mlength.png"
 
 ["seanbreckenridge/calc_ans"]
 name = "calc_ans"
