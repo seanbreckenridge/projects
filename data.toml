@@ -1390,4 +1390,4 @@ language = "OCaml"
 priority = 2
 score = 0
 tags = [ "repl",]
-img = "calc_ans.png"
+img = "/calc_ans.png"
