@@ -12,7 +12,7 @@ score = 0
 updated_at = "2023-04-09T02:04:20Z"
 url = "https://sean.fish/mal_unapproved"
 img = "/mal_unapproved.png"
-tags = [ "anime", "database", "webscraping", "web", "api",]
+tags = [ "anime", "api", "database", "web", "webscraping",]
 
 ["seanbreckenridge/albums"]
 name = "albums"
@@ -26,7 +26,7 @@ priority = 2
 score = 0
 url = "https://docs.google.com/spreadsheets/d/12htSAMg67czl8cpkj1mX0TuAFvqL_PJLI4hv1arG5-M/edit#gid=1451660661"
 img = "/albums.png"
-tags = [ "sql", "music", "python", "media", "api", "google-sheets",]
+tags = [ "api", "google-sheets", "media", "music", "python", "sql",]
 
 ["seanbreckenridge/animeshorts"]
 name = "animeshorts"
@@ -40,7 +40,7 @@ score = 0
 priority = 2
 url = "https://sean.fish/animeshorts/"
 img = "/animeshorts.png"
-tags = [ "anime", "python", "jikan", "media", "web", "server",]
+tags = [ "anime", "jikan", "media", "python", "server", "web",]
 
 ["seanbreckenridge/autotui"]
 name = "autotui"
@@ -54,7 +54,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/autotui/"
 img = "/autotui.gif"
-tags = [ "tui", "library", "python",]
+tags = [ "library", "python", "tui",]
 
 ["seanbreckenridge/aw-watcher-window"]
 name = "window_watcher"
@@ -67,7 +67,7 @@ language = "Python"
 score = 0
 priority = 2
 img = "/window_watcher.png"
-tags = [ "python", "hpi",]
+tags = [ "hpi", "python",]
 
 ["seanbreckenridge/bgproc"]
 name = "bgproc"
@@ -106,7 +106,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/calcurse.png"
-tags = [ "python", "library",]
+tags = [ "library", "python",]
 
 ["seanbreckenridge/calories-scripts"]
 name = "calories-scripts"
@@ -119,7 +119,7 @@ language = "Shell/Python"
 priority = 2
 score = 0
 img = "/calfzf.gif"
-tags = [ "python", "fzf", "food",]
+tags = [ "food", "fzf", "python",]
 
 ["seanbreckenridge/cube-scramble-cli"]
 name = "cube-scramble-cli"
@@ -146,7 +146,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/darker_errors.png"
-tags = [ "web", "golang",]
+tags = [ "golang", "web",]
 
 ["seanbreckenridge/dashboard"]
 name = "dashboard"
@@ -172,7 +172,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/countdown.png"
-tags = [ "python", "discord", "server",]
+tags = [ "discord", "python", "server",]
 
 ["seanbreckenridge/discord_data"]
 name = "discord_data"
@@ -186,7 +186,7 @@ priority = 2
 score = 0
 img = "/discord.png"
 url = "https://pypi.org/project/discord-data/"
-tags = [ "python", "discord", "hpi",]
+tags = [ "discord", "hpi", "python",]
 
 ["seanbreckenridge/dotfiles"]
 name = "dotfiles"
@@ -200,7 +200,7 @@ priority = 2
 score = 0
 url = "https://sean.fish/d/?dark"
 img = "/dotfiles.png"
-tags = [ "bash", "python", "vim", "lua", "dotfiles",]
+tags = [ "bash", "dotfiles", "lua", "python", "vim",]
 
 ["seanbreckenridge/evry"]
 name = "evry"
@@ -214,7 +214,7 @@ priority = 2
 score = 0
 url = "https://crates.io/crates/evry"
 img = "/evry.png"
-tags = [ "rust", "cli-tool", "cron",]
+tags = [ "cli-tool", "cron", "rust",]
 
 ["seanbreckenridge/exists"]
 name = "exists"
@@ -227,7 +227,7 @@ language = "C"
 priority = 2
 score = 0
 img = "/exists.png"
-tags = [ "cli-tool", "c",]
+tags = [ "c", "cli-tool",]
 
 ["seanbreckenridge/exobrain"]
 name = "exobrain"
@@ -241,7 +241,7 @@ priority = 2
 score = 0
 url = "https://exobrain.sean.fish/"
 img = "/exobrain.png"
-tags = [ "wiki", "golang", "bash",]
+tags = [ "bash", "golang", "wiki",]
 
 ["seanbreckenridge/genpasswd"]
 name = "genpasswd"
@@ -268,7 +268,7 @@ priority = 2
 score = 0
 url = "https://sean.fish/"
 img = "/glue.png"
-tags = [ "elixir", "typescript", "react", "web", "server",]
+tags = [ "elixir", "react", "server", "typescript", "web",]
 
 ["seanbreckenridge/greasyfork"]
 name = "greasyfork"
@@ -281,7 +281,7 @@ language = "JavaScript"
 priority = 2
 score = 0
 img = "/greasyfork.png"
-tags = [ "anime", "javascript", "web", "userscript",]
+tags = [ "anime", "javascript", "userscript", "web",]
 
 ["seanbreckenridge/greasyfork_archive"]
 name = "greasyfork_archive"
@@ -335,7 +335,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/ipgeocache/"
 img = "/ipgeocache.png"
-tags = [ "caching", "hpi", "api",]
+tags = [ "api", "caching", "hpi",]
 
 ["seanbreckenridge/jikan_ex"]
 name = "jikan_ex"
@@ -349,7 +349,7 @@ priority = 2
 score = 0
 url = "https://hex.pm/packages/jikan_ex"
 img = "/jikan_ex.png"
-tags = [ "jikan", "anime", "api", "elixir",]
+tags = [ "anime", "api", "elixir", "jikan",]
 
 ["seanbreckenridge/keyvol"]
 name = "keyvol"
@@ -375,7 +375,7 @@ language = "JavaScript"
 priority = 2
 score = 0
 img = "/largechar.gif"
-tags = [ "web", "gui",]
+tags = [ "gui", "web",]
 
 ["seanbreckenridge/lolexport"]
 name = "lolexport"
@@ -389,7 +389,7 @@ priority = 2
 score = 0
 img = "/lolexport.png"
 url = "https://pypi.org/project/lolexport/"
-tags = [ "python", "game", "hpi", "api",]
+tags = [ "api", "game", "hpi", "python",]
 
 ["seanbreckenridge/mal-notify-bot"]
 name = "mal-notify-bot"
@@ -402,7 +402,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/mal_notify_bot.png"
-tags = [ "python", "discord", "anime", "database", "webscraping", "server", "api",]
+tags = [ "anime", "api", "database", "discord", "python", "server", "webscraping",]
 
 ["seanbreckenridge/MALUserVsAverage"]
 name = "MALUserVsAverage"
@@ -415,7 +415,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/mal_user_vs_average.png"
-tags = [ "webscraping", "python", "anime", "graphs",]
+tags = [ "anime", "graphs", "python", "webscraping",]
 
 ["seanbreckenridge/mnu_gsheets"]
 name = "mnu_gsheets"
@@ -429,7 +429,7 @@ priority = 2
 score = 0
 url = "https://docs.google.com/spreadsheets/d/1N4D3C0bSXVcVh0ggt_mpKMy_OrAdkKGkMjwkMekjpOM/edit?usp=sharing"
 img = "/mnu_gsheets.png"
-tags = [ "python", "webscraping", "anime", "api", "google-sheets",]
+tags = [ "anime", "api", "google-sheets", "python", "webscraping",]
 
 ["seanbreckenridge/mpv-sockets"]
 name = "mpv-sockets"
@@ -442,7 +442,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/mpv_sockets.png"
-tags = [ "bash", "mpv", "media",]
+tags = [ "bash", "media", "mpv",]
 
 ["seanbreckenridge/mpvf"]
 name = "mpvf"
@@ -455,7 +455,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/mpvf.gif"
-tags = [ "mpv", "bash",]
+tags = [ "bash", "mpv",]
 
 ["seanbreckenridge/no-db-shorturl"]
 name = "no-db-shorturl"
@@ -468,7 +468,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/shorturl.png"
-tags = [ "web", "golang", "server",]
+tags = [ "golang", "server", "web",]
 
 ["seanbreckenridge/plaintext-playlist"]
 name = "plaintext-playlist"
@@ -481,7 +481,7 @@ language = "Bash"
 priority = 2
 score = 0
 img = "/plainplay.png"
-tags = [ "mpv", "music", "bash", "media", "playlist",]
+tags = [ "bash", "media", "mpv", "music", "playlist",]
 
 ["seanbreckenridge/pmark"]
 name = "pmark"
@@ -494,7 +494,7 @@ language = "Perl"
 priority = 2
 score = 0
 img = "/pmark.png"
-tags = [ "perl", "cli-tool",]
+tags = [ "cli-tool", "perl",]
 
 ["seanbreckenridge/poly-project-euler"]
 name = "poly-project-euler"
@@ -507,7 +507,7 @@ language = "???"
 priority = 2
 score = 0
 img = "/euler.png"
-tags = [ "prolog", "haskell", "python", "java", "perl", "c", "c++", "bash", "php", "dart", "csharp", "elixir", "scala", "javascript", "ruby", "elm", "groovy", "golang", "julia", "commonlisp", "coffeescript", "awk", "erlang", "octave", "dlang", "logo", "kotlin", "lua", "crystal", "nim", "rust", "fsharp", "racket", "bc", "smalltalk", "clojure", "ml", "typescript", "ocaml", "server",]
+tags = [ "awk", "bash", "bc", "c", "c++", "clojure", "coffeescript", "commonlisp", "crystal", "csharp", "dart", "dlang", "elixir", "elm", "erlang", "fsharp", "golang", "groovy", "haskell", "java", "javascript", "julia", "kotlin", "logo", "lua", "ml", "nim", "ocaml", "octave", "perl", "php", "prolog", "python", "racket", "ruby", "rust", "scala", "server", "smalltalk", "typescript",]
 
 ["seanbreckenridge/pushshift_comment_export"]
 name = "pushshift_comment_export"
@@ -521,7 +521,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/pushshift-comment-export/"
 img = "/ps_comments.png"
-tags = [ "reddit", "python", "api",]
+tags = [ "api", "python", "reddit",]
 
 ["seanbreckenridge/pythonanywhere-3-months"]
 name = "pythonanywhere-3-months"
@@ -534,7 +534,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/pythonanywhere.png"
-tags = [ "webscraping", "web", "python",]
+tags = [ "python", "web", "webscraping",]
 
 ["seanbreckenridge/rifleman"]
 name = "rifleman"
@@ -548,7 +548,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/rifleman/"
 img = "/rifleman.png"
-tags = [ "format", "python", "cli-tool",]
+tags = [ "cli-tool", "format", "python",]
 
 ["seanbreckenridge/shortcuts"]
 name = "shortcuts"
@@ -561,7 +561,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/shortcuts.png"
-tags = [ "cli-tool", "python", "bash", "dotfiles",]
+tags = [ "bash", "cli-tool", "dotfiles", "python",]
 
 ["seanbreckenridge/spkglist"]
 name = "spkglist"
@@ -574,7 +574,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/spkglist.png"
-tags = [ "golang", "bash", "dotfiles", "installer",]
+tags = [ "bash", "dotfiles", "golang", "installer",]
 
 ["seanbreckenridge/steamscraper"]
 name = "steamscraper"
@@ -587,7 +587,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/steam.png"
-tags = [ "webscraping", "python", "hpi", "game", "media",]
+tags = [ "game", "hpi", "media", "python", "webscraping",]
 
 ["seanbreckenridge/subpath-serve"]
 name = "subpath-serve"
@@ -601,7 +601,7 @@ priority = 2
 score = 0
 url = "https://sean.fish/d/?dark"
 img = "/subpath.png"
-tags = [ "web", "golang", "server",]
+tags = [ "golang", "server", "web",]
 
 ["seanbreckenridge/ttt"]
 name = "ttt"
@@ -614,7 +614,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/ttt.png"
-tags = [ "bash", "golang", "hpi", "dotfiles",]
+tags = [ "bash", "dotfiles", "golang", "hpi",]
 
 ["seanbreckenridge/twitchlive"]
 name = "twitchlive"
@@ -627,7 +627,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/twitchlive.png"
-tags = [ "twitch", "golang", "cli-tool", "api",]
+tags = [ "api", "cli-tool", "golang", "twitch",]
 
 ["seanbreckenridge/vps"]
 name = "vps"
@@ -640,7 +640,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/vps.png"
-tags = [ "server", "bash", "installer",]
+tags = [ "bash", "installer", "server",]
 
 ["seanbreckenridge/wait-for-internet"]
 name = "wait-for-internet"
@@ -654,7 +654,7 @@ priority = 2
 score = 0
 url = "https://crates.io/crates/wait-for-internet"
 img = "/wfi.png"
-tags = [ "rust", "cli-tool",]
+tags = [ "cli-tool", "rust",]
 
 ["seanbreckenridge/wca_userinfo"]
 name = "wca_userinfo"
@@ -681,7 +681,7 @@ priority = 2
 score = 0
 url = "https://sean.fish/xkcd/"
 img = "/xkcd.png"
-tags = [ "web", "python", "server",]
+tags = [ "python", "server", "web",]
 
 ["seanbreckenridge/xqc-dvd"]
 name = "xqc-dvd"
@@ -695,7 +695,7 @@ priority = 2
 score = 0
 url = "https://sean.fish/dvd/"
 img = "/xqc_dvd.gif"
-tags = [ "web", "game", "elm", "server",]
+tags = [ "elm", "game", "server", "web",]
 
 ["seanbreckenridge/space"]
 name = "space"
@@ -722,7 +722,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/full-todotxt/"
 img = "/full_todotxt.gif"
-tags = [ "tui", "python",]
+tags = [ "python", "tui",]
 
 ["seanbreckenridge/HPI_API"]
 name = "HPI_API"
@@ -774,7 +774,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/list_gh.png"
-tags = [ "git", "python", "api",]
+tags = [ "api", "git", "python",]
 
 ["seanbreckenridge/bookmark.txt"]
 name = "bookmark.txt"
@@ -787,7 +787,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/bookmark.png"
-tags = [ "cli-tool", "bash",]
+tags = [ "bash", "cli-tool",]
 
 ["seanbreckenridge/chess_export"]
 name = "chess_export"
@@ -801,7 +801,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/chess_export"
 img = "/chess.png"
-tags = [ "hpi", "python", "game", "api",]
+tags = [ "api", "game", "hpi", "python",]
 
 ["seanbreckenridge/mpv-history-daemon"]
 name = "mpv-history-daemon"
@@ -815,7 +815,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/mpv-history-daemon/"
 img = "/hist.png"
-tags = [ "mpv", "hpi", "python", "socket", "media",]
+tags = [ "hpi", "media", "mpv", "python", "socket",]
 
 ["seanbreckenridge/ttally"]
 name = "ttally"
@@ -829,7 +829,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/ttally/"
 img = "/autotui.gif"
-tags = [ "fzf", "python", "tui", "hpi", "food",]
+tags = [ "food", "fzf", "hpi", "python", "tui",]
 
 ["seanbreckenridge/mal-id-cache"]
 name = "mal-id-cache"
@@ -841,7 +841,7 @@ stars = 31
 language = "Python"
 priority = 1
 score = 0
-tags = [ "anime", "database", "webscraping", "server",]
+tags = [ "anime", "database", "server", "webscraping",]
 
 ["seanbreckenridge/traktexport"]
 name = "traktexport"
@@ -855,7 +855,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/traktexport/"
 img = "/traktexport.png"
-tags = [ "hpi", "python", "media", "api",]
+tags = [ "api", "hpi", "media", "python",]
 
 ["seanbreckenridge/reorder_editable"]
 name = "reorder_editable"
@@ -869,7 +869,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/reorder-editable/"
 img = "/editable.png"
-tags = [ "python", "library", "hpi",]
+tags = [ "hpi", "library", "python",]
 
 ["seanbreckenridge/promnesia"]
 name = "promnesia"
@@ -882,7 +882,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/promnesia.png"
-tags = [ "web", "hpi", "python",]
+tags = [ "hpi", "python", "web",]
 
 ["seanbreckenridge/browserexport"]
 name = "browserexport"
@@ -896,7 +896,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/browserexport/"
 img = "/browserexport.png"
-tags = [ "library", "hpi", "python", "database", "sql",]
+tags = [ "database", "hpi", "library", "python", "sql",]
 
 ["seanbreckenridge/overrustle_parser"]
 name = "overrustle_parser"
@@ -920,7 +920,7 @@ stars = 4
 language = "TypeScript"
 priority = 2
 score = 0
-tags = [ "web", "react", "typescript", "python", "server",]
+tags = [ "python", "react", "server", "typescript", "web",]
 
 ["seanbreckenridge/url_cache"]
 name = "url_cache"
@@ -946,7 +946,7 @@ stars = 1
 language = "Python"
 priority = 2
 score = 0
-tags = [ "python", "game", "hpi", "webscraping", "media",]
+tags = [ "game", "hpi", "media", "python", "webscraping",]
 img = "/grouvee.png"
 
 ["seanbreckenridge/frinkconv"]
@@ -974,7 +974,7 @@ priority = 2
 score = 0
 img = "/malexport.png"
 url = "https://pypi.org/project/malexport/"
-tags = [ "python", "anime", "database", "hpi", "webscraping", "media", "api",]
+tags = [ "anime", "api", "database", "hpi", "media", "python", "webscraping",]
 
 ["seanbreckenridge/listenbrainz_export"]
 name = "listenbrainz_export"
@@ -988,7 +988,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/listenbrainz-export/"
 img = "/listen.png"
-tags = [ "hpi", "python", "music", "media", "api",]
+tags = [ "api", "hpi", "media", "music", "python",]
 
 ["seanbreckenridge/google_takeout_parser"]
 name = "google_takeout_parser"
@@ -1002,7 +1002,7 @@ priority = 2
 url = "https://pypi.org/project/google-takeout-parser/"
 score = 0
 img = "/takeout.png"
-tags = [ "python", "hpi", "caching",]
+tags = [ "caching", "hpi", "python",]
 
 ["seanbreckenridge/sqlite_backup"]
 name = "sqlite_backup"
@@ -1016,7 +1016,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/sqlite-backup/"
 img = "/sqlite.png"
-tags = [ "sql", "database", "cli-tool", "library", "python",]
+tags = [ "cli-tool", "database", "library", "python", "sql",]
 
 ["seanbreckenridge/my_feed"]
 name = "my_feed"
@@ -1030,7 +1030,7 @@ priority = 2
 score = 0
 url = "https://sean.fish/feed/"
 img = "/my_feed.png"
-tags = [ "python", "hpi", "caching", "web", "media", "server", "api",]
+tags = [ "api", "caching", "hpi", "media", "python", "server", "web",]
 
 ["seanbreckenridge/HPI-personal"]
 name = "HPI-personal"
@@ -1069,7 +1069,7 @@ language = "TypeScript"
 priority = 2
 score = 0
 img = "/back-arrow-script.png"
-tags = [ "web", "typescript",]
+tags = [ "typescript", "web",]
 
 ["seanbreckenridge/fzfcache"]
 name = "fzfcache"
@@ -1082,7 +1082,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/fzfcache.gif"
-tags = [ "golang", "fzf", "caching", "cli-tool",]
+tags = [ "caching", "cli-tool", "fzf", "golang",]
 
 ["seanbreckenridge/piazza-scraper"]
 name = "piazza-scraper"
@@ -1095,7 +1095,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/piazza.png"
-tags = [ "python", "webscraping", "hpi",]
+tags = [ "hpi", "python", "webscraping",]
 
 ["seanbreckenridge/plaintext_playlist_py"]
 name = "plaintext_playlist_py"
@@ -1108,7 +1108,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/id3stuff.png"
-tags = [ "mpv", "python", "music", "playlist",]
+tags = [ "mpv", "music", "playlist", "python",]
 
 ["seanbreckenridge/yadm-git.vim"]
 name = "yadm-git.vim"
@@ -1121,7 +1121,7 @@ language = "Vim script"
 priority = 2
 score = 0
 img = "/yadm_git.png"
-tags = [ "vim", "git",]
+tags = [ "git", "vim",]
 
 ["seanbreckenridge/dbsentinel"]
 name = "dbsentinel"
@@ -1134,7 +1134,7 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://sean.fish/dbsentinel/"
-tags = [ "webscraping", "python", "git", "anime",]
+tags = [ "anime", "git", "python", "webscraping",]
 img = "/dbsentinel.png"
 
 ["seanbreckenridge/oh-my-stars"]
@@ -1148,7 +1148,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/oh-my-stars.png"
-tags = [ "python", "git", "database",]
+tags = [ "database", "git", "python",]
 
 ["seanbreckenridge/git_doc_history"]
 name = "git_doc_history"
@@ -1162,7 +1162,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/git-doc-history/"
 img = "/git_doc_history.png"
-tags = [ "python", "bash", "hpi", "git",]
+tags = [ "bash", "git", "hpi", "python",]
 
 ["seanbreckenridge/pyfzf"]
 name = "pyfzf"
@@ -1176,7 +1176,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/pyfzf-iter/"
 img = "/pyfzf.gif"
-tags = [ "fzf", "python", "library",]
+tags = [ "fzf", "library", "python",]
 
 ["seanbreckenridge/on_machine"]
 name = "on_machine"
@@ -1189,7 +1189,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/on_machine.png"
-tags = [ "bash", "golang", "cli-tool",]
+tags = [ "bash", "cli-tool", "golang",]
 
 ["seanbreckenridge/bleanser"]
 name = "bleanser"
@@ -1215,7 +1215,7 @@ language = "JavaScript"
 priority = 2
 score = 0
 img = "/mapscii.png"
-tags = [ "javascript", "cli-tool",]
+tags = [ "cli-tool", "javascript",]
 
 ["seanbreckenridge/scramble-history"]
 name = "scramble-history"
@@ -1229,7 +1229,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/scramble-history/"
 img = "/ao12.png"
-tags = [ "rubiks-cube", "python", "hpi", "graphs",]
+tags = [ "graphs", "hpi", "python", "rubiks-cube",]
 
 ["seanbreckenridge/cstimer-save-server"]
 name = "cstimer-save-server"
@@ -1242,7 +1242,7 @@ language = "Go/JavaScript"
 priority = 2
 score = 0
 img = "/cstimer-save-server.png"
-tags = [ "web", "golang", "javascript", "userscript", "rubiks-cube",]
+tags = [ "golang", "javascript", "rubiks-cube", "userscript", "web",]
 
 ["seanbreckenridge/clone-repos"]
 name = "clone-repos"
@@ -1254,7 +1254,7 @@ stars = 3
 language = "Python"
 priority = 2
 score = 0
-tags = [ "cli-tool", "python", "git", "dotfiles", "installer",]
+tags = [ "cli-tool", "dotfiles", "git", "installer", "python",]
 img = "/clone_repos.png"
 
 ["seanbreckenridge/core"]
@@ -1267,7 +1267,7 @@ stars = 2
 language = "Shell"
 priority = 2
 score = 0
-tags = [ "dotfiles", "bash", "python", "installer", "fzf", "git", "cli-tool",]
+tags = [ "bash", "cli-tool", "dotfiles", "fzf", "git", "installer", "python",]
 img = "/core.png"
 
 ["seanbreckenridge/active_window"]
@@ -1280,7 +1280,7 @@ stars = 1
 language = "Python"
 priority = 2
 score = 0
-tags = [ "python", "hpi",]
+tags = [ "hpi", "python",]
 
 ["seanbreckenridge/server_clipboard"]
 name = "server_clipboard"
@@ -1292,7 +1292,7 @@ stars = 1
 language = "Go/TypeScript"
 priority = 2
 score = 0
-tags = [ "clipboard", "server", "web", "golang", "react", "typescript",]
+tags = [ "clipboard", "golang", "react", "server", "typescript", "web",]
 img = "/server_clipboard.png"
 
 ["seanbreckenridge/currently_listening"]
@@ -1305,7 +1305,7 @@ stars = 3
 language = "Go/Python"
 priority = 2
 score = 0
-tags = [ "music", "server", "golang", "python", "media", "api", "mpv", "socket",]
+tags = [ "api", "discord", "golang", "media", "mpv", "music", "python", "server", "socket",]
 img = "/currently_listening.png"
 
 ["seanbreckenridge/m3u-shuf"]
@@ -1319,7 +1319,7 @@ language = "Rust"
 priority = 2
 score = 0
 img = "/m3u-shuf.png"
-tags = [ "cli-tool", "music", "playlist", "rust", "rust",]
+tags = [ "cli-tool", "music", "playlist", "rust",]
 
 ["seanbreckenridge/filmswap"]
 name = "filmswap"
@@ -1332,7 +1332,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/filmswap.png"
-tags = [ "media", "discord", "discord",]
+tags = [ "discord", "media", "python",]
 
 ["seanbreckenridge/saugabooru_episode_mad"]
 name = "saugabooru_episode_mad"
@@ -1344,7 +1344,7 @@ stars = 0
 language = "Python"
 priority = 2
 score = 0
-tags = [ "anime",]
+tags = [ "anime", "python",]
 img = "/sakuga.png"
 
 ["seanbreckenridge/offline_listens"]
@@ -1358,7 +1358,7 @@ language = "Python"
 priority = 2
 img = "/offline.png"
 score = 0
-tags = [ "music", "python", "media",]
+tags = [ "hpi", "media", "music", "python",]
 
 ["seanbreckenridge/time-in"]
 name = "time-in"
@@ -1384,7 +1384,7 @@ stars = 0
 language = "Python"
 priority = 2
 score = 0
-tags = [ "media", "python",]
+tags = [ "cli-tool", "media", "python",]
 img = "/mlength.png"
 
 ["seanbreckenridge/calc_ans"]
@@ -1397,5 +1397,5 @@ stars = 0
 language = "OCaml"
 priority = 2
 score = 0
-tags = [ "ocaml", "math", "repl",]
+tags = [ "cli-tool", "math", "ocaml", "repl",]
 img = "/calc_ans.png"

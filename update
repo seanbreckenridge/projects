@@ -173,6 +173,9 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
             if rname in repo_data:
                 repo_data[rname]["updated_at"] = repo["updated_at"]
                 repo_data[rname]["stars"] = repo["stargazers_count"]
+                repo_data[rname]["tags"] = list(
+                    sorted(set(repo_data[rname].get("tags", [])))
+                )
             else:
                 # if running in the background to update star/updated at
                 # metadata, don't prompt me
@@ -180,7 +183,9 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                     continue
                 prompted += 1
                 if not click.confirm(f"Ignore '{rname}'?"):
-                    repo_desc = click.edit(text=repo["description"]) or repo["description"]
+                    repo_desc = (
+                        click.edit(text=repo["description"]) or repo["description"]
+                    )
                     assert repo_desc is not None
                     new_repo_data = {
                         "name": repo["name"],
@@ -201,7 +206,9 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                 else:
                     ignored.add(rname)
             if rname in repo_data and "tags" not in repo_data[rname]:
-                repo_data[rname]["tags"] = _prompt_tags(name=repo["full_name"])
+                repo_data[rname]["tags"] = list(
+                    set(_prompt_tags(name=repo["full_name"]))
+                )
                 prompted += 1
 
         if prompted >= 5:
