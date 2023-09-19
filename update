@@ -32,20 +32,31 @@ default_github_username: str = "seanbreckenridge"
 languages_file: Path = this_dir / "languages.json"
 
 
+rate_limit_remaining: List[int] = []
+
+
 def cached_response_has_expired(*, cachefile: Path) -> bool:
     """
     Returns T/F which determines whether or not
     to download fresh data from Github API
     """
     if not cachefile.exists():
-        print("Cache file doesn't exist...", file=sys.stderr)
+        click.echo("Cache file doesn't exist...", err=True)
         return True
     if time.time() - cachefile.stat().st_mtime > 60 * 60 * 6:
-        print("Cache file has expired, re-downloading...", file=sys.stderr)
+        click.echo("Cache file has expired, re-downloading...", err=True)
         return True
     else:
-        print("Using cached data...", file=sys.stderr)
+        click.echo("Using cached data...", err=True)
         return False
+
+
+def _save_rate_limit(resp: requests.Response) -> None:
+    if "X-RateLimit-Remaining" in resp.headers:
+        try:
+            rate_limit_remaining.append(int(resp.headers["X-RateLimit-Remaining"]))
+        except ValueError:
+            pass
 
 
 # downloads new repository data if needed,
@@ -59,22 +70,23 @@ def get_repository_data(
             assert isinstance(data, list)
             return data
         except json.decoder.JSONDecodeError:
-            print("Failed to load JSON from cache file...", file=sys.stderr)
-    print(
+            click.echo("Failed to load JSON from cache file...", err=True)
+    click.echo(
         f"Downloading repository information for {github_username}...",
-        file=sys.stderr,
+        err=True,
     )
     # loop through the paginated responses to get all repos
     repo_info = []
     page: int = 1
     while True:
         url = f"https://api.github.com/users/{github_username}/repos?page={page}"
-        print(f"Requesting {url}", file=sys.stderr)
+        click.echo(f"Requesting {url}", err=True)
         resp = requests.get(
             url,
             headers={"Accept": "application/vnd.github.full+json"},
         )
         resp.raise_for_status()
+        _save_rate_limit(resp)
         resp_json = resp.json()
         if resp_json:
             repo_info.extend(resp_json)
@@ -83,12 +95,13 @@ def get_repository_data(
         page += 1
     for other_repo in unowned:
         url = f"https://api.github.com/repos/{other_repo}"
-        print(f"Requesting {url}", file=sys.stderr)
+        click.echo(f"Requesting {url}", err=True)
         resp = requests.get(
             url,
             headers={"Accept": "application/vnd.github.full+json"},
         )
         resp.raise_for_status()
+        _save_rate_limit(resp)
         repo_info.append(resp.json())
     with cachefile.open("w") as jf:
         json.dump(repo_info, jf, indent=4)
@@ -203,7 +216,7 @@ def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, boo
             click.echo(f"Is {tag} a language? [y/n] ", nl=False)
             ch = click.getchar()
             tag_data[tag] = ch == "y"
-            print()
+            click.echo()
     return tag_data
 
 
@@ -263,6 +276,10 @@ def main(
         ),
     )
     lang_file.write_text(json.dumps(tag_data, indent=4, sort_keys=True))
+    if rate_limit_remaining:
+        click.echo(
+            f"Rate limit remaining this hour: {rate_limit_remaining[-1]}", err=True
+        )
 
 
 if __name__ == "__main__":
