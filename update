@@ -20,7 +20,6 @@ try:
     import toml
     import requests
     import click
-    import vimbuffer
 except ImportError as e:
     print(str(e) + ". Install it with 'pip'", file=sys.stderr)
     raise SystemExit(1)
@@ -131,6 +130,8 @@ def _prompt_tags(name: str) -> List[str]:
     from prompt_toolkit import prompt
     from prompt_toolkit.completion import WordCompleter
 
+    click.echo("(Remember to add language tag if makes sense to do so)", err=True)
+
     tags = []
     comp = WordCompleter(list(TOPICS))
     resp = prompt(f"{name}; add tag: ", completer=comp).strip()
@@ -179,14 +180,13 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                     continue
                 prompted += 1
                 if not click.confirm(f"Ignore '{rname}'?"):
-                    repo_desc: str = vimbuffer.buffer(
-                        string=repo["description"]
-                    ).strip()
+                    repo_desc = click.edit(text=repo["description"]) or repo["description"]
+                    assert repo_desc is not None
                     new_repo_data = {
                         "name": repo["name"],
                         "full_name": repo["full_name"],
                         "html_url": repo["html_url"],
-                        "description": repo_desc,
+                        "description": repo_desc.strip(),
                         "updated_at": repo["updated_at"],
                         "stars": repo["stargazers_count"],
                         "language": repo["language"],
