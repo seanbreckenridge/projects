@@ -140,6 +140,10 @@ def _prompt_tags(name: str) -> List[str]:
     return tags
 
 
+def _sort_tags(tags: List[str]) -> List[str]:
+    return list(sorted(set(tags)))
+
+
 # priority:
 # 1: put at bottom
 # 2: order by star
@@ -173,9 +177,7 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
             if rname in repo_data:
                 repo_data[rname]["updated_at"] = repo["updated_at"]
                 repo_data[rname]["stars"] = repo["stargazers_count"]
-                repo_data[rname]["tags"] = list(
-                    sorted(set(repo_data[rname].get("tags", [])))
-                )
+                repo_data[rname]["tags"] = _sort_tags(repo_data[rname].get("tags", []))
             else:
                 # if running in the background to update star/updated at
                 # metadata, don't prompt me
@@ -187,12 +189,14 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                         click.edit(text=repo["description"]) or repo["description"]
                     )
                     assert repo_desc is not None
+                    tags = _sort_tags(_prompt_tags(name=repo["full_name"]))
                     new_repo_data = {
                         "name": repo["name"],
                         "full_name": repo["full_name"],
                         "html_url": repo["html_url"],
                         "description": repo_desc.strip(),
                         "updated_at": repo["updated_at"],
+                        "tags": tags,
                         "stars": repo["stargazers_count"],
                         "language": repo["language"],
                         "priority": 2,
@@ -205,12 +209,6 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                     repo_data[rname] = new_repo_data
                 else:
                     ignored.add(rname)
-            if rname in repo_data and "tags" not in repo_data[rname]:
-                repo_data[rname]["tags"] = list(
-                    set(_prompt_tags(name=repo["full_name"]))
-                )
-                prompted += 1
-
         if prompted >= 5:
             break
     repo_data["ignored"] = sorted(list(ignored))
