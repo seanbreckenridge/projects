@@ -13,7 +13,7 @@ location /projects/ {
   proxy_pass http://127.0.0.1:3000/projects;
 }
 location /projects/_next/ {
-  # required since the above proxy pass doesnt end with '/'
+  # required since the above proxy pass doesn't end with '/'
   proxy_pass http://127.0.0.1:3000/projects/_next/;
 }
 ```
