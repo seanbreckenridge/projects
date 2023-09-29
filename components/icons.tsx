@@ -56,30 +56,31 @@ interface IWebsite {
 }
 
 export const Website = React.memo(({ url }: IWebsite) => {
-  if (url != null) {
-    if (url.indexOf("sean.fish") !== -1) {
-      return <MonoFavicon url={url!} />;
-    } else if (url.indexOf("pypi.org") !== -1) {
+  if (url !== null && url !== undefined) {
+    // if this is on my website, use my favicon
+    if (url.indexOf("https://sean.fish") !== -1) {
+      return <MonoFavicon url={url} />;
+    } else if (url.indexOf("https://pypi.org") !== -1) {
       return (
-        <FooterIcon href={url!} linkText="PyPi">
+        <FooterIcon href={url} linkText="PyPi">
           <IconBrandPython />
         </FooterIcon>
       );
-    } else if (url.indexOf("docs.google.com") !== -1) {
+    } else if (url.indexOf("https://docs.google.com") !== -1) {
       return (
-        <FooterIcon href={url!} linkText="Spreadsheet">
+        <FooterIcon href={url} linkText="Spreadsheet">
           <IconTable />
         </FooterIcon>
       );
-    } else if (url.indexOf("crates.io") !== -1) {
+    } else if (url.indexOf("https://crates.io") !== -1) {
       return (
-        <FooterIcon href={url!} linkText="Crates.io">
+        <FooterIcon href={url} linkText="Crates.io">
           <IconShip />
         </FooterIcon>
       );
-    } else if (url.indexOf("hex.pm") !== -1) {
+    } else if (url.indexOf("https://hex.pm") !== -1) {
       return (
-        <FooterIcon href={url!} linkText="Hex">
+        <FooterIcon href={url} linkText="Hex">
           <IconHexagon />
         </FooterIcon>
       );
