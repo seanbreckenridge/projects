@@ -6,31 +6,20 @@ the list of repos from the API to cached information
 """
 
 import os
-import sys
 import json
 import time
 from itertools import chain
-from typing import List, Dict, Set, Any, Tuple
+from typing import List, Dict, Set, Any, Tuple, Optional
 from pathlib import Path
+
+import toml
+import requests
+import click
 
 Json = Any
 RepoDB = Dict[str, Json]
 
-try:
-    import toml
-    import requests
-    import click
-except ImportError as e:
-    print(str(e) + ". Install it with 'pip'", file=sys.stderr)
-    raise SystemExit(1)
-
 this_dir: Path = Path(__file__).absolute().parent
-default_cachefile: Path = this_dir / "cache.json"
-default_datafile: Path = this_dir / "data.toml"
-default_github_username: str = "seanbreckenridge"
-languages_file: Path = this_dir / "languages.json"
-
-
 rate_limit_remaining: List[int] = []
 
 
@@ -50,10 +39,12 @@ def cached_response_has_expired(*, cachefile: Path) -> bool:
         return False
 
 
-def _save_rate_limit(resp: requests.Response) -> None:
+def _save_rate_limit(resp: requests.Response) -> Optional[int]:
     if "X-RateLimit-Remaining" in resp.headers:
         try:
-            rate_limit_remaining.append(int(resp.headers["X-RateLimit-Remaining"]))
+            rl = int(resp.headers["X-RateLimit-Remaining"])
+            rate_limit_remaining.append(rl)
+            return rl
         except ValueError:
             pass
 
@@ -85,7 +76,10 @@ def get_repository_data(
             headers={"Accept": "application/vnd.github.full+json"},
         )
         resp.raise_for_status()
-        _save_rate_limit(resp)
+        if ratelimit_left := _save_rate_limit(resp):
+            if ratelimit_left <= 1:
+                click.echo("Rate limit reached, exiting...", err=True)
+                exit(1)
         resp_json = resp.json()
         if resp_json:
             repo_info.extend(resp_json)
@@ -230,7 +224,7 @@ def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, boo
     "-c",
     "--cachefile",
     "use_cachefile",
-    default=default_cachefile,
+    default=this_dir / "cache.json",
     type=click.Path(path_type=Path),
     help="JSON cachefile to use",
     show_default=True,
@@ -239,7 +233,7 @@ def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, boo
     "-d",
     "--datafile",
     "use_datafile",
-    default=default_datafile,
+    default=this_dir / "data.toml",
     type=click.Path(path_type=Path),
     help="TOML datafile to use",
     show_default=True,
@@ -247,7 +241,7 @@ def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, boo
 @click.option(
     "-L",
     "--lang-file",
-    default=languages_file,
+    default=this_dir / "languages.json",
     type=click.Path(path_type=Path),
     help="store classified tags for languages",
     show_default=True,
@@ -256,7 +250,7 @@ def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, boo
     "-g",
     "--github-username",
     "use_github_username",
-    default=default_github_username,
+    default="seanbreckenridge",
     help="github username to use",
 )
 def main(

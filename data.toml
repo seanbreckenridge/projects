@@ -1,4 +1,4 @@
-ignored = [ "seanbreckenridge/CS-Assignments", "seanbreckenridge/HPI-fork", "seanbreckenridge/RSA", "seanbreckenridge/advent-of-code-2019", "seanbreckenridge/advent-of-code-2020", "seanbreckenridge/albums_old", "seanbreckenridge/aoc", "seanbreckenridge/arctee", "seanbreckenridge/bash_like", "seanbreckenridge/beets-filetote", "seanbreckenridge/bleanser-fork", "seanbreckenridge/blizzard_gdpr_parser", "seanbreckenridge/breach-parse", "seanbreckenridge/cachew", "seanbreckenridge/commands-discordpy-starter", "seanbreckenridge/cookiecutter-lib", "seanbreckenridge/cookiecutter-template", "seanbreckenridge/cstimer", "seanbreckenridge/dbsentinel-next", "seanbreckenridge/docker-jikan", "seanbreckenridge/dotfiles-index", "seanbreckenridge/dune", "seanbreckenridge/forever-webui", "seanbreckenridge/foreverjs-list", "seanbreckenridge/fuji", "seanbreckenridge/ghexport", "seanbreckenridge/gnu-rust-utils", "seanbreckenridge/greasyfork_repo_generator", "seanbreckenridge/how2nvim", "seanbreckenridge/is-integer", "seanbreckenridge/jikan", "seanbreckenridge/jikan-rest", "seanbreckenridge/jikan-rest-docker", "seanbreckenridge/jikanpy", "seanbreckenridge/jikanpy_ext", "seanbreckenridge/k_grok", "seanbreckenridge/keepassxc-pwned", "seanbreckenridge/lets-get-arrested", "seanbreckenridge/mac-dotfiles", "seanbreckenridge/mai", "seanbreckenridge/mal-unapproved", "seanbreckenridge/mint", "seanbreckenridge/montage-timeline", "seanbreckenridge/mutt-wizard", "seanbreckenridge/okayweather", "seanbreckenridge/old_forums", "seanbreckenridge/plus1", "seanbreckenridge/pretty-history", "seanbreckenridge/promnesia-fork", "seanbreckenridge/proxy-jikan", "seanbreckenridge/pygithub_requests_error", "seanbreckenridge/pytest-reraise", "seanbreckenridge/pytodotxt", "seanbreckenridge/raspi-backup", "seanbreckenridge/reddit-wallpaper-scraper", "seanbreckenridge/rexport", "seanbreckenridge/rich-click", "seanbreckenridge/rmtrash", "seanbreckenridge/rotten_tomatoes_cli", "seanbreckenridge/rotten_tomatoes_client", "seanbreckenridge/s3-image-server", "seanbreckenridge/sample-namespace-packages", "seanbreckenridge/seanbreckenridge", "seanbreckenridge/selenium-shutterfly-scraper", "seanbreckenridge/sl", "seanbreckenridge/sonic_pi_music", "seanbreckenridge/spawn", "seanbreckenridge/sqlite_concurrent_writes", "seanbreckenridge/st", "seanbreckenridge/sun-in-the-corner-of-the-page", "seanbreckenridge/superhooks", "seanbreckenridge/sw", "seanbreckenridge/tinspire", "seanbreckenridge/todotxt_deadline_notify", "seanbreckenridge/tts", "seanbreckenridge/vimbuffer", "seanbreckenridge/website", "seanbreckenridge/youtube_subtitles_downloader",]
+ignored = [ "seanbreckenridge/CS-Assignments", "seanbreckenridge/HPI-fork", "seanbreckenridge/RSA", "seanbreckenridge/advent-of-code-2019", "seanbreckenridge/advent-of-code-2020", "seanbreckenridge/albums_old", "seanbreckenridge/aoc", "seanbreckenridge/arctee", "seanbreckenridge/bash_like", "seanbreckenridge/beets-filetote", "seanbreckenridge/bleanser-fork", "seanbreckenridge/blizzard_gdpr_parser", "seanbreckenridge/breach-parse", "seanbreckenridge/cachew", "seanbreckenridge/commands-discordpy-starter", "seanbreckenridge/cookiecutter-lib", "seanbreckenridge/cookiecutter-template", "seanbreckenridge/cstimer", "seanbreckenridge/dbsentinel-next", "seanbreckenridge/docker-jikan", "seanbreckenridge/dotfiles-index", "seanbreckenridge/dune", "seanbreckenridge/forever-webui", "seanbreckenridge/foreverjs-list", "seanbreckenridge/fuji", "seanbreckenridge/ghexport", "seanbreckenridge/gnu-rust-utils", "seanbreckenridge/greasyfork_repo_generator", "seanbreckenridge/how2nvim", "seanbreckenridge/is-integer", "seanbreckenridge/jikan", "seanbreckenridge/jikan-rest", "seanbreckenridge/jikan-rest-docker", "seanbreckenridge/jikanpy", "seanbreckenridge/jikanpy_ext", "seanbreckenridge/k_grok", "seanbreckenridge/keepassxc-pwned", "seanbreckenridge/lets-get-arrested", "seanbreckenridge/mac-dotfiles", "seanbreckenridge/mai", "seanbreckenridge/mal-unapproved", "seanbreckenridge/mint", "seanbreckenridge/montage-timeline", "seanbreckenridge/mutt-wizard", "seanbreckenridge/nvim-ts-context-commentstring", "seanbreckenridge/okayweather", "seanbreckenridge/old_forums", "seanbreckenridge/plus1", "seanbreckenridge/pretty-history", "seanbreckenridge/promnesia-fork", "seanbreckenridge/proxy-jikan", "seanbreckenridge/pygithub_requests_error", "seanbreckenridge/pytest-reraise", "seanbreckenridge/pytodotxt", "seanbreckenridge/raspi-backup", "seanbreckenridge/reddit-wallpaper-scraper", "seanbreckenridge/rexport", "seanbreckenridge/rich-click", "seanbreckenridge/rmtrash", "seanbreckenridge/rotten_tomatoes_cli", "seanbreckenridge/rotten_tomatoes_client", "seanbreckenridge/s3-image-server", "seanbreckenridge/sample-namespace-packages", "seanbreckenridge/seanbreckenridge", "seanbreckenridge/selenium-shutterfly-scraper", "seanbreckenridge/sl", "seanbreckenridge/sonic_pi_music", "seanbreckenridge/spawn", "seanbreckenridge/sqlite_concurrent_writes", "seanbreckenridge/st", "seanbreckenridge/sun-in-the-corner-of-the-page", "seanbreckenridge/superhooks", "seanbreckenridge/sw", "seanbreckenridge/tinspire", "seanbreckenridge/todotxt_deadline_notify", "seanbreckenridge/tts", "seanbreckenridge/vimbuffer", "seanbreckenridge/website", "seanbreckenridge/youtube_subtitles_downloader",]
 
 ["Hiyori-API/checker_mal"]
 name = "checker_mal"
@@ -674,7 +674,7 @@ name = "xkcd-favorites"
 full_name = "seanbreckenridge/xkcd-favorites"
 html_url = "https://github.com/seanbreckenridge/xkcd-favorites"
 description = "A list of my favorite [xkcd](https://xkcd.com/)'s. Converts a list of my favorite IDs to a static website using a [`bash script`](https://github.com/seanbreckenridge/xkcd-favorites/blob/master/ssg)"
-updated_at = "2022-01-22T07:25:59Z"
+updated_at = "2023-09-25T02:48:04Z"
 stars = 1
 language = "HTML"
 priority = 2
@@ -889,8 +889,8 @@ name = "browserexport"
 full_name = "seanbreckenridge/browserexport"
 html_url = "https://github.com/seanbreckenridge/browserexport"
 description = "backup and parse browser history databases. I use this to backup my browser histories so that I never lose any of it"
-updated_at = "2023-09-23T20:01:00Z"
-stars = 75
+updated_at = "2023-09-28T14:29:54Z"
+stars = 76
 language = "Python"
 priority = 2
 score = 0
@@ -1249,7 +1249,7 @@ name = "clone-repos"
 full_name = "seanbreckenridge/clone-repos"
 html_url = "https://github.com/seanbreckenridge/clone-repos"
 description = "a basic git repo clone script with pip/editable install support"
-updated_at = "2023-01-30T23:26:40Z"
+updated_at = "2023-09-28T06:22:36Z"
 stars = 3
 language = "Python"
 priority = 2
