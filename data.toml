@@ -74,8 +74,8 @@ name = "bgproc"
 full_name = "seanbreckenridge/bgproc"
 html_url = "https://github.com/seanbreckenridge/bgproc"
 description = "`bash` loop to run tasks in the background. used as an `anacron` alternative. Uses [`evry`](https://github.com/seanbreckenridge/evry) to schedule tasks"
-updated_at = "2022-08-10T14:27:08Z"
-stars = 8
+updated_at = "2023-10-01T16:12:39Z"
+stars = 9
 language = "Shell"
 score = 0
 priority = 2
@@ -995,7 +995,7 @@ name = "google_takeout_parser"
 full_name = "seanbreckenridge/google_takeout_parser"
 html_url = "https://github.com/seanbreckenridge/google_takeout_parser"
 description = "Parses data out of your [Google Takeout](https://takeout.google.com/) (History, Activity, Youtube, Locations, etc...)"
-updated_at = "2023-09-10T22:44:48Z"
+updated_at = "2023-09-30T21:47:07Z"
 stars = 48
 language = "Python"
 priority = 2
@@ -1257,12 +1257,12 @@ score = 0
 tags = [ "cli-tool", "dotfiles", "git", "installer", "python",]
 img = "/clone_repos.png"
 
-["seanbreckenridge/core"]
-name = "core"
-full_name = "seanbreckenridge/core"
-html_url = "https://github.com/seanbreckenridge/core"
+["seanbreckenridge/seanb-utils"]
+name = "seanb-utils"
+full_name = "seanbreckenridge/seanb-utils"
+html_url = "https://github.com/seanbreckenridge/seanb-utils"
 description = "an installer for core scripts extracted from my [dotfiles](https://github.com/seanbreckenridge/dotfiles)"
-updated_at = "2023-09-11T05:58:56Z"
+updated_at = "2023-10-02T03:52:54Z"
 stars = 2
 language = "Shell"
 priority = 2
