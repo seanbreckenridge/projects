@@ -123,6 +123,7 @@ export async function loadRepos(): Promise<Repository[]> {
       } else {
         console.log(`Could not find cache data for ${data.full_name}`);
       }
+      repos.push(data);
     }
   });
 
