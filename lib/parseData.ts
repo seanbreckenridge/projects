@@ -6,6 +6,7 @@ import html from "remark-html";
 import { promisify } from "util";
 const sizeOf = promisify(require("image-size"));
 
+const cacheFile = path.join(process.cwd(), "cache.json");
 const dataFile = path.join(process.cwd(), "data.toml");
 const publicDir = path.join(process.cwd(), "public");
 
@@ -20,15 +21,17 @@ export interface Repository {
   full_name: string;
   html_url: string;
   description: string;
-  updated_at: string;
   language: string;
   url?: string;
   img?: string;
   dimensions?: Dimensions;
-  stars: number;
   score: number;
   priority: number;
   tags: string[];
+  cache_data: {
+    stars: number;
+    updated_at: string;
+  };
 }
 
 const PRIO_MULTIPLIER = 1000000000;
@@ -44,11 +47,12 @@ function calculateScore(repo: Repository): number {
   if (repo.priority === undefined || repo.priority <= 0 || repo.priority > 3) {
     throw `Unexpected priority for ${repo.name}`;
   }
-  const updated_seconds_ago = (Date.now() - Date.parse(repo.updated_at)) / 1000;
+  const updated_seconds_ago =
+    (Date.now() - Date.parse(repo.cache_data.updated_at)) / 1000;
   const updated_days_ago = updated_seconds_ago / 86400;
   return (
     PRIO_MULTIPLIER * repo.priority +
-    STAR_MULTIPLIER * (repo.stars + repo.score) -
+    STAR_MULTIPLIER * (repo.cache_data.stars + repo.score) -
     DAYS_MULTIPLIER * updated_days_ago
   );
 }
@@ -87,15 +91,41 @@ async function renderRepo(repo: Repository): Promise<Repository> {
 
 export async function loadRepos(): Promise<Repository[]> {
   let repos: Repository[] = [];
+
+  if (!fs.existsSync(dataFile)) {
+    throw `Could not find data file ${dataFile}`;
+  }
+
+  if (!fs.existsSync(cacheFile)) {
+    throw `Could not find cache file ${cacheFile}`;
+  }
+
   // parse TOML
   const repoData = toml.parse(fs.readFileSync(dataFile).toString());
+
+  // load cache
+  const cache = JSON.parse(fs.readFileSync(cacheFile).toString());
+
+  const cacheFullNameMap: { [key: string]: any } = {};
+  cache.forEach((repo: any) => {
+    cacheFullNameMap[repo.full_name] = {
+      stars: repo.stargazers_count,
+      updated_at: repo.updated_at,
+    };
+  });
 
   // ignore the 'ignored' key
   Object.keys(repoData).forEach((repoName) => {
     if (repoName !== "ignored") {
-      repos.push(repoData[repoName]);
+      const data = repoData[repoName];
+      if (cacheFullNameMap[data.full_name]) {
+        data.cache_data = cacheFullNameMap[data.full_name];
+      } else {
+        console.log(`Could not find cache data for ${data.full_name}`);
+      }
     }
   });
+
   // sort repos and render markdown to HTML
   // map(renderRepo) returns a list of promises, use Promise.all
   return Promise.all(sortRepos(repos).reverse().map(renderRepo));

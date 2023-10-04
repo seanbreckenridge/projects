@@ -168,15 +168,10 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
     for repo in repo_info:
         rname: str = repo["full_name"]
         if not repo["private"] and rname not in ignored:
-            if rname in repo_data:
-                repo_data[rname]["updated_at"] = repo["updated_at"]
-                repo_data[rname]["stars"] = repo["stargazers_count"]
-                repo_data[rname]["tags"] = _sort_tags(repo_data[rname].get("tags", []))
-            else:
-                # if running in the background to update star/updated at
-                # metadata, don't prompt me
+            if rname not in repo_data:
                 if "PROJECTS_BG_UPDATE" in os.environ:
                     continue
+                click.echo(f"Processing {rname}...", err=True)
                 prompted += 1
                 if not click.confirm(f"Ignore '{rname}'?"):
                     repo_desc = (
