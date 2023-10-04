@@ -1,7 +1,6 @@
 toml
 requests
 click
-vimbuffer
 rifleman
 black
 prompt_toolkit
