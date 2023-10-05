@@ -31,7 +31,7 @@ def cached_response_has_expired(*, cachefile: Path) -> bool:
     if not cachefile.exists():
         click.echo("Cache file doesn't exist...", err=True)
         return True
-    if time.time() - cachefile.stat().st_mtime > 60 * 60 * 6:
+    if time.time() - cachefile.stat().st_mtime > 60 * 30:
         click.echo("Cache file has expired, re-downloading...", err=True)
         return True
     else:
