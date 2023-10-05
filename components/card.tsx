@@ -27,9 +27,14 @@ const ToggleableRecursiveIFrame = () => {
       {show ? (
         <iframe src="https://sean.fish/projects/" />
       ) : (
-        <button className={styles.recurseButton} onClick={() => setShow(true)}>
-          Recurse?
-        </button>
+        <div className={styles.recurseButtonContainer}>
+          <button
+            className={styles.recurseButton}
+            onClick={() => setShow(true)}
+          >
+            Recurse?
+          </button>
+        </div>
       )}
     </div>
   );

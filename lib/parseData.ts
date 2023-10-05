@@ -4,7 +4,6 @@ import toml from "toml";
 import { remark } from "remark";
 import html from "remark-html";
 import { promisify } from "util";
-const sizeOf = promisify(require("image-size"));
 
 const cacheFile = path.join(process.cwd(), "cache.json");
 const dataFile = path.join(process.cwd(), "data.toml");
@@ -80,7 +79,6 @@ async function renderRepo(repo: Repository): Promise<Repository> {
     .process(removeTrailing(repo.description, "."));
   repo.description = processedDesc.toString();
   if (repo.img != null) {
-    repo.dimensions = await sizeOf(path.join(publicDir, repo.img!));
     if (imgPrefix) {
       const withSlash = repo.img.startsWith("/") ? repo.img : `/${repo.img}`;
       repo.img = `${imgPrefix}${withSlash}`;
