@@ -57,7 +57,6 @@ const RepoCard = React.memo(({ repo }: IRepo) => {
         ) : (
           <LazyImage
             src={repo.img}
-            dimensions={repo.dimensions}
             name={repo.name}
           />
         )}
