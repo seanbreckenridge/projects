@@ -3,17 +3,9 @@ import path from "path";
 import toml from "toml";
 import { remark } from "remark";
 import html from "remark-html";
-import { promisify } from "util";
 
 const cacheFile = path.join(process.cwd(), "cache.json");
 const dataFile = path.join(process.cwd(), "data.toml");
-const publicDir = path.join(process.cwd(), "public");
-
-export interface Dimensions {
-  width: number;
-  height: number;
-  type: string;
-}
 
 export interface Repository {
   name: string;
@@ -23,7 +15,6 @@ export interface Repository {
   language: string;
   url?: string;
   img?: string;
-  dimensions?: Dimensions;
   score: number;
   priority: number;
   tags: string[];

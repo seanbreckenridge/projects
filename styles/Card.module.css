@@ -1,8 +1,8 @@
 .card {
-  margin: 1rem;
+  margin: 0.5rem 0.5rem;
   max-width: 500px;
   @media (max-width: 650px) {
-    max-width: 80%;
+    max-width: 90%;
   }
   flex-basis: 45%;
   padding: 1.5rem;
@@ -23,12 +23,9 @@
   margin-right: auto;
   position: relative;
   padding: 1rem;
-  max-height: 400px;
-  width: 90%;
+  width: 95%;
+  height: auto;
   min-height: 200px;
-  @media (max-width: 650px) {
-    width: 80%;
-  }
 }
 
 .card iframe {
@@ -147,8 +144,8 @@
     flex-basis: unset;
   }
   .grid {
-    max-width: 90%;
-    width: 90%;
+    max-width: 95%;
+    width: 95%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
