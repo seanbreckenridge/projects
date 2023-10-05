@@ -55,10 +55,7 @@ const RepoCard = React.memo(({ repo }: IRepo) => {
         {repo.full_name === "seanbreckenridge/projects" ? (
           <ToggleableRecursiveIFrame />
         ) : (
-          <LazyImage
-            src={repo.img}
-            name={repo.name}
-          />
+          <LazyImage src={repo.img} name={repo.name} />
         )}
       </div>
       <Tags tags={repo.tags} />
