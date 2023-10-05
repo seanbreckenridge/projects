@@ -19,6 +19,22 @@ const Tags = React.memo(({ tags }: { tags: string[] }) => {
 
 Tags.displayName = "Tags";
 
+const ToggleableRecursiveIFrame = () => {
+  const [show, setShow] = React.useState(false);
+
+  return (
+    <div className={styles.lazyImageContainer}>
+      {show ? (
+        <iframe src="https://sean.fish/projects/" />
+      ) : (
+        <button className={styles.recurseButton} onClick={() => setShow(true)}>
+          Recurse?
+        </button>
+      )}
+    </div>
+  );
+};
+
 const RepoCard = React.memo(({ repo }: IRepo) => {
   const remoteURL = "https://github.com/" + repo.full_name;
   return (
@@ -32,9 +48,7 @@ const RepoCard = React.memo(({ repo }: IRepo) => {
       <div className={styles.cardDescription}>
         <div dangerouslySetInnerHTML={{ __html: repo.description }}></div>
         {repo.full_name === "seanbreckenridge/projects" ? (
-          <div className={styles.lazyImageContainer}>
-            <iframe src="https://sean.fish/projects/" />
-          </div>
+          <ToggleableRecursiveIFrame />
         ) : (
           <LazyImage
             src={repo.img}
