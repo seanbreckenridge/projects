@@ -90,7 +90,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/calcurse.png"
-tags = [ "library", "python",]
+tags = [ "library", "python", "todotxt",]
 
 ["seanbreckenridge/calories-scripts"]
 name = "calories-scripts"
@@ -273,7 +273,7 @@ language = "Python"
 priority = 2
 score = 50
 img = "/hpi.png"
-tags = [ "hpi", "python",]
+tags = [ "hpi", "python", "cli-tool", "todotxt", "mpv",]
 
 ["seanbreckenridge/ipgeocache"]
 name = "ipgeocache"
@@ -614,7 +614,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/full-todotxt/"
 img = "/full_todotxt.gif"
-tags = [ "python", "tui",]
+tags = [ "python", "tui", "todotxt",]
 
 ["seanbreckenridge/HPI_API"]
 name = "HPI_API"
@@ -669,7 +669,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/bookmark.png"
-tags = [ "bash", "cli-tool",]
+tags = [ "bash", "cli-tool", "todotxt",]
 
 ["seanbreckenridge/chess_export"]
 name = "chess_export"
@@ -1186,6 +1186,18 @@ full_name = "seanbreckenridge/cookiecutter-template"
 html_url = "https://github.com/seanbreckenridge/cookiecutter-template"
 description = "cookiecutter template for a strongly typed python package w/ click, pytest, mypy, flake8 and CI using github actions"
 tags = [ "python", "template",]
+language = "Python"
+priority = 2
+score = 0
+
+["seanbreckenridge/reminder-sink"]
+name = "reminder-sink"
+full_name = "seanbreckenridge/reminder-sink"
+html_url = "https://github.com/seanbreckenridge/reminder-sink"
+description = "a unobtrusive, scriptable reminder/habit/todo task-runner"
+updated_at = "2023-10-06T07:50:12Z"
+tags = [ "reminders", "todotxt",]
+stars = 0
 language = "Python"
 priority = 2
 score = 0
