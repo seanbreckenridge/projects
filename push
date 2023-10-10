@@ -19,7 +19,7 @@ sync_images() {
 while getopts ':hds' opt; do
 	case "$opt" in
 	d)
-		deploy
+		deploy projects
 		exit 0
 		;;
 	s)
