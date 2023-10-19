@@ -8,7 +8,7 @@ import {
   IconBrowser,
   IconShip,
   IconHexagon,
-} from "@tabler/icons";
+} from "@tabler/icons-react";
 
 interface IFooterIcon {
   children?: any;

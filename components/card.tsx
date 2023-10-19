@@ -3,7 +3,7 @@ import styles from "../styles/Card.module.css";
 
 import { Repository } from "../lib/parseData";
 
-import { IconBrandGithub } from "@tabler/icons";
+import { IconBrandGithub } from "@tabler/icons-react";
 
 import FooterIcon, { Website } from "./icons";
 import LazyImage from "./lazy_image";
