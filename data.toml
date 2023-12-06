@@ -1190,3 +1190,17 @@ stars = 0
 language = "Python"
 priority = 2
 score = 0
+
+["seanbreckenridge/trakt-watch"]
+name = "trakt-watch"
+full_name = "seanbreckenridge/trakt-watch"
+html_url = "https://github.com/seanbreckenridge/trakt-watch"
+description = "A small CLI to mark items watched on trakt"
+updated_at = "2023-12-06T02:22:14Z"
+tags = [ "media", "python", "trakt",]
+stars = 0
+language = "Python"
+priority = 2
+score = 0
+url = "https://pypi.org/project/trakt-watch/"
+img = "trakt-watch.png"

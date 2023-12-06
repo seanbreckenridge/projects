@@ -76,6 +76,7 @@
     "sql": true,
     "template": false,
     "todotxt": false,
+    "trakt": false,
     "tui": false,
     "twitch": false,
     "typescript": true,
