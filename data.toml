@@ -199,11 +199,11 @@ tags = [ "c", "cli-tool",]
 name = "exobrain"
 full_name = "seanbreckenridge/exobrain"
 html_url = "https://github.com/seanbreckenridge/exobrain"
-description = "Something like public wiki to store notes, ideas and thoughts. See [build process](https://exobrain.sean.fish/meta/) for more info"
+description = "Something like public wiki to store notes, ideas, blog posts, art, anything else I want to"
 language = "Shell/Go"
 priority = 2
 score = 0
-url = "https://exobrain.sean.fish/"
+url = "https://sean.fish/x/"
 img = "/exobrain.png"
 tags = [ "bash", "golang", "wiki",]
 
