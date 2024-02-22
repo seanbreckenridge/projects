@@ -2,6 +2,7 @@
     "advent-of-code": false,
     "anime": false,
     "api": false,
+    "astro": true,
     "awk": true,
     "bash": true,
     "bc": true,

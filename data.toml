@@ -205,7 +205,7 @@ priority = 2
 score = 0
 url = "https://sean.fish/x/"
 img = "/exobrain.png"
-tags = [ "bash", "golang", "wiki",]
+tags = [ "bash", "golang", "wiki", "javascript", "astro", "web", "typescript",]
 
 ["seanbreckenridge/genpasswd"]
 name = "genpasswd"
