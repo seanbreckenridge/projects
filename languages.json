@@ -49,6 +49,7 @@
     "library": false,
     "logo": true,
     "lua": true,
+    "markdown": false,
     "math": false,
     "media": false,
     "ml": true,
