@@ -186,7 +186,6 @@ def prompt_new(repo_info: List[Json], repo_data: RepoDB, ignored: Set[str]) -> R
                         "description": repo_desc.strip(),
                         "updated_at": repo["updated_at"],
                         "tags": tags,
-                        "stars": repo["stargazers_count"],
                         "language": repo["language"],
                         "priority": 2,
                         "score": 0,
