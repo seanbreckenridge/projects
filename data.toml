@@ -1214,3 +1214,14 @@ language = "Go"
 priority = 2
 score = 0
 img = "/markdown_stew.png"
+
+["seanbreckenridge/hyprland-active-window"]
+name = "hyprland-active-window"
+full_name = "seanbreckenridge/hyprland-active-window"
+html_url = "https://github.com/seanbreckenridge/hyprland-active-window"
+description = "saves a history of your actively focused window to a CSV file"
+updated_at = "2024-04-25T21:47:18Z"
+tags = [ "python",]
+language = "Python"
+priority = 2
+score = 0
