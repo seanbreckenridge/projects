@@ -8,6 +8,9 @@ the list of repos from the API to cached information
 import os
 import json
 import time
+import shutil
+import shlex
+import subprocess
 from itertools import chain
 from typing import List, Dict, Set, Any, Tuple, Optional
 from pathlib import Path
@@ -259,6 +262,9 @@ def main(
     repo_data = prompt_new(repo_info, repo_data, ignored)
     with use_datafile.open("w") as tf:
         toml.dump(repo_data, tf)
+        if "PROJECTS_BG_UPDATE" not in os.environ and shutil.which("prettier"):
+            # prettier -w data.toml
+            subprocess.run(shlex.split(f"prettier -w {str(use_datafile)}"))
     tag_data = {}
     if lang_file.exists():
         tag_data = json.loads(lang_file.read_text())
