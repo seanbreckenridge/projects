@@ -159,7 +159,7 @@ language = "Shell"
 score = 0
 priority = 2
 img = "/bgproc.png"
-tags = ["bash", "cron"]
+tags = ["bash", "cron", "parser-generator"]
 
 ["seanbreckenridge/bootstrap"]
 name = "bootstrap"
@@ -637,7 +637,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/spkglist.png"
-tags = ["bash", "dotfiles", "golang", "installer"]
+tags = ["bash", "dotfiles", "golang", "installer", "parser-generator"]
 
 ["seanbreckenridge/steamscraper"]
 name = "steamscraper"
@@ -1384,3 +1384,15 @@ tags = ["python"]
 language = "Python"
 priority = 2
 score = 0
+
+["seanbreckenridge/tree-sitter-rifleconfig"]
+name = "tree-sitter-rifleconfig"
+full_name = "seanbreckenridge/tree-sitter-rifleconfig"
+html_url = "https://github.com/seanbreckenridge/tree-sitter-rifleconfig"
+description = "rifle (ranger filemanager file opener) grammar for tree-sitter"
+updated_at = "2024-06-06T04:17:07Z"
+tags = ["javascript", "lisp", "parser-generator", "scheme", "vim"]
+language = "JavaScript"
+priority = 2
+score = 0
+img = "/rifleconfig.png"

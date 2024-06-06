@@ -210,8 +210,7 @@ def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, boo
     for tag in tags:
         if tag not in tag_data:
             click.echo(f"Is {tag} a language? [y/n] ", nl=False)
-            ch = click.getchar()
-            tag_data[tag] = ch == "y"
+            tag_data[tag] = click.getchar() == "y"
             click.echo()
     return tag_data
 
@@ -265,11 +264,8 @@ def main(
         if "PROJECTS_BG_UPDATE" not in os.environ and shutil.which("prettier"):
             # prettier -w data.toml
             subprocess.run(shlex.split(f"prettier -w {str(use_datafile)}"))
-    tag_data = {}
-    if lang_file.exists():
-        tag_data = json.loads(lang_file.read_text())
     tag_data = classify_tags(
-        tag_data,
+        json.loads(lang_file.read_text()) if lang_file.exists() else {},
         tags=set(
             chain(*[r["tags"] for r in repo_data.values() if isinstance(r, dict)])
         ),
