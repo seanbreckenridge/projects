@@ -261,7 +261,7 @@ priority = 2
 score = 0
 url = "https://sean.fish/d/?dark"
 img = "/dotfiles.png"
-tags = ["bash", "dotfiles", "lua", "python", "vim"]
+tags = ["bash", "dotfiles", "lua", "python", "neovim", "yadm"]
 
 ["seanbreckenridge/evry"]
 name = "evry"
@@ -1081,7 +1081,7 @@ language = "Vim script"
 priority = 2
 score = 0
 img = "/yadm_git.png"
-tags = ["git", "vim"]
+tags = ["git", "neovim", "yadm"]
 
 ["seanbreckenridge/dbsentinel"]
 name = "dbsentinel"
