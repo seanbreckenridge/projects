@@ -1396,3 +1396,15 @@ language = "JavaScript"
 priority = 2
 score = 0
 img = "/rifleconfig.png"
+
+["seanbreckenridge/gitsigns-yadm.nvim"]
+name = "gitsigns-yadm.nvim"
+full_name = "seanbreckenridge/gitsigns-yadm.nvim"
+html_url = "https://github.com/seanbreckenridge/gitsigns-yadm.nvim"
+description = "[`gitsigns`](https://github.com/lewis6991/gitsigns.nvim) `_on_attach_pre` hook to show git decorations for files tracked by [yadm](https://yadm.io/)"
+updated_at = "2024-06-25T20:05:54Z"
+tags = ["git", "lua", "neovim", "yadm"]
+language = "Lua"
+priority = 2
+score = 0
+img = "/gitsigns-yadm.png"
