@@ -15,10 +15,12 @@ ignored = [
   "seanbreckenridge/blizzard_gdpr_parser",
   "seanbreckenridge/breach-parse",
   "seanbreckenridge/cachew",
+  "seanbreckenridge/calories-scripts",
   "seanbreckenridge/cloak.nvim",
   "seanbreckenridge/commands-discordpy-starter",
   "seanbreckenridge/cookiecutter-lib",
   "seanbreckenridge/cstimer",
+  "seanbreckenridge/dashboard",
   "seanbreckenridge/dbsentinel-next",
   "seanbreckenridge/discogs-cli",
   "seanbreckenridge/docker-jikan",
@@ -36,6 +38,7 @@ ignored = [
   "seanbreckenridge/jikan",
   "seanbreckenridge/jikan-rest",
   "seanbreckenridge/jikan-rest-docker",
+  "seanbreckenridge/jikan_ex",
   "seanbreckenridge/jikanpy",
   "seanbreckenridge/jikanpy_ext",
   "seanbreckenridge/k_grok",
@@ -176,23 +179,12 @@ tags = ["bash", "server"]
 name = "calcurse-load"
 full_name = "seanbreckenridge/calcurse-load"
 html_url = "https://github.com/seanbreckenridge/calcurse-load"
-description = "Hooks for [`calcurse`](https://github.com/lfos/calcurse) (calendar in my terminal), to pull events from Google Calendar and [todo.txt](http://todotxt.org/)"
+description = "Hooks for [`calcurse`](https://github.com/lfos/calcurse) (calendar in my terminal), to pull events from Google Calendar and [`todo.txt`](http://todotxt.org/)"
 language = "Python"
 priority = 2
 score = 0
 img = "/calcurse.png"
 tags = ["library", "python", "todotxt"]
-
-["seanbreckenridge/calories-scripts"]
-name = "calories-scripts"
-full_name = "seanbreckenridge/calories-scripts"
-html_url = "https://github.com/seanbreckenridge/calories-scripts"
-description = "Scripts for interacting with [`calories`](https://github.com/zupzup/calories), to fuzzy select new entries to add/and swap/merge databases"
-language = "Shell/Python"
-priority = 2
-score = 0
-img = "/calfzf.gif"
-tags = ["food", "fzf", "python"]
 
 ["seanbreckenridge/cube-scramble-cli"]
 name = "cube-scramble-cli"
@@ -210,23 +202,12 @@ tags = ["python", "rubiks-cube"]
 name = "darker_errors"
 full_name = "seanbreckenridge/darker_errors"
 html_url = "https://github.com/seanbreckenridge/darker_errors"
-description = "A dark-themed `HTTP` error page generator. Implements a basic template language, to allow interpolation based on HTTP status codes. Is so that I'm not blinded by the default nginx error pages"
+description = "A dark-themed `HTTP` error page generator. Implements a basic template language, to allow interpolation based on HTTP status codes. Is so that I'm not blinded by the default `nginx` error pages"
 language = "Go"
 priority = 2
 score = 0
 img = "/darker_errors.png"
 tags = ["golang", "web"]
-
-["seanbreckenridge/dashboard"]
-name = "dashboard"
-full_name = "seanbreckenridge/dashboard"
-html_url = "https://github.com/seanbreckenridge/dashboard"
-description = "analysis/visualizations done using data from my [HPI](https://github.com/seanbreckenridge/HPI)"
-language = "Jupyter Notebook"
-priority = 2
-score = 0
-img = "/dashboard.png"
-tags = ["hpi", "python"]
 
 ["seanbreckenridge/discord-countdown-bot"]
 name = "discord-countdown-bot"
@@ -334,7 +315,7 @@ tags = ["elixir", "react", "server", "typescript", "web"]
 name = "greasyfork"
 full_name = "seanbreckenridge/greasyfork"
 html_url = "https://github.com/seanbreckenridge/greasyfork"
-description = "An archive of my scripts from greasyfork.org"
+description = "An archive of my scripts from [greasyfork.org](https://greasyfork.org/en)"
 language = "JavaScript"
 priority = 2
 score = 0
@@ -345,7 +326,7 @@ tags = ["anime", "javascript", "userscript", "web"]
 name = "greasyfork_archive"
 full_name = "seanbreckenridge/greasyfork_archive"
 html_url = "https://github.com/seanbreckenridge/greasyfork_archive"
-description = "Scrape data and archive scripts from a users Greasyfork account"
+description = "Scrape data and archive scripts from a users [Greasyfork](https://greasyfork.org/en) account"
 language = "Python"
 priority = 2
 score = 0
@@ -386,18 +367,6 @@ score = 0
 url = "https://pypi.org/project/ipgeocache/"
 img = "/ipgeocache.png"
 tags = ["api", "caching", "hpi"]
-
-["seanbreckenridge/jikan_ex"]
-name = "jikan_ex"
-full_name = "seanbreckenridge/jikan_ex"
-html_url = "https://github.com/seanbreckenridge/jikan_ex"
-description = "An elixir wrapper for the [Jikan](https://jikan.moe/) API"
-language = "Elixir"
-priority = 2
-score = 0
-url = "https://hex.pm/packages/jikan_ex"
-img = "/jikan_ex.png"
-tags = ["anime", "api", "elixir", "jikan"]
 
 ["seanbreckenridge/keyvol"]
 name = "keyvol"
@@ -467,7 +436,7 @@ tags = ["anime", "graphs", "python", "webscraping"]
 name = "mnu_gsheets"
 full_name = "seanbreckenridge/mnu_gsheets"
 html_url = "https://github.com/seanbreckenridge/mnu_gsheets"
-description = "Indexes existing [*Minna no Uta*](https://en.wikipedia.org/wiki/Minna_no_Uta) entries every few days, adding new ones that don't exist to the [spreadsheet](https://sean.fish/s/mnu)"
+description = "Indexes existing [_Minna no Uta_](https://en.wikipedia.org/wiki/Minna_no_Uta) entries every few days, adding new ones that don't exist to a [spreadsheet](https://sean.fish/s/mnu)"
 language = "Python"
 priority = 2
 score = 0
@@ -825,7 +794,7 @@ tags = ["api", "game", "hpi", "python"]
 name = "mpv-history-daemon"
 full_name = "seanbreckenridge/mpv-history-daemon"
 html_url = "https://github.com/seanbreckenridge/mpv-history-daemon"
-description = "Daemon which connects to active mpv instances created by [mpv-sockets](https://github.com/seanbreckenridge/mpv-sockets), saving a history of what I watch/listen to"
+description = "Daemon which connects to active [`mpv`](https://mpv.io/) instances created by [`mpv-sockets`](https://github.com/seanbreckenridge/mpv-sockets), saving a history of what I watch/listen to"
 language = "Python"
 priority = 2
 score = 0
@@ -837,7 +806,7 @@ tags = ["hpi", "media", "mpv", "python", "socket"]
 name = "ttally"
 full_name = "seanbreckenridge/ttally"
 html_url = "https://github.com/seanbreckenridge/ttally"
-description = "an interactive TUI to save things (calorie counter, events) I do often to JSON/YAML. Uses [`autotui`](https://github.com/seanbreckenridge/autotui) internally to generate a bunch of aliases from ADTs, letting me save/query recently logged events"
+description = "an interactive TUI to save things (calorie counter, events) I do often to JSON/YAML. Uses [`autotui`](https://github.com/seanbreckenridge/autotui) internally to generate a bunch of aliases from types, letting me save/query recently logged events"
 language = "Python"
 priority = 2
 score = 0
@@ -986,7 +955,7 @@ tags = ["caching", "hpi", "python"]
 name = "sqlite_backup"
 full_name = "seanbreckenridge/sqlite_backup"
 html_url = "https://github.com/seanbreckenridge/sqlite_backup"
-description = "a tool to snapshot sqlite databases you don't own"
+description = "a tool to snapshot `sqlite` databases you don't own"
 language = "Python"
 priority = 2
 score = 0
@@ -998,7 +967,7 @@ tags = ["cli-tool", "database", "library", "python", "sql"]
 name = "my_feed"
 full_name = "seanbreckenridge/my_feed"
 html_url = "https://github.com/seanbreckenridge/my_feed"
-description = "a personal media feed using HPI"
+description = "a personal media feed using [HPI](https://github.com/seanbreckenridge/HPI)"
 language = "Python"
 priority = 2
 score = 0
@@ -1043,7 +1012,7 @@ tags = ["typescript", "web"]
 name = "fzfcache"
 full_name = "seanbreckenridge/fzfcache"
 html_url = "https://github.com/seanbreckenridge/fzfcache"
-description = "A small cache for unique lines of text, used to speedup the load time of expensive [fzf](https://github.com/junegunn/fzf) invocations"
+description = "A small cache for unique lines of text, used to speedup the load time of expensive [`fzf`](https://github.com/junegunn/fzf) invocations"
 language = "Go"
 priority = 2
 score = 0
@@ -1087,7 +1056,7 @@ tags = ["git", "neovim", "yadm"]
 name = "dbsentinel"
 full_name = "seanbreckenridge/dbsentinel"
 html_url = "https://github.com/seanbreckenridge/dbsentinel"
-description = "lists/archives denied/deleted/unapproved MAL entries"
+description = "lists/archives denied/deleted/unapproved [_MAL_](https://myanimelist.net) entries"
 language = "Python"
 priority = 2
 score = 0
@@ -1110,7 +1079,7 @@ tags = ["database", "git", "python"]
 name = "git_doc_history"
 full_name = "seanbreckenridge/git_doc_history"
 html_url = "https://github.com/seanbreckenridge/git_doc_history"
-description = "copy/track file history in git, with python bindings to traverse and extract files/lines at some date"
+description = "copy/track file history in `git`, with `python` bindings to traverse and extract files/lines at some date"
 language = "Python"
 priority = 2
 score = 0
@@ -1122,7 +1091,7 @@ tags = ["bash", "git", "hpi", "python"]
 name = "pyfzf"
 full_name = "seanbreckenridge/pyfzf"
 html_url = "https://github.com/seanbreckenridge/pyfzf"
-description = "An python wrapper for fzf (forked to support iterators/decorators/types)"
+description = "An python wrapper for [`fzf`](https://github.com/junegunn/fzf) (forked to support iterators/decorators/types)"
 language = "Python"
 priority = 2
 score = 0
@@ -1156,7 +1125,7 @@ img = "/bleanser.png"
 name = "mapscii-at"
 full_name = "seanbreckenridge/mapscii-at"
 html_url = "https://github.com/seanbreckenridge/mapscii-at"
-description = "a small CLI to pass starting options to mapscii"
+description = "a small CLI to pass starting options to [`mapscii`](https://github.com/rastapasta/mapscii)"
 language = "JavaScript"
 priority = 2
 score = 0
@@ -1179,7 +1148,7 @@ tags = ["graphs", "hpi", "python", "rubiks-cube"]
 name = "cstimer-save-server"
 full_name = "seanbreckenridge/cstimer-save-server"
 html_url = "https://github.com/seanbreckenridge/cstimer-save-server"
-description = "a userscript/local server which saves my data from <https://cstimer.net> whenever I open cstimer in my browser"
+description = "a userscript/local server which saves my data from [cstimer](https://cstimer.net) whenever I open cstimer in my browser"
 language = "Go/JavaScript"
 priority = 2
 score = 0
@@ -1190,7 +1159,7 @@ tags = ["golang", "javascript", "rubiks-cube", "userscript", "web"]
 name = "clone-repos"
 full_name = "seanbreckenridge/clone-repos"
 html_url = "https://github.com/seanbreckenridge/clone-repos"
-description = "a basic git repo clone script with pip/editable install support"
+description = "a basic `git` repo clone script with `pip`/editable install support"
 language = "Python"
 priority = 2
 score = 0
@@ -1201,7 +1170,7 @@ img = "/clone_repos.png"
 name = "seanb-utils"
 full_name = "seanbreckenridge/seanb-utils"
 html_url = "https://github.com/seanbreckenridge/seanb-utils"
-description = "an installer for core scripts extracted from my [dotfiles](https://github.com/seanbreckenridge/dotfiles)"
+description = "an installer for useful scripts scripts extracted from my [dotfiles](https://github.com/seanbreckenridge/dotfiles)"
 language = "Shell"
 priority = 2
 score = 0
@@ -1233,7 +1202,7 @@ img = "/server_clipboard.png"
 name = "currently_listening"
 full_name = "seanbreckenridge/currently_listening"
 html_url = "https://github.com/seanbreckenridge/currently_listening"
-description = "personal websocket-based currently playing web server. syncs my live mpv and scrobbler activity to a websocket which is consumed by my website/discord presence rpc"
+description = "personal websocket-based currently playing web server. syncs my live [`mpv`](https://mpv.io/) and scrobbler activity to a websocket which is consumed by my website/discord presence rpc"
 language = "Go/Python"
 priority = 2
 score = 0
@@ -1254,7 +1223,7 @@ img = "/currently_listening.png"
 name = "m3u-shuf"
 full_name = "seanbreckenridge/m3u-shuf"
 html_url = "https://github.com/seanbreckenridge/m3u-shuf"
-description = "CLI tool to shuffle a m3u file"
+description = "CLI tool to shuffle a `m3u` file"
 language = "Rust"
 priority = 2
 score = 0
@@ -1276,7 +1245,7 @@ tags = ["discord", "media", "python"]
 name = "saugabooru_episode_mad"
 full_name = "seanbreckenridge/saugabooru_episode_mad"
 html_url = "https://github.com/seanbreckenridge/saugabooru_episode_mad"
-description = "Downloads all sakugabooru posts for a particular tag, and optionally lets you combine them into Source(episode)-based videos using ffmpeg"
+description = "Downloads all [sakugabooru](https://sakugabooru.com/) posts for a particular tag, and optionally lets you combine them into Source(episode)-based videos using ffmpeg"
 language = "Python"
 priority = 2
 score = 0
@@ -1287,7 +1256,7 @@ img = "/sakuga.png"
 name = "offline_listens"
 full_name = "seanbreckenridge/offline_listens"
 html_url = "https://github.com/seanbreckenridge/offline_listens"
-description = "offline listening history"
+description = "interactive script to save an offline (music) listening history"
 language = "Python"
 priority = 2
 img = "/offline.png"
@@ -1321,7 +1290,7 @@ img = "/mlength.png"
 name = "calc_ans"
 full_name = "seanbreckenridge/calc_ans"
 html_url = "https://github.com/seanbreckenridge/calc_ans"
-description = "A CLI REPL calculator which remembers your last answer, optimized for my use on [termux](https://termux.dev/en/)"
+description = "A CLI REPL calculator which remembers your last answer, optimized for my use on [`termux`](https://termux.dev/en/)"
 tags = ["cli-tool", "math", "ocaml", "repl"]
 language = "OCaml"
 priority = 2
@@ -1332,7 +1301,7 @@ img = "/calc_ans.png"
 name = "cookiecutter-template"
 full_name = "seanbreckenridge/cookiecutter-template"
 html_url = "https://github.com/seanbreckenridge/cookiecutter-template"
-description = "cookiecutter template for a strongly typed python package w/ click, pytest, mypy, flake8 and CI using github actions"
+description = "cookiecutter template for a strongly typed `python` package w/ `click`, `pytest`, `mypy`, `flake8` and CI using github actions"
 tags = ["python", "template"]
 language = "Python"
 priority = 2
@@ -1353,7 +1322,7 @@ score = 0
 name = "trakt-watch"
 full_name = "seanbreckenridge/trakt-watch"
 html_url = "https://github.com/seanbreckenridge/trakt-watch"
-description = "A small CLI to mark items watched on trakt"
+description = "A small CLI to mark items watched on [trakt](https://trakt.tv/)"
 updated_at = "2023-12-06T02:22:14Z"
 tags = ["media", "python", "trakt"]
 language = "Python"
@@ -1378,7 +1347,7 @@ img = "/markdown_stew.png"
 name = "hyprland-active-window"
 full_name = "seanbreckenridge/hyprland-active-window"
 html_url = "https://github.com/seanbreckenridge/hyprland-active-window"
-description = "saves a history of your actively focused window to a CSV file"
+description = "saves a history of your actively focused window to a `CSV` file"
 updated_at = "2024-04-25T21:47:18Z"
 tags = ["python"]
 language = "Python"
@@ -1389,7 +1358,7 @@ score = 0
 name = "tree-sitter-rifleconfig"
 full_name = "seanbreckenridge/tree-sitter-rifleconfig"
 html_url = "https://github.com/seanbreckenridge/tree-sitter-rifleconfig"
-description = "rifle (ranger filemanager file opener) grammar for tree-sitter"
+description = "`rifle` ([`ranger`](https://github.com/ranger/ranger/) filemanager file opener) grammar for [`tree-sitter`](https://tree-sitter.github.io/tree-sitter/)"
 updated_at = "2024-06-06T04:17:07Z"
 tags = ["javascript", "lisp", "parser-generator", "scheme", "vim"]
 language = "JavaScript"
