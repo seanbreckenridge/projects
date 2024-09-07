@@ -1241,10 +1241,10 @@ score = 0
 img = "/filmswap.png"
 tags = ["discord", "media", "python"]
 
-["seanbreckenridge/saugabooru_episode_mad"]
-name = "saugabooru_episode_mad"
-full_name = "seanbreckenridge/saugabooru_episode_mad"
-html_url = "https://github.com/seanbreckenridge/saugabooru_episode_mad"
+["seanbreckenridge/sakugabooru-episode-mad"]
+name = "sakugabooru-episode-mad"
+full_name = "seanbreckenridge/sakugabooru-episode-mad"
+html_url = "https://github.com/seanbreckenridge/sakugabooru-episode-mad"
 description = "Downloads all [sakugabooru](https://sakugabooru.com/) posts for a particular tag, and optionally lets you combine them into Source(episode)-based videos using ffmpeg"
 language = "Python"
 priority = 2
