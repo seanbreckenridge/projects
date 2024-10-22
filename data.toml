@@ -32,6 +32,7 @@ ignored = [
   "seanbreckenridge/ghexport",
   "seanbreckenridge/glue_geocities",
   "seanbreckenridge/gnu-rust-utils",
+  "seanbreckenridge/google-photos-backup",
   "seanbreckenridge/greasyfork_repo_generator",
   "seanbreckenridge/how2nvim",
   "seanbreckenridge/is-integer",
