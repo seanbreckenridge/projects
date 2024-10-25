@@ -52,7 +52,7 @@ const RepoCard = React.memo(({ repo }: IRepo) => {
       </div>
       <div className={styles.cardDescription}>
         <div dangerouslySetInnerHTML={{ __html: repo.description }}></div>
-        {repo.full_name === "seanbreckenridge/projects" ? (
+        {repo.full_name === "purarue/projects" ? (
           <ToggleableRecursiveIFrame />
         ) : (
           <LazyImage src={repo.img} name={repo.name} />

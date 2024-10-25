@@ -1,98 +1,98 @@
 ignored = [
-  "seanbreckenridge/CS-Assignments",
-  "seanbreckenridge/HPI-fork",
-  "seanbreckenridge/RSA",
-  "seanbreckenridge/Second-Brain",
-  "seanbreckenridge/advent-of-code-2019",
-  "seanbreckenridge/advent-of-code-2020",
-  "seanbreckenridge/albums_old",
-  "seanbreckenridge/aoc",
-  "seanbreckenridge/arctee",
-  "seanbreckenridge/bash_like",
-  "seanbreckenridge/beets-filetote",
-  "seanbreckenridge/best-of-digital-gardens",
-  "seanbreckenridge/bleanser-fork",
-  "seanbreckenridge/blizzard_gdpr_parser",
-  "seanbreckenridge/breach-parse",
-  "seanbreckenridge/cachew",
-  "seanbreckenridge/calories-scripts",
-  "seanbreckenridge/cloak.nvim",
-  "seanbreckenridge/commands-discordpy-starter",
-  "seanbreckenridge/cookiecutter-lib",
-  "seanbreckenridge/cstimer",
-  "seanbreckenridge/dashboard",
-  "seanbreckenridge/dbsentinel-next",
-  "seanbreckenridge/discogs-cli",
-  "seanbreckenridge/docker-jikan",
-  "seanbreckenridge/dotfiles-index",
-  "seanbreckenridge/dune",
-  "seanbreckenridge/forever-webui",
-  "seanbreckenridge/foreverjs-list",
-  "seanbreckenridge/fuji",
-  "seanbreckenridge/ghexport",
-  "seanbreckenridge/glue_geocities",
-  "seanbreckenridge/gnu-rust-utils",
-  "seanbreckenridge/google-photos-backup",
-  "seanbreckenridge/greasyfork_repo_generator",
-  "seanbreckenridge/how2nvim",
-  "seanbreckenridge/is-integer",
-  "seanbreckenridge/jikan",
-  "seanbreckenridge/jikan-rest",
-  "seanbreckenridge/jikan-rest-docker",
-  "seanbreckenridge/jikan_ex",
-  "seanbreckenridge/jikanpy",
-  "seanbreckenridge/jikanpy_ext",
-  "seanbreckenridge/k_grok",
-  "seanbreckenridge/keepassxc-pwned",
-  "seanbreckenridge/kompress",
-  "seanbreckenridge/lets-get-arrested",
-  "seanbreckenridge/mac-dotfiles",
-  "seanbreckenridge/mai",
-  "seanbreckenridge/mal-id-cache",
-  "seanbreckenridge/mal-unapproved",
-  "seanbreckenridge/mint",
-  "seanbreckenridge/montage-timeline",
-  "seanbreckenridge/mutt-wizard",
-  "seanbreckenridge/nvim-treesitter",
-  "seanbreckenridge/nvim-ts-autotag",
-  "seanbreckenridge/nvim-ts-context-commentstring",
-  "seanbreckenridge/okayweather",
-  "seanbreckenridge/old_forums",
-  "seanbreckenridge/plus1",
-  "seanbreckenridge/pretty-history",
-  "seanbreckenridge/promnesia-fork",
-  "seanbreckenridge/proxy-jikan",
-  "seanbreckenridge/pygithub_requests_error",
-  "seanbreckenridge/pytest-reraise",
-  "seanbreckenridge/pytodotxt",
-  "seanbreckenridge/raspi-backup",
-  "seanbreckenridge/reddit-wallpaper-scraper",
-  "seanbreckenridge/rexport",
-  "seanbreckenridge/rich-click",
-  "seanbreckenridge/rmtrash",
-  "seanbreckenridge/rotten_tomatoes_cli",
-  "seanbreckenridge/rotten_tomatoes_client",
-  "seanbreckenridge/s3-image-server",
-  "seanbreckenridge/sample-namespace-packages",
-  "seanbreckenridge/seanbreckenridge",
-  "seanbreckenridge/selenium-shutterfly-scraper",
-  "seanbreckenridge/sl",
-  "seanbreckenridge/sonic_pi_music",
-  "seanbreckenridge/spawn",
-  "seanbreckenridge/sqlite_concurrent_writes",
-  "seanbreckenridge/st",
-  "seanbreckenridge/sun-in-the-corner-of-the-page",
-  "seanbreckenridge/superhooks",
-  "seanbreckenridge/sw",
-  "seanbreckenridge/tinspire",
-  "seanbreckenridge/todotxt_deadline_notify",
-  "seanbreckenridge/treesitter-context-empty-line-bug",
-  "seanbreckenridge/tts",
-  "seanbreckenridge/twitchlive",
-  "seanbreckenridge/vim-unimpaired-conversions",
-  "seanbreckenridge/vimbuffer",
-  "seanbreckenridge/website",
-  "seanbreckenridge/youtube_subtitles_downloader",
+  "purarue/CS-Assignments",
+  "purarue/HPI-fork",
+  "purarue/RSA",
+  "purarue/Second-Brain",
+  "purarue/advent-of-code-2019",
+  "purarue/advent-of-code-2020",
+  "purarue/albums_old",
+  "purarue/aoc",
+  "purarue/arctee",
+  "purarue/bash_like",
+  "purarue/beets-filetote",
+  "purarue/best-of-digital-gardens",
+  "purarue/bleanser-fork",
+  "purarue/blizzard_gdpr_parser",
+  "purarue/breach-parse",
+  "purarue/cachew",
+  "purarue/calories-scripts",
+  "purarue/cloak.nvim",
+  "purarue/commands-discordpy-starter",
+  "purarue/cookiecutter-lib",
+  "purarue/cstimer",
+  "purarue/dashboard",
+  "purarue/dbsentinel-next",
+  "purarue/discogs-cli",
+  "purarue/docker-jikan",
+  "purarue/dotfiles-index",
+  "purarue/dune",
+  "purarue/forever-webui",
+  "purarue/foreverjs-list",
+  "purarue/fuji",
+  "purarue/ghexport",
+  "purarue/glue_geocities",
+  "purarue/gnu-rust-utils",
+  "purarue/google-photos-backup",
+  "purarue/greasyfork_repo_generator",
+  "purarue/how2nvim",
+  "purarue/is-integer",
+  "purarue/jikan",
+  "purarue/jikan-rest",
+  "purarue/jikan-rest-docker",
+  "purarue/jikan_ex",
+  "purarue/jikanpy",
+  "purarue/jikanpy_ext",
+  "purarue/k_grok",
+  "purarue/keepassxc-pwned",
+  "purarue/kompress",
+  "purarue/lets-get-arrested",
+  "purarue/mac-dotfiles",
+  "purarue/mai",
+  "purarue/mal-id-cache",
+  "purarue/mal-unapproved",
+  "purarue/mint",
+  "purarue/montage-timeline",
+  "purarue/mutt-wizard",
+  "purarue/nvim-treesitter",
+  "purarue/nvim-ts-autotag",
+  "purarue/nvim-ts-context-commentstring",
+  "purarue/okayweather",
+  "purarue/old_forums",
+  "purarue/plus1",
+  "purarue/pretty-history",
+  "purarue/promnesia-fork",
+  "purarue/proxy-jikan",
+  "purarue/pygithub_requests_error",
+  "purarue/pytest-reraise",
+  "purarue/pytodotxt",
+  "purarue/raspi-backup",
+  "purarue/reddit-wallpaper-scraper",
+  "purarue/rexport",
+  "purarue/rich-click",
+  "purarue/rmtrash",
+  "purarue/rotten_tomatoes_cli",
+  "purarue/rotten_tomatoes_client",
+  "purarue/s3-image-server",
+  "purarue/sample-namespace-packages",
+  "purarue/purarue",
+  "purarue/selenium-shutterfly-scraper",
+  "purarue/sl",
+  "purarue/sonic_pi_music",
+  "purarue/spawn",
+  "purarue/sqlite_concurrent_writes",
+  "purarue/st",
+  "purarue/sun-in-the-corner-of-the-page",
+  "purarue/superhooks",
+  "purarue/sw",
+  "purarue/tinspire",
+  "purarue/todotxt_deadline_notify",
+  "purarue/treesitter-context-empty-line-bug",
+  "purarue/tts",
+  "purarue/twitchlive",
+  "purarue/vim-unimpaired-conversions",
+  "purarue/vimbuffer",
+  "purarue/website",
+  "purarue/youtube_subtitles_downloader",
 ]
 
 ["Hiyori-API/checker_mal"]
@@ -107,10 +107,10 @@ url = "https://sean.fish/mal_unapproved"
 img = "/mal_unapproved.png"
 tags = ["anime", "api", "database", "web", "webscraping"]
 
-["seanbreckenridge/albums"]
+["purarue/albums"]
 name = "albums"
-full_name = "seanbreckenridge/albums"
-html_url = "https://github.com/seanbreckenridge/albums"
+full_name = "purarue/albums"
+html_url = "https://github.com/purarue/albums"
 description = "A collection of `CSV` files containing popular/acclaimed albums, used to make a giant list of albums to listen to. This maintains a [google sheet](https://sean.fish/s/albums) which I use instead of [RateYourMusic](https://rateyourmusic.com)"
 language = "Python"
 priority = 2
@@ -119,10 +119,10 @@ url = "https://docs.google.com/spreadsheets/d/12htSAMg67czl8cpkj1mX0TuAFvqL_PJLI
 img = "/albums.png"
 tags = ["api", "google-sheets", "media", "music", "python", "sql"]
 
-["seanbreckenridge/animeshorts"]
+["purarue/animeshorts"]
 name = "animeshorts"
-full_name = "seanbreckenridge/animeshorts"
-html_url = "https://github.com/seanbreckenridge/animeshorts"
+full_name = "purarue/animeshorts"
+html_url = "https://github.com/purarue/animeshorts"
 description = "static site for my favorite anime short films"
 language = "Python"
 score = 0
@@ -131,10 +131,10 @@ url = "https://sean.fish/animeshorts/"
 img = "/animeshorts.png"
 tags = ["anime", "jikan", "media", "python", "server", "web"]
 
-["seanbreckenridge/autotui"]
+["purarue/autotui"]
 name = "autotui"
-full_name = "seanbreckenridge/autotui"
-html_url = "https://github.com/seanbreckenridge/autotui"
+full_name = "purarue/autotui"
+html_url = "https://github.com/purarue/autotui"
 description = "interactively prompt, validate, and persist python objects to disk (`JSON`/`YAML`) and back using type hints"
 language = "Python"
 priority = 2
@@ -143,10 +143,10 @@ url = "https://pypi.org/project/autotui/"
 img = "/autotui.gif"
 tags = ["library", "python", "tui"]
 
-["seanbreckenridge/aw-watcher-window"]
+["purarue/aw-watcher-window"]
 name = "window_watcher"
-full_name = "seanbreckenridge/aw-watcher-window"
-html_url = "https://github.com/seanbreckenridge/aw-watcher-window"
+full_name = "purarue/aw-watcher-window"
+html_url = "https://github.com/purarue/aw-watcher-window"
 description = "Cross-platform window watcher (forked from [ActivityWatch](https://activitywatch.net) to log to a file instead). Daemon which periodically saves the window I'm currently using"
 language = "Python"
 score = 0
@@ -154,21 +154,21 @@ priority = 2
 img = "/window_watcher.png"
 tags = ["hpi", "python"]
 
-["seanbreckenridge/bgproc"]
+["purarue/bgproc"]
 name = "bgproc"
-full_name = "seanbreckenridge/bgproc"
-html_url = "https://github.com/seanbreckenridge/bgproc"
-description = "`bash` loop to run tasks in the background. used as an `anacron` alternative. Uses [`evry`](https://github.com/seanbreckenridge/evry) to schedule tasks"
+full_name = "purarue/bgproc"
+html_url = "https://github.com/purarue/bgproc"
+description = "`bash` loop to run tasks in the background. used as an `anacron` alternative. Uses [`evry`](https://github.com/purarue/evry) to schedule tasks"
 language = "Shell"
 score = 0
 priority = 2
 img = "/bgproc.png"
 tags = ["bash", "cron", "parser-generator"]
 
-["seanbreckenridge/bootstrap"]
+["purarue/bootstrap"]
 name = "bootstrap"
-full_name = "seanbreckenridge/bootstrap"
-html_url = "https://github.com/seanbreckenridge/bootstrap"
+full_name = "purarue/bootstrap"
+html_url = "https://github.com/purarue/bootstrap"
 description = "A script to setup a new `bash` VPS/servers with defaults I like. This is the first things I do whenever I setup a new server, so I have all my `vi` bindings and aliases"
 language = "Shell"
 priority = 2
@@ -176,10 +176,10 @@ score = 0
 img = "/bootstrap.png"
 tags = ["bash", "server"]
 
-["seanbreckenridge/calcurse-load"]
+["purarue/calcurse-load"]
 name = "calcurse-load"
-full_name = "seanbreckenridge/calcurse-load"
-html_url = "https://github.com/seanbreckenridge/calcurse-load"
+full_name = "purarue/calcurse-load"
+html_url = "https://github.com/purarue/calcurse-load"
 description = "Hooks for [`calcurse`](https://github.com/lfos/calcurse) (calendar in my terminal), to pull events from Google Calendar and [`todo.txt`](http://todotxt.org/)"
 language = "Python"
 priority = 2
@@ -187,10 +187,10 @@ score = 0
 img = "/calcurse.png"
 tags = ["library", "python", "todotxt"]
 
-["seanbreckenridge/cube-scramble-cli"]
+["purarue/cube-scramble-cli"]
 name = "cube-scramble-cli"
-full_name = "seanbreckenridge/cube-scramble-cli"
-html_url = "https://github.com/seanbreckenridge/cube-scramble-cli"
+full_name = "purarue/cube-scramble-cli"
+html_url = "https://github.com/purarue/cube-scramble-cli"
 description = "A CLI for [`pyTwistyScrambler`](https://github.com/euphwes/pyTwistyScrambler), to generate random states for twisty puzzles"
 language = "Python"
 priority = 2
@@ -199,10 +199,10 @@ url = "https://pypi.org/project/cube-scramble-cli/"
 img = "/cube_scramble_cli.gif"
 tags = ["python", "rubiks-cube"]
 
-["seanbreckenridge/darker_errors"]
+["purarue/darker_errors"]
 name = "darker_errors"
-full_name = "seanbreckenridge/darker_errors"
-html_url = "https://github.com/seanbreckenridge/darker_errors"
+full_name = "purarue/darker_errors"
+html_url = "https://github.com/purarue/darker_errors"
 description = "A dark-themed `HTTP` error page generator. Implements a basic template language, to allow interpolation based on HTTP status codes. Is so that I'm not blinded by the default `nginx` error pages"
 language = "Go"
 priority = 2
@@ -210,10 +210,10 @@ score = 0
 img = "/darker_errors.png"
 tags = ["golang", "web"]
 
-["seanbreckenridge/discord-countdown-bot"]
+["purarue/discord-countdown-bot"]
 name = "discord-countdown-bot"
-full_name = "seanbreckenridge/discord-countdown-bot"
-html_url = "https://github.com/seanbreckenridge/discord-countdown-bot"
+full_name = "purarue/discord-countdown-bot"
+html_url = "https://github.com/purarue/discord-countdown-bot"
 description = "Discord bot to use for countdowns. Used as a [`syncplay`](https://syncplay.pl) alternative"
 language = "Python"
 priority = 2
@@ -221,10 +221,10 @@ score = 0
 img = "/countdown.png"
 tags = ["discord", "python", "server"]
 
-["seanbreckenridge/discord_data"]
+["purarue/discord_data"]
 name = "discord_data"
-full_name = "seanbreckenridge/discord_data"
-html_url = "https://github.com/seanbreckenridge/discord_data"
+full_name = "purarue/discord_data"
+html_url = "https://github.com/purarue/discord_data"
 description = "Library to parse messages/activity from the discord data export"
 language = "Python"
 priority = 2
@@ -233,10 +233,10 @@ img = "/discord.png"
 url = "https://pypi.org/project/discord-data/"
 tags = ["discord", "hpi", "python"]
 
-["seanbreckenridge/dotfiles"]
+["purarue/dotfiles"]
 name = "dotfiles"
-full_name = "seanbreckenridge/dotfiles"
-html_url = "https://github.com/seanbreckenridge/dotfiles"
+full_name = "purarue/dotfiles"
+html_url = "https://github.com/purarue/dotfiles"
 description = "cross-platform (arch/macos/android) dotfiles and scripts, using [`yadm`](https://yadm.io/). Includes lots of my scripts, and my configuration files for everything"
 language = "Shell"
 priority = 2
@@ -245,10 +245,10 @@ url = "https://sean.fish/d/?dark"
 img = "/dotfiles.png"
 tags = ["bash", "dotfiles", "lua", "python", "neovim", "yadm"]
 
-["seanbreckenridge/evry"]
+["purarue/evry"]
 name = "evry"
-full_name = "seanbreckenridge/evry"
-html_url = "https://github.com/seanbreckenridge/evry"
+full_name = "purarue/evry"
+html_url = "https://github.com/purarue/evry"
 description = "A shell-script-centric task scheduler; uses exit codes to determine control flow"
 language = "Rust"
 priority = 2
@@ -257,10 +257,10 @@ url = "https://crates.io/crates/evry"
 img = "/evry.png"
 tags = ["cli-tool", "cron", "rust"]
 
-["seanbreckenridge/exists"]
+["purarue/exists"]
 name = "exists"
-full_name = "seanbreckenridge/exists"
-html_url = "https://github.com/seanbreckenridge/exists"
+full_name = "purarue/exists"
+html_url = "https://github.com/purarue/exists"
 description = "Pipe to test if files exist. Got tired of doing the unreadable: `xargs -I {} sh -c \"[ -e \\\"{}\\\" ] && echo \\\"{}\\\"\"` when doing shell one-liners, so this simplifies that"
 language = "C"
 priority = 2
@@ -268,10 +268,10 @@ score = 0
 img = "/exists.png"
 tags = ["c", "cli-tool"]
 
-["seanbreckenridge/exobrain"]
+["purarue/exobrain"]
 name = "exobrain"
-full_name = "seanbreckenridge/exobrain"
-html_url = "https://github.com/seanbreckenridge/exobrain"
+full_name = "purarue/exobrain"
+html_url = "https://github.com/purarue/exobrain"
 description = "Something like public wiki to store notes, ideas, blog posts, art, anything else I want to"
 language = "Shell/Go"
 priority = 2
@@ -289,10 +289,10 @@ tags = [
   "typescript",
 ]
 
-["seanbreckenridge/genpasswd"]
+["purarue/genpasswd"]
 name = "genpasswd"
-full_name = "seanbreckenridge/genpasswd"
-html_url = "https://github.com/seanbreckenridge/genpasswd"
+full_name = "purarue/genpasswd"
+html_url = "https://github.com/purarue/genpasswd"
 description = "A password generator with defaults and some shorthands that I like"
 language = "C++"
 priority = 2
@@ -300,10 +300,10 @@ score = 0
 img = "/genpasswd.png"
 tags = ["c++", "cli-tool"]
 
-["seanbreckenridge/glue"]
+["purarue/glue"]
 name = "glue"
-full_name = "seanbreckenridge/glue"
-html_url = "https://github.com/seanbreckenridge/glue"
+full_name = "purarue/glue"
+html_url = "https://github.com/purarue/glue"
 description = "My personal website. Has a GUI interface modeled after old Atari/Compaq machines"
 language = "Elixir/TypeScript"
 priority = 2
@@ -312,10 +312,10 @@ url = "https://sean.fish/"
 img = "/glue.png"
 tags = ["elixir", "react", "server", "typescript", "web"]
 
-["seanbreckenridge/greasyfork"]
+["purarue/greasyfork"]
 name = "greasyfork"
-full_name = "seanbreckenridge/greasyfork"
-html_url = "https://github.com/seanbreckenridge/greasyfork"
+full_name = "purarue/greasyfork"
+html_url = "https://github.com/purarue/greasyfork"
 description = "An archive of my scripts from [greasyfork.org](https://greasyfork.org/en)"
 language = "JavaScript"
 priority = 2
@@ -323,10 +323,10 @@ score = 0
 img = "/greasyfork.png"
 tags = ["anime", "javascript", "userscript", "web"]
 
-["seanbreckenridge/greasyfork_archive"]
+["purarue/greasyfork_archive"]
 name = "greasyfork_archive"
-full_name = "seanbreckenridge/greasyfork_archive"
-html_url = "https://github.com/seanbreckenridge/greasyfork_archive"
+full_name = "purarue/greasyfork_archive"
+html_url = "https://github.com/purarue/greasyfork_archive"
 description = "Scrape data and archive scripts from a users [Greasyfork](https://greasyfork.org/en) account"
 language = "Python"
 priority = 2
@@ -335,10 +335,10 @@ url = "https://pypi.org/project/greasyfork_archive/"
 img = "/gf_archive.png"
 tags = ["python", "userscript", "webscraping"]
 
-["seanbreckenridge/havecmd"]
+["purarue/havecmd"]
 name = "havecmd"
-full_name = "seanbreckenridge/havecmd"
-html_url = "https://github.com/seanbreckenridge/havecmd"
+full_name = "purarue/havecmd"
+html_url = "https://github.com/purarue/havecmd"
 description = "A template for `bash` scripts, to provide a nicer interface to check for the presence of external commands on the users `$PATH`"
 language = "Shell"
 priority = 2
@@ -346,21 +346,21 @@ score = 0
 img = "/havecmd.png"
 tags = ["bash", "template"]
 
-["seanbreckenridge/HPI"]
+["purarue/HPI"]
 name = "HPI"
-full_name = "seanbreckenridge/HPI"
-html_url = "https://github.com/seanbreckenridge/HPI"
-description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a `python` package. [Currently in-use modules](https://github.com/seanbreckenridge/HPI#my-modules)"
+full_name = "purarue/HPI"
+html_url = "https://github.com/purarue/HPI"
+description = "Human Programming Interface. Provides a way to unify, access and interact with all my personal data, as a `python` package. [Currently in-use modules](https://github.com/purarue/HPI#my-modules)"
 language = "Python"
 priority = 2
 score = 50
 img = "/hpi.png"
 tags = ["hpi", "python", "cli-tool", "todotxt", "mpv"]
 
-["seanbreckenridge/ipgeocache"]
+["purarue/ipgeocache"]
 name = "ipgeocache"
-full_name = "seanbreckenridge/ipgeocache"
-html_url = "https://github.com/seanbreckenridge/ipgeocache"
+full_name = "purarue/ipgeocache"
+html_url = "https://github.com/purarue/ipgeocache"
 description = "A small filesystem cache layer for IP geolocation info"
 language = "Python"
 priority = 2
@@ -369,10 +369,10 @@ url = "https://pypi.org/project/ipgeocache/"
 img = "/ipgeocache.png"
 tags = ["api", "caching", "hpi"]
 
-["seanbreckenridge/keyvol"]
+["purarue/keyvol"]
 name = "keyvol"
-full_name = "seanbreckenridge/keyvol"
-html_url = "https://github.com/seanbreckenridge/keyvol"
+full_name = "purarue/keyvol"
+html_url = "https://github.com/purarue/keyvol"
 description = "An interactive terminal interface for `pamixer`/`pactl` to control system volume"
 language = "Go"
 priority = 2
@@ -380,10 +380,10 @@ score = 0
 img = "/keyvol.gif"
 tags = ["golang", "tui"]
 
-["seanbreckenridge/largechar"]
+["purarue/largechar"]
 name = "largechar"
-full_name = "seanbreckenridge/largechar"
-html_url = "https://github.com/seanbreckenridge/largechar"
+full_name = "purarue/largechar"
+html_url = "https://github.com/purarue/largechar"
 description = "Displays large characters on your screen. Was a replacement for [this Alfred feature](https://www.alfredapp.com/help/features/large-type/), and an excuse to try some electron programming"
 language = "JavaScript"
 priority = 2
@@ -391,11 +391,11 @@ score = 0
 img = "/largechar.gif"
 tags = ["gui", "web"]
 
-["seanbreckenridge/lolexport"]
+["purarue/lolexport"]
 name = "lolexport"
-full_name = "seanbreckenridge/lolexport"
-html_url = "https://github.com/seanbreckenridge/lolexport"
-description = "Exports League of Legends Match History metadata using the RiotGames API. I don’t play league of legends that often anymore, this is to export my entire match history so I can do some analysis as part of [HPI](https://github.com/seanbreckenridge/HPI)"
+full_name = "purarue/lolexport"
+html_url = "https://github.com/purarue/lolexport"
+description = "Exports League of Legends Match History metadata using the RiotGames API. I don’t play league of legends that often anymore, this is to export my entire match history so I can do some analysis as part of [HPI](https://github.com/purarue/HPI)"
 language = "Python"
 priority = 2
 score = 0
@@ -403,10 +403,10 @@ img = "/lolexport.png"
 url = "https://pypi.org/project/lolexport/"
 tags = ["api", "game", "hpi", "python"]
 
-["seanbreckenridge/mal-notify-bot"]
+["purarue/mal-notify-bot"]
 name = "mal-notify-bot"
-full_name = "seanbreckenridge/mal-notify-bot"
-html_url = "https://github.com/seanbreckenridge/mal-notify-bot"
+full_name = "purarue/mal-notify-bot"
+html_url = "https://github.com/purarue/mal-notify-bot"
 description = "discord bot that checks the [_MAL_](https://myanimelist.net) \"Just Added\" page, reporting newly approved entries"
 language = "Python"
 priority = 2
@@ -422,10 +422,10 @@ tags = [
   "webscraping",
 ]
 
-["seanbreckenridge/MALUserVsAverage"]
+["purarue/MALUserVsAverage"]
 name = "MALUserVsAverage"
-full_name = "seanbreckenridge/MALUserVsAverage"
-html_url = "https://github.com/seanbreckenridge/MALUserVsAverage"
+full_name = "purarue/MALUserVsAverage"
+html_url = "https://github.com/purarue/MALUserVsAverage"
 description = "generate a graph that shows correlation between a users and average score on [_MAL_](https://myanimelist.net)"
 language = "Python"
 priority = 2
@@ -433,10 +433,10 @@ score = 0
 img = "/mal_user_vs_average.png"
 tags = ["anime", "graphs", "python", "webscraping"]
 
-["seanbreckenridge/mnu_gsheets"]
+["purarue/mnu_gsheets"]
 name = "mnu_gsheets"
-full_name = "seanbreckenridge/mnu_gsheets"
-html_url = "https://github.com/seanbreckenridge/mnu_gsheets"
+full_name = "purarue/mnu_gsheets"
+html_url = "https://github.com/purarue/mnu_gsheets"
 description = "Indexes existing [_Minna no Uta_](https://en.wikipedia.org/wiki/Minna_no_Uta) entries every few days, adding new ones that don't exist to a [spreadsheet](https://sean.fish/s/mnu)"
 language = "Python"
 priority = 2
@@ -445,10 +445,10 @@ url = "https://docs.google.com/spreadsheets/d/1N4D3C0bSXVcVh0ggt_mpKMy_OrAdkKGkM
 img = "/mnu_gsheets.png"
 tags = ["anime", "api", "google-sheets", "python", "webscraping"]
 
-["seanbreckenridge/mpv-sockets"]
+["purarue/mpv-sockets"]
 name = "mpv-sockets"
-full_name = "seanbreckenridge/mpv-sockets"
-html_url = "https://github.com/seanbreckenridge/mpv-sockets"
+full_name = "purarue/mpv-sockets"
+html_url = "https://github.com/purarue/mpv-sockets"
 description = "A collection of bash scripts to allow easier and programmatic interaction with [`mpv`](https://mpv.io/) sockets"
 language = "Shell"
 priority = 2
@@ -456,10 +456,10 @@ score = 0
 img = "/mpv_sockets.png"
 tags = ["bash", "media", "mpv"]
 
-["seanbreckenridge/mpvf"]
+["purarue/mpvf"]
 name = "mpvf"
-full_name = "seanbreckenridge/mpvf"
-html_url = "https://github.com/seanbreckenridge/mpvf"
+full_name = "purarue/mpvf"
+html_url = "https://github.com/purarue/mpvf"
 description = "Interface to select a [`youtube-dl`](https://github.com/ytdl-org/youtube-dl/) format for streaming video with [`mpv`](https://mpv.io/)"
 language = "Shell"
 priority = 2
@@ -467,10 +467,10 @@ score = 0
 img = "/mpvf.gif"
 tags = ["bash", "mpv"]
 
-["seanbreckenridge/no-db-shorturl"]
+["purarue/no-db-shorturl"]
 name = "no-db-shorturl"
-full_name = "seanbreckenridge/no-db-shorturl"
-html_url = "https://github.com/seanbreckenridge/no-db-shorturl"
+full_name = "purarue/no-db-shorturl"
+html_url = "https://github.com/purarue/no-db-shorturl"
 description = "file based single-binary URL shortener server. Has no dependencies; doesn’t require you to setup a database"
 language = "Go"
 priority = 2
@@ -478,10 +478,10 @@ score = 0
 img = "/shorturl.png"
 tags = ["golang", "server", "web"]
 
-["seanbreckenridge/plaintext-playlist"]
+["purarue/plaintext-playlist"]
 name = "plaintext-playlist"
-full_name = "seanbreckenridge/plaintext-playlist"
-html_url = "https://github.com/seanbreckenridge/plaintext-playlist"
+full_name = "purarue/plaintext-playlist"
+html_url = "https://github.com/purarue/plaintext-playlist"
 description = "An interactive terminal playlist manager; stores playlists as text files. Seems that most people tend to use spotify/apple music nowadays, but I still like having music locally. This lets me manage playlists locally without having to use one of the bulky GUI applications"
 language = "Bash"
 priority = 2
@@ -489,10 +489,10 @@ score = 0
 img = "/plainplay.png"
 tags = ["bash", "media", "mpv", "music", "playlist"]
 
-["seanbreckenridge/pmark"]
+["purarue/pmark"]
 name = "pmark"
-full_name = "seanbreckenridge/pmark"
-html_url = "https://github.com/seanbreckenridge/pmark"
+full_name = "purarue/pmark"
+html_url = "https://github.com/purarue/pmark"
 description = "A hacky, markdown pre-processor. Uses code blocks to generate markdown, from within the markdown itself"
 language = "Perl"
 priority = 2
@@ -500,10 +500,10 @@ score = 0
 img = "/pmark.png"
 tags = ["cli-tool", "perl"]
 
-["seanbreckenridge/poly-project-euler"]
+["purarue/poly-project-euler"]
 name = "poly-project-euler"
-full_name = "seanbreckenridge/poly-project-euler"
-html_url = "https://github.com/seanbreckenridge/poly-project-euler"
+full_name = "purarue/poly-project-euler"
+html_url = "https://github.com/purarue/poly-project-euler"
 description = "Solutions to [Project Euler](https://projecteuler.net/), using distinct languages"
 language = "???"
 priority = 2
@@ -552,10 +552,10 @@ tags = [
   "typescript",
 ]
 
-["seanbreckenridge/pushshift_comment_export"]
+["purarue/pushshift_comment_export"]
 name = "pushshift_comment_export"
-full_name = "seanbreckenridge/pushshift_comment_export"
-html_url = "https://github.com/seanbreckenridge/pushshift_comment_export"
+full_name = "purarue/pushshift_comment_export"
+html_url = "https://github.com/purarue/pushshift_comment_export"
 description = "Exports all accessible reddit comments for an account using [pushshift](https://pushshift.io/)"
 language = "Python"
 priority = 2
@@ -564,10 +564,10 @@ url = "https://pypi.org/project/pushshift-comment-export/"
 img = "/ps_comments.png"
 tags = ["api", "python", "reddit"]
 
-["seanbreckenridge/pythonanywhere-3-months"]
+["purarue/pythonanywhere-3-months"]
 name = "pythonanywhere-3-months"
-full_name = "seanbreckenridge/pythonanywhere-3-months"
-html_url = "https://github.com/seanbreckenridge/pythonanywhere-3-months"
+full_name = "purarue/pythonanywhere-3-months"
+html_url = "https://github.com/purarue/pythonanywhere-3-months"
 description = "clicks the 'Run until 3 months from today' button on [pythonanywhere](https://www.pythonanywhere.com), so your website doesn't deactivate automatically"
 language = "Python"
 priority = 2
@@ -575,10 +575,10 @@ score = 0
 img = "/pythonanywhere.png"
 tags = ["python", "web", "webscraping"]
 
-["seanbreckenridge/rifleman"]
+["purarue/rifleman"]
 name = "rifleman"
-full_name = "seanbreckenridge/rifleman"
-html_url = "https://github.com/seanbreckenridge/rifleman"
+full_name = "purarue/rifleman"
+html_url = "https://github.com/purarue/rifleman"
 description = "An extendible dispatcher to lint/format code, based on rifle. This lets you run one command over lots of files/directories which could be in different languages - it classifies them by inspecting the mime type, extension, name or shebang, and then runs a formatter on those files"
 language = "Python"
 priority = 2
@@ -587,10 +587,10 @@ url = "https://pypi.org/project/rifleman/"
 img = "/rifleman.png"
 tags = ["cli-tool", "format", "python"]
 
-["seanbreckenridge/shortcuts"]
+["purarue/shortcuts"]
 name = "shortcuts"
-full_name = "seanbreckenridge/shortcuts"
-html_url = "https://github.com/seanbreckenridge/shortcuts"
+full_name = "purarue/shortcuts"
+html_url = "https://github.com/purarue/shortcuts"
 description = "Converts a `TOML` file into individual shell scripts. Used to create lots of one-liner shell scripts"
 language = "Python"
 priority = 2
@@ -598,10 +598,10 @@ score = 0
 img = "/shortcuts.png"
 tags = ["bash", "cli-tool", "dotfiles", "python"]
 
-["seanbreckenridge/spkglist"]
+["purarue/spkglist"]
 name = "spkglist"
-full_name = "seanbreckenridge/spkglist"
-html_url = "https://github.com/seanbreckenridge/spkglist"
+full_name = "purarue/spkglist"
+html_url = "https://github.com/purarue/spkglist"
 description = "A simple package list parser. Used to clean up comments/newlines/spaces from a list of packages when installing packages in shell scripts"
 language = "Go"
 priority = 2
@@ -609,10 +609,10 @@ score = 0
 img = "/spkglist.png"
 tags = ["bash", "dotfiles", "golang", "installer", "parser-generator"]
 
-["seanbreckenridge/steamscraper"]
+["purarue/steamscraper"]
 name = "steamscraper"
-full_name = "seanbreckenridge/steamscraper"
-html_url = "https://github.com/seanbreckenridge/steamscraper"
+full_name = "purarue/steamscraper"
+html_url = "https://github.com/purarue/steamscraper"
 description = "Scrapes personal game/achievement data from streams website"
 language = "Python"
 priority = 2
@@ -620,10 +620,10 @@ score = 0
 img = "/steam.png"
 tags = ["game", "hpi", "media", "python", "webscraping"]
 
-["seanbreckenridge/subpath-serve"]
+["purarue/subpath-serve"]
 name = "subpath-serve"
-full_name = "seanbreckenridge/subpath-serve"
-html_url = "https://github.com/seanbreckenridge/subpath-serve"
+full_name = "purarue/subpath-serve"
+html_url = "https://github.com/purarue/subpath-serve"
 description = "serves text files from directory by matching subpaths. I use this to host my dotfiles; see [index](https://sean.fish/d/?dark). It allows me to quickly send someone one of my scripts/configuration files from my dotfiles using [this script](https://sean.fish/d/give)"
 language = "Go"
 priority = 2
@@ -632,10 +632,10 @@ url = "https://sean.fish/d/?dark"
 img = "/subpath.png"
 tags = ["golang", "server", "web"]
 
-["seanbreckenridge/ttt"]
+["purarue/ttt"]
 name = "ttt"
-full_name = "seanbreckenridge/ttt"
-html_url = "https://github.com/seanbreckenridge/ttt"
+full_name = "purarue/ttt"
+html_url = "https://github.com/purarue/ttt"
 description = "Logs metadata for shell scripts/invocations; an extension to my shell history"
 language = "Go"
 priority = 2
@@ -643,21 +643,21 @@ score = 0
 img = "/ttt.png"
 tags = ["bash", "dotfiles", "golang", "hpi"]
 
-["seanbreckenridge/vps"]
+["purarue/vps"]
 name = "vps"
-full_name = "seanbreckenridge/vps"
-html_url = "https://github.com/seanbreckenridge/vps"
-description = "Scripts used for installing/managing/restarting/monitoring processes on my server. Wraps [`supervisor`](https://github.com/Supervisor/supervisor) to handle process crashes. Has other misc scripts ([`mediaproxy`](https://github.com/seanbreckenridge/vps/blob/master/mediaproxy)/[`remsync`](https://github.com/seanbreckenridge/vps/blob/master/remsync)) that provide FTP/proxy like functionality"
+full_name = "purarue/vps"
+html_url = "https://github.com/purarue/vps"
+description = "Scripts used for installing/managing/restarting/monitoring processes on my server. Wraps [`supervisor`](https://github.com/Supervisor/supervisor) to handle process crashes. Has other misc scripts ([`mediaproxy`](https://github.com/purarue/vps/blob/master/mediaproxy)/[`remsync`](https://github.com/purarue/vps/blob/master/remsync)) that provide FTP/proxy like functionality"
 language = "Shell"
 priority = 2
 score = 0
 img = "/vps.png"
 tags = ["bash", "installer", "server"]
 
-["seanbreckenridge/wait-for-internet"]
+["purarue/wait-for-internet"]
 name = "wait-for-internet"
-full_name = "seanbreckenridge/wait-for-internet"
-html_url = "https://github.com/seanbreckenridge/wait-for-internet"
+full_name = "purarue/wait-for-internet"
+html_url = "https://github.com/purarue/wait-for-internet"
 description = "Utility to wait till you have an internet connection. I use this often when changing networks/waiting to connect to my hotspot, and at the top of shell scripts that run in the background, so they don't fail due to network failure"
 language = "Rust"
 priority = 2
@@ -666,10 +666,10 @@ url = "https://crates.io/crates/wait-for-internet"
 img = "/wfi.png"
 tags = ["cli-tool", "rust"]
 
-["seanbreckenridge/wca_userinfo"]
+["purarue/wca_userinfo"]
 name = "wca_userinfo"
-full_name = "seanbreckenridge/wca_userinfo"
-html_url = "https://github.com/seanbreckenridge/wca_userinfo"
+full_name = "purarue/wca_userinfo"
+html_url = "https://github.com/purarue/wca_userinfo"
 description = "tiny webserver that scrapes information for a user from [worldcubeassociation.org](https://www.worldcubeassociation.org/)"
 language = "Rust"
 priority = 2
@@ -677,11 +677,11 @@ score = 0
 img = "/wca_userinfo.png"
 tags = ["rust", "webscraping"]
 
-["seanbreckenridge/xkcd-favorites"]
+["purarue/xkcd-favorites"]
 name = "xkcd-favorites"
-full_name = "seanbreckenridge/xkcd-favorites"
-html_url = "https://github.com/seanbreckenridge/xkcd-favorites"
-description = "A list of my favorite [xkcd](https://xkcd.com/)'s. Converts a list of my favorite IDs to a static website using a [`bash script`](https://github.com/seanbreckenridge/xkcd-favorites/blob/master/ssg)"
+full_name = "purarue/xkcd-favorites"
+html_url = "https://github.com/purarue/xkcd-favorites"
+description = "A list of my favorite [xkcd](https://xkcd.com/)'s. Converts a list of my favorite IDs to a static website using a [`bash script`](https://github.com/purarue/xkcd-favorites/blob/master/ssg)"
 language = "HTML"
 priority = 2
 score = 0
@@ -689,10 +689,10 @@ url = "https://sean.fish/xkcd/"
 img = "/xkcd.png"
 tags = ["python", "server", "web"]
 
-["seanbreckenridge/xqc-dvd"]
+["purarue/xqc-dvd"]
 name = "xqc-dvd"
-full_name = "seanbreckenridge/xqc-dvd"
-html_url = "https://github.com/seanbreckenridge/xqc-dvd"
+full_name = "purarue/xqc-dvd"
+html_url = "https://github.com/purarue/xqc-dvd"
 description = "a browser DVD logo animation/game"
 language = "Elm"
 priority = 2
@@ -701,10 +701,10 @@ url = "https://sean.fish/dvd/"
 img = "/xqc_dvd.gif"
 tags = ["elm", "game", "server", "web"]
 
-["seanbreckenridge/space"]
+["purarue/space"]
 name = "space"
-full_name = "seanbreckenridge/space"
-html_url = "https://github.com/seanbreckenridge/space"
+full_name = "purarue/space"
+html_url = "https://github.com/purarue/space"
 description = "`pygame` shoot 'em up space game"
 language = "Python"
 priority = 2
@@ -712,11 +712,11 @@ score = 0
 img = "/space.gif"
 tags = ["game", "python"]
 
-["seanbreckenridge/full_todotxt"]
+["purarue/full_todotxt"]
 name = "full_todotxt"
-full_name = "seanbreckenridge/full_todotxt"
-html_url = "https://github.com/seanbreckenridge/full_todotxt"
-description = "a [`todotxt`](http://todotxt.org/) interactive interface that forces you to specify certain attributes. I use this with [`todotxt_deadline_notify`](https://github.com/seanbreckenridge/todotxt_deadline_notify) to send me reminders about todos"
+full_name = "purarue/full_todotxt"
+html_url = "https://github.com/purarue/full_todotxt"
+description = "a [`todotxt`](http://todotxt.org/) interactive interface that forces you to specify certain attributes. I use this with [`todotxt_deadline_notify`](https://github.com/purarue/todotxt_deadline_notify) to send me reminders about todos"
 language = "Python"
 priority = 2
 score = 0
@@ -724,10 +724,10 @@ url = "https://pypi.org/project/full-todotxt/"
 img = "/full_todotxt.gif"
 tags = ["python", "tui", "todotxt"]
 
-["seanbreckenridge/HPI_API"]
+["purarue/HPI_API"]
 name = "HPI_API"
-full_name = "seanbreckenridge/HPI_API"
-html_url = "https://github.com/seanbreckenridge/HPI_API"
+full_name = "purarue/HPI_API"
+html_url = "https://github.com/purarue/HPI_API"
 description = "An automatic JSON API for HPI. Dynamically generates HTTP endpoints for each function in an [HPI module](https://github.com/karlicoss/HPI)"
 language = "Python"
 priority = 2
@@ -735,10 +735,10 @@ score = 0
 img = "/hpi_api.png"
 tags = ["hpi", "python"]
 
-["seanbreckenridge/newest"]
+["purarue/newest"]
 name = "newest"
-full_name = "seanbreckenridge/newest"
-html_url = "https://github.com/seanbreckenridge/newest"
+full_name = "purarue/newest"
+html_url = "https://github.com/purarue/newest"
 description = "Basic CLI tool to print the most recently modified file in a directory; I use this a lot in small scripts/key bindings"
 language = "Go"
 priority = 2
@@ -746,10 +746,10 @@ score = 0
 img = "/newest.png"
 tags = ["cli-tool", "golang"]
 
-["seanbreckenridge/chomp"]
+["purarue/chomp"]
 name = "chomp"
-full_name = "seanbreckenridge/chomp"
-html_url = "https://github.com/seanbreckenridge/chomp"
+full_name = "purarue/chomp"
+html_url = "https://github.com/purarue/chomp"
 description = "CLI tool that removes whitespace/empty lines from command output"
 language = "Go"
 priority = 2
@@ -757,10 +757,10 @@ score = 0
 img = "/chomp.png"
 tags = ["cli-tool", "golang"]
 
-["seanbreckenridge/list_gh_contributions"]
+["purarue/list_gh_contributions"]
 name = "list_gh_contributions"
-full_name = "seanbreckenridge/list_gh_contributions"
-html_url = "https://github.com/seanbreckenridge/list_gh_contributions"
+full_name = "purarue/list_gh_contributions"
+html_url = "https://github.com/purarue/list_gh_contributions"
 description = "Script to list all of the repositories you've contributed to on Github. Includes your own repositories and any repositories you've contributed to (a commit, PR or issue)"
 language = "Python"
 priority = 2
@@ -768,10 +768,10 @@ score = 0
 img = "/list_gh.png"
 tags = ["api", "git", "python"]
 
-["seanbreckenridge/bookmark.txt"]
+["purarue/bookmark.txt"]
 name = "bookmark.txt"
-full_name = "seanbreckenridge/bookmark.txt"
-html_url = "https://github.com/seanbreckenridge/bookmark.txt"
+full_name = "purarue/bookmark.txt"
+html_url = "https://github.com/purarue/bookmark.txt"
 description = "A thin wrapper around todo.txt to keep track of my bookmarks"
 language = "Shell"
 priority = 2
@@ -779,10 +779,10 @@ score = 0
 img = "/bookmark.png"
 tags = ["bash", "cli-tool", "todotxt"]
 
-["seanbreckenridge/chess_export"]
+["purarue/chess_export"]
 name = "chess_export"
-full_name = "seanbreckenridge/chess_export"
-html_url = "https://github.com/seanbreckenridge/chess_export"
+full_name = "purarue/chess_export"
+html_url = "https://github.com/purarue/chess_export"
 description = " Export your chess.com/lichess.org games using their APIs "
 language = "Python"
 priority = 2
@@ -791,11 +791,11 @@ url = "https://pypi.org/project/chess_export"
 img = "/chess.png"
 tags = ["api", "game", "hpi", "python"]
 
-["seanbreckenridge/mpv-history-daemon"]
+["purarue/mpv-history-daemon"]
 name = "mpv-history-daemon"
-full_name = "seanbreckenridge/mpv-history-daemon"
-html_url = "https://github.com/seanbreckenridge/mpv-history-daemon"
-description = "Daemon which connects to active [`mpv`](https://mpv.io/) instances created by [`mpv-sockets`](https://github.com/seanbreckenridge/mpv-sockets), saving a history of what I watch/listen to"
+full_name = "purarue/mpv-history-daemon"
+html_url = "https://github.com/purarue/mpv-history-daemon"
+description = "Daemon which connects to active [`mpv`](https://mpv.io/) instances created by [`mpv-sockets`](https://github.com/purarue/mpv-sockets), saving a history of what I watch/listen to"
 language = "Python"
 priority = 2
 score = 0
@@ -803,11 +803,11 @@ url = "https://pypi.org/project/mpv-history-daemon/"
 img = "/hist.png"
 tags = ["hpi", "media", "mpv", "python", "socket"]
 
-["seanbreckenridge/ttally"]
+["purarue/ttally"]
 name = "ttally"
-full_name = "seanbreckenridge/ttally"
-html_url = "https://github.com/seanbreckenridge/ttally"
-description = "an interactive TUI to save things (calorie counter, events) I do often to JSON/YAML. Uses [`autotui`](https://github.com/seanbreckenridge/autotui) internally to generate a bunch of aliases from types, letting me save/query recently logged events"
+full_name = "purarue/ttally"
+html_url = "https://github.com/purarue/ttally"
+description = "an interactive TUI to save things (calorie counter, events) I do often to JSON/YAML. Uses [`autotui`](https://github.com/purarue/autotui) internally to generate a bunch of aliases from types, letting me save/query recently logged events"
 language = "Python"
 priority = 2
 score = 0
@@ -815,10 +815,10 @@ url = "https://pypi.org/project/ttally/"
 img = "/autotui.gif"
 tags = ["food", "fzf", "hpi", "python", "tui"]
 
-["seanbreckenridge/traktexport"]
+["purarue/traktexport"]
 name = "traktexport"
-full_name = "seanbreckenridge/traktexport"
-html_url = "https://github.com/seanbreckenridge/traktexport"
+full_name = "purarue/traktexport"
+html_url = "https://github.com/purarue/traktexport"
 description = "Export your movie/tv show ratings and history from [trakt.tv](https://trakt.tv)"
 language = "Python"
 priority = 2
@@ -827,10 +827,10 @@ url = "https://pypi.org/project/traktexport/"
 img = "/traktexport.png"
 tags = ["api", "hpi", "media", "python"]
 
-["seanbreckenridge/reorder_editable"]
+["purarue/reorder_editable"]
 name = "reorder_editable"
-full_name = "seanbreckenridge/reorder_editable"
-html_url = "https://github.com/seanbreckenridge/reorder_editable"
+full_name = "purarue/reorder_editable"
+html_url = "https://github.com/purarue/reorder_editable"
 description = "Naive implementation to reorder my easy-install.pth file"
 language = "Python"
 priority = 2
@@ -839,21 +839,21 @@ url = "https://pypi.org/project/reorder-editable/"
 img = "/editable.png"
 tags = ["hpi", "library", "python"]
 
-["seanbreckenridge/promnesia"]
+["purarue/promnesia"]
 name = "promnesia"
-full_name = "seanbreckenridge/promnesia"
-html_url = "https://github.com/seanbreckenridge/promnesia"
-description = "Additional [promnesia](https://github.com/karlicoss/promnesia) `Source`s for my [HPI](https://github.com/seanbreckenridge/HPI) modules"
+full_name = "purarue/promnesia"
+html_url = "https://github.com/purarue/promnesia"
+description = "Additional [promnesia](https://github.com/karlicoss/promnesia) `Source`s for my [HPI](https://github.com/purarue/HPI) modules"
 language = "Python"
 priority = 2
 score = 0
 img = "/promnesia.png"
 tags = ["hpi", "python", "web"]
 
-["seanbreckenridge/browserexport"]
+["purarue/browserexport"]
 name = "browserexport"
-full_name = "seanbreckenridge/browserexport"
-html_url = "https://github.com/seanbreckenridge/browserexport"
+full_name = "purarue/browserexport"
+html_url = "https://github.com/purarue/browserexport"
 description = "backup and parse browser history databases. I use this to backup my browser histories so that I never lose any of it"
 language = "Python"
 priority = 2
@@ -862,30 +862,30 @@ url = "https://pypi.org/project/browserexport/"
 img = "/browserexport.png"
 tags = ["database", "hpi", "library", "python", "sql"]
 
-["seanbreckenridge/overrustle_parser"]
+["purarue/overrustle_parser"]
 name = "overrustle_parser"
-full_name = "seanbreckenridge/overrustle_parser"
-html_url = "https://github.com/seanbreckenridge/overrustle_parser"
+full_name = "purarue/overrustle_parser"
+html_url = "https://github.com/purarue/overrustle_parser"
 description = "extract my messages from the overrustlelogs archive (twitch chat logs)"
 language = "Python"
 priority = 2
 score = 0
 tags = ["hpi", "python", "twitch"]
 
-["seanbreckenridge/projects"]
+["purarue/projects"]
 name = "projects"
-full_name = "seanbreckenridge/projects"
-html_url = "https://github.com/seanbreckenridge/projects"
+full_name = "purarue/projects"
+html_url = "https://github.com/purarue/projects"
 description = "project for describing my other projects -- the website you're currently looking at!"
 language = "TypeScript"
 priority = 2
 score = 0
 tags = ["python", "react", "server", "typescript", "web"]
 
-["seanbreckenridge/url_cache"]
+["purarue/url_cache"]
 name = "url_cache"
-full_name = "seanbreckenridge/url_cache"
-html_url = "https://github.com/seanbreckenridge/url_cache"
+full_name = "purarue/url_cache"
+html_url = "https://github.com/purarue/url_cache"
 description = "A file system cache which saves URL metadata and summarizes content. For any URL, acts as an abstraction layer for fetching youtube subtitles, a summary of the HTML, opengraph information and links to any images and videos"
 language = "Python"
 priority = 2
@@ -894,10 +894,10 @@ url = "https://pypi.org/project/url-cache/"
 img = "/url_metadata.png"
 tags = ["caching", "python"]
 
-["seanbreckenridge/grouvee_export"]
+["purarue/grouvee_export"]
 name = "grouvee_export"
-full_name = "seanbreckenridge/grouvee_export"
-html_url = "https://github.com/seanbreckenridge/grouvee_export"
+full_name = "purarue/grouvee_export"
+html_url = "https://github.com/purarue/grouvee_export"
 description = "a (partial) [grouvee](https://www.grouvee.com/) (a video game database website) data exporter"
 language = "Python"
 priority = 2
@@ -905,10 +905,10 @@ score = 0
 tags = ["game", "hpi", "media", "python", "webscraping"]
 img = "/grouvee.png"
 
-["seanbreckenridge/frinkconv"]
+["purarue/frinkconv"]
 name = "frinkconv"
-full_name = "seanbreckenridge/frinkconv"
-html_url = "https://github.com/seanbreckenridge/frinkconv"
+full_name = "purarue/frinkconv"
+html_url = "https://github.com/purarue/frinkconv"
 description = "A wrapper script for interacting with the [Frink language](https://frinklang.org/), with a focus on converting units"
 language = "Shell"
 priority = 2
@@ -916,10 +916,10 @@ score = 0
 img = "/frink.png"
 tags = ["bash", "cli-tool"]
 
-["seanbreckenridge/malexport"]
+["purarue/malexport"]
 name = "malexport"
-full_name = "seanbreckenridge/malexport"
-html_url = "https://github.com/seanbreckenridge/malexport"
+full_name = "purarue/malexport"
+html_url = "https://github.com/purarue/malexport"
 description = "backs up info from your [MAL](https://myanimelist.net/) account - forum posts, lists (including rewatch info), and episode/chapter dates for each entry"
 language = "Python"
 priority = 2
@@ -928,10 +928,10 @@ img = "/malexport.png"
 url = "https://pypi.org/project/malexport/"
 tags = ["anime", "api", "database", "hpi", "media", "python", "webscraping"]
 
-["seanbreckenridge/listenbrainz_export"]
+["purarue/listenbrainz_export"]
 name = "listenbrainz_export"
-full_name = "seanbreckenridge/listenbrainz_export"
-html_url = "https://github.com/seanbreckenridge/listenbrainz_export"
+full_name = "purarue/listenbrainz_export"
+html_url = "https://github.com/purarue/listenbrainz_export"
 description = "Export your scrobbling history from [ListenBrainz](https://listenbrainz.org/)"
 language = "Python"
 priority = 2
@@ -940,10 +940,10 @@ url = "https://pypi.org/project/listenbrainz-export/"
 img = "/listen.png"
 tags = ["api", "hpi", "media", "music", "python"]
 
-["seanbreckenridge/google_takeout_parser"]
+["purarue/google_takeout_parser"]
 name = "google_takeout_parser"
-full_name = "seanbreckenridge/google_takeout_parser"
-html_url = "https://github.com/seanbreckenridge/google_takeout_parser"
+full_name = "purarue/google_takeout_parser"
+html_url = "https://github.com/purarue/google_takeout_parser"
 description = "Parses data out of your [Google Takeout](https://takeout.google.com/) (History, Activity, Youtube, Locations, etc...)"
 language = "Python"
 priority = 2
@@ -952,10 +952,10 @@ score = 0
 img = "/takeout.png"
 tags = ["caching", "hpi", "python"]
 
-["seanbreckenridge/sqlite_backup"]
+["purarue/sqlite_backup"]
 name = "sqlite_backup"
-full_name = "seanbreckenridge/sqlite_backup"
-html_url = "https://github.com/seanbreckenridge/sqlite_backup"
+full_name = "purarue/sqlite_backup"
+html_url = "https://github.com/purarue/sqlite_backup"
 description = "a tool to snapshot `sqlite` databases you don't own"
 language = "Python"
 priority = 2
@@ -964,11 +964,11 @@ url = "https://pypi.org/project/sqlite-backup/"
 img = "/sqlite.png"
 tags = ["cli-tool", "database", "library", "python", "sql"]
 
-["seanbreckenridge/my_feed"]
+["purarue/my_feed"]
 name = "my_feed"
-full_name = "seanbreckenridge/my_feed"
-html_url = "https://github.com/seanbreckenridge/my_feed"
-description = "a personal media feed using [HPI](https://github.com/seanbreckenridge/HPI)"
+full_name = "purarue/my_feed"
+html_url = "https://github.com/purarue/my_feed"
+description = "a personal media feed using [HPI](https://github.com/purarue/HPI)"
 language = "Python"
 priority = 2
 score = 0
@@ -976,21 +976,21 @@ url = "https://sean.fish/feed/"
 img = "/my_feed.png"
 tags = ["api", "caching", "hpi", "media", "python", "server", "web"]
 
-["seanbreckenridge/HPI-personal"]
+["purarue/HPI-personal"]
 name = "HPI-personal"
-full_name = "seanbreckenridge/HPI-personal"
-html_url = "https://github.com/seanbreckenridge/HPI-personal"
-description = "Personal [HPI](https://github.com/seanbreckenridge/HPI) modules"
+full_name = "purarue/HPI-personal"
+html_url = "https://github.com/purarue/HPI-personal"
+description = "Personal [HPI](https://github.com/purarue/HPI) modules"
 language = "Python/Shell"
 priority = 2
 score = 0
 img = "/hpi_personal.png"
 tags = ["hpi", "python"]
 
-["seanbreckenridge/HPI-template"]
+["purarue/HPI-template"]
 name = "HPI-template"
-full_name = "seanbreckenridge/HPI-template"
-html_url = "https://github.com/seanbreckenridge/HPI-template"
+full_name = "purarue/HPI-template"
+html_url = "https://github.com/purarue/HPI-template"
 description = "A cookiecutter template for creating a [HPI](https://github.com/karlicoss/HPI) repository"
 language = "Python"
 priority = 2
@@ -998,10 +998,10 @@ score = 0
 img = "/editable.png"
 tags = ["hpi", "python", "template"]
 
-["seanbreckenridge/back-arrow-script"]
+["purarue/back-arrow-script"]
 name = "back-arrow-script"
-full_name = "seanbreckenridge/back-arrow-script"
-html_url = "https://github.com/seanbreckenridge/back-arrow-script"
+full_name = "purarue/back-arrow-script"
+html_url = "https://github.com/purarue/back-arrow-script"
 description = "An embeddable back arrow script tag"
 language = "TypeScript"
 priority = 2
@@ -1009,10 +1009,10 @@ score = 0
 img = "/back-arrow-script.png"
 tags = ["typescript", "web"]
 
-["seanbreckenridge/fzfcache"]
+["purarue/fzfcache"]
 name = "fzfcache"
-full_name = "seanbreckenridge/fzfcache"
-html_url = "https://github.com/seanbreckenridge/fzfcache"
+full_name = "purarue/fzfcache"
+html_url = "https://github.com/purarue/fzfcache"
 description = "A small cache for unique lines of text, used to speedup the load time of expensive [`fzf`](https://github.com/junegunn/fzf) invocations"
 language = "Go"
 priority = 2
@@ -1020,10 +1020,10 @@ score = 0
 img = "/fzfcache.gif"
 tags = ["caching", "cli-tool", "fzf", "golang"]
 
-["seanbreckenridge/piazza-scraper"]
+["purarue/piazza-scraper"]
 name = "piazza-scraper"
-full_name = "seanbreckenridge/piazza-scraper"
-html_url = "https://github.com/seanbreckenridge/piazza-scraper"
+full_name = "purarue/piazza-scraper"
+html_url = "https://github.com/purarue/piazza-scraper"
 description = "Scrapes and parses data from Piazza"
 language = "Python"
 priority = 2
@@ -1031,21 +1031,21 @@ score = 0
 img = "/piazza.png"
 tags = ["hpi", "python", "webscraping"]
 
-["seanbreckenridge/plaintext_playlist_py"]
+["purarue/plaintext_playlist_py"]
 name = "plaintext_playlist_py"
-full_name = "seanbreckenridge/plaintext_playlist_py"
-html_url = "https://github.com/seanbreckenridge/plaintext_playlist_py"
-description = "library to parse [plaintext playlist](https://github.com/seanbreckenridge/plaintext-playlist) files, and other misc personal ID3 scripts"
+full_name = "purarue/plaintext_playlist_py"
+html_url = "https://github.com/purarue/plaintext_playlist_py"
+description = "library to parse [plaintext playlist](https://github.com/purarue/plaintext-playlist) files, and other misc personal ID3 scripts"
 language = "Python"
 priority = 2
 score = 0
 img = "/id3stuff.png"
 tags = ["mpv", "music", "playlist", "python"]
 
-["seanbreckenridge/yadm-git.vim"]
+["purarue/yadm-git.vim"]
 name = "yadm-git.vim"
-full_name = "seanbreckenridge/yadm-git.vim"
-html_url = "https://github.com/seanbreckenridge/yadm-git.vim"
+full_name = "purarue/yadm-git.vim"
+html_url = "https://github.com/purarue/yadm-git.vim"
 description = "Integrates [`yadm`](https://github.com/TheLocehiliosan/yadm) with [`vim-fugitive`](https://github.com/tpope/vim-fugitive) and [`vim-gitgutter`](https://github.com/airblade/vim-gitgutter), so you can manage your dotfiles without leaving `vim`"
 language = "Vim script"
 priority = 2
@@ -1053,10 +1053,10 @@ score = 0
 img = "/yadm_git.png"
 tags = ["git", "neovim", "yadm"]
 
-["seanbreckenridge/dbsentinel"]
+["purarue/dbsentinel"]
 name = "dbsentinel"
-full_name = "seanbreckenridge/dbsentinel"
-html_url = "https://github.com/seanbreckenridge/dbsentinel"
+full_name = "purarue/dbsentinel"
+html_url = "https://github.com/purarue/dbsentinel"
 description = "lists/archives denied/deleted/unapproved [_MAL_](https://myanimelist.net) entries"
 language = "Python"
 priority = 2
@@ -1065,10 +1065,10 @@ url = "https://sean.fish/dbsentinel/"
 tags = ["anime", "git", "python", "webscraping"]
 img = "/dbsentinel.png"
 
-["seanbreckenridge/oh-my-stars"]
+["purarue/oh-my-stars"]
 name = "oh-my-stars"
-full_name = "seanbreckenridge/oh-my-stars"
-html_url = "https://github.com/seanbreckenridge/oh-my-stars"
+full_name = "purarue/oh-my-stars"
+html_url = "https://github.com/purarue/oh-my-stars"
 description = "An offline CLI tool to search your GitHub Stars - A fork to add some features I wanted"
 language = "Python"
 priority = 2
@@ -1076,10 +1076,10 @@ score = 0
 img = "/oh-my-stars.png"
 tags = ["database", "git", "python"]
 
-["seanbreckenridge/git_doc_history"]
+["purarue/git_doc_history"]
 name = "git_doc_history"
-full_name = "seanbreckenridge/git_doc_history"
-html_url = "https://github.com/seanbreckenridge/git_doc_history"
+full_name = "purarue/git_doc_history"
+html_url = "https://github.com/purarue/git_doc_history"
 description = "copy/track file history in `git`, with `python` bindings to traverse and extract files/lines at some date"
 language = "Python"
 priority = 2
@@ -1088,10 +1088,10 @@ url = "https://pypi.org/project/git-doc-history/"
 img = "/git_doc_history.png"
 tags = ["bash", "git", "hpi", "python"]
 
-["seanbreckenridge/pyfzf"]
+["purarue/pyfzf"]
 name = "pyfzf"
-full_name = "seanbreckenridge/pyfzf"
-html_url = "https://github.com/seanbreckenridge/pyfzf"
+full_name = "purarue/pyfzf"
+html_url = "https://github.com/purarue/pyfzf"
 description = "An python wrapper for [`fzf`](https://github.com/junegunn/fzf) (forked to support iterators/decorators/types)"
 language = "Python"
 priority = 2
@@ -1100,10 +1100,10 @@ url = "https://pypi.org/project/pyfzf-iter/"
 img = "/pyfzf.gif"
 tags = ["fzf", "library", "python"]
 
-["seanbreckenridge/on_machine"]
+["purarue/on_machine"]
 name = "on_machine"
-full_name = "seanbreckenridge/on_machine"
-html_url = "https://github.com/seanbreckenridge/on_machine"
+full_name = "purarue/on_machine"
+html_url = "https://github.com/purarue/on_machine"
 description = "Generate a unique-enough fingerprint for my current machine, to make it easier to pick different commands/scripts to run on mac, different flavors or linux, or windows"
 language = "Go"
 priority = 2
@@ -1111,10 +1111,10 @@ score = 0
 img = "/on_machine.png"
 tags = ["bash", "cli-tool", "golang"]
 
-["seanbreckenridge/bleanser"]
+["purarue/bleanser"]
 name = "bleanser"
-full_name = "seanbreckenridge/bleanser"
-html_url = "https://github.com/seanbreckenridge/bleanser"
+full_name = "purarue/bleanser"
+html_url = "https://github.com/purarue/bleanser"
 description = "my bleanser modules -- removes duplicate/'useless' backed up data, see [karlicoss blog post](https://beepb00p.xyz/exobrain/projects/bleanser.html)"
 language = "Python"
 priority = 2
@@ -1122,10 +1122,10 @@ score = 0
 tags = ["hpi", "python"]
 img = "/bleanser.png"
 
-["seanbreckenridge/mapscii-at"]
+["purarue/mapscii-at"]
 name = "mapscii-at"
-full_name = "seanbreckenridge/mapscii-at"
-html_url = "https://github.com/seanbreckenridge/mapscii-at"
+full_name = "purarue/mapscii-at"
+html_url = "https://github.com/purarue/mapscii-at"
 description = "a small CLI to pass starting options to [`mapscii`](https://github.com/rastapasta/mapscii)"
 language = "JavaScript"
 priority = 2
@@ -1133,10 +1133,10 @@ score = 0
 img = "/mapscii.png"
 tags = ["cli-tool", "javascript"]
 
-["seanbreckenridge/scramble-history"]
+["purarue/scramble-history"]
 name = "scramble-history"
-full_name = "seanbreckenridge/scramble-history"
-html_url = "https://github.com/seanbreckenridge/scramble-history"
+full_name = "purarue/scramble-history"
+html_url = "https://github.com/purarue/scramble-history"
 description = "parses your rubiks cube solve history from [cstimer.net](https://cstimer.net/), [cubers.io](https://www.cubers.io/), [twistytimer](https://play.google.com/store/apps/details?id=com.aricneto.twistytimer&hl=en_US&gl=US), and merges them together giving you uniform averages/data and graphs"
 language = "Python"
 priority = 2
@@ -1145,10 +1145,10 @@ url = "https://pypi.org/project/scramble-history/"
 img = "/ao12.png"
 tags = ["graphs", "hpi", "python", "rubiks-cube"]
 
-["seanbreckenridge/cstimer-save-server"]
+["purarue/cstimer-save-server"]
 name = "cstimer-save-server"
-full_name = "seanbreckenridge/cstimer-save-server"
-html_url = "https://github.com/seanbreckenridge/cstimer-save-server"
+full_name = "purarue/cstimer-save-server"
+html_url = "https://github.com/purarue/cstimer-save-server"
 description = "a userscript/local server which saves my data from [cstimer](https://cstimer.net) whenever I open cstimer in my browser"
 language = "Go/JavaScript"
 priority = 2
@@ -1156,10 +1156,10 @@ score = 0
 img = "/cstimer-save-server.png"
 tags = ["golang", "javascript", "rubiks-cube", "userscript", "web"]
 
-["seanbreckenridge/clone-repos"]
+["purarue/clone-repos"]
 name = "clone-repos"
-full_name = "seanbreckenridge/clone-repos"
-html_url = "https://github.com/seanbreckenridge/clone-repos"
+full_name = "purarue/clone-repos"
+html_url = "https://github.com/purarue/clone-repos"
 description = "a basic `git` repo clone script with `pip`/editable install support"
 language = "Python"
 priority = 2
@@ -1167,31 +1167,31 @@ score = 0
 tags = ["cli-tool", "dotfiles", "git", "installer", "python"]
 img = "/clone_repos.png"
 
-["seanbreckenridge/seanb-utils"]
-name = "seanb-utils"
-full_name = "seanbreckenridge/seanb-utils"
-html_url = "https://github.com/seanbreckenridge/seanb-utils"
-description = "an installer for useful scripts scripts extracted from my [dotfiles](https://github.com/seanbreckenridge/dotfiles)"
+["purarue/pura-utils"]
+name = "pura-utils"
+full_name = "purarue/pura-utils"
+html_url = "https://github.com/purarue/pura-utils"
+description = "an installer for useful scripts scripts extracted from my [dotfiles](https://github.com/purarue/dotfiles)"
 language = "Shell"
 priority = 2
 score = 0
 tags = ["bash", "cli-tool", "dotfiles", "fzf", "git", "installer", "python"]
 img = "/core.png"
 
-["seanbreckenridge/active_window"]
+["purarue/active_window"]
 name = "active_window"
-full_name = "seanbreckenridge/active_window"
-html_url = "https://github.com/seanbreckenridge/active_window"
+full_name = "purarue/active_window"
+html_url = "https://github.com/purarue/active_window"
 description = "parse output of [activity watch](https://activitywatch.net/)' window watcher"
 language = "Python"
 priority = 2
 score = 0
 tags = ["hpi", "python"]
 
-["seanbreckenridge/server_clipboard"]
+["purarue/server_clipboard"]
 name = "server_clipboard"
-full_name = "seanbreckenridge/server_clipboard"
-html_url = "https://github.com/seanbreckenridge/server_clipboard"
+full_name = "purarue/server_clipboard"
+html_url = "https://github.com/purarue/server_clipboard"
 description = "A server which saves my clipboard in memory, so I can share it between my devices."
 language = "Go/TypeScript"
 priority = 2
@@ -1199,10 +1199,10 @@ score = 0
 tags = ["clipboard", "golang", "react", "server", "typescript", "web"]
 img = "/server_clipboard.png"
 
-["seanbreckenridge/currently_listening"]
+["purarue/currently_listening"]
 name = "currently_listening"
-full_name = "seanbreckenridge/currently_listening"
-html_url = "https://github.com/seanbreckenridge/currently_listening"
+full_name = "purarue/currently_listening"
+html_url = "https://github.com/purarue/currently_listening"
 description = "personal websocket-based currently playing web server. syncs my live [`mpv`](https://mpv.io/) and scrobbler activity to a websocket which is consumed by my website/discord presence rpc"
 language = "Go/Python"
 priority = 2
@@ -1220,10 +1220,10 @@ tags = [
 ]
 img = "/currently_listening.png"
 
-["seanbreckenridge/m3u-shuf"]
+["purarue/m3u-shuf"]
 name = "m3u-shuf"
-full_name = "seanbreckenridge/m3u-shuf"
-html_url = "https://github.com/seanbreckenridge/m3u-shuf"
+full_name = "purarue/m3u-shuf"
+html_url = "https://github.com/purarue/m3u-shuf"
 description = "CLI tool to shuffle a `m3u` file"
 language = "Rust"
 priority = 2
@@ -1231,10 +1231,10 @@ score = 0
 img = "/m3u-shuf.png"
 tags = ["cli-tool", "music", "playlist", "rust"]
 
-["seanbreckenridge/filmswap"]
+["purarue/filmswap"]
 name = "filmswap"
-full_name = "seanbreckenridge/filmswap"
-html_url = "https://github.com/seanbreckenridge/filmswap"
+full_name = "purarue/filmswap"
+html_url = "https://github.com/purarue/filmswap"
 description = "discord bot to facilitate anonymous film recommendation gift exchanges"
 language = "Python"
 priority = 2
@@ -1242,10 +1242,10 @@ score = 0
 img = "/filmswap.png"
 tags = ["discord", "media", "python"]
 
-["seanbreckenridge/sakugabooru-episode-mad"]
+["purarue/sakugabooru-episode-mad"]
 name = "sakugabooru-episode-mad"
-full_name = "seanbreckenridge/sakugabooru-episode-mad"
-html_url = "https://github.com/seanbreckenridge/sakugabooru-episode-mad"
+full_name = "purarue/sakugabooru-episode-mad"
+html_url = "https://github.com/purarue/sakugabooru-episode-mad"
 description = "Downloads all [sakugabooru](https://sakugabooru.com/) posts for a particular tag, and optionally lets you combine them into Source(episode)-based videos using ffmpeg"
 language = "Python"
 priority = 2
@@ -1253,10 +1253,10 @@ score = 0
 tags = ["anime", "python"]
 img = "/sakuga.png"
 
-["seanbreckenridge/offline_listens"]
+["purarue/offline_listens"]
 name = "offline_listens"
-full_name = "seanbreckenridge/offline_listens"
-html_url = "https://github.com/seanbreckenridge/offline_listens"
+full_name = "purarue/offline_listens"
+html_url = "https://github.com/purarue/offline_listens"
 description = "interactive script to save an offline (music) listening history"
 language = "Python"
 priority = 2
@@ -1264,10 +1264,10 @@ img = "/offline.png"
 score = 0
 tags = ["hpi", "media", "music", "python"]
 
-["seanbreckenridge/time-in"]
+["purarue/time-in"]
 name = "time-in"
-full_name = "seanbreckenridge/time-in"
-html_url = "https://github.com/seanbreckenridge/time-in"
+full_name = "purarue/time-in"
+html_url = "https://github.com/purarue/time-in"
 description = "CLI tool to figure out the time somewhere else"
 language = "Python"
 priority = 2
@@ -1276,10 +1276,10 @@ url = "https://pypi.org/project/time-in/"
 img = "/tz.png"
 tags = ["cli-tool", "python"]
 
-["seanbreckenridge/mlength"]
+["purarue/mlength"]
 name = "mlength"
-full_name = "seanbreckenridge/mlength"
-html_url = "https://github.com/seanbreckenridge/mlength"
+full_name = "purarue/mlength"
+html_url = "https://github.com/purarue/mlength"
 description = "gets the length of media files and caches the result"
 language = "Python"
 priority = 2
@@ -1287,10 +1287,10 @@ score = 0
 tags = ["cli-tool", "media", "python"]
 img = "/mlength.png"
 
-["seanbreckenridge/calc_ans"]
+["purarue/calc_ans"]
 name = "calc_ans"
-full_name = "seanbreckenridge/calc_ans"
-html_url = "https://github.com/seanbreckenridge/calc_ans"
+full_name = "purarue/calc_ans"
+html_url = "https://github.com/purarue/calc_ans"
 description = "A CLI REPL calculator which remembers your last answer, optimized for my use on [`termux`](https://termux.dev/en/)"
 tags = ["cli-tool", "math", "ocaml", "repl"]
 language = "OCaml"
@@ -1298,20 +1298,20 @@ priority = 2
 score = 0
 img = "/calc_ans.png"
 
-["seanbreckenridge/cookiecutter-template"]
+["purarue/cookiecutter-template"]
 name = "cookiecutter-template"
-full_name = "seanbreckenridge/cookiecutter-template"
-html_url = "https://github.com/seanbreckenridge/cookiecutter-template"
+full_name = "purarue/cookiecutter-template"
+html_url = "https://github.com/purarue/cookiecutter-template"
 description = "cookiecutter template for a strongly typed `python` package w/ `click`, `pytest`, `mypy`, `flake8` and CI using github actions"
 tags = ["python", "template"]
 language = "Python"
 priority = 2
 score = 0
 
-["seanbreckenridge/reminder-sink"]
+["purarue/reminder-sink"]
 name = "reminder-sink"
-full_name = "seanbreckenridge/reminder-sink"
-html_url = "https://github.com/seanbreckenridge/reminder-sink"
+full_name = "purarue/reminder-sink"
+html_url = "https://github.com/purarue/reminder-sink"
 description = "a unobtrusive, scriptable reminder/habit/todo task-runner"
 updated_at = "2023-10-06T07:50:12Z"
 tags = ["reminders", "todotxt"]
@@ -1319,10 +1319,10 @@ language = "Python"
 priority = 2
 score = 0
 
-["seanbreckenridge/trakt-watch"]
+["purarue/trakt-watch"]
 name = "trakt-watch"
-full_name = "seanbreckenridge/trakt-watch"
-html_url = "https://github.com/seanbreckenridge/trakt-watch"
+full_name = "purarue/trakt-watch"
+html_url = "https://github.com/purarue/trakt-watch"
 description = "A small CLI to mark items watched on [trakt](https://trakt.tv/)"
 updated_at = "2023-12-06T02:22:14Z"
 tags = ["media", "python", "trakt"]
@@ -1332,10 +1332,10 @@ score = 0
 url = "https://pypi.org/project/trakt-watch/"
 img = "trakt-watch.png"
 
-["seanbreckenridge/markdown_stew"]
+["purarue/markdown_stew"]
 name = "markdown_stew"
-full_name = "seanbreckenridge/markdown_stew"
-html_url = "https://github.com/seanbreckenridge/markdown_stew"
+full_name = "purarue/markdown_stew"
+html_url = "https://github.com/purarue/markdown_stew"
 description = "a single page HTML generator for notes/docs/markdown"
 updated_at = "2024-02-26T01:47:52Z"
 tags = ["golang", "markdown", "web", "cli-tool"]
@@ -1344,10 +1344,10 @@ priority = 2
 score = 0
 img = "/markdown_stew.png"
 
-["seanbreckenridge/hyprland-active-window"]
+["purarue/hyprland-active-window"]
 name = "hyprland-active-window"
-full_name = "seanbreckenridge/hyprland-active-window"
-html_url = "https://github.com/seanbreckenridge/hyprland-active-window"
+full_name = "purarue/hyprland-active-window"
+html_url = "https://github.com/purarue/hyprland-active-window"
 description = "saves a history of your actively focused window to a `CSV` file"
 updated_at = "2024-04-25T21:47:18Z"
 tags = ["python"]
@@ -1355,10 +1355,10 @@ language = "Python"
 priority = 2
 score = 0
 
-["seanbreckenridge/tree-sitter-rifleconfig"]
+["purarue/tree-sitter-rifleconfig"]
 name = "tree-sitter-rifleconfig"
-full_name = "seanbreckenridge/tree-sitter-rifleconfig"
-html_url = "https://github.com/seanbreckenridge/tree-sitter-rifleconfig"
+full_name = "purarue/tree-sitter-rifleconfig"
+html_url = "https://github.com/purarue/tree-sitter-rifleconfig"
 description = "`rifle` ([`ranger`](https://github.com/ranger/ranger/) filemanager file opener) grammar for [`tree-sitter`](https://tree-sitter.github.io/tree-sitter/)"
 updated_at = "2024-06-06T04:17:07Z"
 tags = ["javascript", "lisp", "parser-generator", "scheme", "vim"]
@@ -1367,10 +1367,10 @@ priority = 2
 score = 0
 img = "/rifleconfig.png"
 
-["seanbreckenridge/gitsigns-yadm.nvim"]
+["purarue/gitsigns-yadm.nvim"]
 name = "gitsigns-yadm.nvim"
-full_name = "seanbreckenridge/gitsigns-yadm.nvim"
-html_url = "https://github.com/seanbreckenridge/gitsigns-yadm.nvim"
+full_name = "purarue/gitsigns-yadm.nvim"
+html_url = "https://github.com/purarue/gitsigns-yadm.nvim"
 description = "[`gitsigns`](https://github.com/lewis6991/gitsigns.nvim) `_on_attach_pre` hook to show git decorations for files tracked by [`yadm`](https://yadm.io/)"
 updated_at = "2024-06-25T20:05:54Z"
 tags = ["git", "lua", "neovim", "yadm"]

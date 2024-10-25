@@ -7,7 +7,7 @@ const Header = React.memo(() => {
   return (
     <div className={styles.header}>
       <h1>Projects</h1>
-      <h2>Sean Breckenridge</h2>
+      <h2>purarue</h2>
       <div className={styles.icons}>
         <a href="https://sean.fish" className={styles.homeLink}>
           <div className={styles.homeLinkIcon}>

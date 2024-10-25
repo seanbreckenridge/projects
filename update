@@ -246,7 +246,7 @@ def classify_tags(tag_data: Dict[str, bool], *, tags: Set[str]) -> Dict[str, boo
     "-g",
     "--github-username",
     "use_github_username",
-    default="seanbreckenridge",
+    default="purarue",
     help="github username to use",
 )
 def main(

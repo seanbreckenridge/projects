@@ -42,10 +42,10 @@ export default function Home({ repos, tags }: IHome) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Sean Breckenridge | Projects</title>
+        <title>purarue | Projects</title>
         <meta
           name="description"
-          content="A list of Sean Breckenridge's Projects"
+          content="A list of purarue's Projects"
         />
       </Head>
       <Header />
