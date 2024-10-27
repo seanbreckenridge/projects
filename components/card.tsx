@@ -25,7 +25,7 @@ const ToggleableRecursiveIFrame = () => {
   return (
     <div className={styles.lazyImageContainer}>
       {show ? (
-        <iframe src="https://sean.fish/projects/" />
+        <iframe src="https://purarue.xyz/projects/" />
       ) : (
         <div className={styles.recurseButtonContainer}>
           <button

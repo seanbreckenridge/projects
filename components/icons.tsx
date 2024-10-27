@@ -58,7 +58,7 @@ interface IWebsite {
 export const Website = React.memo(({ url }: IWebsite) => {
   if (url !== null && url !== undefined) {
     // if this is on my website, use my favicon
-    if (url.indexOf("https://sean.fish") !== -1) {
+    if (url.indexOf("https://purarue.xyz") !== -1) {
       return <MonoFavicon url={url} />;
     } else if (url.indexOf("https://pypi.org") !== -1) {
       return (
@@ -122,7 +122,7 @@ const MonoFavicon = React.memo(({ url }: IMonoFavicon) => {
               ? styles.monochromeIconActive
               : styles.monochromeIconInActive
           }
-          src="https://sean.fish/favicon.ico"
+          src="https://purarue.xyz/favicon.ico"
           alt=""
           height={size}
           width={size}

@@ -9,13 +9,13 @@ const Header = React.memo(() => {
       <h1>Projects</h1>
       <h2>purarue</h2>
       <div className={styles.icons}>
-        <a href="https://sean.fish" className={styles.homeLink}>
+        <a href="https://purarue.xyz" className={styles.homeLink}>
           <div className={styles.homeLinkIcon}>
             <Image
               height={25}
               width={25}
-              alt="sean.fish sun icon"
-              src="https://sean.fish/favicon.ico"
+              alt="purarue.xyz sun icon"
+              src="https://purarue.xyz/favicon.ico"
               loader={({ src }) => src}
             />
           </div>

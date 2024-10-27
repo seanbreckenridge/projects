@@ -2,7 +2,7 @@ const basePath = process.env.PREFIX ?? undefined;
 
 const imgConf = {
   domains: [
-    "sean.fish",
+    "purarue.xyz",
     "localhost",
     "sean-fish-imageproxy.s3.us-west-1.amazonaws.com",
   ],
