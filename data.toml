@@ -1,4 +1,101 @@
-ignored = [ "purarue/CS-Assignments", "purarue/HPI-fork", "purarue/RSA", "purarue/Second-Brain", "purarue/advent-of-code-2019", "purarue/advent-of-code-2020", "purarue/albums_old", "purarue/aoc", "purarue/arctee", "purarue/bash_like", "purarue/beets-filetote", "purarue/best-of-digital-gardens", "purarue/bleanser-fork", "purarue/blizzard_gdpr_parser", "purarue/breach-parse", "purarue/cachew", "purarue/calories-scripts", "purarue/cloak.nvim", "purarue/commands-discordpy-starter", "purarue/cookiecutter-lib", "purarue/cstimer", "purarue/dashboard", "purarue/dbsentinel-next", "purarue/discogs-cli", "purarue/docker-jikan", "purarue/dotfiles-index", "purarue/dune", "purarue/forever-webui", "purarue/foreverjs-list", "purarue/fuji", "purarue/ghexport", "purarue/glue_geocities", "purarue/gnu-rust-utils", "purarue/google-photos-backup", "purarue/greasyfork_repo_generator", "purarue/how2nvim", "purarue/hpi-1", "purarue/is-integer", "purarue/jikan", "purarue/jikan-rest", "purarue/jikan-rest-docker", "purarue/jikan_ex", "purarue/jikanpy", "purarue/jikanpy_ext", "purarue/k_grok", "purarue/keepassxc-pwned", "purarue/kompress", "purarue/lets-get-arrested", "purarue/mac-dotfiles", "purarue/mai", "purarue/mal-id-cache", "purarue/mal-unapproved", "purarue/mint", "purarue/montage-timeline", "purarue/mutt-wizard", "purarue/nvim-treesitter", "purarue/nvim-ts-autotag", "purarue/nvim-ts-context-commentstring", "purarue/okayweather", "purarue/old_forums", "purarue/plus1", "purarue/pretty-history", "purarue/promnesia-fork", "purarue/proxy-jikan", "purarue/purarue", "purarue/pygithub_requests_error", "purarue/pytest-reraise", "purarue/pytodotxt", "purarue/raspi-backup", "purarue/reddit-wallpaper-scraper", "purarue/rexport", "purarue/rich-click", "purarue/rmtrash", "purarue/rotten_tomatoes_cli", "purarue/rotten_tomatoes_client", "purarue/s3-image-server", "purarue/sample-namespace-packages", "purarue/selenium-shutterfly-scraper", "purarue/sl", "purarue/sonic_pi_music", "purarue/spawn", "purarue/sqlite_concurrent_writes", "purarue/st", "purarue/sun-in-the-corner-of-the-page", "purarue/superhooks", "purarue/sw", "purarue/tinspire", "purarue/todotxt_deadline_notify", "purarue/treesitter-context-empty-line-bug", "purarue/tts", "purarue/twitchlive", "purarue/vim-unimpaired-conversions", "purarue/vimbuffer", "purarue/website", "purarue/youtube_subtitles_downloader",]
+ignored = [
+  "purarue/CS-Assignments",
+  "purarue/HPI-fork",
+  "purarue/RSA",
+  "purarue/Second-Brain",
+  "purarue/advent-of-code-2019",
+  "purarue/advent-of-code-2020",
+  "purarue/albums_old",
+  "purarue/ama",
+  "purarue/aoc",
+  "purarue/arctee",
+  "purarue/bash_like",
+  "purarue/beets-filetote",
+  "purarue/best-of-digital-gardens",
+  "purarue/bleanser-fork",
+  "purarue/blizzard_gdpr_parser",
+  "purarue/breach-parse",
+  "purarue/cachew",
+  "purarue/calories-scripts",
+  "purarue/cloak.nvim",
+  "purarue/commands-discordpy-starter",
+  "purarue/cookiecutter-lib",
+  "purarue/cstimer",
+  "purarue/dashboard",
+  "purarue/dbsentinel-next",
+  "purarue/discogs-cli",
+  "purarue/docker-jikan",
+  "purarue/dotfiles-index",
+  "purarue/dune",
+  "purarue/forever-webui",
+  "purarue/foreverjs-list",
+  "purarue/fuji",
+  "purarue/ghexport",
+  "purarue/glue_geocities",
+  "purarue/gnu-rust-utils",
+  "purarue/google-photos-backup",
+  "purarue/greasyfork_repo_generator",
+  "purarue/how2nvim",
+  "purarue/hpi-1",
+  "purarue/is-integer",
+  "purarue/jikan",
+  "purarue/jikan-rest",
+  "purarue/jikan-rest-docker",
+  "purarue/jikan_ex",
+  "purarue/jikanpy",
+  "purarue/jikanpy_ext",
+  "purarue/k_grok",
+  "purarue/keepassxc-pwned",
+  "purarue/kompress",
+  "purarue/lets-get-arrested",
+  "purarue/mac-dotfiles",
+  "purarue/mai",
+  "purarue/mal-id-cache",
+  "purarue/mal-unapproved",
+  "purarue/mint",
+  "purarue/montage-timeline",
+  "purarue/mutt-wizard",
+  "purarue/nvim-treesitter",
+  "purarue/nvim-ts-autotag",
+  "purarue/nvim-ts-context-commentstring",
+  "purarue/okayweather",
+  "purarue/old_forums",
+  "purarue/plus1",
+  "purarue/pretty-history",
+  "purarue/promnesia-fork",
+  "purarue/proxy-jikan",
+  "purarue/purarue",
+  "purarue/pygithub_requests_error",
+  "purarue/pytest-reraise",
+  "purarue/pytodotxt",
+  "purarue/raspi-backup",
+  "purarue/reddit-wallpaper-scraper",
+  "purarue/rexport",
+  "purarue/rich-click",
+  "purarue/rmtrash",
+  "purarue/rotten_tomatoes_cli",
+  "purarue/rotten_tomatoes_client",
+  "purarue/s3-image-server",
+  "purarue/sample-namespace-packages",
+  "purarue/selenium-shutterfly-scraper",
+  "purarue/sl",
+  "purarue/sonic_pi_music",
+  "purarue/spawn",
+  "purarue/sqlite_concurrent_writes",
+  "purarue/st",
+  "purarue/sun-in-the-corner-of-the-page",
+  "purarue/superhooks",
+  "purarue/sw",
+  "purarue/tinspire",
+  "purarue/todotxt_deadline_notify",
+  "purarue/treesitter-context-empty-line-bug",
+  "purarue/tts",
+  "purarue/twitchlive",
+  "purarue/vim-unimpaired-conversions",
+  "purarue/vimbuffer",
+  "purarue/website",
+  "purarue/youtube_subtitles_downloader",
+]
 
 ["Hiyori-API/checker_mal"]
 name = "checker_mal"
@@ -10,7 +107,7 @@ priority = 2
 score = 0
 url = "https://purarue.xyz/mal_unapproved"
 img = "/mal_unapproved.png"
-tags = [ "anime", "api", "database", "web", "webscraping",]
+tags = ["anime", "api", "database", "web", "webscraping"]
 
 ["purarue/albums"]
 name = "albums"
@@ -22,7 +119,7 @@ priority = 2
 score = 0
 url = "https://docs.google.com/spreadsheets/d/12htSAMg67czl8cpkj1mX0TuAFvqL_PJLI4hv1arG5-M/edit#gid=1451660661"
 img = "/albums.png"
-tags = [ "api", "google-sheets", "media", "music", "python", "sql",]
+tags = ["api", "google-sheets", "media", "music", "python", "sql"]
 
 ["purarue/animeshorts"]
 name = "animeshorts"
@@ -34,7 +131,7 @@ score = 0
 priority = 2
 url = "https://purarue.xyz/animeshorts/"
 img = "/animeshorts.png"
-tags = [ "anime", "jikan", "media", "python", "server", "web",]
+tags = ["anime", "jikan", "media", "python", "server", "web"]
 
 ["purarue/autotui"]
 name = "autotui"
@@ -46,7 +143,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/autotui/"
 img = "/autotui.gif"
-tags = [ "library", "python", "tui",]
+tags = ["library", "python", "tui"]
 
 ["purarue/aw-watcher-window"]
 name = "window_watcher"
@@ -57,7 +154,7 @@ language = "Python"
 score = 0
 priority = 2
 img = "/window_watcher.png"
-tags = [ "hpi", "python",]
+tags = ["hpi", "python"]
 
 ["purarue/bgproc"]
 name = "bgproc"
@@ -68,7 +165,7 @@ language = "Shell"
 score = 0
 priority = 2
 img = "/bgproc.png"
-tags = [ "bash", "cron", "parser-generator",]
+tags = ["bash", "cron", "parser-generator"]
 
 ["purarue/bootstrap"]
 name = "bootstrap"
@@ -79,7 +176,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/bootstrap.png"
-tags = [ "bash", "server",]
+tags = ["bash", "server"]
 
 ["purarue/calcurse-load"]
 name = "calcurse-load"
@@ -90,7 +187,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/calcurse.png"
-tags = [ "library", "python", "todotxt",]
+tags = ["library", "python", "todotxt"]
 
 ["purarue/cube-scramble-cli"]
 name = "cube-scramble-cli"
@@ -102,7 +199,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/cube-scramble-cli/"
 img = "/cube_scramble_cli.gif"
-tags = [ "python", "rubiks-cube",]
+tags = ["python", "rubiks-cube"]
 
 ["purarue/darker_errors"]
 name = "darker_errors"
@@ -113,7 +210,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/darker_errors.png"
-tags = [ "golang", "web",]
+tags = ["golang", "web"]
 
 ["purarue/discord-countdown-bot"]
 name = "discord-countdown-bot"
@@ -124,7 +221,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/countdown.png"
-tags = [ "discord", "python", "server",]
+tags = ["discord", "python", "server"]
 
 ["purarue/discord_data"]
 name = "discord_data"
@@ -136,7 +233,7 @@ priority = 2
 score = 0
 img = "/discord.png"
 url = "https://pypi.org/project/discord-data/"
-tags = [ "discord", "hpi", "python",]
+tags = ["discord", "hpi", "python"]
 
 ["purarue/dotfiles"]
 name = "dotfiles"
@@ -148,7 +245,7 @@ priority = 2
 score = 0
 url = "https://purarue.xyz/d/?dark"
 img = "/dotfiles.png"
-tags = [ "bash", "dotfiles", "lua", "python", "neovim", "yadm",]
+tags = ["bash", "dotfiles", "lua", "python", "neovim", "yadm"]
 
 ["purarue/evry"]
 name = "evry"
@@ -160,7 +257,7 @@ priority = 2
 score = 0
 url = "https://crates.io/crates/evry"
 img = "/evry.png"
-tags = [ "cli-tool", "cron", "rust",]
+tags = ["cli-tool", "cron", "rust"]
 
 ["purarue/exists"]
 name = "exists"
@@ -171,7 +268,7 @@ language = "C"
 priority = 2
 score = 0
 img = "/exists.png"
-tags = [ "c", "cli-tool",]
+tags = ["c", "cli-tool"]
 
 ["purarue/exobrain"]
 name = "exobrain"
@@ -183,7 +280,16 @@ priority = 2
 score = 0
 url = "https://purarue.xyz/x/"
 img = "/exobrain.png"
-tags = [ "bash", "golang", "wiki", "python", "javascript", "astro", "web", "typescript",]
+tags = [
+  "bash",
+  "golang",
+  "wiki",
+  "python",
+  "javascript",
+  "astro",
+  "web",
+  "typescript",
+]
 
 ["purarue/genpasswd"]
 name = "genpasswd"
@@ -194,7 +300,7 @@ language = "C++"
 priority = 2
 score = 0
 img = "/genpasswd.png"
-tags = [ "c++", "cli-tool",]
+tags = ["c++", "cli-tool"]
 
 ["purarue/glue"]
 name = "glue"
@@ -206,7 +312,7 @@ priority = 2
 score = 0
 url = "https://purarue.xyz/"
 img = "/glue.png"
-tags = [ "elixir", "react", "server", "typescript", "web",]
+tags = ["elixir", "react", "server", "typescript", "web"]
 
 ["purarue/greasyfork"]
 name = "greasyfork"
@@ -217,7 +323,7 @@ language = "JavaScript"
 priority = 2
 score = 0
 img = "/greasyfork.png"
-tags = [ "anime", "javascript", "userscript", "web",]
+tags = ["anime", "javascript", "userscript", "web"]
 
 ["purarue/greasyfork_archive"]
 name = "greasyfork_archive"
@@ -229,7 +335,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/greasyfork_archive/"
 img = "/gf_archive.png"
-tags = [ "python", "userscript", "webscraping",]
+tags = ["python", "userscript", "webscraping"]
 
 ["purarue/havecmd"]
 name = "havecmd"
@@ -240,7 +346,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/havecmd.png"
-tags = [ "bash", "template",]
+tags = ["bash", "template"]
 
 ["purarue/HPI"]
 name = "HPI"
@@ -251,7 +357,7 @@ language = "Python"
 priority = 2
 score = 50
 img = "/hpi.png"
-tags = [ "hpi", "python", "cli-tool", "todotxt", "mpv",]
+tags = ["hpi", "python", "cli-tool", "todotxt", "mpv"]
 
 ["purarue/ipgeocache"]
 name = "ipgeocache"
@@ -263,7 +369,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/ipgeocache/"
 img = "/ipgeocache.png"
-tags = [ "api", "caching", "hpi",]
+tags = ["api", "caching", "hpi"]
 
 ["purarue/keyvol"]
 name = "keyvol"
@@ -274,7 +380,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/keyvol.gif"
-tags = [ "golang", "tui",]
+tags = ["golang", "tui"]
 
 ["purarue/largechar"]
 name = "largechar"
@@ -285,7 +391,7 @@ language = "JavaScript"
 priority = 2
 score = 0
 img = "/largechar.gif"
-tags = [ "gui", "web",]
+tags = ["gui", "web"]
 
 ["purarue/lolexport"]
 name = "lolexport"
@@ -297,7 +403,7 @@ priority = 2
 score = 0
 img = "/lolexport.png"
 url = "https://pypi.org/project/lolexport/"
-tags = [ "api", "game", "hpi", "python",]
+tags = ["api", "game", "hpi", "python"]
 
 ["purarue/mal-notify-bot"]
 name = "mal-notify-bot"
@@ -308,7 +414,15 @@ language = "Python"
 priority = 2
 score = 0
 img = "/mal_notify_bot.png"
-tags = [ "anime", "api", "database", "discord", "python", "server", "webscraping",]
+tags = [
+  "anime",
+  "api",
+  "database",
+  "discord",
+  "python",
+  "server",
+  "webscraping",
+]
 
 ["purarue/MALUserVsAverage"]
 name = "MALUserVsAverage"
@@ -319,7 +433,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/mal_user_vs_average.png"
-tags = [ "anime", "graphs", "python", "webscraping",]
+tags = ["anime", "graphs", "python", "webscraping"]
 
 ["purarue/mnu_gsheets"]
 name = "mnu_gsheets"
@@ -331,7 +445,7 @@ priority = 2
 score = 0
 url = "https://docs.google.com/spreadsheets/d/1N4D3C0bSXVcVh0ggt_mpKMy_OrAdkKGkMjwkMekjpOM/edit?usp=sharing"
 img = "/mnu_gsheets.png"
-tags = [ "anime", "api", "google-sheets", "python", "webscraping",]
+tags = ["anime", "api", "google-sheets", "python", "webscraping"]
 
 ["purarue/mpv-sockets"]
 name = "mpv-sockets"
@@ -342,7 +456,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/mpv_sockets.png"
-tags = [ "bash", "media", "mpv",]
+tags = ["bash", "media", "mpv"]
 
 ["purarue/mpvf"]
 name = "mpvf"
@@ -353,7 +467,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/mpvf.gif"
-tags = [ "bash", "mpv",]
+tags = ["bash", "mpv"]
 
 ["purarue/no-db-shorturl"]
 name = "no-db-shorturl"
@@ -364,7 +478,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/shorturl.png"
-tags = [ "golang", "server", "web",]
+tags = ["golang", "server", "web"]
 
 ["purarue/plaintext-playlist"]
 name = "plaintext-playlist"
@@ -375,7 +489,7 @@ language = "Bash"
 priority = 2
 score = 0
 img = "/plainplay.png"
-tags = [ "bash", "media", "mpv", "music", "playlist",]
+tags = ["bash", "media", "mpv", "music", "playlist"]
 
 ["purarue/pmark"]
 name = "pmark"
@@ -386,7 +500,7 @@ language = "Perl"
 priority = 2
 score = 0
 img = "/pmark.png"
-tags = [ "cli-tool", "perl",]
+tags = ["cli-tool", "perl"]
 
 ["purarue/poly-project-euler"]
 name = "poly-project-euler"
@@ -397,7 +511,48 @@ language = "???"
 priority = 2
 score = 0
 img = "/euler.png"
-tags = [ "awk", "bash", "bc", "c", "c++", "clojure", "coffeescript", "commonlisp", "crystal", "csharp", "dart", "dlang", "elixir", "elm", "erlang", "fsharp", "golang", "groovy", "haskell", "java", "javascript", "julia", "kotlin", "logo", "lua", "ml", "nim", "ocaml", "octave", "perl", "php", "prolog", "python", "racket", "ruby", "rust", "scala", "server", "smalltalk", "typescript",]
+tags = [
+  "awk",
+  "bash",
+  "bc",
+  "c",
+  "c++",
+  "clojure",
+  "coffeescript",
+  "commonlisp",
+  "crystal",
+  "csharp",
+  "dart",
+  "dlang",
+  "elixir",
+  "elm",
+  "erlang",
+  "fsharp",
+  "golang",
+  "groovy",
+  "haskell",
+  "java",
+  "javascript",
+  "julia",
+  "kotlin",
+  "logo",
+  "lua",
+  "ml",
+  "nim",
+  "ocaml",
+  "octave",
+  "perl",
+  "php",
+  "prolog",
+  "python",
+  "racket",
+  "ruby",
+  "rust",
+  "scala",
+  "server",
+  "smalltalk",
+  "typescript",
+]
 
 ["purarue/pushshift_comment_export"]
 name = "pushshift_comment_export"
@@ -409,7 +564,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/pushshift-comment-export/"
 img = "/ps_comments.png"
-tags = [ "api", "python", "reddit",]
+tags = ["api", "python", "reddit"]
 
 ["purarue/pythonanywhere-3-months"]
 name = "pythonanywhere-3-months"
@@ -420,7 +575,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/pythonanywhere.png"
-tags = [ "python", "web", "webscraping",]
+tags = ["python", "web", "webscraping"]
 
 ["purarue/rifleman"]
 name = "rifleman"
@@ -432,7 +587,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/rifleman/"
 img = "/rifleman.png"
-tags = [ "cli-tool", "format", "python",]
+tags = ["cli-tool", "format", "python"]
 
 ["purarue/shortcuts"]
 name = "shortcuts"
@@ -443,7 +598,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/shortcuts.png"
-tags = [ "bash", "cli-tool", "dotfiles", "python",]
+tags = ["bash", "cli-tool", "dotfiles", "python"]
 
 ["purarue/spkglist"]
 name = "spkglist"
@@ -454,7 +609,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/spkglist.png"
-tags = [ "bash", "dotfiles", "golang", "installer", "parser-generator",]
+tags = ["bash", "dotfiles", "golang", "installer", "parser-generator"]
 
 ["purarue/steamscraper"]
 name = "steamscraper"
@@ -465,7 +620,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/steam.png"
-tags = [ "game", "hpi", "media", "python", "webscraping",]
+tags = ["game", "hpi", "media", "python", "webscraping"]
 
 ["purarue/subpath-serve"]
 name = "subpath-serve"
@@ -477,7 +632,7 @@ priority = 2
 score = 0
 url = "https://purarue.xyz/d/?dark"
 img = "/subpath.png"
-tags = [ "golang", "server", "web",]
+tags = ["golang", "server", "web"]
 
 ["purarue/ttt"]
 name = "ttt"
@@ -488,7 +643,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/ttt.png"
-tags = [ "bash", "dotfiles", "golang", "hpi",]
+tags = ["bash", "dotfiles", "golang", "hpi"]
 
 ["purarue/vps"]
 name = "vps"
@@ -499,7 +654,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/vps.png"
-tags = [ "bash", "installer", "server",]
+tags = ["bash", "installer", "server"]
 
 ["purarue/wait-for-internet"]
 name = "wait-for-internet"
@@ -511,7 +666,7 @@ priority = 2
 score = 0
 url = "https://crates.io/crates/wait-for-internet"
 img = "/wfi.png"
-tags = [ "cli-tool", "rust",]
+tags = ["cli-tool", "rust"]
 
 ["purarue/wca_userinfo"]
 name = "wca_userinfo"
@@ -522,7 +677,7 @@ language = "Rust"
 priority = 2
 score = 0
 img = "/wca_userinfo.png"
-tags = [ "rust", "webscraping",]
+tags = ["rust", "webscraping"]
 
 ["purarue/xkcd-favorites"]
 name = "xkcd-favorites"
@@ -534,7 +689,7 @@ priority = 2
 score = 0
 url = "https://purarue.xyz/xkcd/"
 img = "/xkcd.png"
-tags = [ "python", "server", "web",]
+tags = ["python", "server", "web"]
 
 ["purarue/dvd"]
 name = "dvd"
@@ -546,7 +701,7 @@ priority = 2
 score = 0
 url = "https://purarue.xyz/dvd/"
 img = "/dvd.gif"
-tags = [ "elm", "game", "server", "web",]
+tags = ["elm", "game", "server", "web"]
 
 ["purarue/space"]
 name = "space"
@@ -557,7 +712,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/space.gif"
-tags = [ "game", "python",]
+tags = ["game", "python"]
 
 ["purarue/full_todotxt"]
 name = "full_todotxt"
@@ -569,7 +724,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/full-todotxt/"
 img = "/full_todotxt.gif"
-tags = [ "python", "tui", "todotxt",]
+tags = ["python", "tui", "todotxt"]
 
 ["purarue/HPI_API"]
 name = "HPI_API"
@@ -580,7 +735,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/hpi_api.png"
-tags = [ "hpi", "python",]
+tags = ["hpi", "python"]
 
 ["purarue/newest"]
 name = "newest"
@@ -591,7 +746,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/newest.png"
-tags = [ "cli-tool", "golang",]
+tags = ["cli-tool", "golang"]
 
 ["purarue/chomp"]
 name = "chomp"
@@ -602,7 +757,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/chomp.png"
-tags = [ "cli-tool", "golang",]
+tags = ["cli-tool", "golang"]
 
 ["purarue/list_gh_contributions"]
 name = "list_gh_contributions"
@@ -613,7 +768,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/list_gh.png"
-tags = [ "api", "git", "python",]
+tags = ["api", "git", "python"]
 
 ["purarue/bookmark.txt"]
 name = "bookmark.txt"
@@ -624,7 +779,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/bookmark.png"
-tags = [ "bash", "cli-tool", "todotxt",]
+tags = ["bash", "cli-tool", "todotxt"]
 
 ["purarue/chess_export"]
 name = "chess_export"
@@ -636,7 +791,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/chess_export"
 img = "/chess.png"
-tags = [ "api", "game", "hpi", "python",]
+tags = ["api", "game", "hpi", "python"]
 
 ["purarue/mpv-history-daemon"]
 name = "mpv-history-daemon"
@@ -648,7 +803,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/mpv-history-daemon/"
 img = "/hist.png"
-tags = [ "hpi", "media", "mpv", "python", "socket",]
+tags = ["hpi", "media", "mpv", "python", "socket"]
 
 ["purarue/ttally"]
 name = "ttally"
@@ -660,7 +815,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/ttally/"
 img = "/autotui.gif"
-tags = [ "food", "fzf", "hpi", "python", "tui",]
+tags = ["food", "fzf", "hpi", "python", "tui"]
 
 ["purarue/traktexport"]
 name = "traktexport"
@@ -672,7 +827,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/traktexport/"
 img = "/traktexport.png"
-tags = [ "api", "hpi", "media", "python",]
+tags = ["api", "hpi", "media", "python"]
 
 ["purarue/reorder_editable"]
 name = "reorder_editable"
@@ -684,7 +839,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/reorder-editable/"
 img = "/editable.png"
-tags = [ "hpi", "library", "python",]
+tags = ["hpi", "library", "python"]
 
 ["purarue/promnesia"]
 name = "promnesia"
@@ -695,7 +850,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/promnesia.png"
-tags = [ "hpi", "python", "web",]
+tags = ["hpi", "python", "web"]
 
 ["purarue/browserexport"]
 name = "browserexport"
@@ -707,7 +862,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/browserexport/"
 img = "/browserexport.png"
-tags = [ "database", "hpi", "library", "python", "sql",]
+tags = ["database", "hpi", "library", "python", "sql"]
 
 ["purarue/overrustle_parser"]
 name = "overrustle_parser"
@@ -717,7 +872,7 @@ description = "extract my messages from the overrustlelogs archive (twitch chat 
 language = "Python"
 priority = 2
 score = 0
-tags = [ "hpi", "python", "twitch",]
+tags = ["hpi", "python", "twitch"]
 
 ["purarue/projects"]
 name = "projects"
@@ -727,7 +882,7 @@ description = "project for describing my other projects -- the website you're cu
 language = "TypeScript"
 priority = 2
 score = 0
-tags = [ "python", "react", "server", "typescript", "web",]
+tags = ["python", "react", "server", "typescript", "web"]
 
 ["purarue/url_cache"]
 name = "url_cache"
@@ -739,7 +894,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/url-cache/"
 img = "/url_metadata.png"
-tags = [ "caching", "python",]
+tags = ["caching", "python"]
 
 ["purarue/grouvee_export"]
 name = "grouvee_export"
@@ -749,7 +904,7 @@ description = "a (partial) [grouvee](https://www.grouvee.com/) (a video game dat
 language = "Python"
 priority = 2
 score = 0
-tags = [ "game", "hpi", "media", "python", "webscraping",]
+tags = ["game", "hpi", "media", "python", "webscraping"]
 img = "/grouvee.png"
 
 ["purarue/frinkconv"]
@@ -761,7 +916,7 @@ language = "Shell"
 priority = 2
 score = 0
 img = "/frink.png"
-tags = [ "bash", "cli-tool",]
+tags = ["bash", "cli-tool"]
 
 ["purarue/malexport"]
 name = "malexport"
@@ -773,7 +928,7 @@ priority = 2
 score = 0
 img = "/malexport.png"
 url = "https://pypi.org/project/malexport/"
-tags = [ "anime", "api", "database", "hpi", "media", "python", "webscraping",]
+tags = ["anime", "api", "database", "hpi", "media", "python", "webscraping"]
 
 ["purarue/listenbrainz_export"]
 name = "listenbrainz_export"
@@ -785,7 +940,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/listenbrainz-export/"
 img = "/listen.png"
-tags = [ "api", "hpi", "media", "music", "python",]
+tags = ["api", "hpi", "media", "music", "python"]
 
 ["purarue/google_takeout_parser"]
 name = "google_takeout_parser"
@@ -797,7 +952,7 @@ priority = 2
 url = "https://pypi.org/project/google-takeout-parser/"
 score = 0
 img = "/takeout.png"
-tags = [ "caching", "hpi", "python",]
+tags = ["caching", "hpi", "python"]
 
 ["purarue/sqlite_backup"]
 name = "sqlite_backup"
@@ -809,7 +964,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/sqlite-backup/"
 img = "/sqlite.png"
-tags = [ "cli-tool", "database", "library", "python", "sql",]
+tags = ["cli-tool", "database", "library", "python", "sql"]
 
 ["purarue/my_feed"]
 name = "my_feed"
@@ -821,7 +976,7 @@ priority = 2
 score = 0
 url = "https://purarue.xyz/feed/"
 img = "/my_feed.png"
-tags = [ "api", "caching", "hpi", "media", "python", "server", "web",]
+tags = ["api", "caching", "hpi", "media", "python", "server", "web"]
 
 ["purarue/HPI-personal"]
 name = "HPI-personal"
@@ -832,7 +987,7 @@ language = "Python/Shell"
 priority = 2
 score = 0
 img = "/hpi_personal.png"
-tags = [ "hpi", "python",]
+tags = ["hpi", "python"]
 
 ["purarue/HPI-template"]
 name = "HPI-template"
@@ -843,7 +998,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/editable.png"
-tags = [ "hpi", "python", "template",]
+tags = ["hpi", "python", "template"]
 
 ["purarue/back-arrow-script"]
 name = "back-arrow-script"
@@ -854,7 +1009,7 @@ language = "TypeScript"
 priority = 2
 score = 0
 img = "/back-arrow-script.png"
-tags = [ "typescript", "web",]
+tags = ["typescript", "web"]
 
 ["purarue/fzfcache"]
 name = "fzfcache"
@@ -865,7 +1020,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/fzfcache.gif"
-tags = [ "caching", "cli-tool", "fzf", "golang",]
+tags = ["caching", "cli-tool", "fzf", "golang"]
 
 ["purarue/piazza-scraper"]
 name = "piazza-scraper"
@@ -876,7 +1031,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/piazza.png"
-tags = [ "hpi", "python", "webscraping",]
+tags = ["hpi", "python", "webscraping"]
 
 ["purarue/plaintext_playlist_py"]
 name = "plaintext_playlist_py"
@@ -887,7 +1042,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/id3stuff.png"
-tags = [ "mpv", "music", "playlist", "python",]
+tags = ["mpv", "music", "playlist", "python"]
 
 ["purarue/yadm-git.vim"]
 name = "yadm-git.vim"
@@ -898,7 +1053,7 @@ language = "Vim script"
 priority = 2
 score = 0
 img = "/yadm_git.png"
-tags = [ "git", "neovim", "yadm",]
+tags = ["git", "neovim", "yadm"]
 
 ["purarue/dbsentinel"]
 name = "dbsentinel"
@@ -909,7 +1064,7 @@ language = "Python"
 priority = 2
 score = 0
 url = "https://purarue.xyz/dbsentinel/"
-tags = [ "anime", "git", "python", "webscraping",]
+tags = ["anime", "git", "python", "webscraping"]
 img = "/dbsentinel.png"
 
 ["purarue/oh-my-stars"]
@@ -921,7 +1076,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/oh-my-stars.png"
-tags = [ "database", "git", "python",]
+tags = ["database", "git", "python"]
 
 ["purarue/git_doc_history"]
 name = "git_doc_history"
@@ -933,7 +1088,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/git-doc-history/"
 img = "/git_doc_history.png"
-tags = [ "bash", "git", "hpi", "python",]
+tags = ["bash", "git", "hpi", "python"]
 
 ["purarue/pyfzf"]
 name = "pyfzf"
@@ -945,7 +1100,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/pyfzf-iter/"
 img = "/pyfzf.gif"
-tags = [ "fzf", "library", "python",]
+tags = ["fzf", "library", "python"]
 
 ["purarue/on_machine"]
 name = "on_machine"
@@ -956,7 +1111,7 @@ language = "Go"
 priority = 2
 score = 0
 img = "/on_machine.png"
-tags = [ "bash", "cli-tool", "golang",]
+tags = ["bash", "cli-tool", "golang"]
 
 ["purarue/bleanser"]
 name = "bleanser"
@@ -966,7 +1121,7 @@ description = "my bleanser modules -- removes duplicate/'useless' backed up data
 language = "Python"
 priority = 2
 score = 0
-tags = [ "hpi", "python",]
+tags = ["hpi", "python"]
 img = "/bleanser.png"
 
 ["purarue/mapscii-at"]
@@ -978,7 +1133,7 @@ language = "JavaScript"
 priority = 2
 score = 0
 img = "/mapscii.png"
-tags = [ "cli-tool", "javascript",]
+tags = ["cli-tool", "javascript"]
 
 ["purarue/scramble-history"]
 name = "scramble-history"
@@ -990,7 +1145,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/scramble-history/"
 img = "/ao12.png"
-tags = [ "graphs", "hpi", "python", "rubiks-cube",]
+tags = ["graphs", "hpi", "python", "rubiks-cube"]
 
 ["purarue/cstimer-save-server"]
 name = "cstimer-save-server"
@@ -1001,7 +1156,7 @@ language = "Go/JavaScript"
 priority = 2
 score = 0
 img = "/cstimer-save-server.png"
-tags = [ "golang", "javascript", "rubiks-cube", "userscript", "web",]
+tags = ["golang", "javascript", "rubiks-cube", "userscript", "web"]
 
 ["purarue/clone-repos"]
 name = "clone-repos"
@@ -1011,7 +1166,7 @@ description = "a basic `git` repo clone script with `pip`/editable install suppo
 language = "Python"
 priority = 2
 score = 0
-tags = [ "cli-tool", "dotfiles", "git", "installer", "python",]
+tags = ["cli-tool", "dotfiles", "git", "installer", "python"]
 img = "/clone_repos.png"
 
 ["purarue/pura-utils"]
@@ -1022,7 +1177,7 @@ description = "an installer for useful scripts scripts extracted from my [dotfil
 language = "Shell"
 priority = 2
 score = 0
-tags = [ "bash", "cli-tool", "dotfiles", "fzf", "git", "installer", "python",]
+tags = ["bash", "cli-tool", "dotfiles", "fzf", "git", "installer", "python"]
 img = "/core.png"
 
 ["purarue/active_window"]
@@ -1033,7 +1188,7 @@ description = "parse output of [activity watch](https://activitywatch.net/)' win
 language = "Python"
 priority = 2
 score = 0
-tags = [ "hpi", "python",]
+tags = ["hpi", "python"]
 
 ["purarue/server_clipboard"]
 name = "server_clipboard"
@@ -1043,7 +1198,7 @@ description = "A server which saves my clipboard in memory, so I can share it be
 language = "Go/TypeScript"
 priority = 2
 score = 0
-tags = [ "clipboard", "golang", "react", "server", "typescript", "web",]
+tags = ["clipboard", "golang", "react", "server", "typescript", "web"]
 img = "/server_clipboard.png"
 
 ["purarue/currently_listening"]
@@ -1054,7 +1209,17 @@ description = "personal websocket-based currently playing web server. syncs my l
 language = "Go/Python"
 priority = 2
 score = 0
-tags = [ "api", "discord", "golang", "media", "mpv", "music", "python", "server", "socket",]
+tags = [
+  "api",
+  "discord",
+  "golang",
+  "media",
+  "mpv",
+  "music",
+  "python",
+  "server",
+  "socket",
+]
 img = "/currently_listening.png"
 
 ["purarue/m3u-shuf"]
@@ -1066,7 +1231,7 @@ language = "Rust"
 priority = 2
 score = 0
 img = "/m3u-shuf.png"
-tags = [ "cli-tool", "music", "playlist", "rust",]
+tags = ["cli-tool", "music", "playlist", "rust"]
 
 ["purarue/filmswap"]
 name = "filmswap"
@@ -1077,7 +1242,7 @@ language = "Python"
 priority = 2
 score = 0
 img = "/filmswap.png"
-tags = [ "discord", "media", "python",]
+tags = ["discord", "media", "python"]
 
 ["purarue/sakugabooru-episode-mad"]
 name = "sakugabooru-episode-mad"
@@ -1087,7 +1252,7 @@ description = "Downloads all [sakugabooru](https://sakugabooru.com/) posts for a
 language = "Python"
 priority = 2
 score = 0
-tags = [ "anime", "python",]
+tags = ["anime", "python"]
 img = "/sakuga.png"
 
 ["purarue/offline_listens"]
@@ -1099,7 +1264,7 @@ language = "Python"
 priority = 2
 img = "/offline.png"
 score = 0
-tags = [ "hpi", "media", "music", "python",]
+tags = ["hpi", "media", "music", "python"]
 
 ["purarue/time-in"]
 name = "time-in"
@@ -1111,7 +1276,7 @@ priority = 2
 score = 0
 url = "https://pypi.org/project/time-in/"
 img = "/tz.png"
-tags = [ "cli-tool", "python",]
+tags = ["cli-tool", "python"]
 
 ["purarue/mlength"]
 name = "mlength"
@@ -1121,7 +1286,7 @@ description = "gets the length of media files and caches the result"
 language = "Python"
 priority = 2
 score = 0
-tags = [ "cli-tool", "media", "python",]
+tags = ["cli-tool", "media", "python"]
 img = "/mlength.png"
 
 ["purarue/calc_ans"]
@@ -1129,7 +1294,7 @@ name = "calc_ans"
 full_name = "purarue/calc_ans"
 html_url = "https://github.com/purarue/calc_ans"
 description = "A CLI REPL calculator which remembers your last answer, optimized for my use on [`termux`](https://termux.dev/en/)"
-tags = [ "cli-tool", "math", "ocaml", "repl",]
+tags = ["cli-tool", "math", "ocaml", "repl"]
 language = "OCaml"
 priority = 2
 score = 0
@@ -1140,7 +1305,7 @@ name = "cookiecutter-template"
 full_name = "purarue/cookiecutter-template"
 html_url = "https://github.com/purarue/cookiecutter-template"
 description = "cookiecutter template for a strongly typed `python` package w/ `click`, `pytest`, `mypy`, `flake8` and CI using github actions"
-tags = [ "python", "template",]
+tags = ["python", "template"]
 language = "Python"
 priority = 2
 score = 0
@@ -1151,7 +1316,7 @@ full_name = "purarue/reminder-sink"
 html_url = "https://github.com/purarue/reminder-sink"
 description = "a unobtrusive, scriptable reminder/habit/todo task-runner"
 updated_at = "2023-10-06T07:50:12Z"
-tags = [ "reminders", "todotxt",]
+tags = ["reminders", "todotxt"]
 language = "Python"
 priority = 2
 score = 0
@@ -1162,7 +1327,7 @@ full_name = "purarue/trakt-watch"
 html_url = "https://github.com/purarue/trakt-watch"
 description = "A small CLI to mark items watched on [trakt](https://trakt.tv/)"
 updated_at = "2023-12-06T02:22:14Z"
-tags = [ "media", "python", "trakt",]
+tags = ["media", "python", "trakt"]
 language = "Python"
 priority = 2
 score = 0
@@ -1175,7 +1340,7 @@ full_name = "purarue/markdown_stew"
 html_url = "https://github.com/purarue/markdown_stew"
 description = "a single page HTML generator for notes/docs/markdown"
 updated_at = "2024-02-26T01:47:52Z"
-tags = [ "golang", "markdown", "web", "cli-tool",]
+tags = ["golang", "markdown", "web", "cli-tool"]
 language = "Go"
 priority = 2
 score = 0
@@ -1187,7 +1352,7 @@ full_name = "purarue/hyprland-active-window"
 html_url = "https://github.com/purarue/hyprland-active-window"
 description = "saves a history of your actively focused window to a `CSV` file"
 updated_at = "2024-04-25T21:47:18Z"
-tags = [ "python",]
+tags = ["python"]
 language = "Python"
 priority = 2
 score = 0
@@ -1198,7 +1363,7 @@ full_name = "purarue/tree-sitter-rifleconfig"
 html_url = "https://github.com/purarue/tree-sitter-rifleconfig"
 description = "`rifle` ([`ranger`](https://github.com/ranger/ranger/) filemanager file opener) grammar for [`tree-sitter`](https://tree-sitter.github.io/tree-sitter/)"
 updated_at = "2024-06-06T04:17:07Z"
-tags = [ "javascript", "lisp", "parser-generator", "scheme", "vim",]
+tags = ["javascript", "lisp", "parser-generator", "scheme", "vim"]
 language = "JavaScript"
 priority = 2
 score = 0
@@ -1210,7 +1375,7 @@ full_name = "purarue/gitsigns-yadm.nvim"
 html_url = "https://github.com/purarue/gitsigns-yadm.nvim"
 description = "[`gitsigns`](https://github.com/lewis6991/gitsigns.nvim) `_on_attach_pre` hook to show git decorations for files tracked by [`yadm`](https://yadm.io/)"
 updated_at = "2024-06-25T20:05:54Z"
-tags = [ "git", "lua", "neovim", "yadm",]
+tags = ["git", "lua", "neovim", "yadm"]
 language = "Lua"
 priority = 2
 score = 0
