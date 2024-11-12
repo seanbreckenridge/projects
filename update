@@ -261,9 +261,9 @@ def main(
     repo_data = prompt_new(repo_info, repo_data, ignored)
     with use_datafile.open("w") as tf:
         toml.dump(repo_data, tf)
-        if "PROJECTS_BG_UPDATE" not in os.environ and shutil.which("prettier"):
-            # prettier -w data.toml
-            subprocess.run(shlex.split(f"prettier -w {str(use_datafile)}"))
+        # https://github.com/purarue/rifleman
+        if "PROJECTS_BG_UPDATE" not in os.environ and shutil.which("rifleman"):
+            subprocess.run(shlex.split(f"rifleman {str(use_datafile)}"))
     tag_data = classify_tags(
         json.loads(lang_file.read_text()) if lang_file.exists() else {},
         tags=set(
