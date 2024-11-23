@@ -1380,3 +1380,14 @@ language = "Lua"
 priority = 2
 score = 0
 img = "/gitsigns-yadm.png"
+
+["purarue/abook_parser"]
+name = "abook_parser"
+full_name = "purarue/abook_parser"
+html_url = "https://github.com/purarue/abook_parser"
+description = "parser for the [`abook`](https://abook.sourceforge.io/) CLI"
+updated_at = "2024-11-23T06:24:48Z"
+tags = ["cli-tool"]
+language = "Python"
+priority = 2
+score = 0
