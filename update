@@ -23,7 +23,7 @@ Json = Any
 RepoDB = Dict[str, Json]
 
 this_dir: Path = Path(__file__).absolute().parent
-rate_limit_remaining: List[int] = []
+rate_limit_remaining: int | None = None
 
 
 def cached_response_has_expired(*, cachefile: Path) -> bool:
@@ -43,10 +43,11 @@ def cached_response_has_expired(*, cachefile: Path) -> bool:
 
 
 def _save_rate_limit(resp: requests.Response) -> Optional[int]:
+    global rate_limit_remaining
     if "X-RateLimit-Remaining" in resp.headers:
         try:
             rl = int(resp.headers["X-RateLimit-Remaining"])
-            rate_limit_remaining.append(rl)
+            rate_limit_remaining = rl
             return rl
         except ValueError:
             pass
@@ -271,10 +272,8 @@ def main(
         ),
     )
     lang_file.write_text(json.dumps(tag_data, indent=4, sort_keys=True))
-    if rate_limit_remaining:
-        click.echo(
-            f"Rate limit remaining this hour: {rate_limit_remaining[-1]}", err=True
-        )
+    if rate_limit_remaining is not None:
+        click.echo(f"Rate limit remaining this hour: {rate_limit_remaining}", err=True)
 
 
 if __name__ == "__main__":
